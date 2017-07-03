@@ -25,9 +25,9 @@
 %
 \usepackage[Sonny]{fncychap} %Styles: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, and Bjornstrup.
 
-\newcommand{\thesistitle}{My Amazing Thesis} %Fill in title
-\newcommand{\thesisauthor}{A. Author} %Fill in your name
-\newcommand{\thesisemail}{xyz@hep.ph.bham.ac.uk} %Fill in your email
+\newcommand{\thesistitle}{Random collection of top, higgs and DECAL studies} %Fill in title
+\newcommand{\thesisauthor}{A. Winter} %Fill in your name
+\newcommand{\thesisemail}{aw@hep.ph.bham.ac.uk} %Fill in your email
 %Choose your front page crest. crest_1 (photograph) or crest_2 (logo)
 \newcommand{\thesiscrest}{crest_1}
 
@@ -182,9 +182,16 @@
 \setstretch{1.5} %Officially should be line spacing 2. But I think it looks too ugly
 %\linenumbers %Uncomment for line numbering
 
-%%%%%%%%%% Main Body Text %%%%%%%%%%
-\include{content}
-%%%%%%%%%% Main Body Text %%%%%%%%%%
+%%%%%%%%%% Chapters  %%%%%%%%%%
+\include{Introduction/content}
+\include{Theory/content}
+\include{Experiments/content}
+\include{HiggsAnalysis/content}
+\include{TopAnalysis/content}
+\include{DECALStudies/content}
+\include{Conclusion/content}
+
+%%%%%%%%%% Chapters %%%%%%%%%%
 
 \setstretch{1}
 \cleardoublepage
