@@ -4,3 +4,4 @@ t=`date +%s`
 FILE=wordCountHistory
 printf "%u %u\n" "${t}" "${wc}" >> $FILE
 root makeWordCountPlot.C -b -q -l
+display wordCount.png
