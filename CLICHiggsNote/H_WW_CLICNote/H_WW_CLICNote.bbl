@@ -1,0 +1,310 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{none}{none}
+    \entry{Durig:2014lfa}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=3a7d81c5f41941ee41aa782365f55d88}{Durig}{D\bibinitperiod}{Claude}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=569711c363027fed98622c62cda54209}{Fujii}{F\bibinitperiod}{Keisuke}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=dad533e93fb5b066698ef5641942d10e}{List}{L\bibinitperiod}{Jenny}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=10c5d9a734d7eed127352bec4ac473c3}{Tian}{T\bibinitperiod}{Junping}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0e3e5096e9d1b38e3a674f0abcd0c539}
+      \strng{fullhash}{2e82dd1655875faee0d7412923b10ac9}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{International Workshop on Future Linear Colliders (LCWS13) Tokyo, Japan, November 11-15, 2013}}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Model Independent Determination of $HWW$ coupling and Higgs total width at ILC}}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1403.7734
+      \endverb
+      \verb{url}
+      \verb http://inspirehep.net/record/1287921/files/arXiv:1403.7734.pdf
+      \endverb
+    \endentry
+    \entry{Pandurovic:2011508}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b9e372983b8365eab9a19011b0176ac9}{Pandurovic}{P\bibinitperiod}{Mila}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=4031e0aa99327289d8a11b0ae345c016}{Thomson}{T\bibinitperiod}{Mark\bibnamedelima Andrew}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1c7b21a48b06a6e546e6272d53ebcb3d}
+      \strng{fullhash}{1c7b21a48b06a6e546e6272d53ebcb3d}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CLICdp-Draft-2015-009}
+      \field{month}{04}
+      \field{title}{{Measurement of BR(H-->WW*) in Higgsstrahlung at sqrt(s)= 350 GeV and WW fusion at sqrt(s) = 1.4 TeV CLIC}}
+      \field{year}{in preparation}
+      \verb{url}
+      \verb https://cds.cern.ch/record/2011508
+      \endverb
+    \endentry
+    \entry{Simon:2014aqa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=50e6b0e56a9c5eec2b5eee4f28aedc34}{Simon}{S\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{50e6b0e56a9c5eec2b5eee4f28aedc34}
+      \strng{fullhash}{50e6b0e56a9c5eec2b5eee4f28aedc34}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Proceedings, 22nd International Workshop on Vertex Detectors (Vertex 2013)}}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{PoS}
+      \field{title}{{Higgs Physics at future Linear Colliders - A Case for precise Vertexing}}
+      \field{volume}{Vertex2013}
+      \field{year}{2014}
+      \field{pages}{019}
+      \range{pages}{1}
+      \verb{eprint}
+      \verb 1401.6302
+      \endverb
+    \endentry
+    \entry{CDR}{article}{}
+      \name{author}{9}{}{%
+        {{hash=288f7d47017ecca5b04c63162a423640}{{Lebrun}}{L\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=39ecd4628dd5010327eb1e824991c00c}{{Linssen}}{L\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=d453b8f620c679cae1ecfe70c35cf814}{{Lucaci-Timoce}}{L\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=00439c24427f87e77bb73b1707a2b08d}{{Schulte}}{S\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=38e80ab3137e3076d0f3364a6cc24f3c}{{Simon}}{S\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=02515a6d2f542ef008120212134e2a35}{{Stapnes}}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=4e5ba040cd6bf21efb9d4478f47f704b}{{Toge}}{T\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=58cbafce9294fe7036511bf7048163eb}{{Weerts}}{W\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=a94dc3792fdca350eef0edb063f00688}{{Wells}}{W\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b62901988c0876d9c0fa0334fe377512}
+      \strng{fullhash}{8fb6cda9fe40266b3111e61dc7ec59b6}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.ins-det}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv:1209.2543 [physics.ins-det]}
+      \field{month}{09}
+      \field{title}{{The CLIC Programme: Towards a Staged e+e- Linear Collider Exploring the Terascale : CLIC Conceptual Design Report}}
+      \field{year}{2012}
+      \verb{eprint}
+      \verb 1209.2543
+      \endverb
+      \keyw{Physics - Instrumentation and Detectors,Physics - Accelerator Physics}
+    \endentry
+    \entry{bib-prodids}{online}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{title}{Monte Carlo Samples for CLIC Higgs Studies}
+      \verb{url}
+      \verb https://twiki.cern.ch/twiki/bin/view/CLIC/MonteCarloSamplesForTheHiggsPaper
+      \endverb
+    \endentry
+    \entry{Schulte:382453}{article}{}
+      \name{author}{1}{}{%
+        {{hash=28901b74379d63cf3c09a42618fe50a8}{Schulte}{S\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{28901b74379d63cf3c09a42618fe50a8}
+      \strng{fullhash}{28901b74379d63cf3c09a42618fe50a8}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{{Beam-Beam Simulations with GUINEA-PIG}}
+      \field{year}{1999}
+      \verb{url}
+      \verb https://cds.cern.ch/record/382453
+      \endverb
+    \endentry
+    \entry{Thomson200925}{article}{}
+      \name{author}{1}{}{%
+        {{hash=90c2d655b7bdd25ce91b9d6fd1c01c6e}{Thomson}{T\bibinitperiod}{M.A.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{90c2d655b7bdd25ce91b9d6fd1c01c6e}
+      \strng{fullhash}{90c2d655b7bdd25ce91b9d6fd1c01c6e}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{number}{1}
+      \field{title}{Particle flow calorimetry and the PandoraPFA algorithm}
+      \field{volume}{611}
+      \field{year}{2009}
+      \field{pages}{25\bibrangedash 40}
+      \range{pages}{16}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/j.nima.2009.09.009
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0168900209017264
+      \endverb
+      \keyw{ILC}
+    \endentry
+    \entry{Cacciari:2011ma}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d38166452f9df43fc09b4da37680b482}{Cacciari}{C\bibinitperiod}{Matteo}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=529d631465d7eee6196aae63cb971536}{Salam}{S\bibinitperiod}{Gavin\bibnamedelima P.}{G\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=4f0b7ca3806264505163f88e90956033}{Soyez}{S\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3611fde0f72ea4369806131efe855e28}
+      \strng{fullhash}{3611fde0f72ea4369806131efe855e28}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J.}
+      \field{title}{{FastJet User Manual}}
+      \field{volume}{C72}
+      \field{year}{2012}
+      \field{pages}{1896}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-012-1896-2
+      \endverb
+      \verb{eprint}
+      \verb 1111.6097
+      \endverb
+    \endentry
+    \entry{Suehara:2015ura}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bb0bffc952bf06a4e4ce9eeb62e0b626}{Suehara}{S\bibinitperiod}{Taikan}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=457736062b01028f8204363312e8eb9a}{Tanabe}{T\bibinitperiod}{Tomohiko}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b43030bc9a70dda764b76dc5073b80ea}
+      \strng{fullhash}{b43030bc9a70dda764b76dc5073b80ea}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.ins-det}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Nucl. Instrum. Meth.}
+      \field{title}{{LCFIPlus: A Framework for Jet Analysis in Linear Collider Studies}}
+      \field{volume}{A808}
+      \field{year}{2016}
+      \field{pages}{109\bibrangedash 116}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.nima.2015.11.054
+      \endverb
+      \verb{eprint}
+      \verb 1506.08371
+      \endverb
+    \endentry
+    \entry{2007physics...3039H}{article}{}
+      \name{author}{27}{}{%
+        {{hash=7b5e5a4c4d9448b14c0f400a1e77616b}{{Hoecker}}{H\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=53a9ba05bd14d4c73100ba30f9373d60}{{Speckmayer}}{S\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=325fbf43c1a1fb3f9628b68a1f7ae1db}{{Stelzer}}{S\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=d6f5a74c37dd7b7515a3a816d99ee9b4}{{Therhaag}}{T\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=1b774734606fa0a43e0f8d46dd5aab53}{{von\bibnamedelimb Toerne}}{v\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=21738393c27dc48d51a434492c2ddaa3}{{Voss}}{V\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=07f86fbba5098d37fdc9ff95a3efc141}{{Backes}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6d9c8079c2d93779df8d1059f75141fb}{{Carli}}{C\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=28c7119337b52dd50b6f5d1375757d60}{{Cohen}}{C\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=fa4b9ba0cffaec7d4a1ddb1ca3256fbd}{{Christov}}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=99598cafa0785d0659552ced78e17301}{{Dannheim}}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=d3332f63ba95a2327ebcc96028217802}{{Danielowski}}{D\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=8a3ac5ee1f955918572399b2bc8417c9}{{Henrot-Versille}}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=01b4360c5b635bc5f02996d1e2b96c30}{{Jachowski}}{J\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=1bf04727bfc44a081b0ff01b398ad93e}{{Kraszewski}}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=688e528598a2817ff91b8036acb86c9f}{{Krasznahorkay}}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{Jr.}{J\bibinitperiod}}%
+        {{hash=457a8671ef2397f04589309c37cac3c9}{{Kruk}}{K\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f0f6e271c16a17eb6916306bc3f1d11a}{{Mahalalel}}{M\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=a7045bb76203b6d1ef3fadbaf2a67dd6}{{Ospanov}}{O\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=ef5f729f932f2c964a4ea45da692a929}{{Prudent}}{P\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=84d34c519463af10b15355b5ba62e171}{{Robert}}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=9243b3367c1511f208912a015878408c}{{Schouten}}{S\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=e0609b6366cd6b008add33e6b4ec0009}{{Tegenfeldt}}{T\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=825941cbfb439fbcb5a9980441f01675}{{Voigt}}{V\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c285cf91d36dea0905c52a40d62d25b6}{{Voss}}{V\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=0259161602f2ea13833b6ab86d151d3d}{{Wolter}}{W\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a59ed819285a1be3a14181348e6c7831}{{Zemla}}{Z\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{08aab053305978dc12c9aa6f903ff624}
+      \strng{fullhash}{4f89943d7c2055d0a4195614dc68efda}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ArXiv Physics e-prints}
+      \field{month}{03}
+      \field{title}{{TMVA - Toolkit for Multivariate Data Analysis}}
+      \field{year}{2007}
+      \verb{eprint}
+      \verb physics/0703039
+      \endverb
+      \keyw{Physics - Data Analysis,Statistics and Probability}
+    \endentry
+    \entry{TauFinder}{article}{}
+      \name{author}{1}{}{%
+        {{hash=460bb4aec22e9b22613ec307c43d176e}{Muennich}{M\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{460bb4aec22e9b22613ec307c43d176e}
+      \strng{fullhash}{460bb4aec22e9b22613ec307c43d176e}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{{TauFinder: A Reconstruction Algorithm for Tau Leptons at Linear Colliders}}
+      \field{year}{2010}
+      \verb{url}
+      \verb http://cds.cern.ch/record/1443551
+      \endverb
+    \endentry
+    \entry{Agashe:2014kda}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=e280547009da55f6adb450e346a8fdc6}{Olive}{O\bibinitperiod}{K.\bibnamedelimi A.}{K\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
+      \strng{fullhash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chin. Phys.}
+      \field{title}{{Review of Particle Physics}}
+      \field{usera}{Particle Data Group}
+      \field{volume}{C38}
+      \field{year}{2014}
+      \field{pages}{090001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1674-1137/38/9/090001
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

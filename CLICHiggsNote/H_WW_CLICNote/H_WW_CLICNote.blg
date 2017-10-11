@@ -1,0 +1,17 @@
+[0] Config.pm:327> INFO - This is Biber 2.3
+[0] Config.pm:330> INFO - Logfile is 'H_WW_CLICNote.blg'
+[38] biber:287> INFO - === Mon Apr 11, 2016, 14:55:29
+[54] Biber.pm:346> INFO - Reading 'H_WW_CLICNote.bcf'
+[134] Biber.pm:689> INFO - Found 12 citekeys in bib section 0
+[139] Biber.pm:3066> INFO - Processing section 0
+[151] Biber.pm:3206> INFO - Looking for bibtex format file './bibliography/bibliography.bib' for section 0
+[154] bibtex.pm:1062> INFO - Decoding LaTeX character macros into UTF-8
+[157] bibtex.pm:923> INFO - Found BibTeX data source './bibliography/bibliography.bib'
+[179] Utils.pm:147> WARN - The field 'note' in entry 'Thomson200925' cannot be null, deleting it
+[286] UCollate.pm:66> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[286] UCollate.pm:66> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[286] Biber.pm:2943> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'en-GB'
+[286] Biber.pm:2947> INFO - No sort tailoring available for locale 'en-GB'
+[299] bbl.pm:505> INFO - Writing 'H_WW_CLICNote.bbl' with encoding 'latin1'
+[301] bbl.pm:596> INFO - Output to H_WW_CLICNote.bbl
+[302] Biber.pm:107> INFO - WARNINGS: 1

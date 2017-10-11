@@ -1,0 +1,106 @@
+%============================================%
+% Official template for CLICdp notes.
+%
+% Updated: 22.06.2014
+% Christian Grefe (christian.grefe@cern.ch)
+%============================================%
+
+\documentclass[11pt,a4paper]{scrartcl}
+
+% Defines default style and includes several useful packages
+\usepackage{CLICdp}
+
+% Useful macros for writing CLICdp notes
+\usepackage{CLICdp_definitions}
+
+% Add your packages here
+%\usepackage{MyPackage}
+
+
+%============================================%
+% Set up the title page
+%============================================%
+
+% Set the title of the note
+\title{Measurement of the H${\rightarrow}$WW* Branching Ratio at 1.4TeV With CLIC ILD Using the WW*${\rightarrow}$qql$\nu$ Final State }
+
+% Set the CLICdp note number
+\clicdpnote{2015}{001}  % public notes
+%\clicdppub{2014}{001}  % journal articles
+%\clicdpconf{2014}{001}  % conference proceedings
+%\clicdpdraft{2014}{001}  % draft versions for circulation 
+
+% Set the publication date
+\date{\today}
+%\date{\formatdate{18}{6}{2014}}
+
+% Define the authors and their institutes, they will appear exactly in the order as they are added
+% Footnotes can be added using the \thanks command
+%\addauthor{A.~Winter}{\institute{1}\institute{2}}
+\addauthor{A.~Winter}{\institute{1}}
+\addauthor{N.~Watson}{\institute{1}}
+%\addauthor{Initials.~Name\thanks{corresponding.author@cern.ch}}{\institute{1}}
+
+\addinstitute{1}{University of Birmingham, United Kingdom}
+%\addinstitute{2}{University, Country}
+%\addinstitute{3}{Other University, Country}
+
+% Add "On behalf of ... (optional)"
+\onbehalfof{the CLICdp collaboration}
+
+% Define an abstract for the note 
+\abstract{This note summarises a study to evaluate the expected precision for a measurement of the H$\rightarrow$WW$^*$ branching fraction at CLIC, at 1.4TeV centre-of-mass energy, using the WW$\rightarrow$qql$\nu$ channel. We will discuss the approach to reconstructing the final state, the methods used to separate signal events from backgrounds and the resulting statistical precision with which we expect to be able to measure the branching ratio. }
+
+% Add comments to the title page (optional)
+%\titlecomment{Talk presented at CONFERENCE, PLACE, COUNTRY, 16--19 June 2014}
+\titlecomment{This work was carried out in the framework of the CLICdp collaboration}
+
+% Uncomment this line to remove the stamp with the CLICdp note number from the top right corner
+% of the title page
+%\notitlestamp
+
+
+%============================================%
+% Bibliography
+%============================================%
+
+% define the list of bibliography data files
+%\addbibresource{./examples/bibliography.bib}
+\addbibresource{./bibliography/bibliography.bib}
+
+
+%============================================%
+% Search path for images
+%============================================%
+
+\graphicspath{ {./logos/}{./figures/} }
+
+
+%============================================%
+% Options
+%============================================%
+
+% Uncomment this line for a draft version. Adds a watermark and a timestamp
+%\draftdocument
+
+% Uncomment this line to change all link colours to black
+%\nocolourlinks
+
+
+%============================================%
+% Start of the actual document
+%============================================%
+
+\begin{document}
+
+% generates the title page
+\titlepage
+
+% include source for sections
+\input{./include/content.tex}
+\clearpage
+\input{./include/appendix}
+% add references
+\printbibliography[title=References]
+
+\end{document}

@@ -1,0 +1,27 @@
+\section{Appendix}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.74\textwidth,height=7cm,keepaspectratio]{figures/variables1}
+  \label{variables1}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.74\textwidth,height=7cm,keepaspectratio]{figures/variables2}
+  \label{variables2}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.74\textwidth,height=7cm,keepaspectratio]{figures/variables3}
+  \label{variables3}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.74\textwidth,height=7cm,keepaspectratio]{figures/variables4}
+  \caption[Classifier BDT response]{Input variable distributions for training of BDT}
+  \label{variables4}
+\end{figure}
+
