@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/dev)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: abstract.aux
@@ -12,44 +12,50 @@ A level-1 auxiliary file: Conclusion/content.aux
 The style file: ieeetr.bst
 A level-1 auxiliary file: appendix.aux
 Database file #1: thesis.bib
-You've used 1 entry,
+Warning--entry type for "bib-prodids" isn't style-file defined
+--line 328 of file thesis.bib
+Warning--I didn't find a database entry for "Pandurovic:2011508"
+Warning--empty journal in Schulte:382453
+Warning--empty journal in TauFinder
+You've used 18 entries,
             1876 wiz_defined-function locations,
-            490 strings with 3807 characters,
-and the built_in function-call counts, 170 in all, are:
-= -- 12
-> -- 8
+            597 strings with 7652 characters,
+and the built_in function-call counts, 4225 in all, are:
+= -- 323
+> -- 287
 < -- 0
-+ -- 3
-- -- 2
-* -- 10
-:= -- 36
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 1
++ -- 104
+- -- 86
+* -- 322
+:= -- 673
+add.period$ -- 17
+call.type$ -- 18
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 9
-empty$ -- 18
-format.name$ -- 2
-if$ -- 36
+cite$ -- 20
+duplicate$ -- 215
+empty$ -- 377
+format.name$ -- 86
+if$ -- 982
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 6
-num.names$ -- 1
-pop$ -- 4
+int.to.str$ -- 18
+missing$ -- 16
+newline$ -- 57
+num.names$ -- 17
+pop$ -- 77
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2
+skip$ -- 127
 stack$ -- 0
-substring$ -- 0
-swap$ -- 1
+substring$ -- 110
+swap$ -- 70
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 1
-width$ -- 2
-write$ -- 10
+warning$ -- 2
+while$ -- 27
+width$ -- 20
+write$ -- 155
+(There were 4 warnings)

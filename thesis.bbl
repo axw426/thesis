@@ -1,8 +1,96 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{:2012gk}
 G.~Aad {\em et~al.}, ``{Observation of a new particle in the search for the
   Standard Model Higgs boson with the ATLAS detector at the LHC},'' {\em Phys.
   Lett. B}, 2012.
+
+\bibitem{Chatrchyan:2012xdj}
+S.~Chatrchyan {\em et~al.}, ``{Observation of a new boson at a mass of 125 GeV
+  with the CMS experiment at the LHC},'' {\em Phys. Lett.}, vol.~B716,
+  pp.~30--61, 2012.
+
+\bibitem{Lipton:2012du}
+R.~Lipton, ``{Muon Collider: Plans, Progress and Challenges},'' in {\em
+  {Particles and fields. Proceedings, Meeting of the Division of the American
+  Physical Society, DPF 2011, Providence, USA, August 9-13, 2011}}, 2012.
+
+\bibitem{Koratzinos:2014cla}
+M.~Koratzinos, ``{FCC-ee accelerator parameters, performance and
+  limitations},'' in {\em {International Conference on High Energy Physics 2014
+  (ICHEP 2014) Valencia, Spain, July 2-9, 2014}}, 2014.
+
+\bibitem{ILCTDR}
+T.~Behnke, J.~E. Brau, B.~Foster, J.~Fuster, M.~Harrison, J.~M. Paterson,
+  M.~Peskin, M.~Stanitzki, N.~Walker, and H.~Yamamoto, ``{The International
+  Linear Collider Technical Design Report - Volume 1: Executive Summary},''
+  {\em arXiv:1306.6327 [physics.acc-ph]}, 2013.
+
+\bibitem{CDR}
+P.~{Lebrun}, L.~{Linssen}, A.~{Lucaci-Timoce}, D.~{Schulte}, F.~{Simon},
+  S.~{Stapnes}, N.~{Toge}, H.~{Weerts}, and J.~{Wells}, ``{The CLIC Programme:
+  Towards a Staged e+e- Linear Collider Exploring the Terascale : CLIC
+  Conceptual Design Report},'' {\em arXiv:1209.2543 [physics.ins-det]}, Sept.
+  2012.
+
+\bibitem{ILD}
+T.~Abe {\em et~al.}, ``{The International Large Detector: Letter of Intent},''
+  2010.
+
+\bibitem{2011JInst...6.5009B}
+J.~A. {Ballin}, R.~{Coath}, J.~P. {Crooks}, P.~D. {Dauncey}, A.-M. {Magnan},
+  Y.~{Mikami}, O.~D. {Miller}, M.~{Noy}, V.~{Rajovic}, M.~{Stanitzki}, K.~D.
+  {Stefanov}, R.~{Turchetta}, M.~{Tyndel}, E.~G. {Villani}, N.~K. {Watson},
+  J.~A. {Wilson}, and Z.~{Zhang}, ``{Design and performance of a CMOS study
+  sensor for a binary readout electromagnetic calorimeter},'' {\em Journal of
+  Instrumentation}, vol.~6, p.~5009, May 2011.
+
+\bibitem{Durig:2014lfa}
+C.~Durig, K.~Fujii, J.~List, and J.~Tian, ``{Model Independent Determination of
+  $HWW$ coupling and Higgs total width at ILC},'' in {\em {International
+  Workshop on Future Linear Colliders (LCWS13) Tokyo, Japan, November 11-15,
+  2013}}, 2014.
+
+\bibitem{Simon:2014aqa}
+F.~Simon, ``{Higgs Physics at future Linear Colliders - A Case for precise
+  Vertexing},'' {\em PoS}, vol.~Vertex2013, p.~019, 2014.
+
+\bibitem{bib-prodids}
+``Monte carlo samples for clic higgs studies.''
+
+\bibitem{Schulte:382453}
+D.~Schulte, ``{Beam-Beam Simulations with GUINEA-PIG},'' Mar 1999.
+
+\bibitem{Thomson200925}
+M.~Thomson, ``Particle flow calorimetry and the pandorapfa algorithm,'' {\em
+  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment}, vol.~611, no.~1, pp.~25
+  -- 40, 2009.
+
+\bibitem{Cacciari:2011ma}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{FastJet User Manual},'' {\em Eur.
+  Phys. J.}, vol.~C72, p.~1896, 2012.
+
+\bibitem{Suehara:2015ura}
+T.~Suehara and T.~Tanabe, ``{LCFIPlus: A Framework for Jet Analysis in Linear
+  Collider Studies},'' {\em Nucl. Instrum. Meth.}, vol.~A808, pp.~109--116,
+  2016.
+
+\bibitem{2007physics...3039H}
+A.~{Hoecker}, P.~{Speckmayer}, J.~{Stelzer}, J.~{Therhaag}, E.~{von Toerne},
+  H.~{Voss}, M.~{Backes}, T.~{Carli}, O.~{Cohen}, A.~{Christov}, D.~{Dannheim},
+  K.~{Danielowski}, S.~{Henrot-Versille}, M.~{Jachowski}, K.~{Kraszewski},
+  A.~{Krasznahorkay}, Jr., M.~{Kruk}, Y.~{Mahalalel}, R.~{Ospanov},
+  X.~{Prudent}, A.~{Robert}, D.~{Schouten}, F.~{Tegenfeldt}, A.~{Voigt},
+  K.~{Voss}, M.~{Wolter}, and A.~{Zemla}, ``{TMVA - Toolkit for Multivariate
+  Data Analysis},'' {\em ArXiv Physics e-prints}, Mar. 2007.
+
+\bibitem{TauFinder}
+A.~Muennich, ``{TauFinder: A Reconstruction Algorithm for Tau Leptons at Linear
+  Colliders},'' Oct 2010.
+
+\bibitem{Agashe:2014kda}
+K.~A. Olive {\em et~al.}, ``{Review of Particle Physics},'' {\em Chin. Phys.},
+  vol.~C38, p.~090001, 2014.
 
 \end{thebibliography}
