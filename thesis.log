@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.8.15)  12 OCT 2017 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.8.15)  30 OCT 2017 18:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -505,9 +505,7 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 Package hyperref Info: Option `colorlinks' set `true' on input line 43.
 
 (./thesis.aux (./abstract.aux) (./Introduction/introduction.aux)
-(./Theory/theory.aux) (./Experiments/experiments.aux)
-(./HiggsAnalysis/higgs.aux) (./TopAnalysis/top.aux) (./DECALStudies/decal.aux)
-(./Conclusion/content.aux) (./appendix.aux))
+(./appendix.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
@@ -587,7 +585,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-<fig/crest_2.pdf, id=187, 342.27875pt x 342.27875pt>
+<fig/crest_2.pdf, id=11, 342.27875pt x 342.27875pt>
 File: fig/crest_2.pdf Graphic file (type pdf)
  <use fig/crest_2.pdf>
 Package pdftex.def Info: fig/crest_2.pdf used on input line 114.
@@ -618,49 +616,71 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 ] [5] [6
 
-]) (./thesis.toc
-Underfull \vbox (badness 1264) has occurred while \output is active []
-
- [7
-
-])
+]) (./thesis.toc)
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
+ [7
 
-[8] (./thesis.lot)
+] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [9
+ [8
 
 ] (./thesis.lof)
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
- [10
+ [9
 
-] (./acronym.tex) [11
+]
+(./acronym.tex) [10
 
 
-] [12
+pdfTeX warning (ext4): destination with the same identifier (name{HL-LHC}) has 
+been already used, duplicate ignored
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.188 \include{Introduction/introduction}
-                                          [1]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.180 \cleardoublepage
+                      ]
 \openout2 = `Introduction/introduction.aux'.
 
  (./Introduction/introduction.tex
 Chapter 1.
+Package acronym Info: Label `acro:HL-LHC' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 3.
 Package acronym Info: Label `acro:LHC' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
 Package acronym Info: Label `acro:SM' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
 Package acronym Info: Label `acro:BSM' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
+Package acronym Info: Label `acro:EM' newly defined as it shall be overridden
+although it is yet undefined on input line 3.
+
+Overfull \hbox (1.40886pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 With the ex-pected shut-down of the [][][]High Lu-mi-nos-ity La
+rge Hadron Col-lider ([])[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 
+     [1
+
+
+
+]
+Package acronym Info: Label `acro:QCD' newly defined as it shall be overridden
+although it is yet undefined on input line 11.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -668,11 +688,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4 
-     [2
-
-
-]
+l.12 
+      [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
@@ -681,9 +698,6 @@ been already used, duplicate ignored
                    \relax 
 l.14 
       [3]
-Package acronym Info: Label `acro:HL-LHC' newly defined as it shall be overridd
-en
-although it is yet undefined on input line 15.
 Package acronym Info: Label `acro:FCC' newly defined as it shall be overridden
 although it is yet undefined on input line 15.
 Package acronym Info: Label `acro:CLIC' newly defined as it shall be overridden
@@ -705,455 +719,16 @@ although it is yet undefined on input line 17.
 Package acronym Info: Label `acro:MAPS' newly defined as it shall be overridden
 
 although it is yet undefined on input line 17.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4])
-[5]
-\openout2 = `Experiments/experiments.aux'.
-
- (./Experiments/experiments.tex
-Chapter 2.
-Package acronym Info: Label `acro:ILD' newly defined as it shall be overridden
-although it is yet undefined on input line 7.
-
-Package acronym Warning: Acronym `ILD' is not defined on input line 7.
-
-
-Package acronym Warning: Acronym `ILD' is not defined on input line 7.
-
-Package acronym Info: Label `acro:SiD' newly defined as it shall be overridden
-although it is yet undefined on input line 7.
-
-Package acronym Warning: Acronym `SiD' is not defined on input line 7.
-
-
-Package acronym Warning: Acronym `SiD' is not defined on input line 7.
-
-Package acronym Info: Label `acro:TDR' newly defined as it shall be overridden
-although it is yet undefined on input line 11.
-
-Package acronym Warning: Acronym `TDR' is not defined on input line 11.
-
-
-Package acronym Warning: Acronym `TDR' is not defined on input line 11.
-
-
-Package acronym Warning: Acronym `TDR' is not defined on input line 11.
-
-
-Package acronym Warning: Acronym `TDR' is not defined on input line 11.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6
-
-
-
-]
-<Experiments/fig/ILC.jpg, id=432, 602.0091pt x 356.0502pt>
-File: Experiments/fig/ILC.jpg Graphic file (type jpg)
-
-<use Experiments/fig/ILC.jpg>
-Package pdftex.def Info: Experiments/fig/ILC.jpg used on input line 15.
-(pdftex.def)             Requested size: 320.09212pt x 189.31418pt.
- [7 <./Experiments/fig/ILC.jpg>]
-
-Package acronym Warning: Acronym `TDR' is not defined on input line 29.
-
-<Experiments/fig/ILC_Simplified.jpg, id=449, 144.54pt x 49.8663pt>
-File: Experiments/fig/ILC_Simplified.jpg Graphic file (type jpg)
-
-<use Experiments/fig/ILC_Simplified.jpg>
-Package pdftex.def Info: Experiments/fig/ILC_Simplified.jpg used on input line 
-36.
-(pdftex.def)             Requested size: 320.11063pt x 110.43814pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-Package acronym Info: Label `acro:RF' newly defined as it shall be overridden
-although it is yet undefined on input line 41.
-
-
-Package acronym Warning: Acronym `RF' is not defined on input line 41.
-
-
-Package acronym Warning: Acronym `RF' is not defined on input line 41.
-
-<Experiments/fig/Cavity.jpg, id=457, 3129.6925pt x 529.98pt>
-File: Experiments/fig/Cavity.jpg Graphic file (type jpg)
-
-<use Experiments/fig/Cavity.jpg>
-Package pdftex.def Info: Experiments/fig/Cavity.jpg used on input line 45.
-(pdftex.def)             Requested size: 320.05536pt x 54.19795pt.
-
-
-Package acronym Warning: Acronym `RF' is not defined on input line 49.
-
-Package acronym Info: Label `acro:BDS' newly defined as it shall be overridden
-although it is yet undefined on input line 49.
-
-Package acronym Warning: Acronym `BDS' is not defined on input line 49.
-
-
-Package acronym Warning: Acronym `BDS' is not defined on input line 49.
-
-Package acronym Info: Label `acro:ISR' newly defined as it shall be overridden
-although it is yet undefined on input line 49.
-
-Package acronym Warning: Acronym `ISR' is not defined on input line 49.
-
-
-Package acronym Warning: Acronym `ISR' is not defined on input line 49.
-
-
-LaTeX Warning: Reference `benefits' on page 9 undefined on input line 49.
-
-Package acronym Info: Label `acro:IP' newly defined as it shall be overridden
-although it is yet undefined on input line 49.
-
-Package acronym Warning: Acronym `IP' is not defined on input line 49.
-
-
-Package acronym Warning: Acronym `IP' is not defined on input line 49.
-
-
-Package acronym Warning: Acronym `BDS' is not defined on input line 49.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <./Experiments/fig/ILC_Simplified.jpg>]
-
-Package acronym Warning: Acronym `IP' is not defined on input line 51.
-
-<Experiments/fig/clic.jpg, id=469, 433.62pt x 237.0456pt>
-File: Experiments/fig/clic.jpg Graphic file (type jpg)
-
-<use Experiments/fig/clic.jpg>
-Package pdftex.def Info: Experiments/fig/clic.jpg used on input line 55.
-(pdftex.def)             Requested size: 320.10626pt x 174.99141pt.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-
-Package acronym Warning: Acronym `TDR' is not defined on input line 59.
-
-Package acronym Info: Label `acro:CDR' newly defined as it shall be overridden
-although it is yet undefined on input line 59.
-
-Package acronym Warning: Acronym `CDR' is not defined on input line 59.
-
-
-Package acronym Warning: Acronym `CDR' is not defined on input line 59.
-
-[10 <./Experiments/fig/Cavity.jpg>]
-
-Package acronym Warning: Acronym `BDS' is not defined on input line 61.
-
-
-Package acronym Warning: Acronym `ISR' is not defined on input line 61.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./Experiments/fig/clic.jpg>]
-<Experiments/fig/clicSS.png, id=506, 578.16pt x 433.62pt>
-File: Experiments/fig/clicSS.png Graphic file (type png)
-
-<use Experiments/fig/clicSS.png>
-Package pdftex.def Info: Experiments/fig/clicSS.png used on input line 68.
-(pdftex.def)             Requested size: 320.08861pt x 240.06647pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12 <./Experiments/fig/clicSS.png (PNG copy)>] [13]
-<Experiments/fig/ILD.jpg, id=521, 1137.24875pt x 516.93124pt>
-File: Experiments/fig/ILD.jpg Graphic file (type jpg)
-
-<use Experiments/fig/ILD.jpg>
-Package pdftex.def Info: Experiments/fig/ILD.jpg used on input line 82.
-(pdftex.def)             Requested size: 405.45045pt x 184.29669pt.
-
-
-Package acronym Warning: Acronym `ILD' is not defined on input line 86.
-
-
-Underfull \vbox (badness 1199) has occurred while \output is active []
-
- [14 <./Experiments/fig/ILD.jpg>]
-
-Package acronym Warning: Acronym `IP' is not defined on input line 89.
-
-
-Package acronym Warning: Acronym `IP' is not defined on input line 89.
-
-
-Package acronym Warning: Acronym `ILD' is not defined on input line 92.
-
-Package acronym Info: Label `acro:TPC' newly defined as it shall be overridden
-although it is yet undefined on input line 92.
-
-Package acronym Warning: Acronym `TPC' is not defined on input line 92.
-
-
-Package acronym Warning: Acronym `TPC' is not defined on input line 92.
-
-
-Package acronym Warning: Acronym `TPC' is not defined on input line 92.
-
-Package acronym Info: Label `acro:SIT' newly defined as it shall be overridden
-although it is yet undefined on input line 92.
-
-Package acronym Warning: Acronym `SIT' is not defined on input line 92.
-
-
-Package acronym Warning: Acronym `SIT' is not defined on input line 92.
-
-Package acronym Info: Label `acro:SET' newly defined as it shall be overridden
-although it is yet undefined on input line 92.
-
-Package acronym Warning: Acronym `SET' is not defined on input line 92.
-
-
-Package acronym Warning: Acronym `SET' is not defined on input line 92.
-
-
-Package acronym Warning: Acronym `TPC' is not defined on input line 92.
-
-Package acronym Info: Label `acro:PFA' newly defined as it shall be overridden
-although it is yet undefined on input line 92.
-
-Package acronym Warning: Acronym `PFA' is not defined on input line 92.
-
-
-Package acronym Warning: Acronym `PFA' is not defined on input line 92.
-
-[15]
 Package acronym Info: Label `acro:ECAL' newly defined as it shall be overridden
 
-although it is yet undefined on input line 96.
-
-
-Package acronym Warning: Acronym `ECAL' is not defined on input line 96.
-
-
-Package acronym Warning: Acronym `ECAL' is not defined on input line 96.
-
-Package acronym Info: Label `acro:HCAL' newly defined as it shall be overridden
-
-although it is yet undefined on input line 96.
-
-Package acronym Warning: Acronym `HCAL' is not defined on input line 96.
-
-
-Package acronym Warning: Acronym `HCAL' is not defined on input line 96.
-
-
-Package acronym Warning: Acronym `HCAL' is not defined on input line 96.
-
-
-Package acronym Warning: Acronym `ECAL' is not defined on input line 98.
-
-[16] <Experiments/fig/ecalstructure.png, id=554, 1645.14626pt x 610.28pt>
-File: Experiments/fig/ecalstructure.png Graphic file (type png)
-
-<use Experiments/fig/ecalstructure.png>
-Package pdftex.def Info: Experiments/fig/ecalstructure.png used on input line 1
-02.
-(pdftex.def)             Requested size: 405.45045pt x 150.3999pt.
-
-
-LaTeX Warning: Reference `Sect:DECAL' on page 17 undefined on input line 107.
-
-
-Package acronym Warning: Acronym `HCAL' is not defined on input line 109.
-
-[17 <./Experiments/fig/ecalstructure.png (PNG copy)>]
-<Experiments/fig/SiD.jpg, id=563, 1153.30875pt x 534.99875pt>
-File: Experiments/fig/SiD.jpg Graphic file (type jpg)
-
-<use Experiments/fig/SiD.jpg>
-Package pdftex.def Info: Experiments/fig/SiD.jpg used on input line 118.
-(pdftex.def)             Requested size: 405.45045pt x 188.08502pt.
-
-
-Package acronym Warning: Acronym `SiD' is not defined on input line 123.
-
-[18 <./Experiments/fig/SiD.jpg>]
-
-Package acronym Warning: Acronym `IP' is not defined on input line 130.
-
-[19]
-
-Package acronym Warning: Acronym `PFA' is not defined on input line 134.
-
-
-Package acronym Warning: Acronym `PFA' is not defined on input line 134.
-
-
-Package acronym Warning: Acronym `PFA' is not defined on input line 134.
-
-
-Package acronym Warning: Acronym `SET' is not defined on input line 134.
-
-
-Package acronym Warning: Acronym `ILD' is not defined on input line 134.
-
-
-Package acronym Warning: Acronym `ECAL' is not defined on input line 134.
-
-
-Package acronym Warning: Acronym `PFA' is not defined on input line 134.
-
-Package acronym Info: Label `acro:PFOs' newly defined as it shall be overridden
-
-although it is yet undefined on input line 134.
-
-Package acronym Warning: Acronym `PFOs' is not defined on input line 134.
-
-
-Package acronym Warning: Acronym `PFOs' is not defined on input line 134.
-
-[20]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
-) [21]
-\openout2 = `Theory/theory.aux'.
-
- (./Theory/theory.tex
-Chapter 3.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22
+although it is yet undefined on input line 17.
+) [4] (./thesis.bbl) [5
 
 
 
-])
-[23]
-\openout2 = `HiggsAnalysis/higgs.aux'.
-
- (./HiggsAnalysis/higgs.tex
-Chapter 4.
-
-LaTeX Warning: Citation `Pandurovic:2011508' on page 24 undefined on input line
- 20.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24
-
-
+] [6
 
 ]
-</home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.png, i
-d=609, 569.12625pt x 478.78876pt>
-File: /home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.p
-ng Graphic file (type png)
-
-<use /home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.pn
-g>
-Package pdftex.def Info: /home/aw/github/thesis/HiggsAnalysis/figures/Midterm_H
-iggsCrossSections.png used on input line 25.
-(pdftex.def)             Requested size: 204.85924pt x 172.3419pt.
-
-</home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png, id=612, 602.25pt x 
-411.5375pt>
-File: /home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png Graphic file (t
-ype png)
- <use /home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png>
-Package pdftex.def Info: /home/aw/github/thesis/HiggsAnalysis/figures/feynmann.
-png used on input line 32.
-(pdftex.def)             Requested size: 187.36641pt x 128.0337pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (29.78966pt too wide) in paragraph at lines 44--69
- [][] 
- []
-
-[25]
-Underfull \vbox (badness 1057) has occurred while \output is active []
-
- [26 </home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.p
-ng (PNG copy)> </home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png>] [27
-]
-<HiggsAnalysis/figures/btag_crosses.pdf, id=639, 569.12625pt x 298.11375pt>
-File: HiggsAnalysis/figures/btag_crosses.pdf Graphic file (type pdf)
-
-<use HiggsAnalysis/figures/btag_crosses.pdf>
-Package pdftex.def Info: HiggsAnalysis/figures/btag_crosses.pdf used on input l
-ine 95.
-(pdftex.def)             Requested size: 332.90712pt x 174.37991pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28]
-[29]
-</home/aw/github/thesis/HiggsAnalysis/figures/bdt.png, id=655, 1882.03125pt x 9
-96.72375pt>
-File: /home/aw/github/thesis/HiggsAnalysis/figures/bdt.png Graphic file (type p
-ng)
- <use /home/aw/github/thesis/HiggsAnalysis/figures/bdt.png>
-Package pdftex.def Info: /home/aw/github/thesis/HiggsAnalysis/figures/bdt.png u
-sed on input line 108.
-(pdftex.def)             Requested size: 290.21852pt x 153.69972pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-Overfull \hbox (133.29987pt too wide) in paragraph at lines 118--143
- [][] 
- []
-
-) [31] [32 <./HiggsAnalysis/figures/btag_crosses.pdf, page is rotated 90 degree
-s> </home/aw/github/thesis/HiggsAnalysis/figures/bdt.png (PNG copy)>] [33]
-\openout2 = `TopAnalysis/top.aux'.
-
-
-(./TopAnalysis/top.tex
-Chapter 5.
-[34
-
-
-
-]) [35]
-\openout2 = `DECALStudies/decal.aux'.
-
- (./DECALStudies/decal.tex
-Chapter 6.
-
-Underfull \vbox (badness 3701) has occurred while \output is active []
-
- [36
-
-
-
-])
-[37]
-\openout2 = `Conclusion/content.aux'.
-
- (./Conclusion/content.tex
-Chapter 7.
-) [38
-
-
-
-] (./thesis.bbl [39
-
-
-
-]) [40]
 \openout2 = `appendix.aux'.
 
  (./appendix.texpdfTeX warning (ext4): destination with the same identifier (na
@@ -1163,108 +738,49 @@ me{chapter.1}) has been already used, duplicate ignored
 l.1 \chapter{FIRST APPENDIX}
                             
 Appendix A.
-) [41
-
+) [7
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
  (./thesis.aux (./abstract.aux) (./Introduction/introduction.aux)
-(./Experiments/experiments.aux) (./Theory/theory.aux)
-(./HiggsAnalysis/higgs.aux) (./TopAnalysis/top.aux) (./DECALStudies/decal.aux)
-(./Conclusion/content.aux) (./appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
+(./appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 161C5F4CB81BE88113CEA8069A8B1BD4;96.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: C682DC113AAA6AAE92A5A6D6853994F5;2831
-(rerunfilecheck)             After:  FBBB5DC932976492CD5C3832929FBF21;2831.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
  ) 
 Here is how much of TeX's memory you used:
- 10385 strings out of 493039
- 151928 string characters out of 6136943
- 260276 words of memory out of 5000000
- 13481 multiletter control sequences out of 15000+600000
- 18697 words of font info for 73 fonts, out of 8000000 for 9000
+ 9949 strings out of 493039
+ 144727 string characters out of 6136943
+ 252553 words of memory out of 5000000
+ 13243 multiletter control sequences out of 15000+600000
+ 13585 words of font info for 51 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 44i,13n,45p,2097b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.3.4.3} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.3.1.4} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.3.1.3} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.3.1.2} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.3.1.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on thesis.pdf (56 pages, 2593503 bytes).
+ 44i,11n,43p,2464b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
+fb>
+Output written on thesis.pdf (20 pages, 180288 bytes).
 PDF statistics:
- 858 PDF objects out of 1000 (max. 8388607)
- 725 compressed objects within 8 object streams
- 180 named destinations out of 1000 (max. 500000)
- 440 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
