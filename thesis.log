@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.8.15)  30 OCT 2017 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.10.4)  30 NOV 2017 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -442,38 +442,6 @@ les
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen149
-\captionmargin@=\dimen150
-\captionwidth=\dimen151
-\caption@tempdima=\dimen152
-\caption@indent=\dimen153
-\caption@parindent=\dimen154
-\caption@hangindent=\dimen155
-)
-\c@ContinuedFloat=\count143
-Package caption Info: hyperref package is loaded.
-)
-\c@KVtest=\count144
-\sf@farskip=\skip96
-\sf@captopadj=\dimen156
-\sf@capskip=\skip97
-\sf@nearskip=\skip98
-\c@subfigure=\count145
-\c@subfigure@save=\count146
-\c@subtable=\count147
-\c@subtable@save=\count148
-\sf@top=\skip99
-\sf@bottom=\skip100
-)
 (/usr/share/texlive/texmf-dist/tex/latex/type1cm/type1cm.sty
 Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
 atched RF)
@@ -481,60 +449,85 @@ atched RF)
 (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box32
 \UL@hyphenbox=\box33
-\UL@skip=\skip101
+\UL@skip=\skip96
 \UL@hook=\toks25
-\UL@height=\dimen157
-\UL@pe=\count149
-\UL@pixel=\dimen158
+\UL@height=\dimen149
+\UL@pe=\count143
+\UL@pixel=\dimen150
 \ULC@box=\box34
 Package: ulem 2012/05/18
-\ULdepth=\dimen159
+\ULdepth=\dimen151
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (./fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
-\RW=\skip102
-\mylen=\skip103
-\myhi=\skip104
-\px=\skip105
-\py=\skip106
-\pyy=\skip107
-\pxx=\skip108
+\RW=\skip97
+\mylen=\skip98
+\myhi=\skip99
+\px=\skip100
+\py=\skip101
+\pyy=\skip102
+\pxx=\skip103
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 43.
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 
-(./thesis.aux (./abstract.aux) (./Introduction/introduction.aux)
-(./appendix.aux))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen152
+\captionmargin@=\dimen153
+\captionwidth=\dimen154
+\caption@tempdima=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
+)
+\c@ContinuedFloat=\count144
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count145
+\c@subtable=\count146
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 45.
+ (./thesis.aux
+(./abstract.aux) (./Introduction/introduction.aux)
+(./Experiments/experiments.aux) (./Theory/theory.aux)
+(./HiggsAnalysis/higgs.aux) (./TopAnalysis/top.aux) (./DECALStudies/decal.aux)
+(./Conclusion/content.aux) (./appendix.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count150
-\scratchdimen=\dimen160
+\scratchcounter=\count147
+\scratchdimen=\dimen159
 \scratchbox=\box35
-\nofMPsegments=\count151
-\nofMParguments=\count152
+\nofMPsegments=\count148
+\nofMParguments=\count149
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count153
-\MPscratchDim=\dimen161
-\MPnumerator=\count154
-\makeMPintoPDFobject=\count155
+\MPscratchCnt=\count150
+\MPscratchDim=\dimen160
+\MPnumerator=\count151
+\makeMPintoPDFobject=\count152
 \everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -554,7 +547,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring ON on input line 100.
+Package hyperref Info: Link coloring ON on input line 102.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -562,11 +555,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count156
+\c@section@level=\count153
 )
-LaTeX Info: Redefining \ref on input line 100.
-LaTeX Info: Redefining \pageref on input line 100.
-LaTeX Info: Redefining \nameref on input line 100.
+LaTeX Info: Redefining \ref on input line 102.
+LaTeX Info: Redefining \pageref on input line 102.
+LaTeX Info: Redefining \nameref on input line 102.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write6
@@ -582,13 +575,12 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-<fig/crest_2.pdf, id=11, 342.27875pt x 342.27875pt>
+<fig/crest_2.pdf, id=236, 342.27875pt x 342.27875pt>
 File: fig/crest_2.pdf Graphic file (type pdf)
  <use fig/crest_2.pdf>
-Package pdftex.def Info: fig/crest_2.pdf used on input line 114.
+Package pdftex.def Info: fig/crest_2.pdf used on input line 116.
 (pdftex.def)             Requested size: 342.2779pt x 342.2779pt.
 
 [1
@@ -616,26 +608,26 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 ] [5] [6
 
-]) (./thesis.toc)
+]) (./thesis.toc [7
+
+])
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
- [7
-
-] (./thesis.lot)
+ [8] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [8
+ [9
 
-] (./thesis.lof)
+] (./thesis.lof [10
+
+])
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
- [9
 
-]
-(./acronym.tex) [10
+[11] (./acronym.tex) [12
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{HL-LHC}) has 
@@ -643,7 +635,7 @@ been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.180 \cleardoublepage
+l.182 \cleardoublepage
                       ]
 \openout2 = `Introduction/introduction.aux'.
 
@@ -722,13 +714,741 @@ although it is yet undefined on input line 17.
 Package acronym Info: Label `acro:ECAL' newly defined as it shall be overridden
 
 although it is yet undefined on input line 17.
-) [4] (./thesis.bbl) [5
+) [4]
+\openout2 = `Experiments/experiments.aux'.
+
+ (./Experiments/experiments.tex
+Chapter 2.
+Package acronym Info: Label `acro:ILD' newly defined as it shall be overridden
+although it is yet undefined on input line 5.
+
+Package acronym Warning: Acronym `ILD' is not defined on input line 5.
 
 
+Package acronym Warning: Acronym `ILD' is not defined on input line 5.
 
-] [6
+Package acronym Info: Label `acro:SiD' newly defined as it shall be overridden
+although it is yet undefined on input line 5.
+
+Package acronym Warning: Acronym `SiD' is not defined on input line 5.
+
+
+Package acronym Warning: Acronym `SiD' is not defined on input line 5.
+
+Package acronym Info: Label `acro:TDR' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
+
+Package acronym Warning: Acronym `TDR' is not defined on input line 9.
+
+
+Package acronym Warning: Acronym `TDR' is not defined on input line 9.
+
+
+Package acronym Warning: Acronym `TDR' is not defined on input line 9.
+
+
+Package acronym Warning: Acronym `TDR' is not defined on input line 9.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5
+
+
 
 ]
+<Experiments/fig/ILC.jpg, id=560, 602.0091pt x 356.0502pt>
+File: Experiments/fig/ILC.jpg Graphic file (type jpg)
+
+<use Experiments/fig/ILC.jpg>
+Package pdftex.def Info: Experiments/fig/ILC.jpg used on input line 13.
+(pdftex.def)             Requested size: 320.09212pt x 189.31418pt.
+ [6 <./Experiments/fig/ILC.jpg>]
+
+Package acronym Warning: Acronym `TDR' is not defined on input line 27.
+
+<Experiments/fig/ILC_Simplified.jpg, id=576, 144.54pt x 49.8663pt>
+File: Experiments/fig/ILC_Simplified.jpg Graphic file (type jpg)
+
+<use Experiments/fig/ILC_Simplified.jpg>
+Package pdftex.def Info: Experiments/fig/ILC_Simplified.jpg used on input line 
+34.
+(pdftex.def)             Requested size: 320.11063pt x 110.43814pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Package acronym Info: Label `acro:RF' newly defined as it shall be overridden
+although it is yet undefined on input line 39.
+
+
+Package acronym Warning: Acronym `RF' is not defined on input line 39.
+
+
+Package acronym Warning: Acronym `RF' is not defined on input line 39.
+
+<Experiments/fig/Cavity.jpg, id=584, 3129.6925pt x 529.98pt>
+File: Experiments/fig/Cavity.jpg Graphic file (type jpg)
+
+<use Experiments/fig/Cavity.jpg>
+Package pdftex.def Info: Experiments/fig/Cavity.jpg used on input line 43.
+(pdftex.def)             Requested size: 320.05536pt x 54.19795pt.
+
+
+Package acronym Warning: Acronym `RF' is not defined on input line 47.
+
+Package acronym Info: Label `acro:BDS' newly defined as it shall be overridden
+although it is yet undefined on input line 47.
+
+Package acronym Warning: Acronym `BDS' is not defined on input line 47.
+
+
+Package acronym Warning: Acronym `BDS' is not defined on input line 47.
+
+Package acronym Info: Label `acro:ISR' newly defined as it shall be overridden
+although it is yet undefined on input line 47.
+
+Package acronym Warning: Acronym `ISR' is not defined on input line 47.
+
+
+Package acronym Warning: Acronym `ISR' is not defined on input line 47.
+
+
+LaTeX Warning: Reference `benefits' on page 8 undefined on input line 47.
+
+Package acronym Info: Label `acro:IP' newly defined as it shall be overridden
+although it is yet undefined on input line 47.
+
+Package acronym Warning: Acronym `IP' is not defined on input line 47.
+
+
+Package acronym Warning: Acronym `IP' is not defined on input line 47.
+
+
+Package acronym Warning: Acronym `BDS' is not defined on input line 47.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./Experiments/fig/ILC_Simplified.jpg>]
+
+Package acronym Warning: Acronym `IP' is not defined on input line 49.
+
+<Experiments/fig/clic.jpg, id=594, 433.62pt x 237.0456pt>
+File: Experiments/fig/clic.jpg Graphic file (type jpg)
+
+<use Experiments/fig/clic.jpg>
+Package pdftex.def Info: Experiments/fig/clic.jpg used on input line 53.
+(pdftex.def)             Requested size: 320.10626pt x 174.99141pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+
+Package acronym Warning: Acronym `TDR' is not defined on input line 57.
+
+Package acronym Info: Label `acro:CDR' newly defined as it shall be overridden
+although it is yet undefined on input line 57.
+
+Package acronym Warning: Acronym `CDR' is not defined on input line 57.
+
+
+Package acronym Warning: Acronym `CDR' is not defined on input line 57.
+
+[9 <./Experiments/fig/Cavity.jpg>]
+
+Package acronym Warning: Acronym `BDS' is not defined on input line 59.
+
+
+Package acronym Warning: Acronym `ISR' is not defined on input line 59.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./Experiments/fig/clic.jpg>]
+<Experiments/fig/clicSS.png, id=631, 578.16pt x 433.62pt>
+File: Experiments/fig/clicSS.png Graphic file (type png)
+
+<use Experiments/fig/clicSS.png>
+Package pdftex.def Info: Experiments/fig/clicSS.png used on input line 66.
+(pdftex.def)             Requested size: 320.08861pt x 240.06647pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./Experiments/fig/clicSS.png (PNG copy)>] [12]
+<Experiments/fig/ILD.jpg, id=644, 1137.24875pt x 516.93124pt>
+File: Experiments/fig/ILD.jpg Graphic file (type jpg)
+
+<use Experiments/fig/ILD.jpg>
+Package pdftex.def Info: Experiments/fig/ILD.jpg used on input line 80.
+(pdftex.def)             Requested size: 405.45045pt x 184.29669pt.
+
+
+Package acronym Warning: Acronym `ILD' is not defined on input line 84.
+
+
+Underfull \vbox (badness 1199) has occurred while \output is active []
+
+ [13 <./Experiments/fig/ILD.jpg>]
+
+Package acronym Warning: Acronym `IP' is not defined on input line 87.
+
+
+Package acronym Warning: Acronym `IP' is not defined on input line 87.
+
+
+Package acronym Warning: Acronym `ILD' is not defined on input line 90.
+
+Package acronym Info: Label `acro:TPC' newly defined as it shall be overridden
+although it is yet undefined on input line 90.
+
+Package acronym Warning: Acronym `TPC' is not defined on input line 90.
+
+
+Package acronym Warning: Acronym `TPC' is not defined on input line 90.
+
+
+Package acronym Warning: Acronym `TPC' is not defined on input line 90.
+
+Package acronym Info: Label `acro:SIT' newly defined as it shall be overridden
+although it is yet undefined on input line 90.
+
+Package acronym Warning: Acronym `SIT' is not defined on input line 90.
+
+
+Package acronym Warning: Acronym `SIT' is not defined on input line 90.
+
+Package acronym Info: Label `acro:SET' newly defined as it shall be overridden
+although it is yet undefined on input line 90.
+
+Package acronym Warning: Acronym `SET' is not defined on input line 90.
+
+
+Package acronym Warning: Acronym `SET' is not defined on input line 90.
+
+
+Package acronym Warning: Acronym `TPC' is not defined on input line 90.
+
+Package acronym Info: Label `acro:PFA' newly defined as it shall be overridden
+although it is yet undefined on input line 90.
+
+Package acronym Warning: Acronym `PFA' is not defined on input line 90.
+
+
+Package acronym Warning: Acronym `PFA' is not defined on input line 90.
+
+[14]
+Package acronym Info: Label `acro:HCAL' newly defined as it shall be overridden
+
+although it is yet undefined on input line 94.
+
+
+Package acronym Warning: Acronym `HCAL' is not defined on input line 94.
+
+
+Package acronym Warning: Acronym `HCAL' is not defined on input line 94.
+
+
+Package acronym Warning: Acronym `HCAL' is not defined on input line 94.
+
+[15] <Experiments/fig/ecalstructure.png, id=672, 1645.14626pt x 610.28pt>
+File: Experiments/fig/ecalstructure.png Graphic file (type png)
+
+<use Experiments/fig/ecalstructure.png>
+Package pdftex.def Info: Experiments/fig/ecalstructure.png used on input line 1
+00.
+(pdftex.def)             Requested size: 405.45045pt x 150.3999pt.
+
+
+LaTeX Warning: Reference `Sect:DECAL' on page 16 undefined on input line 105.
+
+
+Package acronym Warning: Acronym `HCAL' is not defined on input line 107.
+
+[16 <./Experiments/fig/ecalstructure.png (PNG copy)>]
+<Experiments/fig/SiD.jpg, id=682, 1153.30875pt x 534.99875pt>
+File: Experiments/fig/SiD.jpg Graphic file (type jpg)
+
+<use Experiments/fig/SiD.jpg>
+Package pdftex.def Info: Experiments/fig/SiD.jpg used on input line 116.
+(pdftex.def)             Requested size: 405.45045pt x 188.08502pt.
+
+
+Package acronym Warning: Acronym `SiD' is not defined on input line 121.
+
+[17 <./Experiments/fig/SiD.jpg>]
+
+Package acronym Warning: Acronym `IP' is not defined on input line 128.
+
+[18]
+
+Package acronym Warning: Acronym `PFA' is not defined on input line 132.
+
+
+Package acronym Warning: Acronym `PFA' is not defined on input line 132.
+
+
+Package acronym Warning: Acronym `PFA' is not defined on input line 132.
+
+
+Package acronym Warning: Acronym `SET' is not defined on input line 132.
+
+
+Package acronym Warning: Acronym `ILD' is not defined on input line 132.
+
+
+Package acronym Warning: Acronym `PFA' is not defined on input line 132.
+
+Package acronym Info: Label `acro:PFOs' newly defined as it shall be overridden
+
+although it is yet undefined on input line 132.
+
+Package acronym Warning: Acronym `PFOs' is not defined on input line 132.
+
+
+Package acronym Warning: Acronym `PFOs' is not defined on input line 132.
+
+[19]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
+) [20]
+\openout2 = `Theory/theory.aux'.
+
+ (./Theory/theory.tex
+Chapter 3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21
+
+
+
+])
+[22]
+\openout2 = `HiggsAnalysis/higgs.aux'.
+
+ (./HiggsAnalysis/higgs.tex
+Chapter 4.
+
+LaTeX Warning: Citation `Pandurovic:2011508' on page 23 undefined on input line
+ 20.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23
+
+
+
+]
+</home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.png, i
+d=723, 569.12625pt x 478.78876pt>
+File: /home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.p
+ng Graphic file (type png)
+
+<use /home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.pn
+g>
+Package pdftex.def Info: /home/aw/github/thesis/HiggsAnalysis/figures/Midterm_H
+iggsCrossSections.png used on input line 25.
+(pdftex.def)             Requested size: 204.85924pt x 172.3419pt.
+
+</home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png, id=726, 602.25pt x 
+411.5375pt>
+File: /home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png Graphic file (t
+ype png)
+ <use /home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png>
+Package pdftex.def Info: /home/aw/github/thesis/HiggsAnalysis/figures/feynmann.
+png used on input line 32.
+(pdftex.def)             Requested size: 187.36641pt x 128.0337pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (29.78966pt too wide) in paragraph at lines 44--69
+ [][] 
+ []
+
+[24]
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+ [25 </home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.p
+ng (PNG copy)> </home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png>] [26
+]
+<HiggsAnalysis/figures/btag_crosses.pdf, id=753, 569.12625pt x 298.11375pt>
+File: HiggsAnalysis/figures/btag_crosses.pdf Graphic file (type pdf)
+
+<use HiggsAnalysis/figures/btag_crosses.pdf>
+Package pdftex.def Info: HiggsAnalysis/figures/btag_crosses.pdf used on input l
+ine 95.
+(pdftex.def)             Requested size: 332.90712pt x 174.37991pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+[28]
+</home/aw/github/thesis/HiggsAnalysis/figures/bdt.png, id=769, 1882.03125pt x 9
+96.72375pt>
+File: /home/aw/github/thesis/HiggsAnalysis/figures/bdt.png Graphic file (type p
+ng)
+ <use /home/aw/github/thesis/HiggsAnalysis/figures/bdt.png>
+Package pdftex.def Info: /home/aw/github/thesis/HiggsAnalysis/figures/bdt.png u
+sed on input line 108.
+(pdftex.def)             Requested size: 290.21852pt x 153.69972pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Overfull \hbox (133.29987pt too wide) in paragraph at lines 118--143
+ [][] 
+ []
+
+) [30] [31 <./HiggsAnalysis/figures/btag_crosses.pdf, page is rotated 90 degree
+s> </home/aw/github/thesis/HiggsAnalysis/figures/bdt.png (PNG copy)>] [32]
+\openout2 = `TopAnalysis/top.aux'.
+
+
+(./TopAnalysis/top.tex
+<TopAnalysis/figures/TopFeynmann.jpg, id=835, 163.812pt x 109.3686pt>
+File: TopAnalysis/figures/TopFeynmann.jpg Graphic file (type jpg)
+
+<use TopAnalysis/figures/TopFeynmann.jpg>
+Package pdftex.def Info: TopAnalysis/figures/TopFeynmann.jpg used on input line
+ 7.
+(pdftex.def)             Requested size: 213.39566pt x 142.48453pt.
+
+Overfull \hbox (57.14072pt too wide) in paragraph at lines 14--27
+ [][] 
+ []
+
+[33
+
+
+ <./TopAnalysis/figures/TopFeynmann.jpg>]
+Overfull \hbox (6.60367pt too wide) in paragraph at lines 36--43
+ [][] 
+ []
+
+[34] <TopAnalysis/figures/NetEfficiencys.png, id=850, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/NetEfficiencys.png Graphic file (type png)
+
+<use TopAnalysis/figures/NetEfficiencys.png>
+Package pdftex.def Info: TopAnalysis/figures/NetEfficiencys.png used on input l
+ine 59.
+(pdftex.def)             Requested size: 256.0774pt x 173.65837pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+<TopAnalysis/figures/ElectronEfficiencys.png, id=856, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/ElectronEfficiencys.png Graphic file (type png)
+
+<use TopAnalysis/figures/ElectronEfficiencys.png>
+Package pdftex.def Info: TopAnalysis/figures/ElectronEfficiencys.png used on in
+put line 70.
+(pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
+
+<TopAnalysis/figures/MuonEfficiencys.png, id=857, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/MuonEfficiencys.png Graphic file (type png)
+
+<use TopAnalysis/figures/MuonEfficiencys.png>
+Package pdftex.def Info: TopAnalysis/figures/MuonEfficiencys.png used on input 
+line 76.
+(pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
+ [36 <./TopAnalysis/figures/NetEfficiencys.png> <./TopAnalysis/figures/Electron
+Efficiencys.png> <./TopAnalysis/figures/MuonEfficiencys.png>]
+<TopAnalysis/figures/MomentumVsTheta.png, id=866, 536.0025pt x 320.19624pt>
+File: TopAnalysis/figures/MomentumVsTheta.png Graphic file (type png)
+
+<use TopAnalysis/figures/MomentumVsTheta.png>
+Package pdftex.def Info: TopAnalysis/figures/MomentumVsTheta.png used on input 
+line 88.
+(pdftex.def)             Requested size: 256.0774pt x 152.97423pt.
+
+<TopAnalysis/figures/MuonEfficiency_Higgs.png, id=867, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/MuonEfficiency_Higgs.png Graphic file (type png)
+
+<use TopAnalysis/figures/MuonEfficiency_Higgs.png>
+Package pdftex.def Info: TopAnalysis/figures/MuonEfficiency_Higgs.png used on i
+nput line 95.
+(pdftex.def)             Requested size: 256.0774pt x 173.65837pt.
+
+<TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png, id=868, 698.61pt x 473.7
+7pt>
+File: TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png Graphic file (type p
+ng)
+ <use TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png>
+Package pdftex.def Info: TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png u
+sed on input line 104.
+(pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
+
+<TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png, id=869, 698.61pt x 473.77p
+t>
+File: TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png Graphic file (type png
+)
+ <use TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png>
+Package pdftex.def Info: TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png use
+d on input line 109.
+(pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
+
+<TopAnalysis/figures/WBCollinearity.png, id=870, 536.0025pt x 320.19624pt>
+File: TopAnalysis/figures/WBCollinearity.png Graphic file (type png)
+
+<use TopAnalysis/figures/WBCollinearity.png>
+Package pdftex.def Info: TopAnalysis/figures/WBCollinearity.png used on input l
+ine 121.
+(pdftex.def)             Requested size: 256.0774pt x 152.97423pt.
+
+
+LaTeX Warning: Citation `Miller:2011qg' on page 37 undefined on input line 126.
+
+
+
+LaTeX Warning: Citation `Cacciari:2008gp' on page 37 undefined on input line 12
+6.
+
+
+LaTeX Warning: Citation `Boronat:2014hva' on page 37 undefined on input line 12
+6.
+
+[37 <./TopAnalysis/figures/MomentumVsTheta.png>] [38 <./TopAnalysis/figures/Muo
+nEfficiency_Higgs.png> <./TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png>
+ <./TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png> <./TopAnalysis/figures/
+WBCollinearity.png>]
+<TopAnalysis/figures/ComparisonKt.png, id=884, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/ComparisonKt.png Graphic file (type png)
+
+<use TopAnalysis/figures/ComparisonKt.png>
+Package pdftex.def Info: TopAnalysis/figures/ComparisonKt.png used on input lin
+e 132.
+(pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
+
+<TopAnalysis/figures/ComparisonVLC.png, id=885, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/ComparisonVLC.png Graphic file (type png)
+
+<use TopAnalysis/figures/ComparisonVLC.png>
+Package pdftex.def Info: TopAnalysis/figures/ComparisonVLC.png used on input li
+ne 137.
+(pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
+
+<TopAnalysis/figures/TopMass_EOver1200.png, id=886, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/TopMass_EOver1200.png Graphic file (type png)
+
+<use TopAnalysis/figures/TopMass_EOver1200.png>
+Package pdftex.def Info: TopAnalysis/figures/TopMass_EOver1200.png used on inpu
+t line 147.
+(pdftex.def)             Requested size: 170.71393pt x 115.76743pt.
+
+<TopAnalysis/figures/CosThetaRecoVsMC.png, id=887, 700.6175pt x 475.7775pt>
+File: TopAnalysis/figures/CosThetaRecoVsMC.png Graphic file (type png)
+
+<use TopAnalysis/figures/CosThetaRecoVsMC.png>
+Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMC.png used on input
+ line 157.
+(pdftex.def)             Requested size: 170.71393pt x 115.92401pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+[40 <./TopAnalysis/figures/ComparisonKt.png> <./TopAnalysis/figures/ComparisonV
+LC.png> <./TopAnalysis/figures/TopMass_EOver1200.png>]
+<TopAnalysis/figures/TopMassDiagonal.png, id=897, 536.0025pt x 320.19624pt>
+File: TopAnalysis/figures/TopMassDiagonal.png Graphic file (type png)
+
+<use TopAnalysis/figures/TopMassDiagonal.png>
+Package pdftex.def Info: TopAnalysis/figures/TopMassDiagonal.png used on input 
+line 166.
+(pdftex.def)             Requested size: 192.05478pt x 114.72823pt.
+
+<TopAnalysis/figures/TopMassOffDiagonal.png, id=900, 536.0025pt x 320.19624pt>
+File: TopAnalysis/figures/TopMassOffDiagonal.png Graphic file (type png)
+
+<use TopAnalysis/figures/TopMassOffDiagonal.png>
+Package pdftex.def Info: TopAnalysis/figures/TopMassOffDiagonal.png used on inp
+ut line 171.
+(pdftex.def)             Requested size: 192.05478pt x 114.72823pt.
+ [41 <./TopAnalysis/figures/CosThetaRecoVsMC.png> <./TopAnalysis/figures/TopMas
+sDiagonal.png> <./TopAnalysis/figures/TopMassOffDiagonal.png>]
+<TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.png, id=916, 700.6175pt x
+ 475.7775pt>
+File: TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.png Graphic file (ty
+pe png)
+ <use TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.png>
+Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.p
+ng used on input line 185.
+(pdftex.def)             Requested size: 192.05478pt x 130.42177pt.
+
+Underfull \hbox (badness 1112) in paragraph at lines 186--186
+[]\OT1/cmr/m/n/10.95 (a) |Cut placed on an-gle be-tween re-con-
+ []
+
+
+<TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.png, id=917, 700.6175
+pt x 475.7775pt>
+File: TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.png Graphic file
+ (type png)
+
+<use TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.png>
+Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparat
+ed.png used on input line 191.
+(pdftex.def)             Requested size: 192.05478pt x 130.42177pt.
+
+Overfull \hbox (68.86124pt too wide) in paragraph at lines 205--224
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+[43 <./TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.png> <./TopAnalysis
+/figures/CosThetaRecoVsMC_MCTopsWellSeparated.png>]
+<TopAnalysis/figures/comparejetmethods.png, id=934, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/comparejetmethods.png Graphic file (type png)
+
+<use TopAnalysis/figures/comparejetmethods.png>
+Package pdftex.def Info: TopAnalysis/figures/comparejetmethods.png used on inpu
+t line 232.
+(pdftex.def)             Requested size: 256.0774pt x 173.65837pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./TopAnalysis/figures/comparejetmethods.png>]
+<TopAnalysis/figures/MeanThetaDiff.png, id=940, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/MeanThetaDiff.png Graphic file (type png)
+
+<use TopAnalysis/figures/MeanThetaDiff.png>
+Package pdftex.def Info: TopAnalysis/figures/MeanThetaDiff.png used on input li
+ne 243.
+(pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
+
+<TopAnalysis/figures/WidthThetaDiff.png, id=941, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/WidthThetaDiff.png Graphic file (type png)
+
+<use TopAnalysis/figures/WidthThetaDiff.png>
+Package pdftex.def Info: TopAnalysis/figures/WidthThetaDiff.png used on input l
+ine 248.
+(pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
+ [45 <./TopAnalysis/figures/MeanThetaDiff.png> <./TopAnalysis/figures/WidthThet
+aDiff.png>]
+<TopAnalysis/figures/EfficiencyvsMCTheta.png, id=947, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/EfficiencyvsMCTheta.png Graphic file (type png)
+
+<use TopAnalysis/figures/EfficiencyvsMCTheta.png>
+Package pdftex.def Info: TopAnalysis/figures/EfficiencyvsMCTheta.png used on in
+put line 259.
+(pdftex.def)             Requested size: 256.0774pt x 173.65837pt.
+
+<TopAnalysis/figures/RawSPrime.png, id=948, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/RawSPrime.png Graphic file (type png)
+
+<use TopAnalysis/figures/RawSPrime.png>
+Package pdftex.def Info: TopAnalysis/figures/RawSPrime.png used on input line 2
+75.
+(pdftex.def)             Requested size: 256.0774pt x 173.65837pt.
+
+
+LaTeX Warning: Citation `Krohn:2011tw' on page 46 undefined on input line 280.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46 <./TopAnalysis/figures/EfficiencyvsMCTheta.png> <./TopAnalysis/figures/Raw
+SPrime.png>] <TopAnalysis/figures/dummy.png, id=956, 208.78pt x 243.91125pt>
+File: TopAnalysis/figures/dummy.png Graphic file (type png)
+
+<use TopAnalysis/figures/dummy.png>
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 289.
+(pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
+ [47]
+File: TopAnalysis/figures/dummy.png Graphic file (type png)
+ <use TopAnalysis/figures/dummy.png>
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 298.
+(pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
+File: TopAnalysis/figures/dummy.png Graphic file (type png)
+
+<use TopAnalysis/figures/dummy.png>
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 307.
+(pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
+File: TopAnalysis/figures/dummy.png Graphic file (type png)
+ <use TopAnalysis/figures/dummy.png>
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 314.
+(pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
+
+[48 <./TopAnalysis/figures/dummy.png>] [49] [50]
+File: TopAnalysis/figures/dummy.png Graphic file (type png)
+
+<use TopAnalysis/figures/dummy.png>
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 325.
+(pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
+File: TopAnalysis/figures/dummy.png Graphic file (type png)
+ <use TopAnalysis/figures/dummy.png>
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 332.
+(pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
+
+<TopAnalysis/figures/btag_crosses.pdf, id=977, 569.12625pt x 298.11375pt>
+File: TopAnalysis/figures/btag_crosses.pdf Graphic file (type pdf)
+
+<use TopAnalysis/figures/btag_crosses.pdf>
+Package pdftex.def Info: TopAnalysis/figures/btag_crosses.pdf used on input lin
+e 350.
+(pdftex.def)             Requested size: 332.90712pt x 174.37991pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+[52]
+<TopAnalysis/figures/HighestBTag_SigVsBkg.png, id=991, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/HighestBTag_SigVsBkg.png Graphic file (type png)
+
+<use TopAnalysis/figures/HighestBTag_SigVsBkg.png>
+Package pdftex.def Info: TopAnalysis/figures/HighestBTag_SigVsBkg.png used on i
+nput line 363.
+(pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
+
+<TopAnalysis/figures/NextHighestBTag_SigVsBkg.png, id=992, 698.61pt x 473.77pt>
+File: TopAnalysis/figures/NextHighestBTag_SigVsBkg.png Graphic file (type png)
+<use TopAnalysis/figures/NextHighestBTag_SigVsBkg.png>
+Package pdftex.def Info: TopAnalysis/figures/NextHighestBTag_SigVsBkg.png used 
+on input line 368.
+(pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53 <./TopAnalysis/figures/btag_crosses.pdf, page is rotated 90 degrees>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54 <./TopAnalysis/figures/HighestBTag_SigVsBkg.png> <./TopAnalysis/figures/Ne
+xtHighestBTag_SigVsBkg.png>]) [55]
+\openout2 = `DECALStudies/decal.aux'.
+
+ (./DECALStudies/decal.tex
+Chapter 5.
+
+Underfull \vbox (badness 3701) has occurred while \output is active []
+
+ [56
+
+
+
+])
+[57]
+\openout2 = `Conclusion/content.aux'.
+
+ (./Conclusion/content.tex
+Chapter 6.
+) [58
+
+
+
+] (./thesis.bbl [59
+
+
+
+]) [60]
 \openout2 = `appendix.aux'.
 
  (./appendix.texpdfTeX warning (ext4): destination with the same identifier (na
@@ -738,49 +1458,58 @@ me{chapter.1}) has been already used, duplicate ignored
 l.1 \chapter{FIRST APPENDIX}
                             
 Appendix A.
-) [7
+) [61
+
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
  (./thesis.aux (./abstract.aux) (./Introduction/introduction.aux)
-(./appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
+(./Experiments/experiments.aux) (./Theory/theory.aux)
+(./HiggsAnalysis/higgs.aux) (./TopAnalysis/top.aux) (./DECALStudies/decal.aux)
+(./Conclusion/content.aux) (./appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 161C5F4CB81BE88113CEA8069A8B1BD4;96.
+(rerunfilecheck)             Checksum: 0A26C5EAACC7BBDBE9FDD8F6D6346CDD;3777.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
- 9949 strings out of 493039
- 144727 string characters out of 6136943
- 252553 words of memory out of 5000000
- 13243 multiletter control sequences out of 15000+600000
- 13585 words of font info for 51 fonts, out of 8000000 for 9000
+ 10588 strings out of 493039
+ 158688 string characters out of 6136943
+ 262317 words of memory out of 5000000
+ 13610 multiletter control sequences out of 15000+600000
+ 20110 words of font info for 79 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 44i,11n,43p,2464b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,45p,3002b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
-fb>
-Output written on thesis.pdf (20 pages, 180288 bytes).
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmu10.pfb>
+Output written on thesis.pdf (76 pages, 3014506 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1192 PDF objects out of 1200 (max. 8388607)
+ 979 compressed objects within 10 object streams
+ 230 named destinations out of 1000 (max. 500000)
+ 666 words of extra memory for PDF output out of 10000 (max. 10000000)
 
