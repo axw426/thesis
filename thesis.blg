@@ -14,48 +14,53 @@ A level-1 auxiliary file: appendix.aux
 Database file #1: thesis.bib
 Warning--entry type for "bib-prodids" isn't style-file defined
 --line 328 of file thesis.bib
+Warning--I didn't find a database entry for "UpdatedCLICBaseline"
 Warning--I didn't find a database entry for "Pandurovic:2011508"
+Warning--I didn't find a database entry for "Miller:2011qg"
+Warning--I didn't find a database entry for "Cacciari:2008gp"
+Warning--I didn't find a database entry for "Boronat:2014hva"
+Warning--I didn't find a database entry for "Krohn:2011tw"
 Warning--empty journal in Schulte:382453
 Warning--empty journal in TauFinder
-You've used 18 entries,
+You've used 19 entries,
             1876 wiz_defined-function locations,
-            597 strings with 7652 characters,
-and the built_in function-call counts, 4225 in all, are:
-= -- 323
-> -- 287
+            615 strings with 7935 characters,
+and the built_in function-call counts, 4457 in all, are:
+= -- 347
+> -- 295
 < -- 0
-+ -- 104
-- -- 86
-* -- 322
-:= -- 673
-add.period$ -- 17
-call.type$ -- 18
-change.case$ -- 18
++ -- 107
+- -- 88
+* -- 336
+:= -- 706
+add.period$ -- 18
+call.type$ -- 19
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 215
-empty$ -- 377
-format.name$ -- 86
-if$ -- 982
+cite$ -- 21
+duplicate$ -- 230
+empty$ -- 398
+format.name$ -- 88
+if$ -- 1042
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 16
-newline$ -- 57
-num.names$ -- 17
-pop$ -- 77
+int.to.str$ -- 19
+missing$ -- 17
+newline$ -- 60
+num.names$ -- 18
+pop$ -- 79
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 127
+skip$ -- 138
 stack$ -- 0
-substring$ -- 110
-swap$ -- 70
+substring$ -- 116
+swap$ -- 77
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 27
-width$ -- 20
-write$ -- 155
-(There were 4 warnings)
+while$ -- 29
+width$ -- 21
+write$ -- 166
+(There were 9 warnings)
