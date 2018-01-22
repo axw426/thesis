@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.8.15)  11 JAN 2018 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.8.15)  22 JAN 2018 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,7 +580,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-<fig/crest_2.pdf, id=236, 342.27875pt x 342.27875pt>
+<fig/crest_2.pdf, id=244, 342.27875pt x 342.27875pt>
 File: fig/crest_2.pdf Graphic file (type pdf)
  <use fig/crest_2.pdf>
 Package pdftex.def Info: fig/crest_2.pdf used on input line 116.
@@ -623,10 +623,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
  [9
 
-] (./thesis.lof
-Underfull \vbox (badness 2884) has occurred while \output is active []
-
- [10
+] (./thesis.lof [10
 
 ])
 \tf@lof=\write9
@@ -767,7 +764,7 @@ Package acronym Warning: Acronym `TDR' is not defined on input line 9.
 
 Package acronym Warning: Acronym `TDR' is not defined on input line 9.
 
-<Experiments/fig/ILC.jpg, id=565, 602.0091pt x 356.0502pt>
+<Experiments/fig/ILC.jpg, id=577, 602.0091pt x 356.0502pt>
 File: Experiments/fig/ILC.jpg Graphic file (type jpg)
 
 <use Experiments/fig/ILC.jpg>
@@ -781,7 +778,7 @@ Package acronym Warning: Acronym `TDR' is not defined on input line 30.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-<Experiments/fig/ILC_Simplified.jpg, id=585, 144.54pt x 49.8663pt>
+<Experiments/fig/ILC_Simplified.jpg, id=597, 144.54pt x 49.8663pt>
 File: Experiments/fig/ILC_Simplified.jpg Graphic file (type jpg)
 
 <use Experiments/fig/ILC_Simplified.jpg>
@@ -798,7 +795,7 @@ Package acronym Warning: Acronym `RF' is not defined on input line 42.
 Package acronym Warning: Acronym `RF' is not defined on input line 42.
 
 [8 <./Experiments/fig/ILC_Simplified.jpg>]
-<Experiments/fig/Cavity.jpg, id=593, 3129.6925pt x 529.98pt>
+<Experiments/fig/Cavity.jpg, id=605, 3129.6925pt x 529.98pt>
 File: Experiments/fig/Cavity.jpg Graphic file (type jpg)
 
 <use Experiments/fig/Cavity.jpg>
@@ -838,7 +835,7 @@ Package acronym Warning: Acronym `IP' is not defined on input line 50.
 
 Package acronym Warning: Acronym `BDS' is not defined on input line 50.
 
-<Experiments/fig/clic.jpg, id=597, 433.62pt x 237.0456pt>
+<Experiments/fig/clic.jpg, id=609, 433.62pt x 237.0456pt>
 File: Experiments/fig/clic.jpg Graphic file (type jpg)
 
 <use Experiments/fig/clic.jpg>
@@ -877,14 +874,14 @@ Package acronym Warning: Acronym `BDS' is not defined on input line 66.
 
 LaTeX Warning: Reference `SuperSym' on page 11 undefined on input line 75.
 
-[11] <Experiments/fig/clicSS.png, id=637, 578.16pt x 433.62pt>
+[11] <Experiments/fig/clicSS.png, id=649, 578.16pt x 433.62pt>
 File: Experiments/fig/clicSS.png Graphic file (type png)
 
 <use Experiments/fig/clicSS.png>
 Package pdftex.def Info: Experiments/fig/clicSS.png used on input line 81.
 (pdftex.def)             Requested size: 320.08861pt x 240.06647pt.
- [12 <./Experiments/fig/clicSS.png (PNG copy)>] <Experiments/fig/ILD.jpg, id=64
-6, 1137.24875pt x 516.93124pt>
+ [12 <./Experiments/fig/clicSS.png (PNG copy)>] <Experiments/fig/ILD.jpg, id=65
+8, 1137.24875pt x 516.93124pt>
 File: Experiments/fig/ILD.jpg Graphic file (type jpg)
 
 <use Experiments/fig/ILD.jpg>
@@ -958,7 +955,7 @@ Package acronym Warning: Acronym `HCAL' is not defined on input line 109.
 Underfull \vbox (badness 3792) has occurred while \output is active []
 
  [15]
-<Experiments/fig/ecalstructure.png, id=673, 1645.14626pt x 610.28pt>
+<Experiments/fig/ecalstructure.png, id=685, 1645.14626pt x 610.28pt>
 File: Experiments/fig/ecalstructure.png Graphic file (type png)
 
 <use Experiments/fig/ecalstructure.png>
@@ -980,7 +977,7 @@ Underfull \vbox (badness 5331) has occurred while \output is active []
 Package acronym Warning: Acronym `HCAL' is not defined on input line 122.
 
 [17 <./Experiments/fig/ecalstructure.png (PNG copy)>]
-<Experiments/fig/SiD.jpg, id=688, 1153.30875pt x 534.99875pt>
+<Experiments/fig/SiD.jpg, id=700, 1153.30875pt x 534.99875pt>
 File: Experiments/fig/SiD.jpg Graphic file (type jpg)
 
 <use Experiments/fig/SiD.jpg>
@@ -1033,66 +1030,84 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
  (./Theory/theory.tex
 Chapter 3.
-<Theory/fig/HiggsProcessesExtra.png, id=712, 763.653pt x 422.0568pt>
-File: Theory/fig/HiggsProcessesExtra.png Graphic file (type png)
+<Theory/fig/smparticles.png, id=724, 376.40625pt x 360.34625pt>
+File: Theory/fig/smparticles.png Graphic file (type png)
 
-<use Theory/fig/HiggsProcessesExtra.png>
-Package pdftex.def Info: Theory/fig/HiggsProcessesExtra.png used on input line 
-10.
-(pdftex.def)             Requested size: 405.45045pt x 224.08832pt.
- [22
+<use Theory/fig/smparticles.png>
+Package pdftex.def Info: Theory/fig/smparticles.png used on input line 10.
+(pdftex.def)             Requested size: 234.73653pt x 224.72649pt.
+Package acronym Info: Label `acro:QED' newly defined as it shall be overridden
+although it is yet undefined on input line 15.
+
+
+Package acronym Warning: Acronym `QED' is not defined on input line 15.
+
+
+Package acronym Warning: Acronym `QED' is not defined on input line 15.
+
+[22
 
 
 
 ]
-<Theory/fig/HiggsStrahlung.png, id=721, 722.7pt x 542.025pt>
+Underfull \vbox (badness 2261) has occurred while \output is active []
+
+ [23 <./Theory/fig/smparticles.png>]
+<Theory/fig/HiggsProcessesExtra.png, id=743, 763.653pt x 422.0568pt>
+File: Theory/fig/HiggsProcessesExtra.png Graphic file (type png)
+
+<use Theory/fig/HiggsProcessesExtra.png>
+Package pdftex.def Info: Theory/fig/HiggsProcessesExtra.png used on input line 
+35.
+(pdftex.def)             Requested size: 405.45045pt x 224.08832pt.
+ [24 <./Theory/fig/HiggsProcessesExtra.png>] <Theory/fig/HiggsStrahlung.png, id
+=753, 722.7pt x 542.025pt>
 File: Theory/fig/HiggsStrahlung.png Graphic file (type png)
 
 <use Theory/fig/HiggsStrahlung.png>
-Package pdftex.def Info: Theory/fig/HiggsStrahlung.png used on input line 21.
+Package pdftex.def Info: Theory/fig/HiggsStrahlung.png used on input line 46.
 (pdftex.def)             Requested size: 192.0548pt x 144.0412pt.
 
 
-LaTeX Warning: Reference `fig:higgsmass' on page 23 undefined on input line 27.
+LaTeX Warning: Reference `fig:higgsmass' on page 25 undefined on input line 52.
 
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23 <./Theory/fig/HiggsProcessesExtra.png> <./Theory/fig/HiggsStrahlung.png (P
-NG copy)>]
-<Theory/fig/HiggsRecoilMass.png, id=730, 299.6796pt x 281.3712pt>
+[25 <./Theory/fig/HiggsStrahlung.png (PNG copy)>]
+<Theory/fig/HiggsRecoilMass.png, id=760, 299.6796pt x 281.3712pt>
 File: Theory/fig/HiggsRecoilMass.png Graphic file (type png)
 
 <use Theory/fig/HiggsRecoilMass.png>
-Package pdftex.def Info: Theory/fig/HiggsRecoilMass.png used on input line 31.
+Package pdftex.def Info: Theory/fig/HiggsRecoilMass.png used on input line 56.
 (pdftex.def)             Requested size: 192.0548pt x 180.32167pt.
- [24]
-Underfull \vbox (badness 3536) has occurred while \output is active []
 
- [25 <./Theory/fig/HiggsRecoilMass.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26])
-[27]
+ [26 <./Theory/fig/HiggsRecoilMass.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28])
+[29]
 \openout2 = `HiggsAnalysis/higgs.aux'.
 
  (./HiggsAnalysis/higgs.tex
 Chapter 4.
 
-LaTeX Warning: Citation `Pandurovic:2011508' on page 28 undefined on input line
+LaTeX Warning: Citation `Pandurovic:2011508' on page 30 undefined on input line
  20.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28
+ [30
 
 
 
 ]
 </home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.png, i
-d=766, 569.12625pt x 478.78876pt>
+d=798, 569.12625pt x 478.78876pt>
 File: /home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.p
 ng Graphic file (type png)
 
@@ -1102,7 +1117,7 @@ Package pdftex.def Info: /home/aw/github/thesis/HiggsAnalysis/figures/Midterm_H
 iggsCrossSections.png used on input line 25.
 (pdftex.def)             Requested size: 204.85924pt x 172.3419pt.
 
-</home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png, id=769, 602.25pt x 
+</home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png, id=801, 602.25pt x 
 411.5375pt>
 File: /home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png Graphic file (t
 ype png)
@@ -1119,13 +1134,13 @@ Overfull \hbox (29.78966pt too wide) in paragraph at lines 44--69
  [][] 
  []
 
-[29]
+[31]
 Underfull \vbox (badness 1057) has occurred while \output is active []
 
- [30 </home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.p
-ng (PNG copy)> </home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png>] [31
+ [32 </home/aw/github/thesis/HiggsAnalysis/figures/Midterm_HiggsCrossSections.p
+ng (PNG copy)> </home/aw/github/thesis/HiggsAnalysis/figures/feynmann.png>] [33
 ]
-<HiggsAnalysis/figures/btag_crosses.pdf, id=795, 569.12625pt x 298.11375pt>
+<HiggsAnalysis/figures/btag_crosses.pdf, id=827, 569.12625pt x 298.11375pt>
 File: HiggsAnalysis/figures/btag_crosses.pdf Graphic file (type pdf)
 
 <use HiggsAnalysis/figures/btag_crosses.pdf>
@@ -1135,9 +1150,9 @@ ine 95.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-[33]
-</home/aw/github/thesis/HiggsAnalysis/figures/bdt.png, id=810, 1882.03125pt x 9
+ [34]
+[35]
+</home/aw/github/thesis/HiggsAnalysis/figures/bdt.png, id=843, 1882.03125pt x 9
 96.72375pt>
 File: /home/aw/github/thesis/HiggsAnalysis/figures/bdt.png Graphic file (type p
 ng)
@@ -1148,360 +1163,371 @@ sed on input line 108.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [36]
 Overfull \hbox (133.29987pt too wide) in paragraph at lines 118--143
  [][] 
  []
 
-) [35] [36 <./HiggsAnalysis/figures/btag_crosses.pdf, page is rotated 90 degree
-s> </home/aw/github/thesis/HiggsAnalysis/figures/bdt.png (PNG copy)>] [37]
+) [37] [38 <./HiggsAnalysis/figures/btag_crosses.pdf, page is rotated 90 degree
+s> </home/aw/github/thesis/HiggsAnalysis/figures/bdt.png (PNG copy)>] [39]
 \openout2 = `TopAnalysis/top.aux'.
 
 
 (./TopAnalysis/top.tex
-<TopAnalysis/figures/TopFeynmann.jpg, id=878, 163.812pt x 109.3686pt>
+Chapter 5.
+<TopAnalysis/figures/TopFeynmann.jpg, id=910, 163.812pt x 109.3686pt>
 File: TopAnalysis/figures/TopFeynmann.jpg Graphic file (type jpg)
 
 <use TopAnalysis/figures/TopFeynmann.jpg>
 Package pdftex.def Info: TopAnalysis/figures/TopFeynmann.jpg used on input line
- 7.
+ 8.
 (pdftex.def)             Requested size: 213.39566pt x 142.48453pt.
 
-Overfull \hbox (57.14072pt too wide) in paragraph at lines 14--27
+Overfull \hbox (57.14072pt too wide) in paragraph at lines 15--28
  [][] 
  []
 
-[38
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40
+
 
 
  <./TopAnalysis/figures/TopFeynmann.jpg>]
-Overfull \hbox (6.60367pt too wide) in paragraph at lines 36--43
+Overfull \hbox (6.60367pt too wide) in paragraph at lines 37--44
  [][] 
  []
 
-[39] <TopAnalysis/figures/NetEfficiencys.png, id=892, 698.61pt x 473.77pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+[42] <TopAnalysis/figures/NetEfficiencys.png, id=929, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/NetEfficiencys.png Graphic file (type png)
 
 <use TopAnalysis/figures/NetEfficiencys.png>
 Package pdftex.def Info: TopAnalysis/figures/NetEfficiencys.png used on input l
-ine 59.
+ine 60.
 (pdftex.def)             Requested size: 256.0774pt x 173.65837pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-<TopAnalysis/figures/ElectronEfficiencys.png, id=899, 698.61pt x 473.77pt>
+ [43 <./TopAnalysis/figures/NetEfficiencys.png>]
+<TopAnalysis/figures/ElectronEfficiencys.png, id=935, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/ElectronEfficiencys.png Graphic file (type png)
 
 <use TopAnalysis/figures/ElectronEfficiencys.png>
 Package pdftex.def Info: TopAnalysis/figures/ElectronEfficiencys.png used on in
-put line 70.
+put line 71.
 (pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
 
-<TopAnalysis/figures/MuonEfficiencys.png, id=900, 698.61pt x 473.77pt>
+<TopAnalysis/figures/MuonEfficiencys.png, id=936, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/MuonEfficiencys.png Graphic file (type png)
 
 <use TopAnalysis/figures/MuonEfficiencys.png>
 Package pdftex.def Info: TopAnalysis/figures/MuonEfficiencys.png used on input 
-line 76.
+line 77.
 (pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
- [41 <./TopAnalysis/figures/NetEfficiencys.png> <./TopAnalysis/figures/Electron
-Efficiencys.png> <./TopAnalysis/figures/MuonEfficiencys.png>]
-<TopAnalysis/figures/MomentumVsTheta.png, id=908, 536.0025pt x 320.19624pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./TopAnalysis/figures/ElectronEfficiencys.png> <./TopAnalysis/figures/Muo
+nEfficiencys.png>]
+<TopAnalysis/figures/MomentumVsTheta.png, id=944, 536.0025pt x 320.19624pt>
 File: TopAnalysis/figures/MomentumVsTheta.png Graphic file (type png)
 
 <use TopAnalysis/figures/MomentumVsTheta.png>
 Package pdftex.def Info: TopAnalysis/figures/MomentumVsTheta.png used on input 
-line 88.
+line 89.
 (pdftex.def)             Requested size: 256.0774pt x 152.97423pt.
 
-<TopAnalysis/figures/MuonEfficiency_Higgs.png, id=909, 698.61pt x 473.77pt>
+<TopAnalysis/figures/MuonEfficiency_Higgs.png, id=945, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/MuonEfficiency_Higgs.png Graphic file (type png)
 
 <use TopAnalysis/figures/MuonEfficiency_Higgs.png>
 Package pdftex.def Info: TopAnalysis/figures/MuonEfficiency_Higgs.png used on i
-nput line 95.
+nput line 96.
 (pdftex.def)             Requested size: 256.0774pt x 173.65837pt.
 
-<TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png, id=910, 698.61pt x 473.7
+<TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png, id=946, 698.61pt x 473.7
 7pt>
 File: TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png Graphic file (type p
 ng)
  <use TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png>
 Package pdftex.def Info: TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png u
-sed on input line 104.
+sed on input line 105.
 (pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
 
-<TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png, id=911, 698.61pt x 473.77p
+<TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png, id=947, 698.61pt x 473.77p
 t>
 File: TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png Graphic file (type png
 )
  <use TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png>
 Package pdftex.def Info: TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png use
-d on input line 109.
+d on input line 110.
 (pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
 
-<TopAnalysis/figures/WBCollinearity.png, id=912, 536.0025pt x 320.19624pt>
+<TopAnalysis/figures/WBCollinearity.png, id=948, 536.0025pt x 320.19624pt>
 File: TopAnalysis/figures/WBCollinearity.png Graphic file (type png)
 
 <use TopAnalysis/figures/WBCollinearity.png>
 Package pdftex.def Info: TopAnalysis/figures/WBCollinearity.png used on input l
-ine 121.
+ine 122.
 (pdftex.def)             Requested size: 256.0774pt x 152.97423pt.
 
 
-LaTeX Warning: Citation `Miller:2011qg' on page 42 undefined on input line 126.
+LaTeX Warning: Citation `Miller:2011qg' on page 45 undefined on input line 127.
 
 
 
-LaTeX Warning: Citation `Cacciari:2008gp' on page 42 undefined on input line 12
-6.
+LaTeX Warning: Citation `Cacciari:2008gp' on page 45 undefined on input line 12
+7.
 
 
-LaTeX Warning: Citation `Boronat:2014hva' on page 42 undefined on input line 12
-6.
+LaTeX Warning: Citation `Boronat:2014hva' on page 45 undefined on input line 12
+7.
 
-[42 <./TopAnalysis/figures/MomentumVsTheta.png>] [43 <./TopAnalysis/figures/Muo
-nEfficiency_Higgs.png> <./TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png>
+[45 <./TopAnalysis/figures/MomentumVsTheta.png> <./TopAnalysis/figures/MuonEffi
+ciency_Higgs.png>] [46 <./TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png>
  <./TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png> <./TopAnalysis/figures/
 WBCollinearity.png>]
-<TopAnalysis/figures/ComparisonKt.png, id=926, 698.61pt x 473.77pt>
+<TopAnalysis/figures/ComparisonKt.png, id=963, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/ComparisonKt.png Graphic file (type png)
 
 <use TopAnalysis/figures/ComparisonKt.png>
 Package pdftex.def Info: TopAnalysis/figures/ComparisonKt.png used on input lin
-e 132.
+e 133.
 (pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
 
-<TopAnalysis/figures/ComparisonVLC.png, id=927, 698.61pt x 473.77pt>
+<TopAnalysis/figures/ComparisonVLC.png, id=964, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/ComparisonVLC.png Graphic file (type png)
 
 <use TopAnalysis/figures/ComparisonVLC.png>
 Package pdftex.def Info: TopAnalysis/figures/ComparisonVLC.png used on input li
-ne 137.
+ne 138.
 (pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
 
-<TopAnalysis/figures/TopMass_EOver1200.png, id=928, 698.61pt x 473.77pt>
+<TopAnalysis/figures/TopMass_EOver1200.png, id=965, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/TopMass_EOver1200.png Graphic file (type png)
 
 <use TopAnalysis/figures/TopMass_EOver1200.png>
 Package pdftex.def Info: TopAnalysis/figures/TopMass_EOver1200.png used on inpu
-t line 147.
+t line 148.
 (pdftex.def)             Requested size: 170.71393pt x 115.76743pt.
 
-<TopAnalysis/figures/CosThetaRecoVsMC.png, id=929, 700.6175pt x 475.7775pt>
+<TopAnalysis/figures/CosThetaRecoVsMC.png, id=966, 700.6175pt x 475.7775pt>
 File: TopAnalysis/figures/CosThetaRecoVsMC.png Graphic file (type png)
 
 <use TopAnalysis/figures/CosThetaRecoVsMC.png>
 Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMC.png used on input
- line 157.
+ line 158.
 (pdftex.def)             Requested size: 170.71393pt x 115.92401pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
-[45 <./TopAnalysis/figures/ComparisonKt.png> <./TopAnalysis/figures/ComparisonV
+ [47]
+[48 <./TopAnalysis/figures/ComparisonKt.png> <./TopAnalysis/figures/ComparisonV
 LC.png> <./TopAnalysis/figures/TopMass_EOver1200.png>]
-<TopAnalysis/figures/TopMassDiagonal.png, id=938, 536.0025pt x 320.19624pt>
+<TopAnalysis/figures/TopMassDiagonal.png, id=975, 536.0025pt x 320.19624pt>
 File: TopAnalysis/figures/TopMassDiagonal.png Graphic file (type png)
 
 <use TopAnalysis/figures/TopMassDiagonal.png>
 Package pdftex.def Info: TopAnalysis/figures/TopMassDiagonal.png used on input 
-line 166.
+line 167.
 (pdftex.def)             Requested size: 192.05478pt x 114.72823pt.
 
-<TopAnalysis/figures/TopMassOffDiagonal.png, id=941, 536.0025pt x 320.19624pt>
+<TopAnalysis/figures/TopMassOffDiagonal.png, id=978, 536.0025pt x 320.19624pt>
 File: TopAnalysis/figures/TopMassOffDiagonal.png Graphic file (type png)
 
 <use TopAnalysis/figures/TopMassOffDiagonal.png>
 Package pdftex.def Info: TopAnalysis/figures/TopMassOffDiagonal.png used on inp
-ut line 171.
+ut line 172.
 (pdftex.def)             Requested size: 192.05478pt x 114.72823pt.
- [46 <./TopAnalysis/figures/CosThetaRecoVsMC.png> <./TopAnalysis/figures/TopMas
+ [49 <./TopAnalysis/figures/CosThetaRecoVsMC.png> <./TopAnalysis/figures/TopMas
 sDiagonal.png> <./TopAnalysis/figures/TopMassOffDiagonal.png>]
-<TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.png, id=958, 700.6175pt x
+<TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.png, id=995, 700.6175pt x
  475.7775pt>
 File: TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.png Graphic file (ty
 pe png)
  <use TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.png>
 Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.p
-ng used on input line 185.
+ng used on input line 186.
 (pdftex.def)             Requested size: 192.05478pt x 130.42177pt.
 
-Underfull \hbox (badness 1112) in paragraph at lines 186--186
+Underfull \hbox (badness 1112) in paragraph at lines 187--187
 []\OT1/cmr/m/n/10.95 (a) |Cut placed on an-gle be-tween re-con-
  []
 
 
-<TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.png, id=959, 700.6175
+<TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.png, id=996, 700.6175
 pt x 475.7775pt>
 File: TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.png Graphic file
  (type png)
 
 <use TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.png>
 Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparat
-ed.png used on input line 191.
+ed.png used on input line 192.
 (pdftex.def)             Requested size: 192.05478pt x 130.42177pt.
 
-Overfull \hbox (68.86124pt too wide) in paragraph at lines 205--224
+Overfull \hbox (68.86124pt too wide) in paragraph at lines 206--225
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
-[48 <./TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.png> <./TopAnalysis
+ [50]
+[51 <./TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.png> <./TopAnalysis
 /figures/CosThetaRecoVsMC_MCTopsWellSeparated.png>]
-<TopAnalysis/figures/comparejetmethods.png, id=976, 698.61pt x 473.77pt>
+<TopAnalysis/figures/comparejetmethods.png, id=1013, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/comparejetmethods.png Graphic file (type png)
 
 <use TopAnalysis/figures/comparejetmethods.png>
 Package pdftex.def Info: TopAnalysis/figures/comparejetmethods.png used on inpu
-t line 232.
+t line 233.
 (pdftex.def)             Requested size: 256.0774pt x 173.65837pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./TopAnalysis/figures/comparejetmethods.png>]
-<TopAnalysis/figures/MeanThetaDiff.png, id=982, 698.61pt x 473.77pt>
+ [52 <./TopAnalysis/figures/comparejetmethods.png>]
+<TopAnalysis/figures/MeanThetaDiff.png, id=1020, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/MeanThetaDiff.png Graphic file (type png)
 
 <use TopAnalysis/figures/MeanThetaDiff.png>
 Package pdftex.def Info: TopAnalysis/figures/MeanThetaDiff.png used on input li
-ne 243.
+ne 244.
 (pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
 
-<TopAnalysis/figures/WidthThetaDiff.png, id=983, 698.61pt x 473.77pt>
+<TopAnalysis/figures/WidthThetaDiff.png, id=1021, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/WidthThetaDiff.png Graphic file (type png)
 
 <use TopAnalysis/figures/WidthThetaDiff.png>
 Package pdftex.def Info: TopAnalysis/figures/WidthThetaDiff.png used on input l
-ine 248.
+ine 249.
 (pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
- [50 <./TopAnalysis/figures/MeanThetaDiff.png> <./TopAnalysis/figures/WidthThet
+ [53 <./TopAnalysis/figures/MeanThetaDiff.png> <./TopAnalysis/figures/WidthThet
 aDiff.png>]
-<TopAnalysis/figures/EfficiencyvsMCTheta.png, id=990, 698.61pt x 473.77pt>
+<TopAnalysis/figures/EfficiencyvsMCTheta.png, id=1027, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/EfficiencyvsMCTheta.png Graphic file (type png)
 
 <use TopAnalysis/figures/EfficiencyvsMCTheta.png>
 Package pdftex.def Info: TopAnalysis/figures/EfficiencyvsMCTheta.png used on in
-put line 259.
+put line 260.
 (pdftex.def)             Requested size: 256.0774pt x 173.65837pt.
 
-<TopAnalysis/figures/RawSPrime.png, id=991, 698.61pt x 473.77pt>
+<TopAnalysis/figures/RawSPrime.png, id=1028, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/RawSPrime.png Graphic file (type png)
 
 <use TopAnalysis/figures/RawSPrime.png>
 Package pdftex.def Info: TopAnalysis/figures/RawSPrime.png used on input line 2
-75.
+76.
 (pdftex.def)             Requested size: 256.0774pt x 173.65837pt.
 
 
-LaTeX Warning: Citation `Krohn:2011tw' on page 51 undefined on input line 280.
+LaTeX Warning: Citation `Krohn:2011tw' on page 54 undefined on input line 281.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51 <./TopAnalysis/figures/EfficiencyvsMCTheta.png> <./TopAnalysis/figures/Raw
-SPrime.png>] <TopAnalysis/figures/dummy.png, id=998, 208.78pt x 243.91125pt>
+ [54 <./TopAnalysis/figures/EfficiencyvsMCTheta.png> <./TopAnalysis/figures/Raw
+SPrime.png>] <TopAnalysis/figures/dummy.png, id=1035, 208.78pt x 243.91125pt>
 File: TopAnalysis/figures/dummy.png Graphic file (type png)
 
 <use TopAnalysis/figures/dummy.png>
-Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 289.
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 290.
 (pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
- [52]
+ [55]
 File: TopAnalysis/figures/dummy.png Graphic file (type png)
  <use TopAnalysis/figures/dummy.png>
-Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 298.
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 299.
 (pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
 File: TopAnalysis/figures/dummy.png Graphic file (type png)
 
 <use TopAnalysis/figures/dummy.png>
-Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 307.
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 308.
 (pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
 File: TopAnalysis/figures/dummy.png Graphic file (type png)
  <use TopAnalysis/figures/dummy.png>
-Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 314.
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 315.
 (pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
 
-[53 <./TopAnalysis/figures/dummy.png>] [54] [55]
+[56 <./TopAnalysis/figures/dummy.png>] [57] [58]
 File: TopAnalysis/figures/dummy.png Graphic file (type png)
 
 <use TopAnalysis/figures/dummy.png>
-Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 325.
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 326.
 (pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
 File: TopAnalysis/figures/dummy.png Graphic file (type png)
  <use TopAnalysis/figures/dummy.png>
-Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 332.
+Package pdftex.def Info: TopAnalysis/figures/dummy.png used on input line 333.
 (pdftex.def)             Requested size: 256.0774pt x 299.20886pt.
 
-<TopAnalysis/figures/btag_crosses.pdf, id=1020, 569.12625pt x 298.11375pt>
+<TopAnalysis/figures/btag_crosses.pdf, id=1057, 569.12625pt x 298.11375pt>
 File: TopAnalysis/figures/btag_crosses.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/btag_crosses.pdf>
 Package pdftex.def Info: TopAnalysis/figures/btag_crosses.pdf used on input lin
-e 350.
+e 351.
 (pdftex.def)             Requested size: 332.90712pt x 174.37991pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
-[57]
-<TopAnalysis/figures/HighestBTag_SigVsBkg.png, id=1032, 698.61pt x 473.77pt>
+ [59]
+[60]
+<TopAnalysis/figures/HighestBTag_SigVsBkg.png, id=1069, 698.61pt x 473.77pt>
 File: TopAnalysis/figures/HighestBTag_SigVsBkg.png Graphic file (type png)
 
 <use TopAnalysis/figures/HighestBTag_SigVsBkg.png>
 Package pdftex.def Info: TopAnalysis/figures/HighestBTag_SigVsBkg.png used on i
-nput line 363.
+nput line 364.
 (pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
 
-<TopAnalysis/figures/NextHighestBTag_SigVsBkg.png, id=1033, 698.61pt x 473.77pt
+<TopAnalysis/figures/NextHighestBTag_SigVsBkg.png, id=1070, 698.61pt x 473.77pt
 >
 File: TopAnalysis/figures/NextHighestBTag_SigVsBkg.png Graphic file (type png)
  <use TopAnalysis/figures/NextHighestBTag_SigVsBkg.png>
 Package pdftex.def Info: TopAnalysis/figures/NextHighestBTag_SigVsBkg.png used 
-on input line 368.
+on input line 369.
 (pdftex.def)             Requested size: 192.05478pt x 130.24016pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58 <./TopAnalysis/figures/btag_crosses.pdf, page is rotated 90 degrees>]
+ [61 <./TopAnalysis/figures/btag_crosses.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59 <./TopAnalysis/figures/HighestBTag_SigVsBkg.png> <./TopAnalysis/figures/Ne
-xtHighestBTag_SigVsBkg.png>]) [60]
+ [62 <./TopAnalysis/figures/HighestBTag_SigVsBkg.png> <./TopAnalysis/figures/Ne
+xtHighestBTag_SigVsBkg.png>]) [63]
 \openout2 = `DECALStudies/decal.aux'.
 
  (./DECALStudies/decal.tex
-Chapter 5.
+Chapter 6.
 
 Underfull \vbox (badness 3701) has occurred while \output is active []
 
- [61
+ [64
 
 
 
 ])
-[62]
+[65]
 \openout2 = `Conclusion/content.aux'.
 
  (./Conclusion/content.tex
-Chapter 6.
-) [63
+Chapter 7.
+) [66
 
-
-
-] [64
 
 
 ] (./thesis.bbl
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [65
+ [67
 
-]) [66]
+
+
+]) [68]
 \openout2 = `appendix.aux'.
 
  (./appendix.texpdfTeX warning (ext4): destination with the same identifier (na
@@ -1511,7 +1537,7 @@ me{chapter.1}) has been already used, duplicate ignored
 l.1 \chapter{FIRST APPENDIX}
                             
 Appendix A.
-) [67
+) [69
 
 
 
@@ -1525,7 +1551,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DFFD3BE701C174A4677685E72FEEF102;3850.
+(rerunfilecheck)             Checksum: 81ADAD9529F0E5A9E0846FB9ABFDF5A8;3981.
 
 
 LaTeX Warning: There were undefined references.
@@ -1536,36 +1562,37 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
- 10634 strings out of 493039
- 159627 string characters out of 6136943
- 262757 words of memory out of 5000000
- 13637 multiletter control sequences out of 15000+600000
+ 10655 strings out of 493039
+ 159935 string characters out of 6136943
+ 262859 words of memory out of 5000000
+ 13650 multiletter control sequences out of 15000+600000
  20110 words of font info for 79 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 42i,13n,45p,3002b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,14n,45p,3002b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmu10.pfb>
-Output written on thesis.pdf (82 pages, 3363919 bytes).
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmu10.pfb>
+Output written on thesis.pdf (84 pages, 3476040 bytes).
 PDF statistics:
- 1241 PDF objects out of 1440 (max. 8388607)
- 1016 compressed objects within 11 object streams
- 245 named destinations out of 1000 (max. 500000)
- 681 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1277 PDF objects out of 1440 (max. 8388607)
+ 1047 compressed objects within 11 object streams
+ 252 named destinations out of 1000 (max. 500000)
+ 702 words of extra memory for PDF output out of 10000 (max. 10000000)
 

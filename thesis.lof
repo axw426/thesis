@@ -9,40 +9,42 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces ECAL Structure}}{17}{figure.caption.32}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces SiD Detector}}{18}{figure.caption.33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Cross Sections For Higgs Production Mechanisms}}{23}{figure.caption.35}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The Higgstrahlung Process}}{23}{figure.caption.36}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Reconstructed recoil mass from Higgsstralung process}}{25}{figure.caption.37}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Particles of the Standard Model}}{23}{figure.caption.35}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Cross Sections For Higgs Production Mechanisms}}{24}{figure.caption.37}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The Higgstrahlung Process}}{25}{figure.caption.38}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Reconstructed recoil mass from Higgsstralung process}}{26}{figure.caption.39}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Higgs Cross Sections}}{30}{figure.caption.38}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Signal Feynmann Diagram}}{30}{figure.caption.39}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Samples Used}}{31}{figure.caption.40}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces B-Tagging Purity vs Efficiency}}{36}{figure.caption.41}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Classifier BDT response}}{36}{figure.caption.42}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Samples Used}}{37}{figure.caption.43}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Semileptonic $t\mathaccentV {bar}016{t}$ decay}}{38}{figure.caption.44}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Charge Tagging Efficiency}}{41}{figure.caption.47}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Angular dependence of lepton finding for particles vs antiparticles\relax }}{41}{figure.caption.48}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Lepton Momentum Vs Angle}}{42}{figure.caption.49}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Lepton efficiency for $ee\rightarrow H\nu \nu ,H \rightarrow WW\rightarrow qql\nu $ }}{43}{figure.caption.50}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Charge Tagging Efficiency After 20GeV Lepton Momentum Cut}}{43}{figure.caption.51}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Separation between W and b jet from top decay}}{43}{figure.caption.52}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Performance of jet finding algorithms}}{45}{figure.caption.53}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Performance of Valencia algorithm for high energy events}}{45}{figure.caption.54}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Comparison of reconstructed top decay angle to truth}}{46}{figure.caption.55}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Reconstructed fat jet mass}}{46}{figure.caption.56}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Reconstructed vs true top decay angles with truth level cuts}}{48}{figure.caption.57}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Reconstructed Cos$\theta $ distribution for various jet association methods}}{49}{figure.caption.59}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Mean and width from fitting $\Delta Cos\theta _{True-Reco}$ to a gaussian}}{50}{figure.caption.60}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Efficiency for reconstructing the hadronically decaying top in the correct Cos$\theta $ bin}}{51}{figure.caption.61}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Expected s' spectrum for $t\mathaccentV {bar}016{t}$ at 1.4\nobreakspace {}TeV}}{51}{figure.caption.62}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Angular energy distribution of initial state photons}}{53}{figure.caption.63}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Reconstructed s' vs true s' for Transverse/Longitudinal Association Method}}{54}{figure.caption.64}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Reconstructed s' vs true s' for mass constraint method}}{55}{figure.caption.65}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Mass of reconstructed top when using mass constraint method}}{55}{figure.caption.66}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Collinearity of $t\mathaccentV {bar}016{t}$ pair}}{56}{figure.caption.67}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Reconstructed s' vs true s' for collinearity method}}{57}{figure.caption.68}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces B-Tagging Purity vs Efficiency}}{58}{figure.caption.69}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces B-Tagging performance}}{59}{figure.caption.70}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Higgs Cross Sections}}{32}{figure.caption.40}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Signal Feynmann Diagram}}{32}{figure.caption.41}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Samples Used}}{33}{figure.caption.42}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces B-Tagging Purity vs Efficiency}}{38}{figure.caption.43}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Classifier BDT response}}{38}{figure.caption.44}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Samples Used}}{39}{figure.caption.45}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Semileptonic $t\mathaccentV {bar}016{t}$ decay}}{40}{figure.caption.46}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Charge Tagging Efficiency}}{43}{figure.caption.49}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Angular dependence of lepton finding for particles vs antiparticles\relax }}{44}{figure.caption.50}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Lepton Momentum Vs Angle}}{45}{figure.caption.51}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Lepton efficiency for $ee\rightarrow H\nu \nu ,H \rightarrow WW\rightarrow qql\nu $ }}{45}{figure.caption.52}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Charge Tagging Efficiency After 20GeV Lepton Momentum Cut}}{46}{figure.caption.53}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Separation between W and b jet from top decay}}{46}{figure.caption.54}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Performance of jet finding algorithms}}{48}{figure.caption.55}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Performance of Valencia algorithm for high energy events}}{48}{figure.caption.56}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of reconstructed top decay angle to truth}}{49}{figure.caption.57}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Reconstructed fat jet mass}}{49}{figure.caption.58}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Reconstructed vs true top decay angles with truth level cuts}}{51}{figure.caption.59}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Reconstructed Cos$\theta $ distribution for various jet association methods}}{52}{figure.caption.61}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Mean and width from fitting $\Delta Cos\theta _{True-Reco}$ to a gaussian}}{53}{figure.caption.62}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Efficiency for reconstructing the hadronically decaying top in the correct Cos$\theta $ bin}}{54}{figure.caption.63}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Expected s' spectrum for $t\mathaccentV {bar}016{t}$ at 1.4\nobreakspace {}TeV}}{54}{figure.caption.64}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Angular energy distribution of initial state photons}}{56}{figure.caption.65}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Reconstructed s' vs true s' for Transverse/Longitudinal Association Method}}{57}{figure.caption.66}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Reconstructed s' vs true s' for mass constraint method}}{58}{figure.caption.67}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Mass of reconstructed top when using mass constraint method}}{58}{figure.caption.68}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Collinearity of $t\mathaccentV {bar}016{t}$ pair}}{59}{figure.caption.69}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Reconstructed s' vs true s' for collinearity method}}{60}{figure.caption.70}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces B-Tagging Purity vs Efficiency}}{61}{figure.caption.71}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces B-Tagging performance}}{62}{figure.caption.72}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

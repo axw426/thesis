@@ -19,40 +19,42 @@
 \contentsline {subsection}{\numberline {2.4.2}Pandora Particle Flow Algorithm}{19}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Marlin}{20}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Theory}{22}{chapter.3}
-\contentsline {section}{\numberline {3.1}Higgs Physics}{22}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Higgsstrahlung}{24}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Model Independent Extraction of Higgs Couplings}{24}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Top Quark Physics}{27}{section.3.2}
-\contentsline {chapter}{\numberline {4}Higgs Analysis}{28}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Event Reconstruction}{30}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Lepton Identification}{31}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Jet Finding}{32}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Flavour Tagging}{33}{section.4.3}
-\contentsline {section}{\numberline {4.4}Event Selection}{33}{section.4.4}
-\contentsline {section}{\numberline {4.5}Conclusion}{35}{section.4.5}
-\contentsline {section}{\numberline {4.6}Introduction}{38}{section.4.6}
-\contentsline {section}{\numberline {4.7}Event Reconstruction}{39}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Lepton Finding}{39}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Fat Jet Finding}{42}{subsection.4.7.2}
-\contentsline {subsubsection}{\numberline {4.7.2.1}Jet Association}{46}{subsubsection.4.7.2.1}
-\contentsline {subsection}{\numberline {4.7.3}S' Reconstruction}{52}{subsection.4.7.3}
-\contentsline {subsubsection}{\numberline {4.7.3.1}Transverse/Longitudinal Association}{52}{subsubsection.4.7.3.1}
-\contentsline {subsubsection}{\numberline {4.7.3.2}Analytic Mass Constraint}{53}{subsubsection.4.7.3.2}
-\contentsline {subsubsection}{\numberline {4.7.3.3}Collinearity}{57}{subsubsection.4.7.3.3}
-\contentsline {subsubsection}{\numberline {4.7.3.4}Kinematic Fitting}{57}{subsubsection.4.7.3.4}
-\contentsline {subsection}{\numberline {4.7.4}Flavour Tagging}{57}{subsection.4.7.4}
-\contentsline {section}{\numberline {4.8}Calculating AFB}{59}{section.4.8}
-\contentsline {section}{\numberline {4.9}Event Selection}{59}{section.4.9}
-\contentsline {subsection}{\numberline {4.9.1}NSubjettiness}{60}{subsection.4.9.1}
-\contentsline {subsection}{\numberline {4.9.2}Subjet Angular Distributions}{60}{subsection.4.9.2}
-\contentsline {subsection}{\numberline {4.9.3}Jet Multiplicity}{60}{subsection.4.9.3}
-\contentsline {section}{\numberline {4.10}Quality Cuts}{60}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Differential Measurement}{60}{subsection.4.10.1}
-\contentsline {section}{\numberline {4.11}Conclusions}{60}{section.4.11}
-\contentsline {chapter}{\numberline {5}DECALStudies}{61}{chapter.5}
-\contentsline {section}{\numberline {5.1}DigiMAPs}{61}{section.5.1}
-\contentsline {section}{\numberline {5.2}Design Optimization}{62}{section.5.2}
-\contentsline {section}{\numberline {5.3}Hardware studies}{62}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusion}{63}{chapter.6}
-\contentsline {chapter}{\numberline {A}FIRST APPENDIX}{67}{chapter.1}
+\contentsline {section}{\numberline {3.1}The Standard Model}{22}{section.3.1}
+\contentsline {section}{\numberline {3.2}Higgs Physics and the Origin of Mass}{24}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Higgsstrahlung}{25}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Model Independent Extraction of Higgs Couplings}{26}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Top Quark Physics}{29}{section.3.3}
+\contentsline {chapter}{\numberline {4}Higgs Analysis}{30}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Event Reconstruction}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Lepton Identification}{33}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Jet Finding}{34}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Flavour Tagging}{35}{section.4.3}
+\contentsline {section}{\numberline {4.4}Event Selection}{35}{section.4.4}
+\contentsline {section}{\numberline {4.5}Conclusion}{37}{section.4.5}
+\contentsline {chapter}{\numberline {5}Top Physics}{40}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{40}{section.5.1}
+\contentsline {section}{\numberline {5.2}Event Reconstruction}{42}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Lepton Finding}{42}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Fat Jet Finding}{45}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Jet Association}{49}{subsubsection.5.2.2.1}
+\contentsline {subsection}{\numberline {5.2.3}S' Reconstruction}{55}{subsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.3.1}Transverse/Longitudinal Association}{55}{subsubsection.5.2.3.1}
+\contentsline {subsubsection}{\numberline {5.2.3.2}Analytic Mass Constraint}{56}{subsubsection.5.2.3.2}
+\contentsline {subsubsection}{\numberline {5.2.3.3}Collinearity}{60}{subsubsection.5.2.3.3}
+\contentsline {subsubsection}{\numberline {5.2.3.4}Kinematic Fitting}{60}{subsubsection.5.2.3.4}
+\contentsline {subsection}{\numberline {5.2.4}Flavour Tagging}{60}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Calculating AFB}{62}{section.5.3}
+\contentsline {section}{\numberline {5.4}Event Selection}{62}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}NSubjettiness}{63}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Subjet Angular Distributions}{63}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Jet Multiplicity}{63}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Quality Cuts}{63}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Differential Measurement}{63}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}Conclusions}{63}{section.5.6}
+\contentsline {chapter}{\numberline {6}DECALStudies}{64}{chapter.6}
+\contentsline {section}{\numberline {6.1}DigiMAPs}{64}{section.6.1}
+\contentsline {section}{\numberline {6.2}Design Optimization}{65}{section.6.2}
+\contentsline {section}{\numberline {6.3}Hardware studies}{65}{section.6.3}
+\contentsline {chapter}{\numberline {7}Conclusion}{66}{chapter.7}
+\contentsline {chapter}{\numberline {A}FIRST APPENDIX}{69}{chapter.1}
