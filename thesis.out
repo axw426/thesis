@@ -20,41 +20,42 @@
 \BOOKMARK [2][-]{subsection.2.4.3}{Marlin}{section.2.4}% 20
 \BOOKMARK [0][-]{chapter.3}{Theory}{}% 21
 \BOOKMARK [1][-]{section.3.1}{The Standard Model}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.2}{Higgs Physics and the Origin of Mass}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.2.1}{Higgsstrahlung}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.2}{Model Independent Extraction of Higgs Couplings}{section.3.2}% 25
-\BOOKMARK [1][-]{section.3.3}{Top Quark Physics}{chapter.3}% 26
-\BOOKMARK [0][-]{chapter.4}{Higgs Analysis}{}% 27
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.2}{Event Reconstruction}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.2.1}{Lepton Identification}{section.4.2}% 30
-\BOOKMARK [2][-]{subsection.4.2.2}{Jet Finding}{section.4.2}% 31
-\BOOKMARK [1][-]{section.4.3}{Flavour Tagging}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.4}{Event Selection}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 34
-\BOOKMARK [0][-]{chapter.5}{Top Physics}{}% 35
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.2}{Event Reconstruction}{chapter.5}% 37
-\BOOKMARK [2][-]{subsection.5.2.1}{Lepton Finding}{section.5.2}% 38
-\BOOKMARK [2][-]{subsection.5.2.2}{Fat Jet Finding}{section.5.2}% 39
-\BOOKMARK [3][-]{subsubsection.5.2.2.1}{Jet Association}{subsection.5.2.2}% 40
-\BOOKMARK [2][-]{subsection.5.2.3}{S' Reconstruction}{section.5.2}% 41
-\BOOKMARK [3][-]{subsubsection.5.2.3.1}{Transverse/Longitudinal Association}{subsection.5.2.3}% 42
-\BOOKMARK [3][-]{subsubsection.5.2.3.2}{Analytic Mass Constraint}{subsection.5.2.3}% 43
-\BOOKMARK [3][-]{subsubsection.5.2.3.3}{Collinearity}{subsection.5.2.3}% 44
-\BOOKMARK [3][-]{subsubsection.5.2.3.4}{Kinematic Fitting}{subsection.5.2.3}% 45
-\BOOKMARK [2][-]{subsection.5.2.4}{Flavour Tagging}{section.5.2}% 46
-\BOOKMARK [1][-]{section.5.3}{Calculating AFB}{chapter.5}% 47
-\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 48
-\BOOKMARK [2][-]{subsection.5.4.1}{NSubjettiness}{section.5.4}% 49
-\BOOKMARK [2][-]{subsection.5.4.2}{Subjet Angular Distributions}{section.5.4}% 50
-\BOOKMARK [2][-]{subsection.5.4.3}{Jet Multiplicity}{section.5.4}% 51
-\BOOKMARK [1][-]{section.5.5}{Quality Cuts}{chapter.5}% 52
-\BOOKMARK [2][-]{subsection.5.5.1}{Differential Measurement}{section.5.5}% 53
-\BOOKMARK [1][-]{section.5.6}{Conclusions}{chapter.5}% 54
-\BOOKMARK [0][-]{chapter.6}{DECALStudies}{}% 55
-\BOOKMARK [1][-]{section.6.1}{DigiMAPs}{chapter.6}% 56
-\BOOKMARK [1][-]{section.6.2}{Design Optimization}{chapter.6}% 57
-\BOOKMARK [1][-]{section.6.3}{Hardware studies}{chapter.6}% 58
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 59
-\BOOKMARK [0][-]{chapter.1}{FIRST APPENDIX}{}% 60
+\BOOKMARK [1][-]{section.3.2}{The Higgs Boson and the Origin of Mass}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.3}{Higgs Measurements at CLIC}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.1}{Higgsstrahlung}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.2}{Model Independent Extraction of Higgs Couplings}{section.3.3}% 26
+\BOOKMARK [1][-]{section.3.4}{Top Quark Physics}{chapter.3}% 27
+\BOOKMARK [0][-]{chapter.4}{Higgs Analysis}{}% 28
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.2}{Event Reconstruction}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.2.1}{Lepton Identification}{section.4.2}% 31
+\BOOKMARK [2][-]{subsection.4.2.2}{Jet Finding}{section.4.2}% 32
+\BOOKMARK [1][-]{section.4.3}{Flavour Tagging}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.4}{Event Selection}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 35
+\BOOKMARK [0][-]{chapter.5}{Top Physics}{}% 36
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.2}{Event Reconstruction}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.2.1}{Lepton Finding}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.2}{Fat Jet Finding}{section.5.2}% 40
+\BOOKMARK [3][-]{subsubsection.5.2.2.1}{Jet Association}{subsection.5.2.2}% 41
+\BOOKMARK [2][-]{subsection.5.2.3}{S' Reconstruction}{section.5.2}% 42
+\BOOKMARK [3][-]{subsubsection.5.2.3.1}{Transverse/Longitudinal Association}{subsection.5.2.3}% 43
+\BOOKMARK [3][-]{subsubsection.5.2.3.2}{Analytic Mass Constraint}{subsection.5.2.3}% 44
+\BOOKMARK [3][-]{subsubsection.5.2.3.3}{Collinearity}{subsection.5.2.3}% 45
+\BOOKMARK [3][-]{subsubsection.5.2.3.4}{Kinematic Fitting}{subsection.5.2.3}% 46
+\BOOKMARK [2][-]{subsection.5.2.4}{Flavour Tagging}{section.5.2}% 47
+\BOOKMARK [1][-]{section.5.3}{Calculating AFB}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 49
+\BOOKMARK [2][-]{subsection.5.4.1}{NSubjettiness}{section.5.4}% 50
+\BOOKMARK [2][-]{subsection.5.4.2}{Subjet Angular Distributions}{section.5.4}% 51
+\BOOKMARK [2][-]{subsection.5.4.3}{Jet Multiplicity}{section.5.4}% 52
+\BOOKMARK [1][-]{section.5.5}{Quality Cuts}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.5.1}{Differential Measurement}{section.5.5}% 54
+\BOOKMARK [1][-]{section.5.6}{Conclusions}{chapter.5}% 55
+\BOOKMARK [0][-]{chapter.6}{DECALStudies}{}% 56
+\BOOKMARK [1][-]{section.6.1}{DigiMAPs}{chapter.6}% 57
+\BOOKMARK [1][-]{section.6.2}{Design Optimization}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.3}{Hardware studies}{chapter.6}% 59
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 60
+\BOOKMARK [0][-]{chapter.1}{FIRST APPENDIX}{}% 61
