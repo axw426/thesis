@@ -1,55 +1,21 @@
 \begin{thebibliography}{10}
 
-\bibitem{Dawson:2013bba}
-S.~Dawson {\em et~al.}, ``{Working Group Report: Higgs Boson},'' in {\em
-  {Proceedings, 2013 Community Summer Study on the Future of U.S. Particle
-  Physics: Snowmass on the Mississippi (CSS2013): Minneapolis, MN, USA, July
-  29-August 6, 2013}}, 2013.
+\bibitem{wiki:xxx}
+W.~contributors, ``Standard model --- wikipedia{,} the free encyclopedia,''
+  2018.
+\newblock [Online; accessed 8-February-2018].
 
-\bibitem{:2012gk}
-G.~Aad {\em et~al.}, ``{Observation of a new particle in the search for the
-  Standard Model Higgs boson with the ATLAS detector at the LHC},'' {\em Phys.
-  Lett. B}, 2012.
+\bibitem{Szleper:2014xxa}
+M.~Szleper, ``{The Higgs boson and the physics of $WW$ scattering before and
+  after Higgs discovery},'' 2014.
 
-\bibitem{Chatrchyan:2012xdj}
-S.~Chatrchyan {\em et~al.}, ``{Observation of a new boson at a mass of 125 GeV
-  with the CMS experiment at the LHC},'' {\em Phys. Lett.}, vol.~B716,
-  pp.~30--61, 2012.
+\bibitem{PhysRevLett.13.508}
+P.~W. Higgs, ``Broken symmetries and the masses of gauge bosons,'' {\em Phys.
+  Rev. Lett.}, vol.~13, pp.~508--509, Oct 1964.
 
-\bibitem{Lipton:2012du}
-R.~Lipton, ``{Muon Collider: Plans, Progress and Challenges},'' in {\em
-  {Particles and fields. Proceedings, Meeting of the Division of the American
-  Physical Society, DPF 2011, Providence, USA, August 9-13, 2011}}, 2012.
-
-\bibitem{Koratzinos:2014cla}
-M.~Koratzinos, ``{FCC-ee accelerator parameters, performance and
-  limitations},'' in {\em {International Conference on High Energy Physics 2014
-  (ICHEP 2014) Valencia, Spain, July 2-9, 2014}}, 2014.
-
-\bibitem{ILCTDR}
-T.~Behnke, J.~E. Brau, B.~Foster, J.~Fuster, M.~Harrison, J.~M. Paterson,
-  M.~Peskin, M.~Stanitzki, N.~Walker, and H.~Yamamoto, ``{The International
-  Linear Collider Technical Design Report - Volume 1: Executive Summary},''
-  {\em arXiv:1306.6327 [physics.acc-ph]}, 2013.
-
-\bibitem{CDR}
-P.~{Lebrun}, L.~{Linssen}, A.~{Lucaci-Timoce}, D.~{Schulte}, F.~{Simon},
-  S.~{Stapnes}, N.~{Toge}, H.~{Weerts}, and J.~{Wells}, ``{The CLIC Programme:
-  Towards a Staged e+e- Linear Collider Exploring the Terascale : CLIC
-  Conceptual Design Report},'' {\em arXiv:1209.2543 [physics.ins-det]}, Sept.
-  2012.
-
-\bibitem{ILD}
-T.~Abe {\em et~al.}, ``{The International Large Detector: Letter of Intent},''
-  2010.
-
-\bibitem{2011JInst...6.5009B}
-J.~A. {Ballin}, R.~{Coath}, J.~P. {Crooks}, P.~D. {Dauncey}, A.-M. {Magnan},
-  Y.~{Mikami}, O.~D. {Miller}, M.~{Noy}, V.~{Rajovic}, M.~{Stanitzki}, K.~D.
-  {Stefanov}, R.~{Turchetta}, M.~{Tyndel}, E.~G. {Villani}, N.~K. {Watson},
-  J.~A. {Wilson}, and Z.~{Zhang}, ``{Design and performance of a CMOS study
-  sensor for a binary readout electromagnetic calorimeter},'' {\em Journal of
-  Instrumentation}, vol.~6, p.~5009, May 2011.
+\bibitem{PhysRevLett.13.321}
+F.~Englert and R.~Brout, ``Broken symmetry and the mass of gauge vector
+  mesons,'' {\em Phys. Rev. Lett.}, vol.~13, pp.~321--323, Aug 1964.
 
 \bibitem{Abramowicz:2016zbo}
 H.~Abramowicz {\em et~al.}, ``{Higgs physics at the CLIC electron–positron
@@ -61,52 +27,39 @@ C.~Durig, K.~Fujii, J.~List, and J.~Tian, ``{Model Independent Determination of
   Workshop on Future Linear Colliders (LCWS13) Tokyo, Japan, November 11-15,
   2013}}, 2014.
 
+\bibitem{ATLAS-CONF-2015-044}
+``{Measurements of the Higgs boson production and decay rates and constraints
+  on its couplings from a combined ATLAS and CMS analysis of the LHC pp
+  collision data at $\sqrt{s}$ = 7 and 8 TeV},'' Tech. Rep.
+  ATLAS-CONF-2015-044, CERN, Geneva, Sep 2015.
+
 \bibitem{CMS:2013xfa}
 ``{Projected Performance of an Upgraded CMS Detector at the LHC and HL-LHC:
   Contribution to the Snowmass Process},'' in {\em {Proceedings, 2013 Community
   Summer Study on the Future of U.S. Particle Physics: Snowmass on the
   Mississippi (CSS2013): Minneapolis, MN, USA, July 29-August 6, 2013}}, 2013.
 
-\bibitem{Simon:2014aqa}
-F.~Simon, ``{Higgs Physics at future Linear Colliders - A Case for precise
-  Vertexing},'' {\em PoS}, vol.~Vertex2013, p.~019, 2014.
+\bibitem{Dawson:2013bba}
+S.~Dawson {\em et~al.}, ``{Working Group Report: Higgs Boson},'' in {\em
+  {Proceedings, 2013 Community Summer Study on the Future of U.S. Particle
+  Physics: Snowmass on the Mississippi (CSS2013): Minneapolis, MN, USA, July
+  29-August 6, 2013}}, 2013.
 
-\bibitem{bib-prodids}
-``Monte carlo samples for clic higgs studies.''
+\bibitem{Langacker:2008yv}
+P.~Langacker, ``{The Physics of Heavy $Z^\prime$ Gauge Bosons},'' {\em Rev.
+  Mod. Phys.}, vol.~81, pp.~1199--1228, 2009.
 
-\bibitem{Schulte:382453}
-D.~Schulte, ``{Beam-Beam Simulations with GUINEA-PIG},'' Mar 1999.
+\bibitem{Amjad:2015mma}
+M.~S. Amjad {\em et~al.}, ``{A precise characterisation of the top quark
+  electro-weak vertices at the ILC},'' {\em Eur. Phys. J.}, vol.~C75, no.~10,
+  p.~512, 2015.
 
-\bibitem{Thomson200925}
-M.~Thomson, ``Particle flow calorimetry and the pandorapfa algorithm,'' {\em
-  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment}, vol.~611, no.~1, pp.~25
-  -- 40, 2009.
+\bibitem{Schmidt:1995mr}
+C.~R. Schmidt, ``{Top quark production and decay at next-to-leading order in e+
+  e- annihilation},'' {\em Phys. Rev.}, vol.~D54, pp.~3250--3265, 1996.
 
-\bibitem{Cacciari:2011ma}
-M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{FastJet User Manual},'' {\em Eur.
-  Phys. J.}, vol.~C72, p.~1896, 2012.
-
-\bibitem{Suehara:2015ura}
-T.~Suehara and T.~Tanabe, ``{LCFIPlus: A Framework for Jet Analysis in Linear
-  Collider Studies},'' {\em Nucl. Instrum. Meth.}, vol.~A808, pp.~109--116,
-  2016.
-
-\bibitem{2007physics...3039H}
-A.~{Hoecker}, P.~{Speckmayer}, J.~{Stelzer}, J.~{Therhaag}, E.~{von Toerne},
-  H.~{Voss}, M.~{Backes}, T.~{Carli}, O.~{Cohen}, A.~{Christov}, D.~{Dannheim},
-  K.~{Danielowski}, S.~{Henrot-Versille}, M.~{Jachowski}, K.~{Kraszewski},
-  A.~{Krasznahorkay}, Jr., M.~{Kruk}, Y.~{Mahalalel}, R.~{Ospanov},
-  X.~{Prudent}, A.~{Robert}, D.~{Schouten}, F.~{Tegenfeldt}, A.~{Voigt},
-  K.~{Voss}, M.~{Wolter}, and A.~{Zemla}, ``{TMVA - Toolkit for Multivariate
-  Data Analysis},'' {\em ArXiv Physics e-prints}, Mar. 2007.
-
-\bibitem{TauFinder}
-A.~Muennich, ``{TauFinder: A Reconstruction Algorithm for Tau Leptons at Linear
-  Colliders},'' Oct 2010.
-
-\bibitem{Agashe:2014kda}
-K.~A. Olive {\em et~al.}, ``{Review of Particle Physics},'' {\em Chin. Phys.},
-  vol.~C38, p.~090001, 2014.
+\bibitem{CLIC:2016zwp}
+M.~J. Boland {\em et~al.}, ``{Updated baseline for a staged Compact Linear
+  Collider},'' 2016.
 
 \end{thebibliography}
