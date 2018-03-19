@@ -1,0 +1,65 @@
+\chapter{Experiments}
+
+%Leave description of DECAL concept to DECAL chapter but mention it as one of the ECAL alternatives here
+
+Here we provide details of the two leading designs for future electron positron colliders, \ac{CLIC} and \ac{ILC}. Both of these projects have been under development for over twenty years though \ac{ILC} is the more mature of the two, publishing it's \ac{TDR} in YEAR AND CITE. 
+
+There are many possible designs for future lepton colliders \cite{Lipton:2012du,Koratzinos:2014cla} however here we focus on the two most developed projects, \ac{CLIC} and \ac{ILC}. Both projects are linear colliders which propose using electron-positron collisions and were founded over twenty years ago, though \ac{ILC} is currently the more mature design of the two. We will also discuss the detectors proposed for both experiments. \ac{ILC} currently has two detector concepts being developed, \ac{ILD} and \ac{SiD}, which will be operated in a 'push-pull' scheme in which both detectors are placed on a single platform that is periodically moved to alternate which detector is placed in the path of the beams. This is necessary as there is only one interaction point at a linear collider. Having two detectors has the advantage that any results made with one detector can be verified with the second to help reduce any systematic bias from either machine, however it comes with the penalty that each detector will only be able to take data half of the time and the process of moving the detectors in and out is lengthy ($\sim$ 3-4 days) resulting in reduced time for data taking for the experiment. \ac{CLIC} intends to operate with only one detector, a variation of the \ac{ILD} developed for \ac{ILC}, adapted for the different beam conditions present at CLIC. 
+
+\section{CLIC}
+AGAIN CHECK ALL NUMBERS!!!!
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.75\textwidth,height=10cm,keepaspectratio]{Experiments/fig/clic}
+  \caption[The CLIC Experiment]{The CLIC Collider. Image taken from CLIC Conceptual Desgin Report\cite{CDR}}
+  \label{Fig:CLIC}
+\end{figure}
+\ac{CLIC} is a planned experiment based at CERN which proposes the building of a 42km accelerator at the main CERN site in Geneva (\reffig{Fig:CLIC}.) Despite being named as “compact”, \ac{CLIC} is actually longer than the initial 500GeV \ac{ILC}. The reason for this naming is that \ac{CLIC} has a much higher accelerating gradient (100MeV/m) compared to ILC and so provides a much higher energy per length. The expected build date for \ac{CLIC} is still relatively uncertain though is likely to be no earlier than 2030 as the accelerating technology required for \ac{CLIC} is less developed than for \ac{ILC}. This difference in the maturity of the two experiments can be seen from the fact that the \ac{ILC} has released its \ac{TDR} while the most comprehensive document for the CLIC project is still its \ac{CDR} \cite{CDR}. Updates on this document have been provided in the New Baseline Report \cite{UpdatedCLICBaseline} released  in (NUMBER YEAR) and any details specified here can be assumed to come from these two documents. 
+
+Overall the design for \ac{CLIC} is relatively similar in layout to the \ac{ILC} but with a few changes. Positron production at \ac{CLIC} is done completely independently from the main electron beam, though they are still produced via the same mechanism as before. The \ac{BDS} still compresses the beam to give it a small cross-section but the beam is no longer shaped into a ribbon shape- this is why photon radiation is a more significant problem at \ac{CLIC}. The collision rate at \ac{CLIC} is significantly higher as it aims to be a high luminosity device- the collision rate will be 50Hz with 354 bunches per pulse with a separation of just 0.5ns. This means that CLIC will have a significantly higher duty cycle which will make cooling of the detectors harder and will give the detectors less time to relax after events. The most significant differences however are the energy staging and the acceleration technology used at \ac{CLIC}.
+
+\subsection{Energy Staging}
+UPDATE STAGING!!
+
+CLIC will operate at three energy stages- 380GeV, 1.5TeV and 3TeV collecting 500${fb^{-1}}$, 1.5${ab^{-1}}$ and 2${ab^{-1}}$ of data respectively. During the running of the 380~GeV energy stage, construction of the 1.5~TeV structure will be carried out (and so on for the 1.5TeV and 3TeV scales) so as to reduce the waiting time between successive energy stages. 
+
+The 380GeV energy scale is chosen as it is above the \ttbar production threshold and provides a significant cross section for many channels involving the top quark. This is stage is also supplemented by a series of 10 measurements around the \ttbar threshold taking 10${fb^{-1}}$ each with the aim of measuring the top mass and width from the line shape of the \ttbar production cross section at threshold. The 380~GeV stage will also be used to provide measurements of the higgs boson similar to those performed at \ac{ILC} during it's two lower energy stages.
+
+The 1.4TeV energy stage provides the ability to further study the top and higgs in more detail with several new channels becoming significant e.g top yukawaw coupling, higgs self coupling while the 3~TeV stage pushes the energy frontier allowing the possibility of direct detection of new physics at the multi-TeV scale. The choice of 3~TeV is based upon certain models of supersymmetry which predict new particles to exist at this energy (see \ref{SuperSym}.)
+
+For clarification it should be stated that for many years the proposed scheme for CLIC was actually to operate at 350~GeV, 1.4~TeV and 3~TeV. As such, many of the studies performed by CLIC still quote these numbers in cases where the result is expected to be unchanged when switiching to the new baseline. The main justifications for the new baseline is to improve prospects for certain top quark studies performed in the low energy stage.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.75\textwidth,height=10cm,keepaspectratio]{Experiments/fig/clicSS}
+  \caption[Cross Sections For Super Symmetric Processes]{Cross sections for production of various super symmetric particles at an ${e^+e^-}$ collider as a function of centre of mass energy.}
+  \label{Fig:SuperSym}
+\end{figure}
+
+\subsection{Acceleration Technology}
+Unlike \ac{ILC}, the acceleration technology will not be superconducting and will use two beams of electrons-- referred to as the main beam and the drive beam-- rather than just one main accelerated beam. The drive beam is accelerated using standard accelerating technology (Klystrons) as in \ac{ILC} to accelerate bunches of electrons to 2.75GeV. These bunches then enter a series of delay/control rings which are designed such that the electrons within them get combined with the new electrons being added from the drive beam accelerator to build up a large number of low energy electrons which combined carry a large amount of energy. The energy from this beam is then used to drive the main beam. This is done by rapidly decelerating the drive beam electrons down to 10\% of their initial energy and using the lost energy (emitted as photons) to accelerate the smaller number of electrons in the main beam resulting in a sudden rapid acceleration. The main beam is then used for the collisions. Overall the result is that the machine is simply converting a high current, low energy beam of electrons into a low current, high energy beam. This approach allows for very high accelerating gradients but has the disadvantage that in approximately 1\% of events the sudden input of energy from the drive beam can cause electrical breakdowns in the main accelerator, which disrupt the alignment and structure of the main beam.
+
+
+\section{Detectors}
+The \ac{ILC} has been designed with the intention that it will have two unique detectors so that results can be validated by cross-checking between the two detectors. However, because \ac{ILC} is a linear collider it is only feasible to have one interaction point and as a result the beam time will have to be shared between the detectors. This will be done using a 'push-pull' design in which both detectors are placed on a single platform at the interaction point which can be moved back and forth to position the desired detector in the path of the beams. While having two detectors is certainly desirable as it allows us to get two independent sets of results for the collider and allows us to still take results when one of the detectors requires maintenance, it also has disadvantages as it means an increase in the dead time of the machine (as swapping the detectors is a slow process taking several days which will be done multiple times a year) and an increase in the cost of the experiment. As a result the possibility of using only one detector is still being considered as a potential option. The possibility of splitting the main beam and having two IPs is also being proposed so that both detectors could be used simultaneously however this would be expensive as extra tunnels would have to be built to accomodate this and there would also be a reduction in the beam quality as splitting the beam would produce synchotron radiation.
+\subsection{ILD}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.95\textwidth,keepaspectratio]{Experiments/fig/ILD}
+  \caption[ILD Detector]{The International Large Detector Concept (left). Schematic of the ILD showing the key components in a one-quarter view of a vertical section of the detector (right). \cite{ILCTDR}}
+  \label{Fig:ILD}
+\end{figure}
+The ILD (shown in \reffig{Fig:ILD}) is a general purpose detector which is cylindrical in design with radius 8m and length 14m. The different sub-detectors are arranged in a concentric manner in the main barrel of the detector, and are positioned with the vertexing technology closest to the beamline, followed by trackers, then electromagnetic and hadronic calorimeters, then the magnetic field coils and finally muon tail catchers. The detector has two endcaps at each end of the barrel creating a hermetic seal. Because many of the physics processes at \ac{ILC} involve Z and W bosons, one of the main performance requirements is the ability to distinguish between the two particles which means achieving a 3-4\% uncertainty in the energy of 100GeV jets and a ${\delta p}$/${p^2}$ (where $p$ is the momentum of a charged particle) of ${5\times10^{-5} (GeV/c)^{-1}}$. All specifications for the detector can be found in the \ac{ILD} Letter of Intent \cite{ILD}. Here we will give a brief overview of the key components and their functions.
+
+\subsubsection{Vertexing}
+
+\subsubsection{Tracking}
+
+\subsubsection{Calorimetry}
+
+
+\subsubsection{Muon Detection}
+
+
+

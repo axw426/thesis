@@ -1,61 +1,60 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Experiments}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}ILC}{6}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Energy Staging}{6}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Energy Staging}{7}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Beam Production, Acceleration and Focusing}{8}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Positron Production}{9}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}CLIC}{10}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Energy Staging}{11}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Acceleration Technology}{12}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Detectors}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}ILD}{14}{subsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.1.1}Vertexing}{14}{subsubsection.2.3.1.1}
-\contentsline {subsubsection}{\numberline {2.3.1.2}Tracking}{15}{subsubsection.2.3.1.2}
-\contentsline {subsubsection}{\numberline {2.3.1.3}Calorimetry}{16}{subsubsection.2.3.1.3}
-\contentsline {subsubsection}{\numberline {2.3.1.4}Muon Detection}{17}{subsubsection.2.3.1.4}
-\contentsline {subsection}{\numberline {2.3.2}SiD}{18}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Linear Collider Analysis Framework}{18}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Mokka}{19}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Pandora Particle Flow Algorithm}{19}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Marlin}{20}{subsection.2.4.3}
-\contentsline {chapter}{\numberline {3}Theory}{22}{chapter.3}
-\contentsline {section}{\numberline {3.1}The Standard Model}{22}{section.3.1}
-\contentsline {section}{\numberline {3.2}The Higgs Boson and the Origin of Mass}{26}{section.3.2}
-\contentsline {section}{\numberline {3.3}Higgs Measurements at CLIC}{28}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Higgsstrahlung}{29}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Model Independent Extraction of Higgs Couplings}{30}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Top Quark Physics}{35}{section.3.4}
-\contentsline {chapter}{\numberline {4}Higgs Analysis}{39}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{40}{section.4.1}
-\contentsline {section}{\numberline {4.2}Event Reconstruction}{41}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Lepton Identification}{42}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Jet Finding}{43}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Flavour Tagging}{44}{section.4.3}
-\contentsline {section}{\numberline {4.4}Event Selection}{44}{section.4.4}
-\contentsline {section}{\numberline {4.5}Conclusion}{46}{section.4.5}
-\contentsline {chapter}{\numberline {5}Top Physics}{49}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{49}{section.5.1}
-\contentsline {section}{\numberline {5.2}Event Reconstruction}{51}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Lepton Finding}{51}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Fat Jet Finding}{54}{subsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.1}Jet Association}{58}{subsubsection.5.2.2.1}
-\contentsline {subsection}{\numberline {5.2.3}S' Reconstruction}{64}{subsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.3.1}Transverse/Longitudinal Association}{64}{subsubsection.5.2.3.1}
-\contentsline {subsubsection}{\numberline {5.2.3.2}Analytic Mass Constraint}{65}{subsubsection.5.2.3.2}
-\contentsline {subsubsection}{\numberline {5.2.3.3}Collinearity}{69}{subsubsection.5.2.3.3}
-\contentsline {subsubsection}{\numberline {5.2.3.4}Kinematic Fitting}{69}{subsubsection.5.2.3.4}
-\contentsline {subsection}{\numberline {5.2.4}Flavour Tagging}{69}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Calculating AFB}{71}{section.5.3}
-\contentsline {section}{\numberline {5.4}Event Selection}{71}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}NSubjettiness}{72}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Subjet Angular Distributions}{72}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Jet Multiplicity}{72}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Quality Cuts}{72}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Differential Measurement}{72}{subsection.5.5.1}
-\contentsline {section}{\numberline {5.6}Conclusions}{72}{section.5.6}
-\contentsline {chapter}{\numberline {6}DECALStudies}{73}{chapter.6}
-\contentsline {section}{\numberline {6.1}DigiMAPs}{73}{section.6.1}
-\contentsline {section}{\numberline {6.2}Design Optimization}{74}{section.6.2}
-\contentsline {section}{\numberline {6.3}Hardware studies}{74}{section.6.3}
-\contentsline {chapter}{\numberline {7}Conclusion}{75}{chapter.7}
-\contentsline {chapter}{\numberline {A}FIRST APPENDIX}{81}{chapter.1}
+\contentsline {subsection}{\numberline {2.2.1}Energy Staging}{12}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Acceleration Technology}{13}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Detectors}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}ILD}{15}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Vertexing}{16}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Tracking}{18}{subsubsection.2.3.1.2}
+\contentsline {subsubsection}{\numberline {2.3.1.3}Calorimetry}{19}{subsubsection.2.3.1.3}
+\contentsline {subsubsection}{\numberline {2.3.1.4}Muon Detection}{20}{subsubsection.2.3.1.4}
+\contentsline {subsection}{\numberline {2.3.2}SiD}{21}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Linear Collider Analysis Framework}{22}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Mokka}{22}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Pandora Particle Flow Algorithm}{23}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Marlin}{23}{subsection.2.4.3}
+\contentsline {chapter}{\numberline {3}Theory}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Standard Model}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}The Higgs Boson and the Origin of Mass}{29}{section.3.2}
+\contentsline {section}{\numberline {3.3}Higgs Measurements at CLIC}{30}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Higgsstrahlung}{31}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Model Independent Extraction of Higgs Couplings}{32}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Top Quark Physics}{38}{section.3.4}
+\contentsline {chapter}{\numberline {4}Higgs Analysis}{42}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{43}{section.4.1}
+\contentsline {section}{\numberline {4.2}Event Reconstruction}{44}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Lepton Identification}{45}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Jet Finding}{46}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Flavour Tagging}{47}{section.4.3}
+\contentsline {section}{\numberline {4.4}Event Selection}{47}{section.4.4}
+\contentsline {section}{\numberline {4.5}Conclusion}{49}{section.4.5}
+\contentsline {chapter}{\numberline {5}Top Physics}{52}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{52}{section.5.1}
+\contentsline {section}{\numberline {5.2}Event Reconstruction}{54}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Lepton Finding}{54}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Fat Jet Finding}{57}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Jet Association}{61}{subsubsection.5.2.2.1}
+\contentsline {subsection}{\numberline {5.2.3}S' Reconstruction}{67}{subsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.3.1}Transverse/Longitudinal Association}{67}{subsubsection.5.2.3.1}
+\contentsline {subsubsection}{\numberline {5.2.3.2}Analytic Mass Constraint}{68}{subsubsection.5.2.3.2}
+\contentsline {subsubsection}{\numberline {5.2.3.3}Collinearity}{72}{subsubsection.5.2.3.3}
+\contentsline {subsubsection}{\numberline {5.2.3.4}Kinematic Fitting}{72}{subsubsection.5.2.3.4}
+\contentsline {subsection}{\numberline {5.2.4}Flavour Tagging}{72}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Calculating AFB}{74}{section.5.3}
+\contentsline {section}{\numberline {5.4}Event Selection}{74}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}NSubjettiness}{75}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Subjet Angular Distributions}{75}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Jet Multiplicity}{75}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Quality Cuts}{75}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Differential Measurement}{75}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}Conclusions}{75}{section.5.6}
+\contentsline {chapter}{\numberline {6}DECALStudies}{76}{chapter.6}
+\contentsline {section}{\numberline {6.1}DigiMAPs}{76}{section.6.1}
+\contentsline {section}{\numberline {6.2}Design Optimization}{77}{section.6.2}
+\contentsline {section}{\numberline {6.3}Hardware studies}{77}{section.6.3}
+\contentsline {chapter}{\numberline {7}Conclusion}{78}{chapter.7}
