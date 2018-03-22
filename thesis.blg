@@ -13,7 +13,6 @@ The style file: ieeetr.bst
 Database file #1: thesis.bib
 Warning--entry type for "bib-prodids" isn't style-file defined
 --line 328 of file thesis.bib
-Warning--I didn't find a database entry for "UpdatedCLICBaseline"
 Warning--I didn't find a database entry for "Pandurovic:2011508"
 Warning--I didn't find a database entry for "Miller:2011qg"
 Warning--I didn't find a database entry for "Cacciari:2008gp"
@@ -21,50 +20,51 @@ Warning--I didn't find a database entry for "Boronat:2014hva"
 Warning--I didn't find a database entry for "Krohn:2011tw"
 Warning--empty journal in CLIC:2016zwp
 Warning--empty journal in Behnke:2013xla
+Warning--empty journal in Pitters:2018jxt
 Warning--empty journal in Szleper:2014xxa
 Warning--empty author in ATLAS-CONF-2015-044
 Warning--empty author in CMS:2013xfa
 Warning--empty journal in Schulte:382453
 Warning--empty journal in TauFinder
-You've used 33 entries,
+You've used 38 entries,
             1876 wiz_defined-function locations,
-            697 strings with 10064 characters,
-and the built_in function-call counts, 7671 in all, are:
-= -- 665
-> -- 393
+            728 strings with 10920 characters,
+and the built_in function-call counts, 8969 in all, are:
+= -- 791
+> -- 438
 < -- 1
-+ -- 147
-- -- 114
-* -- 543
-:= -- 1143
-add.period$ -- 33
-call.type$ -- 33
-change.case$ -- 33
++ -- 164
+- -- 126
+* -- 624
+:= -- 1319
+add.period$ -- 38
+call.type$ -- 38
+change.case$ -- 38
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 417
-empty$ -- 724
-format.name$ -- 114
-if$ -- 1842
+cite$ -- 46
+duplicate$ -- 496
+empty$ -- 851
+format.name$ -- 126
+if$ -- 2172
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 29
-newline$ -- 103
-num.names$ -- 30
-pop$ -- 135
+int.to.str$ -- 38
+missing$ -- 34
+newline$ -- 118
+num.names$ -- 35
+pop$ -- 156
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 261
+skip$ -- 315
 stack$ -- 0
-substring$ -- 298
-swap$ -- 149
+substring$ -- 368
+swap$ -- 183
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 55
-width$ -- 35
-write$ -- 292
+warning$ -- 8
+while$ -- 66
+width$ -- 40
+write$ -- 338
 (There were 14 warnings)

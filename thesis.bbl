@@ -1,5 +1,13 @@
 \begin{thebibliography}{10}
 
+\bibitem{CLIC:2016zwp}
+M.~J. Boland {\em et~al.}, ``{Updated baseline for a staged Compact Linear
+  Collider},'' 2016.
+
+\bibitem{ILD}
+T.~Abe {\em et~al.}, ``{The International Large Detector: Letter of Intent},''
+  2010.
+
 \bibitem{Dawson:2013bba}
 S.~Dawson {\em et~al.}, ``{Working Group Report: Higgs Boson},'' in {\em
   {Proceedings, 2013 Community Summer Study on the Future of U.S. Particle
@@ -24,10 +32,6 @@ V.~Trimble, ``{Existence and Nature of Dark Matter in the Universe},'' {\em
 M.~Bogomilov {\em et~al.}, ``{Lattice design and expected performance of the
   Muon Ionization Cooling Experiment demonstration of ionization cooling},''
   {\em Phys. Rev. Accel. Beams}, vol.~20, no.~6, p.~063501, 2017.
-
-\bibitem{CLIC:2016zwp}
-M.~J. Boland {\em et~al.}, ``{Updated baseline for a staged Compact Linear
-  Collider},'' 2016.
 
 \bibitem{Behnke:2013xla}
 T.~Behnke, J.~E. Brau, B.~Foster, J.~Fuster, M.~Harrison, J.~M. Paterson,
@@ -58,9 +62,31 @@ P.~{Lebrun}, L.~{Linssen}, A.~{Lucaci-Timoce}, D.~{Schulte}, F.~{Simon},
   Conceptual Design Report},'' {\em arXiv:1209.2543 [physics.ins-det]}, Sept.
   2012.
 
-\bibitem{ILD}
-T.~Abe {\em et~al.}, ``{The International Large Detector: Letter of Intent},''
-  2010.
+\bibitem{Kilian:2007gr}
+W.~Kilian, T.~Ohl, and J.~Reuter, ``{WHIZARD: Simulating Multi-Particle
+  Processes at LHC and ILC},'' {\em Eur. Phys. J.}, vol.~C71, p.~1742, 2011.
+
+\bibitem{Jadach:1990mz}
+S.~Jadach, J.~H. Kuhn, and Z.~Was, ``{TAUOLA: A Library of Monte Carlo programs
+  to simulate decays of polarized tau leptons},'' {\em Comput. Phys. Commun.},
+  vol.~64, pp.~275--299, 1990.
+
+\bibitem{Sjostrand:2006za}
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, ``{PYTHIA 6.4 Physics and Manual},''
+  {\em JHEP}, vol.~05, p.~026, 2006.
+
+\bibitem{MoradeFreitas:2002kj}
+P.~Mora~de Freitas and H.~Videau, ``{Detector simulation with MOKKA / GEANT4:
+  Present and future},'' in {\em {Linear colliders. Proceedings, International
+  Workshop on physics and experiments with future electron-positron linear
+  colliders, LCWS 2002, Seogwipo, Jeju Island, Korea, August 26-30, 2002}},
+  pp.~623--627, 2002.
+
+\bibitem{Thomson200925}
+M.~Thomson, ``Particle flow calorimetry and the pandorapfa algorithm,'' {\em
+  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment}, vol.~611, no.~1, pp.~25
+  -- 40, 2009.
 
 \bibitem{2011JInst...6.5009B}
 J.~A. {Ballin}, R.~{Coath}, J.~P. {Crooks}, P.~D. {Dauncey}, A.-M. {Magnan},
@@ -69,6 +95,9 @@ J.~A. {Ballin}, R.~{Coath}, J.~P. {Crooks}, P.~D. {Dauncey}, A.-M. {Magnan},
   J.~A. {Wilson}, and Z.~{Zhang}, ``{Design and performance of a CMOS study
   sensor for a binary readout electromagnetic calorimeter},'' {\em Journal of
   Instrumentation}, vol.~6, p.~5009, May 2011.
+
+\bibitem{Pitters:2018jxt}
+F.~Pitters, ``{The CLIC Detector Concept},'' 2018.
 
 \bibitem{wiki:xxx}
 W.~contributors, ``Standard model --- wikipedia{,} the free encyclopedia,''
@@ -131,12 +160,6 @@ F.~Simon, ``{Higgs Physics at future Linear Colliders - A Case for precise
 
 \bibitem{Schulte:382453}
 D.~Schulte, ``{Beam-Beam Simulations with GUINEA-PIG},'' Mar 1999.
-
-\bibitem{Thomson200925}
-M.~Thomson, ``Particle flow calorimetry and the pandorapfa algorithm,'' {\em
-  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment}, vol.~611, no.~1, pp.~25
-  -- 40, 2009.
 
 \bibitem{Cacciari:2011ma}
 M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{FastJet User Manual},'' {\em Eur.
