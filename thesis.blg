@@ -20,51 +20,52 @@ Warning--I didn't find a database entry for "Boronat:2014hva"
 Warning--I didn't find a database entry for "Krohn:2011tw"
 Warning--empty journal in CLIC:2016zwp
 Warning--empty journal in Behnke:2013xla
+Warning--empty journal in Aihara:2009ad
 Warning--empty journal in Pitters:2018jxt
 Warning--empty journal in Szleper:2014xxa
 Warning--empty author in ATLAS-CONF-2015-044
 Warning--empty author in CMS:2013xfa
 Warning--empty journal in Schulte:382453
 Warning--empty journal in TauFinder
-You've used 38 entries,
+You've used 43 entries,
             1876 wiz_defined-function locations,
-            728 strings with 10920 characters,
-and the built_in function-call counts, 8969 in all, are:
-= -- 791
-> -- 438
+            759 strings with 11638 characters,
+and the built_in function-call counts, 10583 in all, are:
+= -- 949
+> -- 507
 < -- 1
-+ -- 164
-- -- 126
-* -- 624
-:= -- 1319
-add.period$ -- 38
-call.type$ -- 38
-change.case$ -- 38
++ -- 189
+- -- 146
+* -- 732
+:= -- 1542
+add.period$ -- 42
+call.type$ -- 43
+change.case$ -- 43
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 496
-empty$ -- 851
-format.name$ -- 126
-if$ -- 2172
+cite$ -- 52
+duplicate$ -- 592
+empty$ -- 985
+format.name$ -- 146
+if$ -- 2577
 int.to.chr$ -- 0
-int.to.str$ -- 38
-missing$ -- 34
-newline$ -- 118
-num.names$ -- 35
-pop$ -- 156
+int.to.str$ -- 43
+missing$ -- 40
+newline$ -- 132
+num.names$ -- 40
+pop$ -- 166
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 315
+skip$ -- 392
 stack$ -- 0
-substring$ -- 368
-swap$ -- 183
+substring$ -- 468
+swap$ -- 234
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 8
-while$ -- 66
-width$ -- 40
-write$ -- 338
-(There were 14 warnings)
+warning$ -- 9
+while$ -- 79
+width$ -- 45
+write$ -- 387
+(There were 15 warnings)
