@@ -13,7 +13,6 @@ The style file: ieeetr.bst
 Database file #1: thesis.bib
 Warning--entry type for "bib-prodids" isn't style-file defined
 --line 328 of file thesis.bib
-Warning--I didn't find a database entry for "Pandurovic:2011508"
 Warning--I didn't find a database entry for "Miller:2011qg"
 Warning--I didn't find a database entry for "Cacciari:2008gp"
 Warning--I didn't find a database entry for "Boronat:2014hva"
@@ -27,45 +26,45 @@ Warning--empty author in ATLAS-CONF-2015-044
 Warning--empty author in CMS:2013xfa
 Warning--empty journal in Schulte:382453
 Warning--empty journal in TauFinder
-You've used 43 entries,
+You've used 42 entries,
             1876 wiz_defined-function locations,
-            759 strings with 11638 characters,
-and the built_in function-call counts, 10583 in all, are:
-= -- 949
-> -- 507
+            749 strings with 11399 characters,
+and the built_in function-call counts, 10373 in all, are:
+= -- 927
+> -- 503
 < -- 1
-+ -- 189
-- -- 146
-* -- 732
-:= -- 1542
-add.period$ -- 42
-call.type$ -- 43
-change.case$ -- 43
++ -- 187
+- -- 145
+* -- 721
+:= -- 1513
+add.period$ -- 41
+call.type$ -- 42
+change.case$ -- 42
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 592
-empty$ -- 985
-format.name$ -- 146
-if$ -- 2577
+cite$ -- 51
+duplicate$ -- 577
+empty$ -- 964
+format.name$ -- 145
+if$ -- 2522
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 40
-newline$ -- 132
-num.names$ -- 40
-pop$ -- 166
+int.to.str$ -- 42
+missing$ -- 39
+newline$ -- 129
+num.names$ -- 39
+pop$ -- 163
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 392
+skip$ -- 382
 stack$ -- 0
-substring$ -- 468
-swap$ -- 234
+substring$ -- 462
+swap$ -- 227
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 9
-while$ -- 79
-width$ -- 45
-write$ -- 387
-(There were 15 warnings)
+while$ -- 77
+width$ -- 44
+write$ -- 377
+(There were 14 warnings)
