@@ -33,29 +33,31 @@
 \BOOKMARK [2][-]{subsection.4.2.2}{Jet Finding}{section.4.2}% 33
 \BOOKMARK [1][-]{section.4.3}{Flavour Tagging}{chapter.4}% 34
 \BOOKMARK [1][-]{section.4.4}{Event Selection}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 36
-\BOOKMARK [0][-]{chapter.5}{Top Physics}{}% 37
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.2}{Event Reconstruction}{chapter.5}% 39
-\BOOKMARK [2][-]{subsection.5.2.1}{Lepton Finding}{section.5.2}% 40
-\BOOKMARK [2][-]{subsection.5.2.2}{Fat Jet Finding}{section.5.2}% 41
-\BOOKMARK [3][-]{subsubsection.5.2.2.1}{Jet Association}{subsection.5.2.2}% 42
-\BOOKMARK [2][-]{subsection.5.2.3}{S' Reconstruction}{section.5.2}% 43
-\BOOKMARK [3][-]{subsubsection.5.2.3.1}{Transverse/Longitudinal Association}{subsection.5.2.3}% 44
-\BOOKMARK [3][-]{subsubsection.5.2.3.2}{Analytic Mass Constraint}{subsection.5.2.3}% 45
-\BOOKMARK [3][-]{subsubsection.5.2.3.3}{Collinearity}{subsection.5.2.3}% 46
-\BOOKMARK [3][-]{subsubsection.5.2.3.4}{Kinematic Fitting}{subsection.5.2.3}% 47
-\BOOKMARK [2][-]{subsection.5.2.4}{Flavour Tagging}{section.5.2}% 48
-\BOOKMARK [1][-]{section.5.3}{Calculating AFB}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 50
-\BOOKMARK [2][-]{subsection.5.4.1}{NSubjettiness}{section.5.4}% 51
-\BOOKMARK [2][-]{subsection.5.4.2}{Subjet Angular Distributions}{section.5.4}% 52
-\BOOKMARK [2][-]{subsection.5.4.3}{Jet Multiplicity}{section.5.4}% 53
-\BOOKMARK [1][-]{section.5.5}{Quality Cuts}{chapter.5}% 54
-\BOOKMARK [2][-]{subsection.5.5.1}{Differential Measurement}{section.5.5}% 55
-\BOOKMARK [1][-]{section.5.6}{Conclusions}{chapter.5}% 56
-\BOOKMARK [0][-]{chapter.6}{DECALStudies}{}% 57
-\BOOKMARK [1][-]{section.6.1}{DigiMAPs}{chapter.6}% 58
-\BOOKMARK [1][-]{section.6.2}{Design Optimization}{chapter.6}% 59
-\BOOKMARK [1][-]{section.6.3}{Hardware studies}{chapter.6}% 60
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 61
+\BOOKMARK [2][-]{subsection.4.4.1}{Boosted Decision Trees}{section.4.4}% 36
+\BOOKMARK [1][-]{section.4.5}{Systematics}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 38
+\BOOKMARK [0][-]{chapter.5}{Top Physics}{}% 39
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.2}{Event Reconstruction}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.2.1}{Lepton Finding}{section.5.2}% 42
+\BOOKMARK [2][-]{subsection.5.2.2}{Fat Jet Finding}{section.5.2}% 43
+\BOOKMARK [3][-]{subsubsection.5.2.2.1}{Jet Association}{subsection.5.2.2}% 44
+\BOOKMARK [2][-]{subsection.5.2.3}{S' Reconstruction}{section.5.2}% 45
+\BOOKMARK [3][-]{subsubsection.5.2.3.1}{Transverse/Longitudinal Association}{subsection.5.2.3}% 46
+\BOOKMARK [3][-]{subsubsection.5.2.3.2}{Analytic Mass Constraint}{subsection.5.2.3}% 47
+\BOOKMARK [3][-]{subsubsection.5.2.3.3}{Collinearity}{subsection.5.2.3}% 48
+\BOOKMARK [3][-]{subsubsection.5.2.3.4}{Kinematic Fitting}{subsection.5.2.3}% 49
+\BOOKMARK [2][-]{subsection.5.2.4}{Flavour Tagging}{section.5.2}% 50
+\BOOKMARK [1][-]{section.5.3}{Calculating AFB}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 52
+\BOOKMARK [2][-]{subsection.5.4.1}{NSubjettiness}{section.5.4}% 53
+\BOOKMARK [2][-]{subsection.5.4.2}{Subjet Angular Distributions}{section.5.4}% 54
+\BOOKMARK [2][-]{subsection.5.4.3}{Jet Multiplicity}{section.5.4}% 55
+\BOOKMARK [1][-]{section.5.5}{Quality Cuts}{chapter.5}% 56
+\BOOKMARK [2][-]{subsection.5.5.1}{Differential Measurement}{section.5.5}% 57
+\BOOKMARK [1][-]{section.5.6}{Conclusions}{chapter.5}% 58
+\BOOKMARK [0][-]{chapter.6}{DECALStudies}{}% 59
+\BOOKMARK [1][-]{section.6.1}{DigiMAPs}{chapter.6}% 60
+\BOOKMARK [1][-]{section.6.2}{Design Optimization}{chapter.6}% 61
+\BOOKMARK [1][-]{section.6.3}{Hardware studies}{chapter.6}% 62
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 63
