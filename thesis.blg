@@ -28,24 +28,24 @@ Warning--empty journal in Schulte:382453
 Warning--empty journal in TauFinder
 You've used 42 entries,
             1876 wiz_defined-function locations,
-            749 strings with 11399 characters,
-and the built_in function-call counts, 10373 in all, are:
-= -- 927
-> -- 503
+            752 strings with 11530 characters,
+and the built_in function-call counts, 10336 in all, are:
+= -- 923
+> -- 499
 < -- 1
-+ -- 187
-- -- 145
-* -- 721
-:= -- 1513
++ -- 186
+- -- 144
+* -- 720
+:= -- 1509
 add.period$ -- 41
 call.type$ -- 42
 change.case$ -- 42
 chr.to.int$ -- 0
 cite$ -- 51
-duplicate$ -- 577
-empty$ -- 964
-format.name$ -- 145
-if$ -- 2522
+duplicate$ -- 575
+empty$ -- 963
+format.name$ -- 144
+if$ -- 2512
 int.to.chr$ -- 0
 int.to.str$ -- 42
 missing$ -- 39
@@ -55,10 +55,10 @@ pop$ -- 163
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 382
+skip$ -- 378
 stack$ -- 0
-substring$ -- 462
-swap$ -- 227
+substring$ -- 460
+swap$ -- 225
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0

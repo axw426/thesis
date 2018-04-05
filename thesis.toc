@@ -35,29 +35,31 @@
 \contentsline {section}{\numberline {4.4}Event Selection}{56}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Boosted Decision Trees}{57}{subsection.4.4.1}
 \contentsline {section}{\numberline {4.5}Systematics}{60}{section.4.5}
-\contentsline {section}{\numberline {4.6}Conclusion}{60}{section.4.6}
-\contentsline {chapter}{\numberline {5}Top Physics}{67}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{67}{section.5.1}
-\contentsline {section}{\numberline {5.2}Event Reconstruction}{69}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Lepton Finding}{69}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Fat Jet Finding}{72}{subsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.1}Jet Association}{76}{subsubsection.5.2.2.1}
-\contentsline {subsection}{\numberline {5.2.3}S' Reconstruction}{82}{subsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.3.1}Transverse/Longitudinal Association}{82}{subsubsection.5.2.3.1}
-\contentsline {subsubsection}{\numberline {5.2.3.2}Analytic Mass Constraint}{83}{subsubsection.5.2.3.2}
-\contentsline {subsubsection}{\numberline {5.2.3.3}Collinearity}{87}{subsubsection.5.2.3.3}
-\contentsline {subsubsection}{\numberline {5.2.3.4}Kinematic Fitting}{87}{subsubsection.5.2.3.4}
-\contentsline {subsection}{\numberline {5.2.4}Flavour Tagging}{87}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Calculating AFB}{89}{section.5.3}
-\contentsline {section}{\numberline {5.4}Event Selection}{89}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}NSubjettiness}{90}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Subjet Angular Distributions}{90}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Jet Multiplicity}{90}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Quality Cuts}{90}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Differential Measurement}{90}{subsection.5.5.1}
-\contentsline {section}{\numberline {5.6}Conclusions}{90}{section.5.6}
-\contentsline {chapter}{\numberline {6}DECALStudies}{91}{chapter.6}
-\contentsline {section}{\numberline {6.1}DigiMAPs}{91}{section.6.1}
-\contentsline {section}{\numberline {6.2}Design Optimization}{92}{section.6.2}
-\contentsline {section}{\numberline {6.3}Hardware studies}{92}{section.6.3}
-\contentsline {chapter}{\numberline {7}Conclusion}{93}{chapter.7}
+\contentsline {section}{\numberline {4.6}Impact on CLIC Higgs Measurements}{62}{section.4.6}
+\contentsline {section}{\numberline {4.7}Conclusion}{63}{section.4.7}
+\contentsline {chapter}{\numberline {5}Top Physics}{71}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{71}{section.5.1}
+\contentsline {section}{\numberline {5.2}Event Reconstruction}{73}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Lepton Finding}{73}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Fat Jet Finding}{76}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Jet Association}{80}{subsubsection.5.2.2.1}
+\contentsline {subsection}{\numberline {5.2.3}S' Reconstruction}{86}{subsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.3.1}Transverse/Longitudinal Association}{86}{subsubsection.5.2.3.1}
+\contentsline {subsubsection}{\numberline {5.2.3.2}Analytic Mass Constraint}{87}{subsubsection.5.2.3.2}
+\contentsline {subsubsection}{\numberline {5.2.3.3}Collinearity}{91}{subsubsection.5.2.3.3}
+\contentsline {subsubsection}{\numberline {5.2.3.4}Kinematic Fitting}{91}{subsubsection.5.2.3.4}
+\contentsline {subsection}{\numberline {5.2.4}Flavour Tagging}{91}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Calculating AFB}{93}{section.5.3}
+\contentsline {section}{\numberline {5.4}Event Selection}{93}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}NSubjettiness}{94}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Subjet Angular Distributions}{94}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Jet Multiplicity}{94}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Quality Cuts}{94}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Differential Measurement}{94}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}Conclusions}{94}{section.5.6}
+\contentsline {chapter}{\numberline {6}DECALStudies}{95}{chapter.6}
+\contentsline {section}{\numberline {6.1}DigiMAPs}{95}{section.6.1}
+\contentsline {section}{\numberline {6.2}Design Optimization}{96}{section.6.2}
+\contentsline {section}{\numberline {6.3}Hardware studies}{96}{section.6.3}
+\contentsline {chapter}{\numberline {7}Conclusion}{97}{chapter.7}
+\contentsline {chapter}{\numberline {8}Appendix A}{103}{chapter.8}

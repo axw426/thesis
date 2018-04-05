@@ -196,12 +196,12 @@ A.~{Hoecker}, P.~{Speckmayer}, J.~{Stelzer}, J.~{Therhaag}, E.~{von Toerne},
   K.~{Voss}, M.~{Wolter}, and A.~{Zemla}, ``{TMVA - Toolkit for Multivariate
   Data Analysis},'' {\em ArXiv Physics e-prints}, Mar. 2007.
 
+\bibitem{Coadou:2013lca}
+Y.~Coadou, ``{Boosted Decision Trees and Applications},'' {\em EPJ Web Conf.},
+  vol.~55, p.~02004, 2013.
+
 \bibitem{TauFinder}
 A.~Muennich, ``{TauFinder: A Reconstruction Algorithm for Tau Leptons at Linear
   Colliders},'' Oct 2010.
-
-\bibitem{Agashe:2014kda}
-K.~A. Olive {\em et~al.}, ``{Review of Particle Physics},'' {\em Chin. Phys.},
-  vol.~C38, p.~090001, 2014.
 
 \end{thebibliography}
