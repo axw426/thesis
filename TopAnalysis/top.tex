@@ -1,8 +1,6 @@
 \chapter{Top Physics}
 \label{chapter:topanalysis}
 \section{Introduction}
-Define what the top asymmetry is, measurement at previous experiments(tevatron, LHC, b asymmetry at lep), significance of it in terms of EW form factors
-
 
 \begin{figure}
   \centering
@@ -11,50 +9,115 @@ Define what the top asymmetry is, measurement at previous experiments(tevatron, 
   \label{fig:topfeynmann}
 \end{figure}
 
+Here we give details of an analysis proposed for measuring the top quark forward-backward asymmetry, A$_{FB}^t$, at CLIC during the 1.4 TeV stage. 
+
+As already described in Chapter \ref{theory}, A$_{FB}^t$ is sensitive to the electroweak form factors of the ttX(X=Z,$\gamma$) vertex. By measuring A$_{FB}^t$ and the $t\bar{t}$ cross section at multiple energies and with different beam polarizations it is possible to extract values for the electroweak form factors and use these as a probe for testing the \ac{SM} and searching for \ac{BSM} physics. This measurement is well motivated by the existing result for the b quark forward-backward asymmetry as measured at \ac{LEP}, which currently provides the largest deviation from the \ac{SM} within electroweak fits. Due to the limited energy at \ac{LEP} (which is still the highest energy e$^+$e$^-$ collider to have existed,) no analagous measurement of the asymmetry for tops has ever been performed at a lepton collider. 
+
 \begin{table}
   \centering
-  \begin{tabular}{l |p{120mm}}
+  \begin{tabular}{l |c}
     \toprule
-    Decay Mode     & Branching Fraction  \\
+    Decay Mode     & Branching Fraction (\%) \\
     \midrule
+    Fully Hadronic & 45.3  \\
     $tt\rightarrow WbWb\rightarrow qqbqqb$ & \\
     \midrule
-    $tt\rightarrow WbWb\rightarrow qqbql\nu b$ & \\
+    Semileptonic & 43.8 \\
+    $tt\rightarrow WbWb\rightarrow qqbl\nu b$ &  \\
     \midrule
-    $tt\rightarrow WbWb\rightarrow l\nu bl\nu b$ & \\
+    Fully Leptonic & 10.6 \\
+    $tt\rightarrow WbWb\rightarrow l\nu bl\nu b$ &  \\
     \midrule
-    $tt\rightarrow Other$ & \\
+    $tt\rightarrow Other$ & 0.4 \\
     \bottomrule
   \end{tabular}
   \caption{Top Pair Decay Modes}
   \label{table:topdecaymodes}
 \end{table}
 
+A$_{FB}$ is defined as:
 
-As tops decay almost exclusively to a W and b they are typically described in terms of the resulting decay modes of the Ws. The dominant decay modes are described in table \ref{table:topdecaymodes}. Here we will look at measuring $A_{FB}^{t}$ using the semileptonic $t\bar{t}$ decay channel (see figure \ref{fig:topfeynmann}) in which one. This decay mode is ideal as the lepton from the leptonically decaying top provides the ability to charge tag the tops while the fully hadronic decay allows an accurate measurement of the production angle of the tops, both of which are necessary for measuring $A_{FB}^{t}$ to high precision. The dominant signal and background processed examined by this analysis, as well as their cross sections and production ID numbers are shown in table \ref{table:topsamples}. All samples are simulated using the CLIC\_ILD\_CDR detector model. This is a variation of the ILD detector model developed for use at the ILC. The samples also include an overly of $\gamma\gamma\rightarrow$ hadron events from beamstralung based on a 30~ns window around the generated physics events. The dominant backgrounds are expected to be from alternative $t\bar{t}$ decays (fully hadronic decay modes and semileptonic decays containing taus) which will have very simliar topologies to the fact they will both contain a hadronically decaying top.
+\begin{equation}
+A_{FB}^t=\frac{N_F-N_B}{N_F+N_B}
+\end{equation}
+Where N$_{F}$ and N$_{B}$ are the number of top quarks produced in the forward and backward directions which are defined to be the hemispheres corresponding to an angle of less than and greater than 90$^0$ relative to the direction of motion of the electrons initial momentum respectively.
+
+As tops decay almost exclusively to a W and b (99.8\% of decays) they are typically described in terms of the resulting decay modes of the Ws. The dominant decay modes are described in \reftab{table:topdecaymodes}. Here we will look at measuring $A_{FB}^{t}$ using the semileptonic $t\bar{t}$ decay channel (see \reffig{fig:topfeynmann}) in which one of the W's decays to a lepton and neutrino and the other W decays to a a pair of quarks. This decay mode is ideal as the lepton from the leptonically decaying top provides the ability to charge tag the top while the fully hadronic decay allows an accurate measurement of the production angle of the top, both of which are necessary for measuring $A_{FB}^{t}$ to high precision. Due to the sensitivity of $A_{FB}^{t}$ to polarization states, the measurment will be done for two different electron beam polarizations, -80\% and +80\%, assuming an even split of luminosity between the two configurations. The dominant signal and background processed examined by this analysis, as well as their cross sections and production ID numbers for each polarization are shown in \reftabs{table:topsamplesnegpol} and \ref{table:topsamplespospol}. All samples are simulated using the CLIC\_ILD\_CDR detector model. This is a variation of the ILD detector model developed for use at the ILC. The samples also include an overly of $\gamma\gamma\rightarrow$ hadron events from beamstrahlung based on a 30~ns window around the generated physics events. The dominant backgrounds are expected to be from alternative $t\bar{t}$ decays (fully hadronic decay modes and semileptonic decays containing taus) and from single top events (see \reffig{fig:singletop}) which will have very simliar topologies due to the fact they can both contain a hadronically decaying top.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\textwidth]{TopAnalysis/figures/dummy}
+  \caption[Dominant single top production mode]{Dominant single top production mode capable of mimicking the signal process}
+  \label{fig:singletop}
+\end{figure}
 
 \begin{table}
   \centering
   \begin{tabular}{l | r | r |r}
     \toprule
-    Process     & Cross Section(fb) & Production ID & Events Used  \\
+    Process     & Cross Section(fb) & Production ID & Events Used (10$^{-3}$) \\
     \midrule
-    Signal: $ee\rightarrow t\bar{t}\rightarrow qqqql\nu$ & xx & 6589,6592,6634,6637 & xx \\
+    $e^+e^-\rightarrow qqqql\nu$ & 142.3 & 6589,6592,6634,6637 & 3860 \\
+    \midrule
+    $e^+e^-\rightarrow qqqqqq$ & 116.4 & 6595, 6598, 6601, 6604,  & 310 \\
+     &  & 6610, 6607, 6613, 6616,  &  \\
+     &  &  6619, 6622  &  \\
+    \midrule
+    $e^+e^-\rightarrow qql\nu l\nu$ & 44.1 & 6586, 6625, 6628, 6631 & 100 \\
+    \midrule
+    $e^+e^-\rightarrow qqqq$ & 2304.0 & 8254 & 1,590 \\
+    \midrule
+    $e^+e^-\rightarrow qql\nu$ & 6975.0 & 7477 & 3,520 \\
+    \midrule
+    $e^+e^-\rightarrow qqll$ & 2681.0 & 8244 & 1,190 \\
+    \midrule
+    $e^+e^-\rightarrow qq\nu\nu$ & 1395.0 & 8271 & 1,120 \\
+    \midrule
+    $e^+e^-\rightarrow qq$ & 4843.0 & 8283 & 2,400 \\
     \bottomrule
   \end{tabular}
-  \caption{Top Pair Decay Modes}
-  \label{table:topsamples}
+  \caption{Samples used in the -80\% electron beam polarization study}
+  \label{table:topsamplesnegpol}
+\end{table}
+
+\begin{table}
+  \centering
+  \begin{tabular}{l | r | r |r}
+    \toprule
+    Process     & Cross Section(fb) & Production ID & Events Used (10$^{-3}$) \\
+    \midrule
+    $e^+e^-\rightarrow qqqql\nu$ & 53.5 & 6646, 6697, 6691, 6694 & 160 \\
+    \midrule
+    $e^+e^-\rightarrow qqqqqq$ & 44.9 & 6652, 6655, 6658, 6661, & 198 \\
+     &  & 6664, 6667, 6670, 6673, &  \\
+     &  & 6676, 6679 &  \\
+    \midrule
+    $e^+e^-\rightarrow qql\nu l\nu$ & 15.3  & 6643, 6682, 6685, 6688 & 15.3 \\
+    \midrule
+    $e^+e^-\rightarrow qqqq$ & 347 & 8257 & 500 \\
+    \midrule
+    $e^+e^-\rightarrow qql\nu$ & 1640 & 7480 & 1,000 \\
+    \midrule
+    $e^+e^-\rightarrow qqll$ & 2530 & 8241 & 1,000 \\
+    \midrule
+    $e^+e^-\rightarrow qq\nu\nu$ & 180 & 8274 & 200 \\
+    \midrule
+    $e^+e^-\rightarrow qq$ & 3170 & 8286 & 1,500 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Samples used in the +80\% electron beam polarization study}
+  \label{table:topsamplespospol}
 \end{table}
 
 
 \section{Event Reconstruction}
-Reconstruction of the signal events is performed using ILCSOFT v01-17-10 and consists of three main stages. The first stage is to identify isolated leptons arising from the leptonically decaying top. These leptons are then removed and the remaining PFOs are resolved into two large radius ``fat jets''. These two fat jets must then be associated with either the b jet produced by the leptonically decaying top or to the combination of three jets arrising from the hadronically decaying top. A kinematic fitter is then used to reconstruct the neutrino and any ISR/Beamstrahlung photons present in the event.
+Reconstruction of the signal events is performed using ILCSOFT v01-17-10 and consists of three main stages. The first stage is to identify isolated leptons arising from the leptonically decaying top. These leptons are then removed and the remaining PFOs are resolved into two large radius ``fat jets''. These two fat jets must then be associated with either the b jet produced by the leptonically decaying top or to the combination of three jets arrising from the hadronically decaying top. A kinematic fitter is then used to reconstruct the neutrino and any \ac{ISR}/\ac{BS} photons present in the event.
 
 \subsection{Lepton Finding}
 
-Lepton finding is the first stage of reconstruction performed in each event. Due to the fact the measurement of $A_{FB}^{t}$ is entirely reliant on using the lepton charge to distinguish between top and antitop decays, it is essential that a high efficiency and purity are achieved and that there is no angular dependence on the performance. For this analysis lepton finding is done in two steps. Firstly, lepton candidates with energy > 10~GeV are identified using the particle ID provided by the Pandora Particle Flow Algorithm \cite{Thomson200925}. Only muons and electrons are examined due to the fact tau leptons require different reconstruction techniques to identify and are typicaly reconstructed with significantly lower efficiency. This first stage removes >90\% of fake candidates with negligible impact on efficiency. The second stage of lepton selection is to examine how isolated each of the candidates are. This is evaluated by resolving all PFOs in the event into five jets, then for each lepton candidate, measuring the energy of the candidate relative to the jet it was been associated with. For this process the ee kt algorithm was chosen for the jet finding to ensure that all lepton candidates are always placed within a jet. The lepton candidate found to have the highest ratio of $E_{Candidate}/E_{Jet}$ is then declared to be the isolated lepton arrising from the letonically decaying top. In the event that no lepton is selected by the first step, the restrictions on the particle ID and energy are relaxed and the lepton is selected purely based on which PFO is the most isolated according to step two. This method ensures that there is always exactly one lepton selected per event. The net efficiency with which this method selects a candidate with the correct charge is found to be 93\% for electrons and 96\% for muons.
+Lepton finding is the first stage of reconstruction performed in each event. Due to the fact the measurement of $A_{FB}^{t}$ is entirely reliant on using the lepton charge to distinguish between top and antitop decays, it is essential that a high efficiency and purity are achieved and that there is no angular dependence on the performance. For this analysis lepton finding is done in two steps. Firstly, lepton candidates with energy $>$ 10~GeV are identified using the particle ID provided by the Pandora Particle Flow Algorithm \cite{Thomson200925}. Only muons and electrons are examined due to the fact tau leptons require different reconstruction techniques to identify and are typically reconstructed with significantly lower efficiency. This first stage removes $>$ 90\% of fake candidates with negligible impact on efficiency. The second stage of lepton selection is to examine how isolated each of the candidates are. This is evaluated by resolving all PFOs in the event into five jets, then for each lepton candidate measuring the energy of the candidate relative to the jet it was been associated with. For this process the inclusive ee kt algorithm was chosen for the jet finding to ensure that all lepton candidates are always placed within a jet. The lepton candidate found to have the highest ratio of $E_{Candidate}/E_{Jet}$ is then declared to be the isolated lepton arrising from the letonically decaying top. In the event that no lepton is selected by the first step, the restrictions on the particle ID and energy are relaxed and the lepton is selected purely based on which PFO is the most isolated according to step two. This method ensures that there is always exactly one lepton selected per event. The net efficiency with which this method selects a candidate with the correct charge is found to be 93\% for electrons and 96\% for muons.
 
-As well as understanding the net efficiency for finding leptons it is also important to examine the angular dependence of the efficiency to ensure there is no bias that could effect the measurement of $A_{FB}^{t}$. Figure \ref{fig:netefficiency} shows how the efficiency varies with angle. The efficiency is seen to rapidly decline for $|Cos\theta| > 0.9$ due to detector acceptances. A decrease in efficiency is also seen for electrons at angles corresponding to the transition point between the ECAL barrel and endcaps. This effect is not seen for muons as they are also reconstructed using the muon detectors placed at a larger radius. Overall the efficiency is seen to be consistently worse for electrons than muons. This is to be expected as muons produce easily recognisable signatures in the detector due to the fact they typically penetrate through the tracker,ECAL,HCAL and muon sytems whereas electrons only leave deposits in the tracker and ECAL. In the case that tracks are lost during reconstruction or are wrongly associated to other PFOs it is then possible for photons to wrongly be labelled as electrons and vice versa leading to a higher fake rate for electrons.
+As well as understanding the net efficiency for finding leptons it is also important to examine the angular dependence of the efficiency to ensure there is no bias that could effect the measurement of $A_{FB}^{t}$. \reffig{fig:netefficiency} shows how the efficiency varies with angle. The efficiency is seen to rapidly decline for $|Cos\theta| > 0.9$ due to detector acceptances. A decrease in efficiency is also seen for electrons at angles corresponding to the transition point between the ECAL barrel and endcaps. This effect is not seen for muons as they are also reconstructed using the muon detectors placed at a larger radius. Overall the efficiency is seen to be consistently worse for electrons than muons. This is to be expected as muons produce easily recognisable signatures in the detector due to the fact they typically penetrate through the tracker, ECAL, HCAL and muon sytems whereas electrons only leave deposits in the tracker and ECAL. In the case that tracks are lost during reconstruction or are wrongly associated to other PFOs it is then possible for photons to wrongly be labelled as electrons and vice versa leading to a higher fake rate for electrons.
 
 \begin{figure}
   \centering
@@ -63,7 +126,7 @@ As well as understanding the net efficiency for finding leptons it is also impor
   \label{fig:netefficiency}
 \end{figure}
 
-As well as checking the angular dependence of the charge tagging efficiency it is also key to examine the charge dependence of the lepton finding to make sure there is no preference for identifying particles over antiparticles. The angular dependence of the charge tagging efficiency for particles vs antiparticles is shown in figures \ref{fig:chargeEfficiencies}. An asymmetry in the performance is observed in both electrons and muons.
+As well as checking the angular dependence of the charge tagging efficiency it is also key to examine the charge dependence of the lepton finding to make sure there is no preference for identifying particles over antiparticles. The angular dependence of the charge tagging efficiency for particles vs antiparticles is shown in \reffig{fig:chargeEfficiencies}. An asymmetry in the performance is observed in both electrons and muons.
 
 \begin{figure}
   \centering
@@ -83,7 +146,7 @@ As well as checking the angular dependence of the charge tagging efficiency it i
   \label{fig:chargeEfficiencies}
 \end{figure}
 
-It arises from the underlying asymmetry in the production of particles vs antiparticles due to forward-backward asymmetries. The forward backward asymmetry mean that tops are preferencialy produced in one direction while antitops are produced more often in othe opposite direction, however due to charge conservation this also means that the W bosons and leptons are produced asymmetrically too. Because the collisions are taking place well above the top pair production threshold, the W bosons will gain a large boost forcing them to travel in the same direction as the inital top. The polarization of the W also means that the lepton will also be preferencially produced along the same diection as the W and can only be produced in the opposite direction with a lower energy. Overall this means that leptons are produced with higher energy in one direction and lower energy in the opposite direction while for antileptons this directional dependence is reversed. The effect is shown in \ref{fig:efficiency2d} where it is seen that positrons are produced with higher energy in the forward direction($cos\theta>0$) than the backward direction. It is known that the efficiency for reconstructing leptons at CLIC increases with energy and so the fact the energy and angle at which leptons are produced are correlated results in the asymmetric angular efficiency for correctly reconstructing the lepton. Further evidence for this theory is shown in figures \ref{fig:higgsleptons} and\ref{fig:effienciesWithCuts} which show that the asymmetry disappears when either the production mode for the leptons is symmetric or when low energy leptons are not included.
+It arises from the underlying asymmetry in the production of particles vs antiparticles due to forward-backward asymmetries. The forward backward asymmetry means that tops are preferencialy produced in one direction while antitops are produced more often in othe opposite direction, however due to charge conservation this also means that the W bosons and leptons are produced asymmetrically too. Because the collisions are taking place well above the top pair production threshold, the W bosons will gain a large boost forcing them to travel in the same direction as the inital top. The polarization of the W also means that the lepton will also be preferencially produced along the same diection as the W and can only be produced in the opposite direction with a lower energy. Overall this means that leptons are produced with higher energy in one direction and lower energy in the opposite direction while for antileptons this directional dependence is reversed. The effect is shown in \reffig{fig:efficiency2d} where it is seen that positrons are produced with higher energy in the forward direction($cos\theta>0$) than the backward direction. It is known that the efficiency for reconstructing leptons at CLIC increases with energy and so the fact the energy and angle at which leptons are produced are correlated results in the asymmetric angular efficiency for correctly reconstructing the lepton. Further evidence for this theory is shown in \reffig{fig:higgsleptons} and \ref{fig:effienciesWithCuts} which show that the asymmetry disappears when either the production mode for the leptons is symmetric or when low energy leptons are not included.
 
 \begin{figure}
   \centering
@@ -111,7 +174,7 @@ It arises from the underlying asymmetry in the production of particles vs antipa
     \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png}
     \caption[Charge Tagging Efficiency]{Muons}
   \end{subfigure}
-  \caption[Charge Tagging Efficiency After 20GeV Lepton Momentum Cut]{Charge tagging efficiency after 20~GeV lepton momentum cut. The efficiency is seen to be symmetric for leptons with momentum > 20~GeV/}
+  \caption[Charge Tagging Efficiency After 20GeV Lepton Momentum Cut]{Charge tagging efficiency after 20~GeV lepton momentum cut. The efficiency is seen to be symmetric for leptons with momentum $>$ 20~GeV}
   \label{fig:effienciesWithCuts}
 \end{figure}
 
@@ -125,7 +188,25 @@ It arises from the underlying asymmetry in the production of particles vs antipa
   \label{fig:Collimated}
 \end{figure}
 
-Jet reconstruction was performed using the FastJet package \cite{Cacciari:2011ma}. Due to the high energy of the collisions relative to the top mass, the tops produced are highly boosted and produce highly collimated decay products (see figure \ref{fig:Collimated}.) This means it is typically not possible to resolve the decay products from the hadronically decaying top into three jets corresponding to the b-jet and light quark jets from the W decay. As a result an alternative approach to jet reconstruction is considered based on the concept of fat jets, an approach already being used at the LHC\cite{Miller:2011qg}. Fat jets are large radius jets and are used to cluster groups of jets that can't be accurately resolved individually into one larger jet. For the purpose of this anaylsis the events are clustered into fat jets which should correspond to the b-jet from the leptonically decaying top and to the whole set of decays products from the hadronically decaying top. The mass and substructure variables (see \ref{Event Selection}) of these fat jets can then be used to distinguish genuine top events from backgrounds. Two jet algorithms were considered for reconstructing the fat jets- the kt algorithm \cite{Cacciari:2008gp} and Valencia algorithm \cite{Boronat:2014hva}. The kt algorithm is already extensively used at hadron colliders while the Valencia algorithm is a newer algorithm designed for future lepton colliders that offers improved performance in handling beam backgrounds. The performance of both algorithms is shown in figure \ref{fig:jetfinding}. For both algorithms it is seen that at higher R the resolution on the top mass gets worse while for lower R sub peaks start to appear in the mass distribution corresponding to partial reconstructions of the top (either W Boson or single quark). The kt algorithm is seen to produce a consistently broader distribution in the top mass. Placing a cut on the collision energy of E>1.2~TeV reveals that these lower mass peaks only occur for lower collision energies where the top decay products will be less collimated and so the fat jet finding can merge components from both the hadronic and leptonic tops into each jet. This analysis will be focusing on reconstructing the most boosted tops. As a result the Valencia algorithm is preferred due to it's better mass resolution. Performance for less boosted top decays might be improved by examining the performance of a more conventional jet analysis looking to resolve all four individual quarks whenever the fat jet finding produces jets outside the top mass window. This possibility is discussed later in section \ref{Quality Cuts}. Here the Valencia algorithm with R=1.5, $\beta$=1 and $\gamma$=1 is chosen as the optimal jet reconstrcution method to provide a balance between mass resolution and the frequency of partial reconstructions. 
+Jet reconstruction was performed using the FastJet package \cite{Cacciari:2011ma}. Due to the high energy of the collisions relative to the top mass, the tops produced are highly boosted and produce highly collimated decay products (see \reffig{fig:Collimated}.) This means it is typically not possible to resolve the decay products from the hadronically decaying top into three jets corresponding to the b-jet and light quark jets from the W decay. As a result an alternative approach to jet reconstruction is considered based on the concept of fat jets, an approach already being used at the LHC\cite{Miller:2011qg}. Fat jets are large radius jets and are used to cluster groups of jets that can't be accurately resolved individually into one larger jet. For the purpose of this anaylsis the events are clustered into fat jets which should correspond to the b-jet from the leptonically decaying top and to the whole set of decay products from the hadronically decaying top. The mass and substructure variables (see \refsec{Event Selection}) of these fat jets can then be used to distinguish genuine top events from backgrounds. Two jet algorithms were considered for reconstructing the fat jets- the longitudinally invaraint kt algorithm \cite{Cacciari:2008gp} and Valencia algorithm \cite{Boronat:2014hva}. The kt algorithm is already extensively used at hadron colliders while the Valencia algorithm is a newer algorithm designed for future lepton colliders that offers improved performance in handling beam backgrounds. A full description of the kt algorithm is already given in \refsec{higgsjetfinding} so here we will only describe the Valencia algorithm. Overall the Valenica algorithm is similar to the kt algorithm, however the key differences are that the inter-particle distance and beam distance are redefined as:
+
+\begin{equation}
+d_{ij}=min(E_i^{2\beta},E_j^{2\beta})(1-cos\theta_{ij})/R^2
+\end{equation}
+\begin{equation}
+d_{iB}=p_T^{2\beta}
+\end{equation}
+
+Where R is the usual jet radius defined in the same way as for the kt algorithm and b is an additional parameter that can be used to tune how the algorithm behaves for particles approaching the beam line. \reffig{fig:valenciaPerformance} shows how the ratio $d_{ij}/d_{iB}$ develops for a pair of particles produced with fixed energy and angular separation as a function of their polar angle for multiple b factors. One can see that a higher b factor introduces a larger penalty for approaching the beam line leading to an decreased chance for the particles to be merged into a jet.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/distance_ratio_vlc.pdf}
+  \caption[Effect of the Valencia b parameter]{Effect of the Valencia b parameter on $d_{ij}/d_{iB}$ for a pair of particles produced at a fixed energy and angular separation as a function of their polar angle\cite{Boronat:2014hva}}
+  \label{fig:valenciaPerformance}
+\end{figure}
+
+The performance of both algorithms is shown in figure \reffig{fig:jetfinding}. For both algorithms it is seen that at higher R the resolution on the top mass gets worse while for lower R sub-peaks start to appear in the mass distribution corresponding to partial reconstructions of the top (either a W Boson or single quark). The kt algorithm is seen to produce a consistently broader distribution in the top mass. Placing a cut on the collision energy of E $>$ 1.2~TeV reveals that these lower mass peaks only occur for lower collision energies where the tops will no longer be produced back to back and their decay products will be less collimated. As a result the fat jet finding can merge components from both the hadronic and leptonic tops into each jet. This analysis will be focusing on reconstructing the most boosted tops. As a result the Valencia algorithm is preferred due to it's better mass resolution. Performance for less boosted top decays might be improved by examining the performance of a more conventional jet analysis looking to resolve all four individual quarks whenever the fat jet finding produces jets outside the top mass window. This possibility is discussed later in \refsec{Quality Cuts}. Here the Valencia algorithm with R=1.5, $\beta$=1 and $\gamma$=1 is chosen as the optimal jet reconstrcution method to provide a balance between mass resolution and the frequency of partial reconstructions. 
 
 \begin{figure}
   \centering
@@ -135,8 +216,7 @@ Jet reconstruction was performed using the FastJet package \cite{Cacciari:2011ma
     \caption[kt-alogorithm]{kt-algorithm}
   \end{subfigure}%
   \begin{subfigure}{.5\textwidth}
-    \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/ComparisonVLC.png}
+    \centering    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/ComparisonVLC.png}
     \caption[Valenica algorithm]{Valencia}
   \end{subfigure}
   \caption[Performance of jet finding algorithms]{Performance of both jet finding algorithms for various parameter settings. The kt algorithm is seen to produce a broader distribution in the top mass peak so the Valencia algoritm is prefered. For both methods it is seen that a lower R results in the development of peaks from partial reconstruction of the top jet (W Boson or single quark) while a larger R produces a broader peak at the top mass. A balance is found between producing a narrow top mass width while minimising sub peaks by selecting a radius of R=1.5 }
@@ -146,8 +226,8 @@ Jet reconstruction was performed using the FastJet package \cite{Cacciari:2011ma
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{TopAnalysis/figures/TopMass_EOver1200.png}
-  \caption[Performance of Valencia algorithm for high energy events]{Reconstructed top mass for the Valencia algorithm in events close to the nominal collison energy (E>1.2~TeV)}
+  \includegraphics[width=0.7\textwidth]{TopAnalysis/figures/TopMass_EOver1200.png}
+  \caption[Performance of Valencia algorithm for high energy events]{Reconstructed top mass for the Valencia algorithm in events close to the nominal collison energy (E $>$ 1.2~TeV)}
   \label{fig:highEValencia}
 \end{figure}
 
@@ -156,7 +236,7 @@ Jet reconstruction was performed using the FastJet package \cite{Cacciari:2011ma
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\textwidth]{TopAnalysis/figures/CosThetaRecoVsMC.png}
+  \includegraphics[width=0.7\textwidth]{TopAnalysis/figures/CosThetaRecoVsMC.png}
   \caption[Comparison of reconstructed top decay angle to truth]{Comparison of reconstructed top decay angle to truth. A strong correlation is seen over most of the range, however this starts to break down for large angles of $\mid Cos\theta \mid>0.9$ where non-negligible off diagonal contributions are seen.}
   \label{fig:2djetangle}
 \end{figure}

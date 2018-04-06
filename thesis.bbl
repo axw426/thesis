@@ -204,4 +204,22 @@ Y.~Coadou, ``{Boosted Decision Trees and Applications},'' {\em EPJ Web Conf.},
 A.~Muennich, ``{TauFinder: A Reconstruction Algorithm for Tau Leptons at Linear
   Colliders},'' Oct 2010.
 
+\bibitem{Miller:2011qg}
+D.~W. Miller, ``{Jet substructure in ATLAS},'' in {\em {Particles and fields.
+  Proceedings, Meeting of the Division of the American Physical Society, DPF
+  2011, Providence, USA, August 9-13, 2011}}, 2011.
+
+\bibitem{Cacciari:2008gp}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{The Anti-k(t) jet clustering
+  algorithm},'' {\em JHEP}, vol.~04, p.~063, 2008.
+
+\bibitem{Boronat:2014hva}
+M.~Boronat, J.~Fuster, I.~Garcia, E.~Ros, and M.~Vos, ``{A robust jet
+  reconstruction algorithm for high-energy lepton colliders},'' {\em Phys.
+  Lett.}, vol.~B750, pp.~95--99, 2015.
+
+\bibitem{Krohn:2011tw}
+D.~Krohn, T.~Liu, J.~Shelton, and L.-T. Wang, ``{A Polarized View of the Top
+  Asymmetry},'' {\em Phys. Rev.}, vol.~D84, p.~074034, 2011.
+
 \end{thebibliography}
