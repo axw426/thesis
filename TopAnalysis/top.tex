@@ -233,7 +233,7 @@ The performance of both algorithms is shown in figure \reffig{fig:jetfinding}. F
 
 
 \subsubsection{Jet Association}
-
+\label{sec:jetassociation}
 \begin{figure}
   \centering
   \includegraphics[width=0.7\textwidth]{TopAnalysis/figures/CosThetaRecoVsMC.pdf}
@@ -341,6 +341,15 @@ The final method of comparison was to measure the efficiency with which the hadr
   \label{fig:angularEfficiency}
 \end{figure}
 
+\subsection{Jet Substructure}
+
+\subsubsection{NSubjettiness}
+\subsubsection{Subjet Angular Distributions}
+\subsubsection{Jet Multiplicity}
+\label{Jet Multiplicity}
+
+
+
 
 \subsection{S' Reconstruction}
 
@@ -351,21 +360,21 @@ The final method of comparison was to measure the efficiency with which the hadr
   \label{fig:trueSPrime}
 \end{figure}
 
-Following the reconstruction of the lepton and hadronically decaying top it is already possible to calculate $A_{FB}^{t}$, however there is still benefit to first reconstructing the effective centre-of-mass energy of the events (along with the neutrino and any photons produced too.) This allows the calculation of $A_{FB}^{t}$ to be determined in the $t\bar{t}$ rest frame where it is predicted to be up to 50\% larger \cite{Krohn:2011tw}, and also allows a differential measurement of $A_{FB}^{t}$ to be performed. The expected $\sqrt{s'}$ spectrum for $t\bar{t}$ production at 1.4~TeV is shown in \reffig{fig:trueSPrime}. Here it is seen that there is a large tail to the energy spectrum which can be taken advantage of to measure $A_{FB}^{t}$ over a large range of energies. This differential measurement provides greater power for discriminating between different physics models than a single $A_{FB}^{t}$ measurement. If s' can not be reconstructed per event, $A_{FB}^{t}$ would have to either be measured as an integral over the full s' range or be measured just around the peak energy where there are only small s' corrections (E>1200~GeV), however this would mean discarding $\sim$ 60\% of events produced during the 1.4~TeV run. As well as directly effecting the ways in which we can measure $A_{FB}^{t}$, reconstructing s' typically involves reconstructing the neutrino and photon contributions in the event. Having the information about these objects could provide further information that can be used to reconstruct the leptonic top and help distinguish signal events from similar backgrounds.
+Following the reconstruction of the lepton and hadronically decaying top it is already possible to calculate $A_{FB}^{t}$, however there is still benefit to first reconstructing the effective centre-of-mass energy of the events (along with the neutrino and any photons produced too.) This allows the calculation of $A_{FB}^{t}$ to be determined in the $t\bar{t}$ rest frame where it is predicted to be up to 50\% larger \cite{Krohn:2011tw}, and also allows a differential measurement of $A_{FB}^{t}$ to be performed. The expected $\sqrt{s'}$ spectrum for $t\bar{t}$ production at 1.4~TeV is shown in \reffig{fig:trueSPrime}. Here it is seen that there is a large tail to the energy spectrum which can be taken advantage of to measure $A_{FB}^{t}$ over a large range of energies. This differential measurement provides greater power for discriminating between different physics models than a single $A_{FB}^{t}$ measurement. If s' can not be reconstructed per event, $A_{FB}^{t}$ would have to either be measured as an integral over the full s' range or be measured just around the peak energy where there are only small s' corrections (E $>$ 1200~GeV), however this would mean discarding $\sim$ 60\% of events produced during the 1.4~TeV run. As well as directly effecting the ways in which we can measure $A_{FB}^{t}$, reconstructing s' typically involves reconstructing the neutrino and photon contributions in the event. Having a description of these objects could provide further information by allowing the reconstruction of the leptonic top and so could help distinguish signal events from similar backgrounds.
 
-In order to reconstruct s', multiple methods were attempted with varying complexity:
+In order to reconstruct s', multiple methods were attempted with varying complexity. In all cases, combined contributions from \ac{ISR} and \ac{BS} are approximated to the production of one photon radiated from the incoming electron positron pair.x
 
 \subsubsection{Transverse/Longitudinal Association}
-The simplest method attempted was to assume that all missing momentum in the transverse direction is attributed to the neutrino, while all longitudinal momentum comes from photon contributions. These assumptions are motivated by the results from figure \ref{fig:photonspectrum} which show that the photons produced are predominantly collinear with the beam.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/dummy}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/ISRSpectrum.pdf}
   \caption[Angular energy distribution of initial state photons]{Angular energy distribution of initial state photons}
   \label{fig:photonspectrum}
 \end{figure}
 
-This allows full reconstruction of the neutrino and photon objects and so s' can be reconstructed by looking at the sum of the energy of the reocnstructed objects (excluding the photon as it is from ISR or Beamstrahlung.) A comparison of the reconstructed s' to the generator s' spectrum is shown in figure \ref{fig:simpleAssoication}
+
+The simplest method attempted was to assume that all missing momentum in the transverse direction is attributed to the neutrino, while all longitudinal missing momentum comes from photon contributions. These assumptions are motivated by the results from \reffig{fig:photonspectrum} which show that \ac{ISR} photons are predominantly produced collinear to the beam. Using this method s' is then taken to be the mass of the neutrino + fat jets system. An event by event comparison of the reconstructed s' to the generator s'is shown in \reffig{fig:simpleAssoication}. Overall this method is unsatisfactory as the reconstructed s' is consistently underestimating the true s' of the event. In retrospect this should be expected as the assumption that the photon losses are collinear to the beam is only approximately true. We have shown that it is true for high energy \ac{ISR} photons, however one can see from \reffig{fig:photonspectrum} that for lower energy emissions the photons can be emitted at large angles relative to the beam. This is why there is a stronger correlation between the reconstructed and generator s' when the photon energy losses are largest. On top of this there will also be photons produced through \ac{BS} and there is no reason to assume these would be produced with negligible transverse momentum. In practice the neutrino from the leptonic top decay will also have a non negligible longitudinal momentum that should be accounted for. Overall it is clear that this method is unsatisfactory for recobnstructing s'.
 
 \begin{figure}
   \centering
@@ -382,17 +391,41 @@ This allows full reconstruction of the neutrino and photon objects and so s' can
   \caption[Reconstructed s' vs generator s' for mass constraint method]{Reconstructed s' vs generator s' for mass constraint method}
   \label{fig:MassConstraint}
 \end{figure}
-
 \begin{figure}
   \centering
   \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/AnalTopMass.pdf}
-  \caption[Mass of reconstructed top when using mass constraint method]{Mass of reconstructed top when using mass constraint method}
+  \caption[Mass of reconstructed leptonic top when using mass constraint method]{Mass of reconstructed top when using mass constraint method}
   \label{fig:TopMassFrommassMethod}
 \end{figure}
 
-The second method attempted is an adaptation of the first method that makes use of the high efficiency with which the lepton is reconstructed to improve the performance. It starts in the same manner by assuming that all transverse missing momentum comes from the neutrino, however the missing longitudinal momentum is then divided beween the neutrino and photon. This is done by constraining the z component of the neutrino momentum by insisting the combination of the lepton and neutrino four momenta reproduces the W mass. The details of the necessary calculations are described in more detail in (PUT AN APPENDIX IN), but the key detail is that there are four possible solutions for the neutrino momentum. To decide the most suitable solution the W is combined with the b jet and the solution found to give an invaraint mass closest to the top mass was chosen to be best. The resulting reconstructed top mass and s' reconstruction performance are shown in figures \ref{fig:MassConstraint} and \ref{fig:TopMassFrommassMethod}.The reconstructed s' is seen to agree well with the generator value for energies over \~900~GeV, however below this the performance is considerably worse.
+The second method attempted is an adaptation of the first method that makes use of the high efficiency with which the lepton is reconstructed to improve the performance. This method was developed by a fellow member of \ac{CLIC}, Lars Rickard Str{\"o}m, based at \ac{CERN}. It starts in the same manner by assuming that all transverse missing momentum comes from the neutrino, however the missing longitudinal momentum is then divided beween the neutrino and photon. This is done by constraining the z component of the neutrino momentum by insisting the combination of the lepton and neutrino four momenta reproduces the W mass. Overall this acts to remove our incorrect assumption that the neutrino longitudinal momentum is negligible compared to the photons. The details of the calculations are as follows:
+
+\begin{equation}
+  p_W=p_l+p_\nu
+\end{equation}
+\begin{equation}
+M_W^2=M_l^2 + 2(E_lE_\nu - \mathbf{p_l.p_\nu})
+\end{equation}
+\begin{equation}
+0=-\frac{M_W^2-M_l^2}{2} + E_l.\sqrt{p^2_{\nu , x}+p^2_{\nu , y}+p^2_{\nu , z}} - (p_{\nu , x}p_{l , x}+p_{\nu , y}p_{l , y}+p_{\nu , z}p_{l , z})
+\end{equation}
+\begin{equation}
+p_{\nu , z}=\frac{1}{2(p^2_{l , x}-E^2_{l})} (p_{l , z}(M_l^2-M_W^2)-2p_{l , z}(p_{l , x}p_{\nu , x}+p_{l , y}p_{\nu , y}) + X)
+\end{equation}
+Where,
+\begin{equation}
+  \label{eq:X}
+  X=\sqrt{E_l^2((M_W^2-M_l^2 +2(p_{l , x}p_{\nu , x}+p_{l , y}p_{\nu , y}))^2 +4\epsilon_T^2(p^2_{l , z}-E_l^2) )}
+\end{equation}
+\begin{equation}
+  \epsilon_T=\sqrt{p^2_{\nu , x}+p^2_{\nu , y}}
+\end{equation}
+
+In the event that X is imaginary, $\epsilon_T$ is scaled so that X=0. The key detail however, is that there is that there are two possible solutions for the neutrino momentum arrising from the quadratic form of \refeq{eq:X}. To decide the most suitable solution the W is combined with a fat jet (adding two more possible solutions, one for each fat jet) and the solution found to give an invariant mass closest to the top mass is chosen to be best. The resulting reconstructed leptonic top mass and s' reconstruction performance are shown in figures \ref{fig:MassConstraint} and \ref{fig:TopMassFrommassMethod}. The method does still have certain flaws that result in misreconstruction such as the assumption that all missing transverse momentum comes from the neutrinos and that the W mass is exactly 80.4 GeV with no associated width, however it clearly offers an improvement over the first method with a reasonable degree of agreement seen across the full s' range and a lower tendency to underestimate s'.
 
 \subsubsection{Collinearity}
+
+An alternative solution that was proposed was to use the collinearity (angular separation) of the $t\bar{t}$ pair as a way to measure s'. For collisions occurring at the nominal collision energy, the total momentum of the collison should be zero and so the two tops are produced back to back in the lab frame. If a photon is emitted before the electron positron collision occurs, the $t\bar{t}$ pair will have a none zero momentum and so will be boosted resulting in a reduced angular separation between the two tops. The scale of the boost (and thus the size of the angular separation) is proportional to the total momentum of the photon and so should be proportional to s'. Extraction of s' is performed by first using one sample to determine the exact relationship between the collinearity and the generator s'. This relationship is shown in \reffig{fig:Collinearity}. A calibration curve is then generated by fitting the profile of this with a second order polynomial. The performance is then evaluated by taking a second event sample and using the calibration curve to map back from the collinearity to a reconstructed s'. The resulting distribution for reconstruncted s' vs generator s' is shown in \reffig{fig:CollinearitySPrime}. Clearly this method is not as performant as the analytical method. One of the main reasons for this is that the collinearity should be measured between the two tops, however due to the neutrino not being reconstructed in the leptonic decay, one of the objects used for measuring the collinearity will be incomplete. This reduces the correlation between the collinearity and s'. Further, as s' decreases and the tops become less well separated, the chance of reconstruction failures occuring increases. Namely, the jet finding approach used will start to mix parts of each top when trying to construct two fat jets and so the objects the collinearity is calculated for will no longer correspond to the generator level tops (see \refsec{sec:jetassociation}.) This explains the very poor performance for the lowest s' events.
 
 \begin{figure}
   \centering
@@ -410,14 +443,30 @@ The second method attempted is an adaptation of the first method that makes use 
 
 \subsubsection{Kinematic Fitting}
 
+The final approach considered was to use a kinematic fitter (MarlinKinFit v00-03\cite{List:88030}) to simultaneously fit the photon and and neutrino four momenta. The fit has four free parameters- the neutrinos three momentum and the photons z momentum (it is still assumed that photons have negligible transverse momentum) and has six contraints- the total four momentum of the system, the mass of the leptonically W and that the masses of the two tops are consistent. The fit is passed five fit objects- the isolated lepton, two fat jets, neutrino and photon.  The fit will try and find a solution that satisfies all the fit constraints by varying the four momenta of the fit objects. In the case of the physically obervable objects (the lepton and jets), the variation of the four momenta is limited according to the relevant detector resolutions:
+
+\begin{align}
+  \sigma_{E Had}&=35\%\sqrt{E}
+  \\
+  \sigma_{E EM}&=20\%\sqrt{E}
+\\
+  \sigma_{\theta/\phi}&=10\%
+\end{align}
+
+The photon power spectrum is also set within the fit by setting the parameter b in the following formula:
+
+\begin{equation}
+\frac{dN}{dp_z}\propto\frac{1}{p_z^{1-b}}
+\end{equation}
+
+A value of b=0.5 was found to give the best agreement for the reconstructed and generator s'. The resulting performance is shown in \reffig{fig:KinFit}. Overall the performance is similar to that of the analytic method with a good agreement seen between the reconstructed and generator s' across the full s' spectrum. It was decided that this method shall be used for s' determination for the rest of the analysis. While the analytical method is as performant, it is potentially less robust than the kinematic fitting due to the fact it uses a fixed top mass and is unable to scale the four momenta of the measured particles to compensate for detector resolutions.  For the rest of the analysis, the four momenta of all objects is taken to be those returned by the kinematic fit.
+
 \begin{figure}
   \centering
   \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/KinEVsTrueE.pdf}
   \caption[Reconstructed s' vs generator s' for kinematic fit  method]{Reconstructed s' vs generator s' for kinematic fit method}
   \label{fig:KinFit}
 \end{figure}
-
-
 
 \subsection{Flavour Tagging}
 \label{Flavour Tagging}
@@ -428,7 +477,6 @@ The second method attempted is an adaptation of the first method that makes use 
   \caption[B-Tagging Purity vs Efficiency]{Purity vs efficiency for identifying b-jets, obtained from a sample of Z$\rightarrow$ light, c and b quark events simulated at $\sqrt{s}=$1.4 TeV}
   \label{fig:Zbtagging}
 \end{figure}
-
 
 Flavour tagging was performed using LCFIPlus v00-05-02\cite{Suehara:2015ura}. LCFIPlus makes use of three BDTs dedicated to searching for u/d/s (light), b and c quarks respectively, to provide a b-tag and c-tag indicating the probability of a jet containing a b or c quark. As the signal process contains two b jets, only the results of the b-tag are considered here. The BDTs were trained using 50,000 $ee\rightarrow Z\nu\nu, Z\rightarrow qq$ events each. The base performance of the BDTs was assessed using a further 150,000 $ee\rightarrow Z\nu\nu, Z\rightarrow qq$ events containing an even mixture of bb, cc and light quarks to measure the efficiency and purity that could be obtained. The results of this test (shown in \ref{fig:Zbtagging}) indicate that in the case of Z$\rightarrow$qq events high efficiencies and puritys of \~85\% can be acieved simultaneously. Before we apply the flavour tagging to our analysis we first recluster our events into four jets to try and capture the bjets separately from the light quark jets. This is done within the LCFIPlus package which uses the Durham algorithm by default. Ideally the BDTs would also be retrained using top events rather than Z, however due to limited sample sizes this was not a realistic option. The performance of the btagging for semileptonic top events was evaluated by comparing the highest and second highest b-tags assigned to any of the four jets in signal events to those in backgrounds. The results of this comparison are seen in figure \ref{fig:btagging}. It is clear that the btagging is consistantly successful in finding the first b jet, but is less reliable for finding a second b jet. This is expected due to the toplogy of the event. The b jet produced by the leptonically decaying top should be well isolated from everything but the lepton which is identified and removed with high efficiency whereas the bjet from hadronically decaying top will be close to two other jets meaning the jet finder is less likely to accurately associate the PFOs in that region to the correct initial quark. As a result the b jet from the leptonic side should be consistently reconstructed and tagged whereas the the b jet on the hadronic side will be less consistent as the efficiency for reconstructing the jet correctly is much lower. Despite the poorer perfomrnace of the second highest b-tag, both variables provide clear potential as discriminating variables for removing background. 
 
@@ -450,47 +498,43 @@ Flavour tagging was performed using LCFIPlus v00-05-02\cite{Suehara:2015ura}. LC
 \end{figure}
 
 
-
-
-\section{Calculating AFB}
+\section{Methods For Calculating AFB}
 \label{Calculating AFB}
 
 Measuring AFB from theta distributions vs counting- benefit that theta fit isn't effected by acceptance cutoff
-Precision expected from just signal, no event selection, after preselection, after bdt
-%Distribution with background included
-%Distribution for signal + background with background subtraction
-%Overall expected precision on Afb
+Show relative precision for Afb for MC only for different methods
+
 
 \section{Event Selection}
 \label{Event Selection}
 
 
-Split into two regions- low and high energy due to different topology from s'
+Split into three regions- low and high energy due to different topology from s'
 
 Using bdt based selection to maximise performance
 
-Describe jet substructure variables (or any other confusing ones...)
 
-\subsection{NSubjettiness}
-\subsection{Subjet Angular Distributions}
-\subsection{Jet Multiplicity}
-\label{Jet Multiplicity}
-
-\section{Quality Cuts}
-\label{Quality Cuts}
+\subsection{Preselection}
 Preselection cuts
+
+\subsection{Quality Cuts}
+\label{Quality Cuts}
+
+\subsection{BDT Selection}
 BDT variables
-Acceptance cuts
 
 Large table showing efficiency of all cuts on all samples and the final expected number of events for full luminosity
 
 Overall signal efficiency/purity/significance
 
-\subsection{Differential Measurement}
+\section{Extraction of AFB and xsec}
 Differential version of at least one of the plots- probably just signal before selection and then signal+background after selection with background subtraction.
 Explain that most precise point will be for s' >1200 as there is the cleanest signal- highly boosted jets.
 Suggest that lower s' results could benefit from a different reconstruction approach based on a resolved 4 jet analysis- probably deserves its own dedicated study though we can do if we have time. Would also likely benefit from having different variables used for the low s' BDT.
 
+\section{Systematics}
+
+\section{Improvements}
 
 \section{Conclusions}
 
