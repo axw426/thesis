@@ -46,7 +46,7 @@ As tops decay almost exclusively to a W and b (99.8\% of decays) they are typica
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.5\textwidth]{TopAnalysis/figures/dummy}
+  \includegraphics[width=0.5\textwidth]{TopAnalysis/figures/SingleTop}
   \caption[Dominant single top production mode]{Dominant single top production mode capable of mimicking the signal process}
   \label{fig:singletop}
 \end{figure}
@@ -121,7 +121,7 @@ As well as understanding the net efficiency for finding leptons it is also impor
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/NetEfficiencys}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/NetEfficiencys.pdf}
   \caption[Charge Tagging Efficiency]{Efficiency for identifying leptons with the correct charge as a function of angle}
   \label{fig:netefficiency}
 \end{figure}
@@ -132,13 +132,13 @@ As well as checking the angular dependence of the charge tagging efficiency it i
   \centering
   \begin{subfigure}{.5\textwidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/ElectronEfficiencys.png}
+    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/ElectronEfficiencys.pdf}
     \caption[Charge Tagging Efficiency]{Electrons}
     \label{fig:electronefficiency}
   \end{subfigure}%
   \begin{subfigure}{.5\textwidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/MuonEfficiencys}
+    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/MuonEfficiencys.pdf}
     \caption[Charge Tagging Efficiency]{Muons}
     \label{fig:muonefficiency}
   \end{subfigure}
@@ -150,14 +150,14 @@ It arises from the underlying asymmetry in the production of particles vs antipa
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/MomentumVsTheta}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/MomentumVsTheta.pdf}
   \caption[Lepton Momentum Vs Angle]{Correlation between lepton momentum and angle for positrons only}
   \label{fig:efficiency2d}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/MuonEfficiency_Higgs}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/MuonEfficiency_Higgs.pdf}
   \caption[Lepton efficiency for $ee\rightarrow H\nu\nu,H \rightarrow WW\rightarrow qql\nu$ ]{Charge tagging efficiency for $ee\rightarrow H\nu\nu,H \rightarrow WW\rightarrow qql\nu$. The efficiency is seen to be symmetric for particles and antiparticles when they are produced with the same initial angular distribution.}
   \label{fig:higgsleptons}
 \end{figure}
@@ -166,12 +166,12 @@ It arises from the underlying asymmetry in the production of particles vs antipa
   \centering
   \begin{subfigure}{.5\textwidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/ElectronEfficiencys_20GeVCut.png}
+    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/ElectronEfficiencys_20GeVMCCut.pdf}
     \caption[Charge Tagging Efficiency]{Electrons}
   \end{subfigure}%
   \begin{subfigure}{.5\textwidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.png}
+    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.pdf}
     \caption[Charge Tagging Efficiency]{Muons}
   \end{subfigure}
   \caption[Charge Tagging Efficiency After 20GeV Lepton Momentum Cut]{Charge tagging efficiency after 20~GeV lepton momentum cut. The efficiency is seen to be symmetric for leptons with momentum $>$ 20~GeV}
@@ -183,7 +183,7 @@ It arises from the underlying asymmetry in the production of particles vs antipa
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/WBCollinearity}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/WBCollinearity.pdf}
   \caption[Separation between W and b jet from top decay]{Separation between W and b jets from top decay. The pair are typically too collimated to allow the b-jet and the pair of jets from the W decay to be successfully resolved into three distinct jets}
   \label{fig:Collimated}
 \end{figure}
@@ -194,15 +194,15 @@ Jet reconstruction was performed using the FastJet package \cite{Cacciari:2011ma
 d_{ij}=min(E_i^{2\beta},E_j^{2\beta})(1-cos\theta_{ij})/R^2
 \end{equation}
 \begin{equation}
-d_{iB}=p_T^{2\beta}
+d_{iB}=p_T^{2\gamma}E^{2(\beta - \gamma)}
 \end{equation}
 
-Where R is the usual jet radius defined in the same way as for the kt algorithm and b is an additional parameter that can be used to tune how the algorithm behaves for particles approaching the beam line. \reffig{fig:valenciaPerformance} shows how the ratio $d_{ij}/d_{iB}$ develops for a pair of particles produced with fixed energy and angular separation as a function of their polar angle for multiple b factors. One can see that a higher b factor introduces a larger penalty for approaching the beam line leading to an decreased chance for the particles to be merged into a jet.
+Where R is the usual jet radius defined in the same way as for the kt algorithm and $\beta$ and $\gamma$ are additional parameters that can be used to tune how the algorithm behaves for particles approaching the beam line. \reffig{fig:valenciaPerformance} shows how the ratio $d_{ij}/d_{iB}$ develops for a pair of particles produced with fixed energy and angular separation as a function of their polar angle for multiple $\beta$ factors. One can see that a higher $\beta$ factor introduces a larger penalty for approaching the beam line leading to an decreased chance for the particles to be merged into a jet.
 
 \begin{figure}
   \centering
   \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/distance_ratio_vlc.pdf}
-  \caption[Effect of the Valencia b parameter]{Effect of the Valencia b parameter on $d_{ij}/d_{iB}$ for a pair of particles produced at a fixed energy and angular separation as a function of their polar angle\cite{Boronat:2014hva}}
+  \caption[Effect of the Valencia $\beta$ parameter]{Effect of the Valencia $\beta$ parameter on $d_{ij}/d_{iB}$ for a pair of particles produced at a fixed energy and angular separation as a function of their polar angle\cite{Boronat:2014hva}}
   \label{fig:valenciaPerformance}
 \end{figure}
 
@@ -212,12 +212,12 @@ The performance of both algorithms is shown in figure \reffig{fig:jetfinding}. F
   \centering
   \begin{subfigure}{.5\textwidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/ComparisonKt.png}
-    \caption[kt-alogorithm]{kt-algorithm}
+    \includegraphics[width=1.0\textwidth]{TopAnalysis/figures/ComparisonKt.pdf}
+    \caption[kt algorithm]{kt algorithm}
   \end{subfigure}%
   \begin{subfigure}{.5\textwidth}
-    \centering    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/ComparisonVLC.png}
-    \caption[Valenica algorithm]{Valencia}
+    \centering    \includegraphics[width=1.0\textwidth]{TopAnalysis/figures/ComparisonVLC.pdf}
+    \caption[Valenica algorithm]{Valencia algorithm}
   \end{subfigure}
   \caption[Performance of jet finding algorithms]{Performance of both jet finding algorithms for various parameter settings. The kt algorithm is seen to produce a broader distribution in the top mass peak so the Valencia algoritm is prefered. For both methods it is seen that a lower R results in the development of peaks from partial reconstruction of the top jet (W Boson or single quark) while a larger R produces a broader peak at the top mass. A balance is found between producing a narrow top mass width while minimising sub peaks by selecting a radius of R=1.5 }
   \label{fig:jetfinding}
@@ -226,7 +226,7 @@ The performance of both algorithms is shown in figure \reffig{fig:jetfinding}. F
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth]{TopAnalysis/figures/TopMass_EOver1200.png}
+  \includegraphics[width=0.7\textwidth]{TopAnalysis/figures/TopMass_EOver1200.pdf}
   \caption[Performance of Valencia algorithm for high energy events]{Reconstructed top mass for the Valencia algorithm in events close to the nominal collison energy (E $>$ 1.2~TeV)}
   \label{fig:highEValencia}
 \end{figure}
@@ -236,8 +236,8 @@ The performance of both algorithms is shown in figure \reffig{fig:jetfinding}. F
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth]{TopAnalysis/figures/CosThetaRecoVsMC.png}
-  \caption[Comparison of reconstructed top decay angle to truth]{Comparison of reconstructed top decay angle to truth. A strong correlation is seen over most of the range, however this starts to break down for large angles of $\mid Cos\theta \mid>0.9$ where non-negligible off diagonal contributions are seen.}
+  \includegraphics[width=0.7\textwidth]{TopAnalysis/figures/CosThetaRecoVsMC.pdf}
+  \caption[Comparison of reconstructed top decay angle to generator level]{Comparison of reconstructed top decay angle to generator level. A strong correlation is seen over most of the range, however this starts to break down for large angles of $\mid cos\theta \mid>0.9$ where non-negligible off diagonal contributions are seen.}
   \label{fig:2djetangle}
 \end{figure}
 
@@ -245,52 +245,50 @@ The performance of both algorithms is shown in figure \reffig{fig:jetfinding}. F
   \centering
   \begin{subfigure}{.5\textwidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/TopMassDiagonal.png}
-    \caption[$\mid\frac{Cos\theta_{Reco}}{Cos\theta_{True}}\mid >1$]{Fat jet mass when $\mid\frac{Cos\theta_{Reco}}{Cos\theta_{True}}\mid >1$, on diagonal regions of fig \ref{fig:2djetangle}.}
+    \includegraphics[width=1.0\textwidth]{TopAnalysis/figures/TopMassDiagonal.pdf}
+  %  \caption[$\mid\frac{cos\theta_{Reco}}{cos\theta_{Generator}}\mid >1$]{Fat jet mass when $\mid\frac{cos\theta_{Reco}}{cos\theta_{Generator}}\mid >1$, on diagonal regions of fig \ref{fig:2djetangle}.}
   \end{subfigure}%
   \begin{subfigure}{.5\textwidth}
-    \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/TopMassOffDiagonal.png}
-    \caption[$\mid\frac{Cos\theta_{Reco}}{Cos\theta_{True}}\mid >1$]{Fat jet mass when $\mid\frac{Cos\theta_{Reco}}{Cos\theta_{True}}\mid <1$, off diagonal regions of fig \ref{fig:2djetangle}.}
+    \centering\captionsetup{width=.8\linewidth}%
+    \includegraphics[width=1.0\textwidth]{TopAnalysis/figures/TopMassOffDiagonal.pdf}
+ %   \caption[$\mid\frac{cos\theta_{Reco}}{cos\theta_{Generator}}\mid >1$]{Fat jet mass when $\mid\frac{cos\theta_{Reco}}{cos\theta_{Generator}}\mid <1$, off diagonal regions of fig \ref{fig:2djetangle}.}
   \end{subfigure}
-  \caption[Reconstructed fat jet mass]{Reconstructed fat jet mass. In the regions where $\mid\frac{Cos\theta_{Reco}}{Cos\theta_{True}}\mid >1$ (upper right and lower left quadrants of fig \ref{fig:2djetangle}) the reconstructed fat jet matches the top mass, while in the regions corresponding to the off diagonal regions of fig \ref{fig:2djetangle}) the mass is not consistent}
+  \caption[Reconstructed fat jet mass]{Reconstructed fat jet mass. In the on diagonal elements of \reffig{fig:2djetangle}) where $\mid\frac{cos\theta_{Reco}}{cos\theta_{Gen.}}\mid >1$ (left) the reconstructed fat jet matches the top mass, while in the regions corresponding to the off diagonal regions of \reffig{fig:2djetangle}) (right) the mass is no longer consistent.}
   \label{fig:diagonalTopMass}
 \end{figure}
 
 
-After the fat jet finding has been performed, the two reconstructed jets must then be associated as either coming from the hadronically decaying top or from the b jet from the leptonically decaying top. The default method for this was to associate the highest energy fat jet to the hadronically decaying top as, due to the neutrino not being reconstructed and the lepton already being removed, the remaining decay products from the leptonically decaying top should typically have considerably less energy. The performance of this method can be examined by comparing the reconstructed decay angle relative to the true value(see \ref{fig:2djetangle}). While the performance over most of the range studied is good, for $\mid Cos\theta \mid>0.9$ the correlation between the true and reconstructed angles breaks down and off diagonal elements start to appear. Performance in these forward regions is typically poor due to detector acceptances which result in losses down the beam line. In cases where parts of the hadronic top decay are not able to be reconstructed, using the fat jets energy to perform the jet association no longer becomes a reliable method. Evidence that misreconstruction is the source of these off diagonal elements is presented in figure \ref{fig:diagonalTopMass} where it is clear that the fat jets in the off diagonal regions are not reconstructed with a consistent mass. When the jets are not fully reconstructed, it is more likely that the wrong jet is assigned to be from the hadronic top. When the wrong jet is selected the reconstructed angle will be approximately $\pi$ radians off the true value as the tops are predominantly produced back to back. This explanation is further supported by the results shown in figure \ref{fig:2djetangle_farfromleptop} which show that the off diagonal elements can be removed when a cut is placed on the angle between the reconstructed top and the b jet from the leptonic top decay indicating that these elements are definitely coming from selecting the wrong jet. As well as the $\pi$ radian flips from selecting the wrong jet, there are also additional off diagonal contributions seen which arise from poor reconstruction of the fat jets. This typically happens when the tops are not produced back to back due to ISR/Beamstrahlung. When this happens, during the fat jet reconstruction it is possible for contributions from both true fat jets to be mixed e.g instead of grouping the 3 jets from the hadronic jets together only two of them are grouped together and the third is grouped with the lone bjet from the leptonic top. When this mismatching happens the hadronic top is no longer fully reconstructed and so the angle measured for the top decay has little correlation with the true value. Figure \ref{fig:2djetangle_goodtopseparation} shows that these remaining off diagonal elements disappear when a cut is placed on the separation of the tops at truth level. 
+After the fat jet finding has been performed, the two reconstructed jets must then be associated as either coming from the hadronically decaying top or from the b jet from the leptonically decaying top. The default method for this was to associate the highest energy fat jet to the hadronically decaying top as, due to the neutrino not being reconstructed and the lepton already being removed, the remaining decay products from the leptonically decaying top should typically have considerably less energy. The performance of this method can be examined by comparing the reconstructed decay angle relative to the generator value (see \reffig{fig:2djetangle}). While the performance over most of the range studied is good, for $\mid cos\theta \mid>0.9$ the correlation between the generator and reconstructed angles breaks down and off diagonal elements start to appear. Performance in these forward regions is typically poor due to the detector acceptance which result in losses down the beam line. In cases where parts of the hadronic top decay are not able to be reconstructed, using the fat jets energy to perform the jet association no longer becomes a reliable method. Evidence that misreconstruction is the source of these off diagonal elements is presented in \reffig{fig:diagonalTopMass} where it is clear that the fat jets in the off diagonal regions are not reconstructed with a consistent mass. When the jets are not fully reconstructed, it is more likely that the wrong jet is assigned to be from the hadronic top. When the wrong jet is selected the reconstructed angle will be approximately $\pi$ radians off the generator value as the tops are predominantly produced back to back. This explanation is further supported by the results shown in \reffig{fig:2djetangle_farfromleptop} which show that the off diagonal elements can be removed when a cut is placed on the angle between the reconstructed top and the generator level b jet from the leptonic top decay indicating that these elements are definitely coming from selecting the wrong jet being selected. As well as the $\pi$ radian flips from selecting the wrong jet, there are also additional off diagonal contributions seen which arise from poor reconstruction of the fat jets. This typically happens when the tops are not produced back to back due to \ac{ISR}/\ac{BS}. When this happens, during the fat jet reconstruction it is possible for contributions from both true fat jets to be mixed e.g instead of grouping the 3 jets from the hadronic jets together only two of them are grouped together and the third is grouped with the lone b jet from the leptonic top. When this mismatching happens the hadronic top is no longer fully reconstructed and so the angle measured for the top decay has little correlation with the generator value. \reffig{fig:2djetangle_goodtopseparation} shows that these remaining off diagonal elements disappear when a cut is placed on the separation of the tops at truth level. 
 
 \begin{figure}
   \centering
-  \begin{subfigure}{.5\textwidth}
+  \begin{subfigure}{.48\textwidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.png}
-    \caption[Cut placed on angle between reconstructed top and true b jet from leptonic decay]{Cut placed on angle between reconstructed top and true b jet from leptonic decay, $\Delta Cos\theta_{Reco-Bjet}>0.1$}
+    \includegraphics[width=1.0\textwidth]{TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.pdf}%
+    \caption[Cut placed on angle between reconstructed top and generator b jet from leptonic decay]{Cut placed on angle between reconstructed top and generator b jet from leptonic decay, $\Delta Cos\theta_{Reco-Bjet}>0.1$}
     \label{fig:2djetangle_farfromleptop}
-  \end{subfigure}%
-  \begin{subfigure}{.5\textwidth}
+  \end{subfigure}\hfill
+  \begin{subfigure}{.48\textwidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.png}
-    \caption[Cut placed on collinearity between top pair at truth level]{Cut placed on collinearity between top pair at truth level, separation > 3 radians}
+    \includegraphics[width=1.0\textwidth]{TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.pdf}%
+    \caption[Cut placed on collinearity between top pair at generator level]{Cut placed on collinearity between top pair at generator level, separation $>$ 3 radians}
     \label{fig:2djetangle_goodtopseparation}
   \end{subfigure}
-  \caption[Reconstructed vs true top decay angles with truth level cuts]{Reconstructed vs true top decay angles with truth level cuts to explain the off diagonal elements seen in \ref{fig:2djetangle}.}
+  \caption[Reconstructed vs generator top decay angles with truth level cuts]{Reconstructed vs generator top decay angles with truth level cuts to explain the off diagonal elements seen in \ref{fig:2djetangle}.}
   \label{fig:2djetangle_explanations}
 \end{figure}
 
 
-
-
-In order to avoid the problems close to the beam line multiple alternative jet association methods were devised- see \ref{fig:methodDescription}.
+In order to avoid the problems close to the beam line multiple alternative jet association methods were devised- see \reftab{tab:methodDescription}.
 \begin{table}
   \centering
-  \begin{tabular}{l |p{120mm}}
+  \begin{tabular}{l |p{100mm}}
     \toprule
     Fat Jet Selection Method     & Description  \\
     \midrule
-    Lepton & The hadronically decaying top is deemed to be the fat jet with the greatest separation from the isolated lepton\\
+    Lepton & The hadronically decaying top is deemed to be the fat jet with the greatest angular separation from the isolated lepton\\
     \midrule
-    B tag & The hadronically decaying top is deemed to be the fat jet with the greatest separation from the jet with the highest b tag (see \ref{Flavour Tagging} for details on how flavour tagging is performed)\\
+    B tag & The hadronically decaying top is deemed to be the fat jet with the greatest angular separation from the jet with the highest b tag (see \ref{Flavour Tagging} for details on how flavour tagging is performed)\\
     \midrule
     Energy & Select the fat jet with the highest energy to be the hadronically decaying top\\
     \midrule
@@ -298,68 +296,62 @@ In order to avoid the problems close to the beam line multiple alternative jet a
     \midrule
     Mass & The hadronically decaying top is deemed to be the fat jet with the greatest mass \\
     \midrule
-    Top Mass & Select the fat jet whos mass is closest to the top mass as the hadronically decaying top\\
+    Top Mass & Select the fat jet whos mass is closest to the top mass as the hadronically decaying top \\
     \midrule
     Democratic & A combination of the lepton, energy and mass methods. Each method votes for which fat jet it thinks is the hadronically decaying top. The fat jet with the most votes is then selected as the hadronically decaying top  \\
     \bottomrule
   \end{tabular}
-  \caption{Methods used for identifying which fat jet corresponds to the hadronically decaying top}
-  \label{fig:methodDescription}
+  \caption{Methods used for identifying which fat jet corresponds to the hadronically decaying top.}
+  \label{tab:methodDescription}
 \end{table}
 
-The relative effectiveness of these methods were evaluated in three ways shown in figures \ref{fig:methodComparison}, \ref{fig:angleFitDiff} and \ref{fig:angularEfficiency} respectively. The first method was to look at the overall distribution of Cos$\theta$ produced by each method compared to the distribution at truth level as this is what will be used to extract $A_{fb}^{t}$. All the methods agree well with the true distribution in the central region of the detector but diverge in the high $\mid Cos\theta\mid$ region. This is mainly caused by the effect described above. Close to the beam line the jets aren't fully reconstructed, the jet assoication fails and the b jet from the leptonic side is selected rather than the hadronic top jet. This causes migrations from the forward region to the backward regions producing a deficit in the foward region and an excess in the backward region. Migrations do occure in the opposite direction too for the same reason, however because the top forward-backward asymmetry means tht more tops are produced in the forward region to begin with, the net migration is from forward to backward. The migrations are not always a shift of $\pi$ radians as one might expect. Instead the migrations occur from very close to the beam line to a broader range in the opposite direction. This is due to the fact that ISR/Beamstrahlung can mean the top pair aren't produced exactly back to back in the lab frame and because the b-jet produced by the leptonic decay is not exactly collinear with the the top decay axis. Comparing the methods we see that all the methods show similar levels of migration except for the btag method which shows the highest migration. This is attributed to the fact the highest btagged jet can sometimes be from the hadronic side even in events that are well reconstructed, and so the jet association will fail in more events than the other methods which only fail for events close to the beam line.
+The relative effectiveness of these methods were evaluated in three ways shown in \reffigs{fig:methodComparison}, \ref{fig:angleFitDiff} and \ref{fig:angularEfficiency} respectively. The first method was to look at the overall distribution of cos$\theta$ produced by each method compared to the distribution at generator level as this is what will be used to extract $A_{fb}^{t}$. All the methods agree well with the generator distribution in the central region of the detector but diverge in the high $\mid cos\theta\mid$ region. This is mainly caused by the effect described above. Close to the beam line the jets aren't fully reconstructed, the jet association fails and the b jet from the leptonic side is selected rather than the hadronic top jet. This causes migrations from the forward region to the backward regions producing a deficit in the forward region and an excess in the backward region. Migrations do occur in the opposite direction too for the same reason, however because the top forward-backward asymmetry means tht more tops are produced in the forward region to begin with, the net migration is from forward to backward. The migrations are not always a shift of $\pi$ radians as one might expect. Instead the migrations occur from very close to the beam line to a broader range in the opposite direction. This is due to the fact that \ac{ISR}/\ac{BS} can mean the top pair aren't produced exactly back to back in the lab frame and because the b-jet produced by the leptonic decay is not exactly collinear with the the top decay axis. Comparing the methods we see that all the methods show similar levels of migration except for the btag method which shows the highest migration. This is attributed to the fact the highest btagged jet can sometimes be from the hadronic side even in events that are well reconstructed, and so the jet association will fail in more events than the other methods which only fail for events close to the beam line.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/comparejetmethods.png}
-  \caption[Reconstructed Cos$\theta$ distribution for various jet association methods]{Reconstructed Cos$\theta$ distribution for various jet association methods. The expected distribution from truth level information is uncluded for reference}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/comparejetmethods.pdf}
+  \caption[Reconstructed cos$\theta$ distribution for various jet association methods]{Reconstructed cos$\theta$ distribution for various jet association methods. The expected distribution from truth level information is uncluded for reference.}
   \label{fig:methodComparison}
 \end{figure}
 
-The second method was to measure the difference between the reconstructed and MC(true) Cos$\theta$ per event and fit this with a gaussian. The variation in the width and mean of these distributions were plotted against the true Cos$\theta$ and are shown in fig \ref{fig:angleFitDiff}. The effects of migration at high Cos$\theta$ is more pronounced in these plots where in the width we can see that the resolution on Cos$\theta$ gets much worse in the forward regions and the mean shows a pull in opposite directions in these regions proving the migrations do indeed occur in both directions with the same. Unfortunately there is little discrimination seen between the methods except for showing that there are slightly larger migrations when using the btag method.
+The second method was to measure the difference between the reconstructed and MC(generator) cos$\theta$ per event and fit this with a gaussian. The variation in the width and mean of these distributions were plotted against the generator cos$\theta$ and are shown in \reffig{fig:angleFitDiff}. The effects of migration at high cos$\theta$ is more pronounced in these plots where in the width we can see that the resolution on cos$\theta$ gets much worse in the forward regions and the mean shows a pull in opposite directions in these regions proving the migrations do indeed occur in both directions with the same rate. Unfortunately there is little discrimination seen between the methods except for showing that there are slightly larger migrations when using the b-tag method.
 
 \begin{figure}
   \centering
   \begin{subfigure}{.5\textwidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/MeanThetaDiff.png}
+    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/MeanThetaDiff.pdf}
     \caption[Mean]{Mean}
   \end{subfigure}%
   \begin{subfigure}{.5\textwidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/WidthThetaDiff.png}
+    \includegraphics[width=0.9\textwidth]{TopAnalysis/figures/WidthThetaDiff.pdf}
     \caption[Width]{Width}
   \end{subfigure}
-  \caption[Mean and width from fitting $\Delta Cos\theta_{True-Reco}$ to a gaussian]{Mean and width from fitting $\Delta$Cos$\theta_{True-Reco}$ to a gaussian. Mean: migrations close to $\mid Cos\theta\mid>0.9$ result in a bias in the mean. The migrations cause a shift of roughly $\pi$ radians resulting in the bias being in the opposite direction for each end of the range. Width: migrations close to $\mid Cos\theta\mid>0.9$ cause a broadening in the resolution of the reconstructed Cos$\theta$}
+  \caption[Mean and width from fitting $\Delta cos\theta_{Gen.-Reco.}$ to a gaussian]{Mean and width from fitting $\Delta cos\theta_{Gen.-Reco.}$ to a gaussian. Mean: migrations close to $\mid cos\theta\mid>0.9$ result in a bias in the mean. The migrations cause a shift of roughly $\pi$ radians resulting in the bias being in the opposite direction for each end of the range. Width: migrations close to $\mid cos\theta\mid>0.9$ cause a broadening in the resolution of the reconstructed cos$\theta$.}
   \label{fig:angleFitDiff}
 \end{figure}
 
-The final method of comparison was to measure the efficiency with which the hadronic top was measured within the correct Cos$\theta$ bin as a function of the true Cos$\theta$. For this study a bin width of 0.1 in Cos$\theta$ was used. The results are shown in figure \ref{fig:angularEfficiency}. Here there is a clearer separation in the performance of the different methods. B-tagging is seen to provide the worst efficiency while the energy and democratic methods provide the highest level of performance. The mass based selections provide slightly lower performance than the energy/democratic methods. This is likely explained by the fact they are less robust when the the event the jets are not fully reconstructed. Missing a small section of the jet via acceptance losses/reconstruction inefficiencies can have a large impact on the reconstructed mass, however in the case of energy, if we naively assume that the energy is split evenly between the 6 final state particles, then we would expect that the energy of the hadronic fat jet would be three times that of the b-jet from the leptonic top and so considerable energy losses must occur before the wrong jet is selected. Due to their higher bin by bin efficiency, the energy and democratic methods are the best methods to use. Due to it's simplicity the energy method is then chosen as the preferred method for the rest of the analysis. 
+The final method of comparison was to measure the efficiency with which the hadronic top was measured within the correct cos$\theta$ bin as a function of the generator cos$\theta$. For this study a bin width of 0.1 in cos$\theta$ was used. The results are shown in \reffig{fig:angularEfficiency}. Here there is a clearer separation in the performance of the different methods. B-tagging is seen to provide the worst efficiency while the energy and democratic methods provide the highest level of performance. The mass based selections provide slightly lower performance than the energy/democratic methods. This is likely explained by the fact they are less robust when the the event the jets are not fully reconstructed. Missing a small section of the jet via acceptance losses/reconstruction inefficiencies can have a large impact on the reconstructed mass, however in the case of energy, if we naively assume that the energy is split evenly between the 6 final state particles, then we would expect that the energy of the hadronic fat jet would be three times that of the b-jet from the leptonic top and so considerable energy losses must occur before the wrong jet is selected. Due to their higher bin by bin efficiency, the energy and democratic methods are the best methods to use. Due to it's simplicity the energy method is then chosen as the preferred method for the rest of the analysis. 
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/EfficiencyvsMCTheta.png}
-  \caption[Efficiency for reconstructing the hadronically decaying top in the correct Cos$\theta$ bin]{Efficiency for reconstructing the hadronically decaying top in the correct Cos$\theta$ bin}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/EfficiencyvsMCTheta.pdf}
+  \caption[Efficiency for reconstructing the hadronically decaying top in the correct cos$\theta$ bin]{Efficiency for reconstructing the hadronically decaying top in the correct cos$\theta$ bin.}
   \label{fig:angularEfficiency}
 \end{figure}
-
-
-
-
-
-
 
 
 \subsection{S' Reconstruction}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/RawSPrime.png}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/GeneratorSPrime.pdf}
   \caption[Expected s' spectrum for $t\bar{t}$ at 1.4~TeV]{Expected s' spectrum for $t\bar{t}$ at 1.4~TeV}
   \label{fig:trueSPrime}
 \end{figure}
 
-Following the reconstruction of the lepton and hadronically decaying top it is already possible to calculate $A_{FB}^{t}$, however there is still benefit to first reconstructing the effective centre-of-mass energy of the events (along with the neutrino and any photons produced too.) This allows the calculation of $A_{FB}^{t}$ to be determined in the $t\bar{t}$ rest frame where it is predicted to be up to 50\% bigger \cite{Krohn:2011tw}, and also allows a differential measurement of $A_{FB}^{t}$ to be performed. The expected $\sqrt{s'}$ spectrum for $t\bar{t}$ production at 1.4~TeV is shown in figure \ref{fig:trueSPrime}. Here it is seen that there is a large tail to the energy spectrum which can be taken advantage of to measure $A_{FB}^{t}$ over a large range of energies. This differential measurement provides more greater power for discriminating between different phyhsics models than a single $A_{FB}^{t}$ measurement. If s' can not be reconstructed per event, $A_{FB}^{t}$ would have to either be measured as an integral over the full s' range or be measured just around the peak energy where there are only small s' corrections (E>1200~GeV), however this would mean disregarding INSERT PERCENTAGE of events produced during the 1.4~TeV run. As well as directly effecting the ways in which we can measure $A_{FB}^{t}$, reconstructing s' typically involves reconstructing the neutrino and photon contributions in the event. Having the information about these objects provides further information that can be used to reconstruct the leptonic top and help distinguish signal events from similar backgrounds.
+Following the reconstruction of the lepton and hadronically decaying top it is already possible to calculate $A_{FB}^{t}$, however there is still benefit to first reconstructing the effective centre-of-mass energy of the events (along with the neutrino and any photons produced too.) This allows the calculation of $A_{FB}^{t}$ to be determined in the $t\bar{t}$ rest frame where it is predicted to be up to 50\% larger \cite{Krohn:2011tw}, and also allows a differential measurement of $A_{FB}^{t}$ to be performed. The expected $\sqrt{s'}$ spectrum for $t\bar{t}$ production at 1.4~TeV is shown in \reffig{fig:trueSPrime}. Here it is seen that there is a large tail to the energy spectrum which can be taken advantage of to measure $A_{FB}^{t}$ over a large range of energies. This differential measurement provides greater power for discriminating between different physics models than a single $A_{FB}^{t}$ measurement. If s' can not be reconstructed per event, $A_{FB}^{t}$ would have to either be measured as an integral over the full s' range or be measured just around the peak energy where there are only small s' corrections (E>1200~GeV), however this would mean discarding $\sim$ 60\% of events produced during the 1.4~TeV run. As well as directly effecting the ways in which we can measure $A_{FB}^{t}$, reconstructing s' typically involves reconstructing the neutrino and photon contributions in the event. Having the information about these objects could provide further information that can be used to reconstruct the leptonic top and help distinguish signal events from similar backgrounds.
 
 In order to reconstruct s', multiple methods were attempted with varying complexity:
 
@@ -373,12 +365,12 @@ The simplest method attempted was to assume that all missing momentum in the tra
   \label{fig:photonspectrum}
 \end{figure}
 
-This allows full reconstruction of the neutrino and photon objects and so s' can be reconstructed by looking at the sum of the energy of the reocnstructed objects (excluding the photon as it is from ISR or Beamstrahlung.) A comparison of the reconstructed s' to the true s' spectrum is shown in figure \ref{fig:simpleAssoication}
+This allows full reconstruction of the neutrino and photon objects and so s' can be reconstructed by looking at the sum of the energy of the reocnstructed objects (excluding the photon as it is from ISR or Beamstrahlung.) A comparison of the reconstructed s' to the generator s' spectrum is shown in figure \ref{fig:simpleAssoication}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/dummy}
-  \caption[Reconstructed s' vs true s' for Transverse/Longitudinal Association Method]{Reconstructed s' vs true s' for Transverse/Longitudinal Association Method}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/CrudeEVsTrueE.pdf}
+  \caption[Reconstructed s' vs generator s' for Transverse/Longitudinal Association Method]{Reconstructed s' vs generator s' for Transverse/Longitudinal Association Method}
   \label{fig:simpleAssoication}
 \end{figure}
 
@@ -386,41 +378,44 @@ This allows full reconstruction of the neutrino and photon objects and so s' can
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/dummy}
-  \caption[Reconstructed s' vs true s' for mass constraint method]{Reconstructed s' vs true s' for mass constraint method}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/AnalEVsTrueE.pdf}
+  \caption[Reconstructed s' vs generator s' for mass constraint method]{Reconstructed s' vs generator s' for mass constraint method}
   \label{fig:MassConstraint}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/dummy}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/AnalTopMass.pdf}
   \caption[Mass of reconstructed top when using mass constraint method]{Mass of reconstructed top when using mass constraint method}
   \label{fig:TopMassFrommassMethod}
 \end{figure}
 
-The second method attempted is an adaptation of the first method that makes use of the high efficiency with which the lepton is reconstructed to improve the performance. It starts in the same manor by assuming that all transverse missing momentum comes from the neutrino, however the missing longitudinal momentum is then divided beween the neutrino and photon. This is done by constraining the z component of the neutrino momentum by insisting the combination of the lepton and neutrino four momenta reproduces the W mass. The details of the necessary calculations are described in more detail in (PUT AN APPENDIX IN), but the key detail is that there are four possible solutions for the neutrino momentum. To decide the most suitable solution the W is combined with the b jet and the solution found to give an invaraint mass closest to the top mass was chosen to be best. The resulting reconstructed top mass and s' reconstruction performance are shown in figures \ref{fig:MassConstraint} and \ref{fig:TopMassFrommassMethod}.The reconstructed s' is seen to agree well with the true value for energies over \~900~GeV, however below this the performance is considerably worse.
+The second method attempted is an adaptation of the first method that makes use of the high efficiency with which the lepton is reconstructed to improve the performance. It starts in the same manner by assuming that all transverse missing momentum comes from the neutrino, however the missing longitudinal momentum is then divided beween the neutrino and photon. This is done by constraining the z component of the neutrino momentum by insisting the combination of the lepton and neutrino four momenta reproduces the W mass. The details of the necessary calculations are described in more detail in (PUT AN APPENDIX IN), but the key detail is that there are four possible solutions for the neutrino momentum. To decide the most suitable solution the W is combined with the b jet and the solution found to give an invaraint mass closest to the top mass was chosen to be best. The resulting reconstructed top mass and s' reconstruction performance are shown in figures \ref{fig:MassConstraint} and \ref{fig:TopMassFrommassMethod}.The reconstructed s' is seen to agree well with the generator value for energies over \~900~GeV, however below this the performance is considerably worse.
 
 \subsubsection{Collinearity}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/dummy}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/ColVsE.pdf}
   \caption[Collinearity of $t\bar{t}$ pair]{Collinearity of $t\bar{t}$ pair}
   \label{fig:Collinearity}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/dummy}
-  \caption[Reconstructed s' vs true s' for collinearity method]{Reconstructed s' vs true s' for collinearity method}
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/ColEVsTrueE.pdf}
+  \caption[Reconstructed s' vs generator s' for collinearity method]{Reconstructed s' vs generator s' for collinearity method}
   \label{fig:CollinearitySPrime}
 \end{figure}
 
 \subsubsection{Kinematic Fitting}
 
-
-
-
+\begin{figure}
+  \centering
+  \includegraphics[width=0.6\textwidth]{TopAnalysis/figures/KinEVsTrueE.pdf}
+  \caption[Reconstructed s' vs generator s' for kinematic fit  method]{Reconstructed s' vs generator s' for kinematic fit method}
+  \label{fig:KinFit}
+\end{figure}
 
 
 
@@ -429,7 +424,7 @@ The second method attempted is an adaptation of the first method that makes use 
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.78\textwidth,height=7cm,keepaspectratio]{TopAnalysis/figures/btag_crosses}
+  \includegraphics[width=0.78\textwidth,height=7cm,keepaspectratio]{HiggsAnalysis/figures/updatedpurityvsefficiency.pdf}
   \caption[B-Tagging Purity vs Efficiency]{Purity vs efficiency for identifying b-jets, obtained from a sample of Z$\rightarrow$ light, c and b quark events simulated at $\sqrt{s}=$1.4 TeV}
   \label{fig:Zbtagging}
 \end{figure}
