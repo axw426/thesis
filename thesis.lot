@@ -1,17 +1,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces ILC Beam Parameters}}{9}{table.caption.19}
-\contentsline {table}{\numberline {2.2}{\ignorespaces CLIC beam parameters}}{11}{table.caption.25}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Properties of the CLIC vertex detector assuming three pairs of layers \cite {ILD}\relax }}{19}{table.caption.32}
+\contentsline {table}{\numberline {2.1}{\ignorespaces ILC Beam Parameters}}{9}{table.caption.20}
+\contentsline {table}{\numberline {2.2}{\ignorespaces CLIC beam parameters}}{11}{table.caption.26}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Properties of the CLIC vertex detector assuming three pairs of layers \cite {ILD}\relax }}{19}{table.caption.33}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Particles of the Standard Model}}{31}{table.caption.43}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Predicted Higgs Coupling Modifications for BSM theories}}{43}{table.caption.53}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Particles of the Standard Model}}{31}{table.caption.44}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Predicted Higgs Coupling Modifications for BSM theories}}{43}{table.caption.54}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Top Pair Decay Modes\relax }}{72}{table.caption.78}
 \contentsline {table}{\numberline {5.2}{\ignorespaces Samples used in the -80\% electron beam polarization study\relax }}{74}{table.caption.80}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Samples used in the +80\% electron beam polarization study\relax }}{74}{table.caption.81}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Methods used for identifying which fat jet corresponds to the hadronically decaying top.\relax }}{86}{table.caption.95}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Samples used in the +80\% electron beam polarization study\relax }}{75}{table.caption.81}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Methods used for identifying which fat jet corresponds to the hadronically decaying top.\relax }}{87}{table.caption.95}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Precision attainable on $A_{FB}^t$ during the -80\% electron polarization stage assuming perfect event reconstruction for the simple counting method vs the fit method for extraction\relax }}{108}{table.caption.116}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Efficiency for signal and background processes following pre-selection cuts for -80\% polarization\relax }}{110}{table.caption.117}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Efficiency for signal and background processes following pre-selection cuts for +80\% polarization\relax }}{111}{table.caption.118}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Efficiency for signal and background processes following pre-selection and quality cuts for -80\% polarization\relax }}{112}{table.caption.119}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Efficiency for signal and background processes following pre-selection and quality cuts for +80\% polarization\relax }}{113}{table.caption.120}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Efficiency for signal and background processes being classified as E $>$ 1200 GeV following all stages of selection, and the expected number of events for 750 fb$^-1$ for -80\% polarization\relax }}{116}{table.caption.124}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Efficiency for signal and background processes being classified as E $>$ 1200 GeV following all stages of selection and the expected number of events for 750 fb$^-1$ for +80\% polarization\relax }}{117}{table.caption.125}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Efficiency for signal and background processes being classified as 900$<$E$<$1200 GeV following all stages of selection, and the expected number of events for 750 fb$^-1$ for -80\% polarization\relax }}{128}{table.caption.130}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Efficiency for signal and background processes being classified as 900$<$E$<$1200 GeV following all stages of selection and the expected number of events for 750 fb$^-1$ for +80\% polarization\relax }}{129}{table.caption.131}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Efficiency for signal and background processes being classified as 400$<$E$<$900 GeV following all stages of selection, and the expected number of events for 750 fb$^-1$ for -80\% polarization\relax }}{130}{table.caption.132}
+\contentsline {table}{\numberline {A.4}{\ignorespaces Efficiency for signal and background processes being classified as 400$<$E$<$900 GeV following all stages of selection and the expected number of events for 750 fb$^-1$ for +80\% polarization\relax }}{131}{table.caption.133}

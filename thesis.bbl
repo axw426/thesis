@@ -204,6 +204,9 @@ Y.~Coadou, ``{Boosted Decision Trees and Applications},'' {\em EPJ Web Conf.},
 A.~Muennich, ``{TauFinder: A Reconstruction Algorithm for Tau Leptons at Linear
   Colliders},'' Oct 2010.
 
+\bibitem{cdrvol2}
+``{CLIC Conceptual Design Report: Physics and Detectors at CLIC},'' 2012.
+
 \bibitem{Miller:2011qg}
 D.~W. Miller, ``{Jet substructure in ATLAS},'' in {\em {Particles and fields.
   Proceedings, Meeting of the Division of the American Physical Society, DPF
@@ -218,8 +221,21 @@ M.~Boronat, J.~Fuster, I.~Garcia, E.~Ros, and M.~Vos, ``{A robust jet
   reconstruction algorithm for high-energy lepton colliders},'' {\em Phys.
   Lett.}, vol.~B750, pp.~95--99, 2015.
 
+\bibitem{Thaler:2010tr}
+J.~Thaler and K.~Van~Tilburg, ``{Identifying Boosted Objects with
+  N-subjettiness},'' {\em JHEP}, vol.~03, p.~015, 2011.
+
 \bibitem{Krohn:2011tw}
 D.~Krohn, T.~Liu, J.~Shelton, and L.-T. Wang, ``{A Polarized View of the Top
   Asymmetry},'' {\em Phys. Rev.}, vol.~D84, p.~074034, 2011.
+
+\bibitem{List:88030}
+B.~List and J.~List, ``{M}arlin{K}infit: {A}n {O}bject--{O}riented {K}inematic
+  {F}itting {P}ackage,'' {\em LC Notes}, 2009.
+
+\bibitem{PhysRevD.25.1218}
+J.~Jers\'ak, E.~Laermann, and P.~M. Zerwas, ``Electroweak production of heavy
+  quarks in ${e}^{+}{e}^{\ensuremath{-}}$ annihilation,'' {\em Phys. Rev. D},
+  vol.~25, pp.~1218--1228, Mar 1982.
 
 \end{thebibliography}
