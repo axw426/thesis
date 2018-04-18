@@ -60,13 +60,22 @@
 \BOOKMARK [2][-]{subsection.5.4.3}{BDT Selection}{section.5.4}% 60
 \BOOKMARK [1][-]{section.5.5}{Extraction of AFBt and cross section}{chapter.5}% 61
 \BOOKMARK [1][-]{section.5.6}{Systematics}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.7}{Improvements}{chapter.5}% 63
-\BOOKMARK [1][-]{section.5.8}{Conclusions}{chapter.5}% 64
-\BOOKMARK [0][-]{chapter.6}{DECALStudies}{}% 65
-\BOOKMARK [1][-]{section.6.1}{DigiMAPs}{chapter.6}% 66
-\BOOKMARK [1][-]{section.6.2}{Design Optimization}{chapter.6}% 67
-\BOOKMARK [1][-]{section.6.3}{Hardware studies}{chapter.6}% 68
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 69
-\BOOKMARK [0][-]{chapter.1}{Appendix A}{}% 70
-\BOOKMARK [1][-]{section.1.1}{Higgs Results}{chapter.1}% 71
-\BOOKMARK [1][-]{section.1.2}{Top Results}{chapter.1}% 72
+\BOOKMARK [2][-]{subsection.5.6.1}{Background Normalization}{section.5.6}% 63
+\BOOKMARK [2][-]{subsection.5.6.2}{Background Shape}{section.5.6}% 64
+\BOOKMARK [2][-]{subsection.5.6.3}{Luminosity}{section.5.6}% 65
+\BOOKMARK [2][-]{subsection.5.6.4}{Bias Towards Generator AFBt}{section.5.6}% 66
+\BOOKMARK [2][-]{subsection.5.6.5}{Unquantified Effects}{section.5.6}% 67
+\BOOKMARK [2][-]{subsection.5.6.6}{Summary}{section.5.6}% 68
+\BOOKMARK [1][-]{section.5.7}{Improvements}{chapter.5}% 69
+\BOOKMARK [1][-]{section.5.8}{Conclusions}{chapter.5}% 70
+\BOOKMARK [0][-]{chapter.6}{Digital Calorimetry}{}% 71
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 72
+\BOOKMARK [1][-]{section.6.2}{Event Generation}{chapter.6}% 73
+\BOOKMARK [1][-]{section.6.3}{Design Optimization}{chapter.6}% 74
+\BOOKMARK [1][-]{section.6.4}{DigiMAPs}{chapter.6}% 75
+\BOOKMARK [1][-]{section.6.5}{Conclusion}{chapter.6}% 76
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 77
+\BOOKMARK [0][-]{chapter.1}{Appendix A}{}% 78
+\BOOKMARK [1][-]{section.1.1}{Higgs Results}{chapter.1}% 79
+\BOOKMARK [0][-]{chapter.2}{Appendix B}{}% 80
+\BOOKMARK [1][-]{section.2.1}{Top Results}{chapter.2}% 81

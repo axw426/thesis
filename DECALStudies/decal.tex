@@ -1,14 +1,34 @@
-\chapter{DECALStudies}
+\chapter{Digital Calorimetry}
 \label{sect:DECAL}
-General concept- energy proportional to nParticles
+
+\section{Introduction}
+As mentioned in \refsec{det:ecal}, several alternatives exist for the \ac{ECAL} design of \ac{ILD}. Here we present details of a proposed fully digital \ac{ECAL} that simply counts the number of pixels above threshold rather than measuring the energy deposited in each pixel which works based on the fact that the number of particles produced by an electromagnetic shower is proportional to the energy of the incident particle.
+
+This approach has several potential benefits. Fundamentally it should allow for a slight improvement in the energy resolution as it is less senstive to fluctuations arising from varying path lengths as the particle traverses the active material. On top of this, the proposed technology choice will be to use highly granular ($\mathcal{O}$ 50$\mu m$) \ac{CMOS} \ac{MAPS}. This is the same technology as is used for the inner trackers and so this would allow a uniform technology solution across multiple detector components. It is also a much cheaper technology option than that used by the alternative \ac{ECAL} designs. The high granularity also allows for better pattern recognition with the calorimeter which can improve the performance of the particle flow algorithm applied in Pandora.
+
 
 Explain potential benefits- cheape, same tech as inner detectors, granularity could improve particle flow
 
+Implementation- explain CMOS MAPS, necessary to have granularity
+
+\section{Event Generation}
 
 Description of Mokka \& Geant4
 
-Detector changes implemented for simulations- smaller pixel size, active silicon replaced with thinner active silicon layer and passive silicon layer
- 
+Detector changes implemented for simulations- smaller pixel size, active silicon (300um) replaced with thinner active silicon layer and passive silicon layer
+
+Using particle gun
+
+Benefit that adapting existing geometry allows large amount of detail to be included
+
+\section{Design Optimization}
+Linearity fits
+
+Landaus, 
+
+Aspect Ratio for resolution
+
+
 
 \section{DigiMAPs}
 Various effects on resolution
@@ -18,11 +38,6 @@ Signal Noise
 Clustering
 Threshold
 
-\section{Design Optimization}
-Aspect Ratio for resolution
-Linearity
-Leakage= do studies based on change in radiator- tungsten vs lead
+2D plots with all effects
 
-
-\section{Hardware studies}
-Assuming this ever works....
+\section{Conclusion}
