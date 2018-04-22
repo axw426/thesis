@@ -4,30 +4,62 @@
 \section{Introduction}
 As mentioned in \refsec{det:ecal}, several alternatives exist for the \ac{ECAL} design of \ac{ILD}. Here we present details of a proposed fully digital \ac{ECAL} that simply counts the number of pixels above threshold rather than measuring the energy deposited in each pixel which works based on the fact that the number of particles produced by an electromagnetic shower is proportional to the energy of the incident particle.
 
-This approach has several potential benefits. Fundamentally it should allow for a slight improvement in the energy resolution as it is less senstive to fluctuations arising from varying path lengths as the particle traverses the active material. On top of this, the proposed technology choice will be to use highly granular ($\mathcal{O}$ 50$\mu m$) \ac{CMOS} \ac{MAPS}. This is the same technology as is used for the inner trackers and so this would allow a uniform technology solution across multiple detector components. It is also a much cheaper technology option than that used by the alternative \ac{ECAL} designs. The high granularity also allows for better pattern recognition with the calorimeter which can improve the performance of the particle flow algorithm applied in Pandora.
+This approach has several potential benefits. Fundamentally it should allow for a slight improvement in the energy resolution as it is less senstive to fluctuations arising from landau fluctuations and varying path lengths as the particle traverses the active material. On top of this, the proposed technology choice will be to use highly granular ($\mathcal{O}$(50$\mu m$)) \ac{CMOS} \ac{MAPS}. This is the same technology as is used for the inner trackers and so this would allow a uniform technology solution across multiple detector components. It is also a much cheaper technology option than that used by the alternative \ac{ECAL} designs. The high granularity further allows for better pattern recognition with the calorimeter which can improve the performance of the particle flow algorithm applied in Pandora.
+
+While the digital option provides these benefits it does come with one potential flaw referred to as saturation. In a digital calorimeter, if two particles pass through the same pixel, only one hit will be registered and so the total number of particles in the shower (and thus the energy of the shower) will be underestimated. The density of an EM shower scales according to the energy of the showering particle. As a result the rate of multiple occupancy in the pixels will increase with energy leading to a non linear relationship between a particles energy and the number of hits it generates within the detector. In practice this problem can be avoided by ensuring that the granularity of the detector is always greater than the density of the electromagnetic showers. For typical \ac{ILC} energies the density of the showers is estimated to be $\mathcal{O}$ 100 particles/mm$^2$ and so a granularity of at least 50$\times$50~$\mu$m$^2$ is required to ensure only one particle hits each pixel. Note that inn the analogue case this problem does not occur as the energy deposited in the pixel is what is measured and this will scale with the number of particles passing through the pixel.
+
+\begin{figure}
+  \centering
+  \begin{subfigure}[t]{.5\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth,keepaspectratio]{DECALStudies/fig/cmos_3Tdesign}
+  \end{subfigure}%
+  \begin{subfigure}[t]{.5\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth,keepaspectratio]{DECALStudies/fig/dummy}
+  \end{subfigure}
+  \caption{Left: Schematic of the simplest layout for a \ac{CMOS} sensor using just three transistors. The first transistor, M$_{rst}$}, acts as a switch to reset the charge collected at the diode. M$_{SF}$ allows the charge of the diode to be measured and amplified without removing the charge. Finally M$_{Sel}$ controls when the signal is read out from the pixel. Right: physical layout of a typical \ac{CMOS} pixel sensor. 
+  \label{fig:cmosdesign}
+\end{figure}
+
+The requirement on the granularity is what ultimately leads to the decision to use a \ac{MAPS} based technology. For \ac{ILD}, using 50$\times$50~$\mu$m$^2$ pixels requires the use of ($\mathcal{O}$(10$^{12}$)) pixels. Having separate readout electronics, along with cooling and power supplies for each cell becomes impractical and porduces large dead space within the detector. By using \ac{MAPS} technology the electronics can instead be integrated into the silicon of the pixels leading to a more compact structure. \ac{CMOS} is then chosen as it is a cheap, well understood and commercial process for producing \ac{MAPS} structures. The typical layout of a \ac{CMOS} \ac{MAPS} pixel is shown in \reffig{fig:cmosdesign}. In practice this simple design is found to be unsatisfactory for use in particle physics due to the low signal yield due to parasitic losses to the PMOS transistor. A process referred to as INMAPS was developed at \ac{RAL}(CITATION) which uses the addition of a deep p well around the PMOS transistor to mitigate the signal loss. The layout of this variation is shown in \reffig{fig:deeppwell}. Two sensors based on the deep p well design have already been produced (TPAC and CHERWELL (CITATIONS)) and used to show the validity of this approach for producing a \ac{DECAL}(CITATION). In both cases the test pixels were based on a 50$\times$50~$\mu$m$^2$ design.
 
 
-Explain potential benefits- cheape, same tech as inner detectors, granularity could improve particle flow
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/deeppwell}
+  \caption{\ac{CMOS} \ac{MAPS} sensor including deep p well implant to prevent parastic losses to the PMOS transistor}
+  \label{fig:deeppwell}
+\end{figure}
 
-Implementation- explain CMOS MAPS, necessary to have granularity
+Here we will present simulation studies looking at the optimization of the pixel dimensions for the sensors when including variation levels of realism such as noise, deadspace and clustering.  
 
-\section{Event Generation}
+\section{Event Generation and Detector Simulation}
 
-Description of Mokka \& Geant4
 
-Detector changes implemented for simulations- smaller pixel size, active silicon (300um) replaced with thinner active silicon layer and passive silicon layer
+Simulation of the \ac{DECAL} was performed in the GEANT4 based ILCSoft application, Mokka v08-05. The model used was based on an existing model for \ac{ILD}, ILD\_v01\_05, and so includes the high level of detail implemented for the\ac{ILD} letter of intent studies\cite{ILD} e.g. realistic geometries including support structures. The design was then adapated in three main ways. Firstly, the 300~$\mu$m thick active layer of silicon is divided into a thin active epitaxial layer (10-20~$\mu$m) and a deeper passive layer of silicon (280-290~$\mu$m.) The thin active layer represents what would be used in a typical \ac{CMOS} \ac{MAPS} sensor while the deeper passive layer is only included to prevent the need for changing the detailed layer structure of the exisiting model. In practice such a deep passive silicon layer would not be used. Secondly, the pixel pitch was reduced down to 5$\times$5~$\mu$m$^2$. This is smaller than can realistically be manufactured at present, however by using a narrow pixel pitch during the simulation the pixels can later be grouped together into larger virtual pixels with realistic dimensions preventing the need for simulating events at every pixel pitch required for the study and saves considerable processing time. The final change implemented was to remove the guard ring structures present in the analogue design. In the analogue design the guard rings are 1 mm metal rings placed around wafers of 18$\times$18 pixels. For the digital case these structures are not required and would result in a large amount of dead space in the detector due to the considerabley narrower pixel pitch. 
 
-Using particle gun
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/ExampleEvents}
+  \caption{Example of how EM showers look in the \ac{DECAL} for various photon energies. The y coordinate here represents the radial distance from the centre of the centre of the full detector.}
+  \label{fig:exampleevents}
+\end{figure}
 
-Benefit that adapting existing geometry allows large amount of detail to be included
+Once the geometry was implemented, events were generated using the built in Mokka particle gun to fire photons through the \ac{ECAL}. When doing this the gun was placed immediately in front of the \ac{ECAL} to prevent showers forming earlier in the detector from interactions with the inner components such as the tracker. Photon were produced in 10 GeV intervals between 10 GeV and 100 GeV with an additional sample generated at 250 GeV representing the maximum energy possible at \ac{ILC}. For each energy, 10,000 events were generated to produce a large enough statistical sample to work with. Events were then generated using five different epitaxial thicknesses between 12 and 20 $\mu$m. In total this corresponds to a total of $\sim$ 500,000 events being generated. An example of what these events look like in the detector is shown in \reffig{fig:exampleevents}.
+
+ADD in description of the thresholds!!
 
 \section{Design Optimization}
+
+Ultimately the performance of any calorimeter is measured by the energy resolution, $\sigma_E/E$ , it can achieve. As such it is important to explain how this is defined for a digital calorimeter. Naively one could work on the basis that the energy of a particle is proportional to the number of particles produced in a shower and so define the resolution to be $\sigma_N/N$ where $N$ is the number of hits in the detector. While this is approximately true, it fails to account for the fact the number of particles produced in the shower may not be proportional to the number of hits due to multiple occupancies. A more reliable definition of the resolution has been found to come from first creating a calibration curve defining the relationship between the true energy of a particle, then using this curve to map back from the number of particles to a reconstructed energy for a particle. The energy resolution is then calculated by performing a gaussian fit to the reconstructed particle energies and defining the resolution to be $\sigma_{E,gaus}/E$. In the case that there is no saturation, this resolution should be equivalent to $\sigma_N/N$ as $N$ is linearly proportional to $E$. Examples of how these calibration curves look for different pixel configurations are shown in (ADDFIG, 50um vs 300um pitch). In all cases, the calibration curves are produced using one fifth of the statistical sample and the remaining four fifths are used to evaulate the energy resolution. 
+
 Linearity fits
 
-Landaus, 
 
 Aspect Ratio for resolution
 
+Explain with Landaus and occupancy plots
 
 
 \section{DigiMAPs}

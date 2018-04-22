@@ -1,13 +1,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The ILC Experiment}}{6}{figure.caption.18}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic of the ILC accelerator layout}}{8}{figure.caption.19}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Superconducting Cavities For The ILC}}{9}{figure.caption.22}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The CLIC Experiment}}{11}{figure.caption.25}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Cross Sections For Supersymmetric Processes at \ac {CLIC}}}{14}{figure.caption.28}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces ILD Detector}}{17}{figure.caption.30}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces ILD Vertex Detector}}{20}{figure.caption.32}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Silicon Tracking Systems For ILD}}{22}{figure.caption.40}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The ILC Experiment}}{6}{figure.caption.19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic of the ILC accelerator layout}}{8}{figure.caption.20}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Superconducting Cavities For The ILC}}{9}{figure.caption.23}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The CLIC Experiment}}{11}{figure.caption.26}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Cross Sections For Supersymmetric Processes at \ac {CLIC}}}{14}{figure.caption.29}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces ILD Detector}}{17}{figure.caption.31}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces ILD Vertex Detector}}{20}{figure.caption.33}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Silicon Tracking Systems For ILD}}{22}{figure.caption.41}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces ECAL Structure}}{27}{figure.caption.42}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces HCAL Structure}}{27}{figure.caption.43}
 \addvspace {10\p@ }
@@ -83,6 +83,9 @@
 \contentsline {figure}{\numberline {5.38}{\ignorespaces Efficiency for reconstructing signal events in the correct $\qopname \relax o{cos}\theta $ bins\relax }}{124}{figure.caption.132}
 \contentsline {figure}{\numberline {5.39}{\ignorespaces Correlation between the reconstructed and generator $A_{FB}^t$ for each $\sqrt {s'}$ bin, -80\% polarization.\relax }}{126}{figure.caption.133}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Left: Schematic of the simplest layout for a \ac {CMOS} sensor using just three transistors. The first transistor, M$_{rst}$\relax }}{135}{figure.caption.138}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces \ac {CMOS} \ac {MAPS} sensor including deep p well implant to prevent parastic losses to the PMOS transistor\relax }}{136}{figure.caption.140}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Example of how EM showers look in the \ac {DECAL} for various photon energies. The y coordinate here represents the radial distance from the centre of the centre of the full detector.\relax }}{137}{figure.caption.141}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
