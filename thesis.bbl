@@ -247,4 +247,33 @@ J.~Fleischer, A.~Leike, T.~Riemann, and A.~Werthenbach, ``{Electroweak one loop
 Y.~Bai and Z.~Han, ``{Improving the Top Quark Forward-Backward Asymmetry
   Measurement at the LHC},'' {\em JHEP}, vol.~02, p.~135, 2012.
 
+\bibitem{2008arXiv0807.2920B}
+J.~A. {Ballin}, J.~P. {Crooks}, P.~D. {Dauncey}, A.~. {Magnan}, Y.~{Mikami},
+  O.~D. {Miller}, M.~{Noy}, V.~{Rajovic}, M.~M. {Stanitzki}, K.~D. {Stefanov},
+  R.~{Turchetta}, M.~{Tyndel}, E.~G. {Villani}, N.~K. {Watson}, and J.~A.
+  {Wilson}, ``{Monolithic Active Pixel Sensors (MAPS) in a quadruple well
+  technology for nearly 100\% fill factor and full CMOS pixels},'' {\em ArXiv
+  e-prints}, July 2008.
+
+\bibitem{Ballin:2008rha}
+J.~A. Ballin {\em et~al.}, ``{TPAC: A 0.18 micron MAPS for digital
+  electromagnetic calorimetry at the ILC},'' in {\em {Proceedings, 2008 IEEE
+  Nuclear Science Symposium, Medical Imaging Conference and 16th International
+  Workshop on Room-Temperature Semiconductor X-Ray and Gamma-Ray Detectors
+  (NSS/MIC 2008 / RTSD 2008): Dresden, Germany, October 19-25, 2008}},
+  pp.~2224--2227, 2008.
+
+\bibitem{MYLROIESMITH2013137}
+J.~Mylroie-Smith, S.~Kolya, J.~Velthuis, A.~Bevan, G.~Inguglia, J.~Headspith,
+  I.~Lazarus, R.~Lemon, J.~Crooks, R.~Turchetta, and F.~Wilson, ``First tests
+  of cherwell, a monolithic active pixel sensor: A cmos image sensor (cis)
+  using 180nm technology,'' {\em Nuclear Instruments and Methods in Physics
+  Research Section A: Accelerators, Spectrometers, Detectors and Associated
+  Equipment}, vol.~731, pp.~137 -- 140, 2013.
+\newblock PIXEL 2012.
+
+\bibitem{Price:2013js}
+T.~Price {\em et~al.}, ``{First radiation hardness results of the TeraPixel
+  Active Calorimeter (TPAC) sensor},'' {\em JINST}, vol.~8, p.~P01007, 2013.
+
 \end{thebibliography}

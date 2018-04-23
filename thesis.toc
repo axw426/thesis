@@ -70,11 +70,12 @@
 \contentsline {section}{\numberline {5.8}Conclusions}{131}{section.5.8}
 \contentsline {chapter}{\numberline {6}Digital Calorimetry}{133}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{133}{section.6.1}
-\contentsline {section}{\numberline {6.2}Event Generation and Detector Simulation}{136}{section.6.2}
-\contentsline {section}{\numberline {6.3}Design Optimization}{138}{section.6.3}
-\contentsline {section}{\numberline {6.4}DigiMAPs}{139}{section.6.4}
-\contentsline {section}{\numberline {6.5}Conclusion}{139}{section.6.5}
-\contentsline {chapter}{\numberline {7}Conclusion}{140}{chapter.7}
-\contentsline {chapter}{\numberline {A}AppendixA}{145}{chapter.1}
-\contentsline {section}{\numberline {A.1}Higgs Results}{145}{section.1.1}
-\contentsline {chapter}{\numberline {B}Appendix B: Top Results}{149}{chapter.2}
+\contentsline {section}{\numberline {6.2}Event Generation and Detector Simulation}{135}{section.6.2}
+\contentsline {section}{\numberline {6.3}Pixel Design Optimization}{138}{section.6.3}
+\contentsline {section}{\numberline {6.4}DigiMAPs}{151}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Pixel Design Optimization Revisited}{151}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}Conclusion}{152}{section.6.5}
+\contentsline {chapter}{\numberline {7}Conclusion}{156}{chapter.7}
+\contentsline {chapter}{\numberline {A}AppendixA}{163}{chapter.1}
+\contentsline {section}{\numberline {A.1}Higgs Results}{163}{section.1.1}
+\contentsline {chapter}{\numberline {B}Appendix B: Top Results}{167}{chapter.2}
