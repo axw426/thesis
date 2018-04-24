@@ -2,9 +2,9 @@
 \label{sect:DECAL}
 
 \section{Introduction}
-As mentioned in \refsec{det:ecal}, several alternatives exist for the \ac{ECAL} design of \ac{ILD}. Here we present details of a proposed fully digital \ac{ECAL} that simply counts the number of pixels above threshold rather than measuring the energy deposited in each pixel which works based on the fact that the number of particles produced by an electromagnetic shower is proportional to the energy of the incident particle.
+As mentioned in \refsec{det:ecal}, several alternatives exist for the \ac{ECAL} design of \ac{ILD}. Here we present details of a proposed fully digital \ac{ECAL} that simply counts the number of pixels above threshold rather than measuring the energy deposited in each pixel. This works based on the fact that the number of particles produced by an electromagnetic shower is proportional to the energy of the incident particle.
 
-This approach has several potential benefits. Fundamentally it should allow for a slight improvement in the energy resolution as it is less senstive to fluctuations arising from landau fluctuations and varying path lengths as the particle traverses the active material. On top of this, the proposed technology choice will be to use highly granular ($\mathcal{O}$(50$\mu m$)) \ac{CMOS} \ac{MAPS}. This is the same technology as is used for the inner trackers and so this would allow a uniform technology solution across multiple detector components. It is also a much cheaper technology option than that used by the alternative \ac{ECAL} designs. The high granularity further allows for better pattern recognition with the calorimeter which can improve the performance of the particle flow algorithm applied in Pandora.
+The digital approach has several potential benefits. Fundamentally it should allow for a slight improvement in the energy resolution as it is less senstive to uncertainties arising from landau fluctuations and varying path lengths as the particle traverses the active material. On top of this, the proposed technology choice is highly granular ($\mathcal{O}$(50$\mu m$)) \ac{CMOS} \ac{MAPS}. This is the same technology as is used for the inner trackers and so this would allow a uniform technology solution to be used across multiple detector components. It is also a much cheaper technology option than that used by the alternative \ac{ECAL} designs. The high granularity may further allow for better pattern recognition with the calorimeter which can improve the performance of the particle flow algorithm as applied in Pandora.
 
 While the digital option provides these benefits it does come with one potential flaw referred to as saturation. In a digital calorimeter, if two particles pass through the same pixel, only one hit will be registered and so the total number of particles in the shower (and thus the energy of the shower) will be underestimated. The density of an EM shower scales according to the energy of the showering particle. As a result the rate of multiple occupancy in the pixels will increase with energy leading to a non linear relationship between a particles energy and the number of hits it generates within the detector. In practice this problem can be avoided by ensuring that the granularity of the detector is always greater than the density of the electromagnetic showers. For typical \ac{ILC} energies the density of the showers is estimated to be $\mathcal{O}$ 100 particles/mm$^2$ and so a granularity of at least 50$\times$50~$\mu$m$^2$ is required to ensure only one particle hits each pixel. Note that inn the analogue case this problem does not occur as the energy deposited in the pixel is what is measured and this will scale with the number of particles passing through the pixel.
 
@@ -37,7 +37,7 @@ Here we will present simulation studies looking at the optimization of the pixel
 \section{Event Generation and Detector Simulation}
 
 
-Simulation of the \ac{DECAL} was performed in the GEANT4 based ILCSoft application, Mokka v08-05. The model used was based on an existing model for \ac{ILD}, ILD\_v01\_05, and so includes the high level of detail implemented for the\ac{ILD} letter of intent studies\cite{ILD} e.g. realistic geometries including support structures. The design was then adapated in three main ways. Firstly, the 300~$\mu$m thick active layer of silicon is divided into a thin active epitaxial layer (10-20~$\mu$m) and a deeper passive layer of silicon (280-290~$\mu$m.) The thin active layer represents what would be used in a typical \ac{CMOS} \ac{MAPS} sensor while the deeper passive layer is only included to prevent the need for changing the detailed layer structure of the exisiting model. In practice such a deep passive silicon layer would not be used. Secondly, the pixel pitch was reduced down to 5$\times$5~$\mu$m$^2$. This is smaller than can realistically be manufactured at present, however by using a narrow pixel pitch during the simulation the pixels can later be grouped together into larger virtual pixels with realistic dimensions preventing the need for simulating events at every pixel pitch required for the study and saves considerable processing time. The final change implemented was to remove the guard ring structures present in the analogue design. In the analogue design the guard rings are 1 mm metal rings placed around wafers of 18$\times$18 pixels. For the digital case these structures are not required and would result in a large amount of dead space in the detector due to the considerabley narrower pixel pitch. 
+Simulation of the \ac{DECAL} was performed in the GEANT4 based ILCSoft application, Mokka v08-05. The model used was based on an existing model for \ac{ILD}, ILD\_v01\_05, and so includes the high level of detail implemented for the\ac{ILD} letter of intent studies\cite{ILD} e.g. realistic geometries including support structures. The design was then adapated in three main ways. Firstly, the 300~$\mu$m thick active layer of silicon is divided into a thin active epitaxial layer (10-20~$\mu$m) and a deeper passive layer of silicon (280-290~$\mu$m.) The thin active layer represents what would be used in a typical \ac{CMOS} \ac{MAPS} sensor while the deeper passive layer is only included to prevent the need for changing the detailed layer structure of the exisiting model. In practice such a deep passive silicon layer would not be used. Secondly, the pixel pitch was reduced down to 5$\times$5~$\mu$m$^2$. This is smaller than can realistically be manufactured at present, however by using a narrow pixel pitch during the simulation the pixels can later be grouped together into larger virtual pixels with realistic dimensions preventing the need for simulating events at every pixel pitch required for the study and saves considerable processing time. The final change implemented was to remove the guard ring structures present in the analogue design. In the analogue design the guard rings are 1 mm metal rings placed around wafers of 18$\times$18 pixels. For the digital case these structures are not required and would result in a large amount of dead space in the detector due to the considerabley narrower pixel pitch. On top of this the magnetic field present for \ac{ILD} was turned off so that only the intrinsic \ac{ECAL} performance would be measured.
 
 \begin{figure}
   \centering
@@ -46,9 +46,9 @@ Simulation of the \ac{DECAL} was performed in the GEANT4 based ILCSoft applicati
   \label{fig:exampleevents}
 \end{figure}
 
-Once the geometry was implemented, events were generated using the built in Mokka particle gun to fire photons through the \ac{ECAL}. When doing this the gun was placed immediately in front of the \ac{ECAL} to prevent showers forming earlier in the detector from interactions with the inner components such as the tracker. Photon were produced in 10 GeV intervals between 10 GeV and 100 GeV with an additional sample generated at 250 GeV representing the maximum energy possible at \ac{ILC}. For each energy, 10,000 events were generated to produce a large enough statistical sample to work with. Events were then generated using five different epitaxial thicknesses between 12 and 20 $\mu$m. In total this corresponds to a total of $\sim$ 500,000 events being generated. An example of what these events look like in the detector is shown in \reffig{fig:exampleevents}.
+Once the geometry was implemented, events were generated using the built in Mokka particle gun to fire photons through the \ac{ECAL}. When doing this the gun was placed perpendicular to the \ac{ECAL} surface and immediately in front of the \ac{ECAL} to prevent showers forming earlier in the detector from interactions with the inner components such as the tracker. Photon were produced in 10 GeV intervals between 10 GeV and 100 GeV with an additional sample generated at 250 GeV representing the maximum energy possible at \ac{ILC}. For each energy, 10,000 events were generated to produce a large enough statistical sample to work with. Events were then generated using five different epitaxial thicknesses between 12 and 20 $\mu$m. In total this corresponds to a total of $\sim$ 500,000 events being generated. An example of what these events look like in the detector is shown in \reffig{fig:exampleevents}.
 
-In order to be realistic, thresholds were applied on the energy deposited in a pixel as in practice this is always necessary to remove hits coming from electrical/thermal noise. The amount of energy deposited by a particle in a thin layer of material will typically follow a landau distribution. The threshold was chosen to be half of the most probable value (MPV) of the landau distribution to provide a balance between the amount of signal loss and potential background acceptance. The value of the MPV was found by fitting the energy ditributions measured in the simulation. For doing this, 10 GeV photons and 100$\times$100 $\mu$m$^2$ were used to prevent influence from saturation or from boundary effects where a particle deposits low amounts of energy from crossing the boundary across two pixels within one layer. As the amount of energy depsosited depends only on the epitaxial layer thickness and not the pixel pitch, the threshold was only evaluated for each epitaxial thickness then applied uniformly across all pitches. An example of one of the fits used is shown in \reffig{fig:thresholdfit}.
+In order to be realistic, thresholds were applied on the energy deposited in a pixel as in practice this is always necessary to remove hits coming from electrical/thermal noise. The amount of energy deposited by a particle in a thin layer of material will typically follow a landau distribution. The threshold was chosen to be half of the most probable value (MPV) of the landau distribution to provide a balance between the amount of signal loss and potential background acceptance. The value of the MPV was found by fitting the energy ditributions measured in the simulation. For doing this, 10 GeV photons and 100$\times$100 $\mu$m$^2$ were used to prevent influence from saturation or from boundary effects where a particle deposits low amounts of energy from crossing the boundary across two pixels within one layer. As the amount of energy depsosited depends only on the epitaxial layer thickness and not the pixel pitch, the threshold was only evaluated once for each epitaxial thickness then applied uniformly across all pitches. An example of one of the fits used is shown in \reffig{fig:thresholdfit}.
 
 \begin{figure}
   \centering
@@ -76,7 +76,7 @@ Ultimately the performance of any calorimeter is measured by the energy resoluti
   \label{fig:gausfits}
 \end{figure}
 
-Having generated the calibration curves, the energy resolution was then evaluated for every photon energy and pixel configuration (see \reffig{fig:gausfits}). The performance for each pixel configuration is then evaluated by performing a second order polynomial fit to $\sigma_E/E$ vs 1/$\sqrt{E}$. This method allows the parameters a, b and c to be extracted in accordance with \refeq{eq:resolutionformula}, where a is the stochastic term, b is the noise term and c is the constant/leakage term. Typically the resolution of an \ac{ECAL} can be expected to be dominated by the stochastic term.
+Having generated the calibration curves, the energy resolution was then determined for every photon energy and pixel configuration (see \reffig{fig:gausfits}). The performance for each pixel configuration is then evaluated by performing a second order polynomial fit to $\sigma_E/E$ vs 1/$\sqrt{E}$. This method allows the parameters a, b and c to be extracted in accordance with \refeq{eq:resolutionformula}, where a is the stochastic term, b is the noise term and c is the constant/leakage term. Typically the resolution of an \ac{ECAL} can be expected to be dominated by the stochastic term.
 
 \begin{equation}
   \label{eq:resolutionformula}
@@ -127,7 +127,7 @@ To understand the stochastic term requires examination of the landau distributio
   \label{fig:landauthickness}
 \end{figure}
 
-In practice the optimal pixel configuration should provide a balance between the boundary crossing and multiple occupancy effects. Because the saturation level is a function of the incident particle energy, the optimal design will vary depending on the energy scale the detector is intended to study. For lower energy scales a wider pixel is optimal as the saturation is inherently low and the wide pitch will minimise boundary crossings. For higher energies the saturation rate will dominate and so a narrower pixel is preferred. In both cases a thinner pixel is preferred to minimise boundary crossings. The net resolutions observed at three different energy scales are shown in \reffigs{fig:resolution10}, \ref{fig:resolution50} and \ref{fig:resolution250}. The variation in the optimal configuration is seen to agree with that predicted from our boundary corssing and occupancy considerations.
+The optimal pixel configuration should provide a balance between the boundary crossing and multiple occupancy effects. Because the saturation level is a function of the incident particle energy, the optimal design will vary depending on the energy scale the detector is intended to be used at. For lower energy scales a wider pixel is optimal as the saturation is inherently low due to the low shower density and the wide pitch will then minimise boundary crossings. For higher energies the saturation rate will dominate and so a narrower pixel is preferred. In both cases a thinner pixel is preferred to minimise boundary crossings. The net resolutions observed at three different energy scales are shown in \reffigs{fig:resolution10}, \ref{fig:resolution50} and \ref{fig:resolution250}. The variation in the optimal configuration is seen to agree with that predicted from the above boundary crossing and occupancy considerations.
 
 \begin{figure}
   \centering
@@ -152,37 +152,55 @@ In practice the optimal pixel configuration should provide a balance between the
 
 \section{DigiMAPs}
 
-While the above simulations highlight the dominant effects that must be considered in designing a digital calorimeter, they remain somewhat unrealistic. In particlur they lack effects such as charge collection efficiencies within the pixels, pixel noise and the effects of clustring algorithms. These effects are not possible to study within standard GEANT4 simulations, instead they are added in later using a package referred to as DigiMAPS(CITATION) developed by the \ac{CALICE} collaboration. This package takes the output hits from MOKKA, applies the effects of added levels of realism to remove/create new hits, then outputs an updated collection of hits for analysis. The effects that have been considered are listed below.
+While the above simulations highlight the dominant effects that must be considered in designing a digital calorimeter, they remain somewhat unrealistic. In particular they lack effects such as charge collection efficiencies within the pixels, thermal/electronic noise and the effects of clustering. These effects are not possible to study within standard GEANT4 simulations, instead they are added in later using a package referred to as DigiMAPS developed by the \ac{CALICE} collaboration. This package takes the output hits from MOKKA, applies the effects of added levels of realism to remove/create new hits, then outputs an updated collection of hits for analysis. The effects that have been considered are listed below.
 
 \begin{itemize}
-\item Charge spread
-\item Noise Effects
-\item Clustering
-\item Threshold spread
+\item Charge spread: When a particle deposits energy within a pixel it does so by producing electron hole pairs within the material which are then collected by diodes. In practice, there will be a finite efficiency for collecting the deposited charge which will depend on how the collection diodes are placed throughout the pixel and where the particle enters the pixel. Modelling of the charge collection requires detailed TCAD simulations performed. Within DigiMAPS, the modelling of this is provided for one pixel configuration corresponding to a pixel with 50~$\mu$m pitch, 18~$\mu$m epitaxial thickness and four charge collection diodes arranged in a square. DigiMAPS used the efficiency map for this configuration to apply an efficiency scaling on the energy deposited by a particle based on where within the pixel it enters. Unfortunately the software required to create the efficiency maps is not readily available and so it was not possible to examine how the charge efficiency impacts any other pixel configuration.
+  
+\item Noise Effects: It is possible for noise to be produced either from thermal fluctuations within the silicon or from the electronics associated with the diode and readout systems. For \ac{DECAL} applications it is expected that the noise will follow a poisson distribution with a mean of 30 electron hol pairs per pixel. This noise is typically problematic as it can result in fake hits being produced within the pixels leading to overcounting of hits, however it can also be beneficial in the case of genuine hits where it can push hits with low energy deposits from above the threshold preventing them from being missed. As such, in later plots the noise contributions will be split into the cases where noise is only added to signal deposits and when it is added to all pixels throughout the detector.
+  
+\item Dead space: In order to accomodate the necessary electronics required for each pixel, there will typically be a certain amount of dead space per pixel which will be insensitive to any particles hitting it. Within DigiMAPS this is accounted for by ignoring hits within the first 10\% of the width of each pixel.
+  
+\item Threshold spread: Due to imperfections in the pixel manufacturing process, pixels will typically show a non uniform response to incoming particles. This effect is normally minimsed via a calibration procedure known as trimming which effectively corresponds to measuring the response of each pixel and setting the thresholds accordingly to get a uniform response. For the level of logic available within proposed \ac{DECAL} designs it is expected that this procedure will leave only a 1\% non uniformity in the pixel response. This is accounted for within DigiMAPS by applying a gaussian spread to the threshold of each pixel with a width of 1\%.
+  
+\item Clustering: In any realistic experiment, the energy resolution of a calorimter will not be taken to be the sum of all energy depsoited within the calorimeter, instead some level of pattern recognition will be done to remove noise events and group signal hits to reduce the volume of data being read from the detector. This process is referred to as clustering. Here we use a very simplistic clustering method to illustrate the benefits it can have. Firstly we start by rejecting hits that are not within the same module or stave as the particle was fired through as these hits would be clearly recognisable as noise. Following this, for each hit the number of immediately adjacent hits are counted. If all 8 adjacent pixels contain hits, the pixel is deemed a cluster and the neighbouring hits are discarded. If no adjacent pixels are hit the the pixel will simply be declared a cluster by itself. If 1-7 of the adjacent pixels have hits, each neighbour is examined and assigned a score corresponding to the number of it's neighbours that contain hits. The scores of the original hit and all it's neighbours are compared and the pixel with the highest score is declared to be a cluster and it's neighbours are removed.  
 \end{itemize}
-
-To understand how the effect these different factors have on the energy resolution, the energy resolution for a specific pixel configuration and photon energy (SPECIFY THESE) is plotted as a function of the threshold applied to the pixel after each additional level of realism is included.
-
-\subsection{Pixel Design Optimization Revisited}
-
-Now that these additional levels of realism have been included, it is important to evaluate the impact they have on the optimal pixel configuration. This is done using the exact same procedure. When applying DigiMAPS all effects except the charge spread are included. The resulting values for the stochastic, noise and constant terms are shown in \reffigs{fig:stochastictermDigi}, \ref{fig:noisetermDigi} and \ref{fig:constanttermDigi}.
 
 \begin{figure}
   \centering
   \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/dummy}
-  \caption{Stochastic term of the energy resolution fits for all pixel configurations}
+  \caption{Variation in the energy resolution as a function of the threshold applied after each DigiMAPS effect is added. The effects are added seqeuntially in the same order as displayed in the legend.}
+  \label{fig:digimapseffects}
+\end{figure}
+
+To understand how the effect these different factors have on the energy resolution, the energy resolution for a specific pixel configuration and photon energy (50~$\mu$m pitch, 18~$\mu$m epi, 10 GeV) is plotted as a function of the threshold applied to the pixel after each additional level of realism is included. This is shown in \reffig{fig:digimapseffects}.
+
+DISCUSS!!!
+
+
+
+\subsection{Pixel Design Optimization Revisited}
+
+Now that these additional levels of realism have been included, it is important to evaluate the impact they have on the optimal pixel configuration. First we shall look at what happens when we only include the effects that are expected to be detrimental-- noise, dead space and threshold spreads-- without clustering included. Note that the charge spread is not included here as the necessary sub-pixel simulations required as input for each pixel configuration do not exist.
+
+The resulting values for the stochastic, noise and constant terms are shown in \reffigs{fig:stochastictermDigi}, \ref{fig:noisetermDigi} and \ref{fig:constanttermDigi}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/dummy}
+  \caption{Stochastic term of the energy resolution fits for all pixel configurations when including noise, deadspace and thresholds spread.}
   \label{fig:stochastictermDigi}
 \end{figure}
 \begin{figure}
   \centering
   \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/dummy}
-  \caption{Noise term of the energy resolution fits for all pixel configurations}
+  \caption{Noise term of the energy resolution fits for all pixel configurations when including noise, deadspace and thresholds spread.}
   \label{fig:noisetermDigi}
 \end{figure}
 \begin{figure}
   \centering
   \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/dummy}
-  \caption{Constant term of the energy resolution fits for all pixel configurations}
+  \caption{Constant term of the energy resolution fits for all pixel configurations when including noise, deadspace and thresholds spread. }
   \label{fig:constanttermDigi}
 \end{figure}
 
@@ -192,16 +210,45 @@ blah blah, describe changes seen from before digimaps was applied
 \begin{figure}
   \centering
   \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/dummy}
+  \caption{Stochastic term of the energy resolution fits for all pixel configurations when including clustering, noise, deadspace and thresholds spread.}
+  \label{fig:stochastictermDigiClust}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/dummy}
+  \caption{Noise term of the energy resolution fits for all pixel configurations when including clustering, noise, deadspace and thresholds spread.}
+  \label{fig:noisetermDigiClust}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/dummy}
+  \caption{Constant term of the energy resolution fits for all pixel configurations when including clustering, noise, deadspace and thresholds spread. }
+  \label{fig:constanttermDigiClust}
+\end{figure}
+
+
+While these effects clearly result in a reduced performance across all ranges, some improvement can be made by performing clustering. This should counteract effects such as boundary crossings noise which cause excess hits to be recorded. The resulting distributions when the clustering is included are shown in  \reffigs{fig:stochastictermDigiClust}, \ref{fig:noisetermDigiClust} and \ref{fig:constanttermDigiClust}.
+
+Describe change in the width of the optimal region- want it to be wider=easier to construct!
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/dummy}
   \caption{Energy resolution for XXX GeV photons.}
   \label{fig:resolutionXXXDigi}
 \end{figure}
 
-For the typical energy scale for the \ac{ILC} (100 GeV), the optimal pixel configuration is found to be at BLAH BLAH as shown in \reffig{fig:resolutionXXXDigi}. The resulting resolution is given by:
+For the typical energy scale for the \ac{ILC} (50 GeV?), the optimal pixel configuration is found to be at BLAH BLAH as shown in \reffig{fig:resolutionXXXDigi}. The resulting resolution is given by:
 
 \begin{equation}
   \frac{\sigma_E}{E}=\frac{XX\%}{\sqrt{E}} \oplus \frac{XX\%}{E} \oplus XX\%
 \end{equation}
 
 
+\section{Future Improvements}
+
+While the studies here allow considerable progress to be made in designing a digital calorimeter, these is still much to be done to fully evaluate how it could perform as part of a full detector. In particular for simulation studies additional effects must be considered such as magnetic fields and angular depedencies. Currently all events are simulated with no magnetic field and with all particles entering the \ac{ECAL} at an angle of 90$^o$. This suppresses any angular dependence on the performance of the \ac{DECAL}. For example, the angle at which a particle enters the detector will change the amount of material traversed in both the absorber and active layers, effectively changing the number of interaction lengths a particle will see per layer. This can lead to miscounting of the number of particles passing through the detector. This is not as big an issue for analogue calorimeters where the energy of the hits are measured and scaled by a sampling fraction which is relatively insensitive to the angle of the incident particle. Regarding the magnetic field, additional complications can arise from low momentum particles being trapped between active layers and so not leaving sufficient hits in the detector, or from higher momentum particles being curved back into layers they have already traversed causing extra hits to be recorded.
+
+The ultimate aim will be to implement the \ac{DECAL} into the particle flow algorithms used for \ac{ILD}. At the beginning of this chapter it was postulated that the higher granularity of the \ac{DECAL} could improve particle flow performance however without actually testing this it can not be known for certain.
 
 \section{Conclusion}

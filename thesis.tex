@@ -1,4 +1,5 @@
 \documentclass[a4paper,twoside,12pt]{report}
+\usepackage{hyperref}
 \usepackage[pdftex]{graphicx}
 \usepackage{tocloft}
 %
@@ -10,7 +11,7 @@
 \usepackage{booktabs}
 \usepackage[pdftex,color]{changebar}
 \usepackage{fancyhdr}
-\usepackage{hyperref}
+%\usepackage{hyperref}
 \usepackage{lineno}
 \usepackage{mathrsfs}
 \usepackage{multirow}
@@ -22,7 +23,8 @@
 \usepackage[normalem]{ulem}
 \usepackage{url}
 \usepackage{xspace}
-\usepackage{notoccite} 
+\usepackage{notoccite}
+\usepackage{appendix}
 %
 \usepackage[Sonny]{fncychap} %Styles: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, and Bjornstrup.
 \usepackage{subcaption}
@@ -207,6 +209,8 @@
 
 \cleardoublepage
 \appendix
+\appendixpage
+\addappheadtotoc
 %%%%%%%%%% Appendix %%%%%%%%%%
 \include{Appendix/appendix}
 \include{Appendix/appendixB}

@@ -26,45 +26,45 @@ Warning--empty author in ATLAS-CONF-2015-044
 Warning--empty author in CMS:2013xfa
 Warning--empty journal in Schulte:382453
 Warning--empty journal in TauFinder
-You've used 56 entries,
+You've used 58 entries,
             1876 wiz_defined-function locations,
-            830 strings with 14207 characters,
-and the built_in function-call counts, 14208 in all, are:
-= -- 1280
-> -- 693
+            844 strings with 18305 characters,
+and the built_in function-call counts, 18278 in all, are:
+= -- 1349
+> -- 1501
 < -- 1
-+ -- 256
-- -- 200
-* -- 987
-:= -- 2059
-add.period$ -- 56
-call.type$ -- 56
-change.case$ -- 56
++ -- 526
+- -- 468
+* -- 1557
+:= -- 2934
+add.period$ -- 58
+call.type$ -- 58
+change.case$ -- 58
 chr.to.int$ -- 0
-cite$ -- 65
-duplicate$ -- 786
-empty$ -- 1306
-format.name$ -- 200
-if$ -- 3467
+cite$ -- 67
+duplicate$ -- 820
+empty$ -- 1366
+format.name$ -- 468
+if$ -- 4160
 int.to.chr$ -- 0
-int.to.str$ -- 56
-missing$ -- 52
-newline$ -- 172
-num.names$ -- 52
-pop$ -- 214
+int.to.str$ -- 58
+missing$ -- 54
+newline$ -- 178
+num.names$ -- 54
+pop$ -- 217
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 535
+skip$ -- 564
 stack$ -- 0
-substring$ -- 654
-swap$ -- 322
+substring$ -- 710
+swap$ -- 340
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 9
-while$ -- 106
-width$ -- 58
-write$ -- 508
+while$ -- 112
+width$ -- 60
+write$ -- 529
 (There were 11 warnings)
