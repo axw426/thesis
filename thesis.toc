@@ -18,65 +18,66 @@
 \contentsline {subsubsection}{\numberline {2.4.1.4}ECAL}{26}{subsubsection.2.4.1.4}
 \contentsline {subsubsection}{\numberline {2.4.1.5}HCAL}{27}{subsubsection.2.4.1.5}
 \contentsline {subsubsection}{\numberline {2.4.1.6}Muon Detection}{28}{subsubsection.2.4.1.6}
-\contentsline {subsection}{\numberline {2.4.2}CLIC ILD}{28}{subsection.2.4.2}
-\contentsline {chapter}{\numberline {3}Theory}{30}{chapter.3}
-\contentsline {section}{\numberline {3.1}The Standard Model}{30}{section.3.1}
-\contentsline {section}{\numberline {3.2}The Higgs Boson and the Origin of Mass}{34}{section.3.2}
-\contentsline {section}{\numberline {3.3}Higgs Measurements at CLIC}{36}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Higgsstrahlung}{37}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Model Independent Extraction of Higgs Couplings}{38}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Top Quark Physics}{43}{section.3.4}
-\contentsline {chapter}{\numberline {4}Higgs to WW$^*$ at 1.4 TeV}{48}{chapter.4}
-\contentsline {section}{\numberline {4.1}Event Generation}{50}{section.4.1}
-\contentsline {section}{\numberline {4.2}Event Reconstruction}{51}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Lepton Identification}{52}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Jet Finding}{53}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Flavour Tagging}{56}{section.4.3}
-\contentsline {section}{\numberline {4.4}Event Selection}{57}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Boosted Decision Trees}{58}{subsection.4.4.1}
-\contentsline {section}{\numberline {4.5}Systematics}{66}{section.4.5}
-\contentsline {section}{\numberline {4.6}Impact on CLIC Higgs Measurements}{68}{section.4.6}
-\contentsline {section}{\numberline {4.7}Conclusion}{69}{section.4.7}
-\contentsline {chapter}{\numberline {5}Top Physics}{71}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{71}{section.5.1}
-\contentsline {section}{\numberline {5.2}Event Reconstruction}{75}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Lepton Finding}{75}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Fat Jet Finding}{78}{subsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.1}Jet Association}{84}{subsubsection.5.2.2.1}
-\contentsline {subsection}{\numberline {5.2.3}Jet Substructure}{90}{subsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.3.1}N-subjettiness}{90}{subsubsection.5.2.3.1}
-\contentsline {subsubsection}{\numberline {5.2.3.2}Subjet Angular Distributions}{93}{subsubsection.5.2.3.2}
+\contentsline {subsubsection}{\numberline {2.4.1.7}Very Forward Region}{28}{subsubsection.2.4.1.7}
+\contentsline {subsection}{\numberline {2.4.2}CLIC ILD}{29}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}Theory}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Standard Model}{31}{section.3.1}
+\contentsline {section}{\numberline {3.2}The Higgs Boson and the Origin of Mass}{35}{section.3.2}
+\contentsline {section}{\numberline {3.3}Higgs Measurements at CLIC}{37}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Higgsstrahlung}{38}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Model Independent Extraction of Higgs Couplings}{39}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Top Quark Physics}{44}{section.3.4}
+\contentsline {chapter}{\numberline {4}Higgs to WW$^*$ at 1.4 TeV}{49}{chapter.4}
+\contentsline {section}{\numberline {4.1}Event Generation}{51}{section.4.1}
+\contentsline {section}{\numberline {4.2}Event Reconstruction}{52}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Lepton Identification}{53}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Jet Finding}{54}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Flavour Tagging}{57}{section.4.3}
+\contentsline {section}{\numberline {4.4}Event Selection}{58}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Boosted Decision Trees}{59}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Systematics}{67}{section.4.5}
+\contentsline {section}{\numberline {4.6}Impact on CLIC Higgs Measurements}{69}{section.4.6}
+\contentsline {section}{\numberline {4.7}Conclusion}{70}{section.4.7}
+\contentsline {chapter}{\numberline {5}Top Physics}{72}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{72}{section.5.1}
+\contentsline {section}{\numberline {5.2}Event Reconstruction}{76}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Lepton Finding}{76}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Fat Jet Finding}{81}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Jet Association}{83}{subsubsection.5.2.2.1}
+\contentsline {subsection}{\numberline {5.2.3}Jet Substructure}{91}{subsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.3.1}N-subjettiness}{91}{subsubsection.5.2.3.1}
+\contentsline {subsubsection}{\numberline {5.2.3.2}Subjet Angular Distributions}{94}{subsubsection.5.2.3.2}
 \contentsline {subsubsection}{\numberline {5.2.3.3}Jet Multiplicity}{94}{subsubsection.5.2.3.3}
-\contentsline {subsection}{\numberline {5.2.4}S' Reconstruction}{95}{subsection.5.2.4}
-\contentsline {subsubsection}{\numberline {5.2.4.1}Transverse/Longitudinal Association}{96}{subsubsection.5.2.4.1}
-\contentsline {subsubsection}{\numberline {5.2.4.2}Analytic Mass Constraint}{99}{subsubsection.5.2.4.2}
-\contentsline {subsubsection}{\numberline {5.2.4.3}Collinearity}{100}{subsubsection.5.2.4.3}
-\contentsline {subsubsection}{\numberline {5.2.4.4}Kinematic Fitting}{101}{subsubsection.5.2.4.4}
-\contentsline {subsection}{\numberline {5.2.5}Flavour Tagging}{104}{subsection.5.2.5}
-\contentsline {section}{\numberline {5.3}Methods For Calculating $A_{FB}^t$}{106}{section.5.3}
-\contentsline {section}{\numberline {5.4}Event Selection}{109}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Preselection}{109}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.2.4}s' Reconstruction}{97}{subsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.4.1}Transverse/Longitudinal Association}{97}{subsubsection.5.2.4.1}
+\contentsline {subsubsection}{\numberline {5.2.4.2}Analytic Mass Constraint}{100}{subsubsection.5.2.4.2}
+\contentsline {subsubsection}{\numberline {5.2.4.3}Collinearity}{101}{subsubsection.5.2.4.3}
+\contentsline {subsubsection}{\numberline {5.2.4.4}Kinematic Fitting}{102}{subsubsection.5.2.4.4}
+\contentsline {subsection}{\numberline {5.2.5}Flavour Tagging}{105}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Methods For Calculating $A_{FB}^t$}{107}{section.5.3}
+\contentsline {section}{\numberline {5.4}Event Selection}{110}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Preselection}{111}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Quality Cuts}{111}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}BDT Selection}{112}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Extraction of $A_{FB}^t$ and cross section}{118}{section.5.5}
-\contentsline {section}{\numberline {5.6}Systematics}{121}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Background Normalization}{121}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Background Shape}{123}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Luminosity}{124}{subsection.5.6.3}
-\contentsline {subsection}{\numberline {5.6.4}Bias Towards Generator $A_{FB}^t$}{124}{subsection.5.6.4}
-\contentsline {subsection}{\numberline {5.6.5}Unquantified Effects}{128}{subsection.5.6.5}
-\contentsline {subsection}{\numberline {5.6.6}Summary}{130}{subsection.5.6.6}
-\contentsline {section}{\numberline {5.7}Improvements}{130}{section.5.7}
-\contentsline {section}{\numberline {5.8}Conclusions}{132}{section.5.8}
-\contentsline {chapter}{\numberline {6}Digital Calorimetry}{134}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{134}{section.6.1}
-\contentsline {section}{\numberline {6.2}Event Generation and Detector Simulation}{136}{section.6.2}
-\contentsline {section}{\numberline {6.3}Pixel Design Optimization}{139}{section.6.3}
-\contentsline {section}{\numberline {6.4}DigiMAPs}{147}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Pixel Design Optimization Revisited}{151}{subsection.6.4.1}
-\contentsline {section}{\numberline {6.5}Future Improvements}{156}{section.6.5}
-\contentsline {section}{\numberline {6.6}Conclusion}{157}{section.6.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{158}{chapter.7}
-\contentsline {section}{\numberline {.1}Appendix A: Higgs Results}{166}{section.0.1}
-\contentsline {chapter}{Appendices}{166}{section*.163}
-\contentsline {section}{\numberline {.2}Appendix B: Top Results}{169}{section.0.2}
+\contentsline {subsection}{\numberline {5.4.3}BDT Selection}{115}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Extraction of $A_{FB}^t$ and cross section}{117}{section.5.5}
+\contentsline {section}{\numberline {5.6}Systematics}{123}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Background Normalization}{123}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Background Shape}{124}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Luminosity}{125}{subsection.5.6.3}
+\contentsline {subsection}{\numberline {5.6.4}Bias Towards Generator $A_{FB}^t$}{126}{subsection.5.6.4}
+\contentsline {subsection}{\numberline {5.6.5}Unquantified Effects}{130}{subsection.5.6.5}
+\contentsline {subsection}{\numberline {5.6.6}Summary}{132}{subsection.5.6.6}
+\contentsline {section}{\numberline {5.7}Improvements}{132}{section.5.7}
+\contentsline {section}{\numberline {5.8}Conclusions}{134}{section.5.8}
+\contentsline {chapter}{\numberline {6}Digital Calorimetry}{136}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{136}{section.6.1}
+\contentsline {section}{\numberline {6.2}Event Generation and Detector Simulation}{138}{section.6.2}
+\contentsline {section}{\numberline {6.3}Pixel Design Optimization}{141}{section.6.3}
+\contentsline {section}{\numberline {6.4}DigiMAPs}{149}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Pixel Design Optimization Revisited}{153}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}Future Improvements}{158}{section.6.5}
+\contentsline {section}{\numberline {6.6}Conclusion}{159}{section.6.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{160}{chapter.7}
+\contentsline {section}{\numberline {.1}Appendix A: Higgs Results}{168}{section.0.1}
+\contentsline {chapter}{Appendices}{168}{section*.164}
+\contentsline {section}{\numberline {.2}Appendix B: Top Results}{171}{section.0.2}

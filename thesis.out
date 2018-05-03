@@ -18,65 +18,66 @@
 \BOOKMARK [3][-]{subsubsection.2.4.1.4}{ECAL}{subsection.2.4.1}% 18
 \BOOKMARK [3][-]{subsubsection.2.4.1.5}{HCAL}{subsection.2.4.1}% 19
 \BOOKMARK [3][-]{subsubsection.2.4.1.6}{Muon Detection}{subsection.2.4.1}% 20
-\BOOKMARK [2][-]{subsection.2.4.2}{CLIC ILD}{section.2.4}% 21
-\BOOKMARK [0][-]{chapter.3}{Theory}{}% 22
-\BOOKMARK [1][-]{section.3.1}{The Standard Model}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.2}{The Higgs Boson and the Origin of Mass}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.3}{Higgs Measurements at CLIC}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.1}{Higgsstrahlung}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.2}{Model Independent Extraction of Higgs Couplings}{section.3.3}% 27
-\BOOKMARK [1][-]{section.3.4}{Top Quark Physics}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Higgs to WW* at 1.4 TeV}{}% 29
-\BOOKMARK [1][-]{section.4.1}{Event Generation}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{Event Reconstruction}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.2.1}{Lepton Identification}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.2}{Jet Finding}{section.4.2}% 33
-\BOOKMARK [1][-]{section.4.3}{Flavour Tagging}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.4}{Event Selection}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.4.1}{Boosted Decision Trees}{section.4.4}% 36
-\BOOKMARK [1][-]{section.4.5}{Systematics}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.6}{Impact on CLIC Higgs Measurements}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.7}{Conclusion}{chapter.4}% 39
-\BOOKMARK [0][-]{chapter.5}{Top Physics}{}% 40
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.2}{Event Reconstruction}{chapter.5}% 42
-\BOOKMARK [2][-]{subsection.5.2.1}{Lepton Finding}{section.5.2}% 43
-\BOOKMARK [2][-]{subsection.5.2.2}{Fat Jet Finding}{section.5.2}% 44
-\BOOKMARK [3][-]{subsubsection.5.2.2.1}{Jet Association}{subsection.5.2.2}% 45
-\BOOKMARK [2][-]{subsection.5.2.3}{Jet Substructure}{section.5.2}% 46
-\BOOKMARK [3][-]{subsubsection.5.2.3.1}{N-subjettiness}{subsection.5.2.3}% 47
-\BOOKMARK [3][-]{subsubsection.5.2.3.2}{Subjet Angular Distributions}{subsection.5.2.3}% 48
-\BOOKMARK [3][-]{subsubsection.5.2.3.3}{Jet Multiplicity}{subsection.5.2.3}% 49
-\BOOKMARK [2][-]{subsection.5.2.4}{S' Reconstruction}{section.5.2}% 50
-\BOOKMARK [3][-]{subsubsection.5.2.4.1}{Transverse/Longitudinal Association}{subsection.5.2.4}% 51
-\BOOKMARK [3][-]{subsubsection.5.2.4.2}{Analytic Mass Constraint}{subsection.5.2.4}% 52
-\BOOKMARK [3][-]{subsubsection.5.2.4.3}{Collinearity}{subsection.5.2.4}% 53
-\BOOKMARK [3][-]{subsubsection.5.2.4.4}{Kinematic Fitting}{subsection.5.2.4}% 54
-\BOOKMARK [2][-]{subsection.5.2.5}{Flavour Tagging}{section.5.2}% 55
-\BOOKMARK [1][-]{section.5.3}{Methods For Calculating AFBt}{chapter.5}% 56
-\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 57
-\BOOKMARK [2][-]{subsection.5.4.1}{Preselection}{section.5.4}% 58
-\BOOKMARK [2][-]{subsection.5.4.2}{Quality Cuts}{section.5.4}% 59
-\BOOKMARK [2][-]{subsection.5.4.3}{BDT Selection}{section.5.4}% 60
-\BOOKMARK [1][-]{section.5.5}{Extraction of AFBt and cross section}{chapter.5}% 61
-\BOOKMARK [1][-]{section.5.6}{Systematics}{chapter.5}% 62
-\BOOKMARK [2][-]{subsection.5.6.1}{Background Normalization}{section.5.6}% 63
-\BOOKMARK [2][-]{subsection.5.6.2}{Background Shape}{section.5.6}% 64
-\BOOKMARK [2][-]{subsection.5.6.3}{Luminosity}{section.5.6}% 65
-\BOOKMARK [2][-]{subsection.5.6.4}{Bias Towards Generator AFBt}{section.5.6}% 66
-\BOOKMARK [2][-]{subsection.5.6.5}{Unquantified Effects}{section.5.6}% 67
-\BOOKMARK [2][-]{subsection.5.6.6}{Summary}{section.5.6}% 68
-\BOOKMARK [1][-]{section.5.7}{Improvements}{chapter.5}% 69
-\BOOKMARK [1][-]{section.5.8}{Conclusions}{chapter.5}% 70
-\BOOKMARK [0][-]{chapter.6}{Digital Calorimetry}{}% 71
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 72
-\BOOKMARK [1][-]{section.6.2}{Event Generation and Detector Simulation}{chapter.6}% 73
-\BOOKMARK [1][-]{section.6.3}{Pixel Design Optimization}{chapter.6}% 74
-\BOOKMARK [1][-]{section.6.4}{DigiMAPs}{chapter.6}% 75
-\BOOKMARK [2][-]{subsection.6.4.1}{Pixel Design Optimization Revisited}{section.6.4}% 76
-\BOOKMARK [1][-]{section.6.5}{Future Improvements}{chapter.6}% 77
-\BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 78
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 79
-\BOOKMARK [0][-]{section*.163}{Appendices}{}% 80
-\BOOKMARK [1][-]{section.0.1}{Appendix A: Higgs Results}{section*.163}% 81
-\BOOKMARK [1][-]{section.0.2}{Appendix B: Top Results}{section*.163}% 82
+\BOOKMARK [3][-]{subsubsection.2.4.1.7}{Very Forward Region}{subsection.2.4.1}% 21
+\BOOKMARK [2][-]{subsection.2.4.2}{CLIC ILD}{section.2.4}% 22
+\BOOKMARK [0][-]{chapter.3}{Theory}{}% 23
+\BOOKMARK [1][-]{section.3.1}{The Standard Model}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{The Higgs Boson and the Origin of Mass}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{Higgs Measurements at CLIC}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{Higgsstrahlung}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.2}{Model Independent Extraction of Higgs Couplings}{section.3.3}% 28
+\BOOKMARK [1][-]{section.3.4}{Top Quark Physics}{chapter.3}% 29
+\BOOKMARK [0][-]{chapter.4}{Higgs to WW* at 1.4 TeV}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Event Generation}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{Event Reconstruction}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.2.1}{Lepton Identification}{section.4.2}% 33
+\BOOKMARK [2][-]{subsection.4.2.2}{Jet Finding}{section.4.2}% 34
+\BOOKMARK [1][-]{section.4.3}{Flavour Tagging}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.4}{Event Selection}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.4.1}{Boosted Decision Trees}{section.4.4}% 37
+\BOOKMARK [1][-]{section.4.5}{Systematics}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.6}{Impact on CLIC Higgs Measurements}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.7}{Conclusion}{chapter.4}% 40
+\BOOKMARK [0][-]{chapter.5}{Top Physics}{}% 41
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.2}{Event Reconstruction}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.2.1}{Lepton Finding}{section.5.2}% 44
+\BOOKMARK [2][-]{subsection.5.2.2}{Fat Jet Finding}{section.5.2}% 45
+\BOOKMARK [3][-]{subsubsection.5.2.2.1}{Jet Association}{subsection.5.2.2}% 46
+\BOOKMARK [2][-]{subsection.5.2.3}{Jet Substructure}{section.5.2}% 47
+\BOOKMARK [3][-]{subsubsection.5.2.3.1}{N-subjettiness}{subsection.5.2.3}% 48
+\BOOKMARK [3][-]{subsubsection.5.2.3.2}{Subjet Angular Distributions}{subsection.5.2.3}% 49
+\BOOKMARK [3][-]{subsubsection.5.2.3.3}{Jet Multiplicity}{subsection.5.2.3}% 50
+\BOOKMARK [2][-]{subsection.5.2.4}{s' Reconstruction}{section.5.2}% 51
+\BOOKMARK [3][-]{subsubsection.5.2.4.1}{Transverse/Longitudinal Association}{subsection.5.2.4}% 52
+\BOOKMARK [3][-]{subsubsection.5.2.4.2}{Analytic Mass Constraint}{subsection.5.2.4}% 53
+\BOOKMARK [3][-]{subsubsection.5.2.4.3}{Collinearity}{subsection.5.2.4}% 54
+\BOOKMARK [3][-]{subsubsection.5.2.4.4}{Kinematic Fitting}{subsection.5.2.4}% 55
+\BOOKMARK [2][-]{subsection.5.2.5}{Flavour Tagging}{section.5.2}% 56
+\BOOKMARK [1][-]{section.5.3}{Methods For Calculating AFBt}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 58
+\BOOKMARK [2][-]{subsection.5.4.1}{Preselection}{section.5.4}% 59
+\BOOKMARK [2][-]{subsection.5.4.2}{Quality Cuts}{section.5.4}% 60
+\BOOKMARK [2][-]{subsection.5.4.3}{BDT Selection}{section.5.4}% 61
+\BOOKMARK [1][-]{section.5.5}{Extraction of AFBt and cross section}{chapter.5}% 62
+\BOOKMARK [1][-]{section.5.6}{Systematics}{chapter.5}% 63
+\BOOKMARK [2][-]{subsection.5.6.1}{Background Normalization}{section.5.6}% 64
+\BOOKMARK [2][-]{subsection.5.6.2}{Background Shape}{section.5.6}% 65
+\BOOKMARK [2][-]{subsection.5.6.3}{Luminosity}{section.5.6}% 66
+\BOOKMARK [2][-]{subsection.5.6.4}{Bias Towards Generator AFBt}{section.5.6}% 67
+\BOOKMARK [2][-]{subsection.5.6.5}{Unquantified Effects}{section.5.6}% 68
+\BOOKMARK [2][-]{subsection.5.6.6}{Summary}{section.5.6}% 69
+\BOOKMARK [1][-]{section.5.7}{Improvements}{chapter.5}% 70
+\BOOKMARK [1][-]{section.5.8}{Conclusions}{chapter.5}% 71
+\BOOKMARK [0][-]{chapter.6}{Digital Calorimetry}{}% 72
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 73
+\BOOKMARK [1][-]{section.6.2}{Event Generation and Detector Simulation}{chapter.6}% 74
+\BOOKMARK [1][-]{section.6.3}{Pixel Design Optimization}{chapter.6}% 75
+\BOOKMARK [1][-]{section.6.4}{DigiMAPs}{chapter.6}% 76
+\BOOKMARK [2][-]{subsection.6.4.1}{Pixel Design Optimization Revisited}{section.6.4}% 77
+\BOOKMARK [1][-]{section.6.5}{Future Improvements}{chapter.6}% 78
+\BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 79
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 80
+\BOOKMARK [0][-]{section*.164}{Appendices}{}% 81
+\BOOKMARK [1][-]{section.0.1}{Appendix A: Higgs Results}{section*.164}% 82
+\BOOKMARK [1][-]{section.0.2}{Appendix B: Top Results}{section*.164}% 83
