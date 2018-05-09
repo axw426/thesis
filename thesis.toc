@@ -78,6 +78,6 @@
 \contentsline {section}{\numberline {6.5}Future Improvements}{158}{section.6.5}
 \contentsline {section}{\numberline {6.6}Conclusion}{159}{section.6.6}
 \contentsline {chapter}{\numberline {7}Conclusion}{161}{chapter.7}
-\contentsline {section}{\numberline {.1}Appendix A: Higgs Results}{170}{section.0.1}
-\contentsline {chapter}{Appendices}{170}{section*.164}
-\contentsline {section}{\numberline {.2}Appendix B: Top Results}{173}{section.0.2}
+\contentsline {section}{\numberline {.1}Appendix A: Higgs Results}{172}{section.0.1}
+\contentsline {chapter}{Appendices}{172}{section*.165}
+\contentsline {section}{\numberline {.2}Appendix B: Top Results}{175}{section.0.2}
