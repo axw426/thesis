@@ -78,12 +78,12 @@
 \contentsline {figure}{\numberline {5.33}{\ignorespaces Generator level $\qopname \relax o{cos}\theta $ distributions for each energy bin}}{109}{figure.caption.115}
 \contentsline {figure}{\numberline {5.34}{\ignorespaces Effect of quality selection on agreement of $\qopname \relax o{cos}\theta $ reco. vs gen.}}{115}{figure.caption.121}
 \contentsline {figure}{\numberline {5.35}{\ignorespaces \ac {BDT} performance for all four classifiers\relax }}{117}{figure.caption.123}
-\contentsline {figure}{\numberline {5.36}{\ignorespaces Angular distributions for all energy and polarization bins at generator, reconstructed and corrected levels along with the final fits from which $A_{FB}^t$ and $\sigma _{Total}$ are extracted. In all cases a luminosity of 750 fb$^{-1}$ is assumed for each beam polarization.\relax }}{121}{figure.caption.126}
+\contentsline {figure}{\numberline {5.36}{\ignorespaces Final corrected angular distributions from which $A_{FB}^t$ and $\sigma _{Total}$ are extracted}}{121}{figure.caption.126}
 \contentsline {figure}{\numberline {5.37}{\ignorespaces Efficiency for reconstructing signal events in the correct $\qopname \relax o{cos}\theta $ bins\relax }}{127}{figure.caption.132}
 \contentsline {figure}{\numberline {5.38}{\ignorespaces Efficiency for reconstructing signal events in the correct $\qopname \relax o{cos}\theta $ bins\relax }}{127}{figure.caption.133}
 \contentsline {figure}{\numberline {5.39}{\ignorespaces Correlation between the reconstructed and generator $A_{FB}^t$ for each $\sqrt {s'}$ bin, -80\% polarization.\relax }}{129}{figure.caption.134}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Left: Schematic of the simplest layout for a \ac {CMOS} sensor using just three transistors. The first transistor, M$_{rst}$, acts as a switch to reset the charge collected at the diode. M$_{SF}$ allows the charge of the diode to be measured and amplified without removing the charge. Finally M$_{Sel}$ controls when the signal is read out from the pixel. Right: physical layout of a typical \ac {CMOS} pixel sensor.\relax }}{138}{figure.caption.139}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Typical layout of a CMOS sensor}}{138}{figure.caption.139}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces \ac {CMOS} \ac {MAPS} sensor including deep p well implant to prevent parastic losses to the PMOS transistor\cite {MYLROIESMITH2013137}\relax }}{139}{figure.caption.141}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Example of how EM showers look in a \ac {DECAL} with 10$\times $10\nobreakspace {}$\mu $m$^2$ pixels for various photon energies.}}{140}{figure.caption.142}
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Energy deposited in a 100$\times $100 $\mu $m$^2$ pitch, 12$\mu $m thick pixel by a 10 GeV photon. The landau fit and resulting choice of threshold are also shown.\relax }}{141}{figure.caption.143}
