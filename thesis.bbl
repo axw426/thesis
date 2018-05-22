@@ -4,6 +4,10 @@
 H.~Abramowicz {\em et~al.}, ``{Higgs physics at the CLIC electron–positron
   linear collider},'' {\em Eur. Phys. J.}, vol.~C77, no.~7, p.~475, 2017.
 
+\bibitem{TopPaperDraft}
+H.~et~al, ``Top quark physics at the clic electron positron collider,'' {\em
+  Paper in Preparation}, 2018.
+
 \bibitem{:2012gk}
 G.~Aad {\em et~al.}, ``{Observation of a new particle in the search for the
   Standard Model Higgs boson with the ATLAS detector at the LHC},'' {\em Phys.
@@ -14,9 +18,46 @@ S.~Chatrchyan {\em et~al.}, ``{Observation of a new boson at a mass of 125 GeV
   with the CMS experiment at the LHC},'' {\em Phys. Lett.}, vol.~B716,
   pp.~30--61, 2012.
 
+\bibitem{Khachatryan:2014jba}
+V.~Khachatryan {\em et~al.}, ``{Precise determination of the mass of the Higgs
+  boson and tests of compatibility of its couplings with the standard model
+  predictions using proton collisions at 7 and 8 $\,\text {TeV}$},'' {\em Eur.
+  Phys. J.}, vol.~C75, no.~5, p.~212, 2015.
+
+\bibitem{Aad:2015gba}
+G.~Aad {\em et~al.}, ``{Measurements of the Higgs boson production and decay
+  rates and coupling strengths using pp collision data at $\sqrt{s}=7$ and 8
+  TeV in the ATLAS experiment},'' {\em Eur. Phys. J.}, vol.~C76, no.~1, p.~6,
+  2016.
+
+\bibitem{Khachatryan:2016vau}
+G.~Aad {\em et~al.}, ``{Measurements of the Higgs boson production and decay
+  rates and constraints on its couplings from a combined ATLAS and CMS analysis
+  of the LHC pp collision data at $ \sqrt{s}=7 $ and 8 TeV},'' {\em JHEP},
+  vol.~08, p.~045, 2016.
+
 \bibitem{Trimble:1987ee}
 V.~Trimble, ``{Existence and Nature of Dark Matter in the Universe},'' {\em
   Ann. Rev. Astron. Astrophys.}, vol.~25, pp.~425--472, 1987.
+
+\bibitem{Patrignani:2016xqp}
+C.~Patrignani {\em et~al.}, ``{Review of Particle Physics},'' {\em Chin.
+  Phys.}, vol.~C40, no.~10, p.~100001, 2016.
+
+\bibitem{Baer:2012cf}
+H.~Baer, V.~Barger, P.~Huang, D.~Mickelson, A.~Mustafayev, and X.~Tata,
+  ``{Radiative natural supersymmetry: Reconciling electroweak fine-tuning and
+  the Higgs boson mass},'' {\em Phys. Rev.}, vol.~D87, no.~11, p.~115028, 2013.
+
+\bibitem{Dawson:2013bba}
+S.~Dawson {\em et~al.}, ``{Working Group Report: Higgs Boson},'' in {\em
+  {Proceedings, 2013 Community Summer Study on the Future of U.S. Particle
+  Physics: Snowmass on the Mississippi (CSS2013): Minneapolis, MN, USA, July
+  29-August 6, 2013}}, 2013.
+
+\bibitem{Fujii:2015jha}
+K.~Fujii {\em et~al.}, ``{Physics Case for the International Linear
+  Collider},'' {\em arXiv:1506.05992 [hep-ex]}, 2015.
 
 \bibitem{Bogomilov:2017vwz}
 M.~Bogomilov {\em et~al.}, ``{Lattice design and expected performance of the
@@ -42,6 +83,10 @@ R.~Lipton, ``{Muon Collider: Plans, Progress and Challenges},'' in {\em
 M.~Koratzinos, ``{FCC-ee accelerator parameters, performance and
   limitations},'' in {\em {International Conference on High Energy Physics 2014
   (ICHEP 2014) Valencia, Spain, July 2-9, 2014}}, 2014.
+
+\bibitem{CEPC-SPPCStudyGroup:2015csa}
+C.-S.~S. Group, ``{CEPC-SPPC Preliminary Conceptual Design Report. 1. Physics
+  and Detector},'' 2015.
 
 \bibitem{ILCTDR}
 T.~Behnke, J.~E. Brau, B.~Foster, J.~Fuster, M.~Harrison, J.~M. Paterson,
@@ -119,10 +164,6 @@ J.~A. {Ballin}, R.~{Coath}, J.~P. {Crooks}, P.~D. {Dauncey}, A.-M. {Magnan},
 \bibitem{Pitters:2018jxt}
 F.~Pitters, ``{The CLIC Detector Concept},'' 2018.
 
-\bibitem{Patrignani:2016xqp}
-C.~Patrignani {\em et~al.}, ``{Review of Particle Physics},'' {\em Chin.
-  Phys.}, vol.~C40, no.~10, p.~100001, 2016.
-
 \bibitem{Szleper:2014xxa}
 M.~Szleper, ``{The Higgs boson and the physics of $WW$ scattering before and
   after Higgs discovery},'' 2014.
@@ -152,12 +193,6 @@ C.~Durig, K.~Fujii, J.~List, and J.~Tian, ``{Model Independent Determination of
   Contribution to the Snowmass Process},'' in {\em {Proceedings, 2013 Community
   Summer Study on the Future of U.S. Particle Physics: Snowmass on the
   Mississippi (CSS2013): Minneapolis, MN, USA, July 29-August 6, 2013}}, 2013.
-
-\bibitem{Dawson:2013bba}
-S.~Dawson {\em et~al.}, ``{Working Group Report: Higgs Boson},'' in {\em
-  {Proceedings, 2013 Community Summer Study on the Future of U.S. Particle
-  Physics: Snowmass on the Mississippi (CSS2013): Minneapolis, MN, USA, July
-  29-August 6, 2013}}, 2013.
 
 \bibitem{Langacker:2008yv}
 P.~Langacker, ``{The Physics of Heavy $Z^\prime$ Gauge Bosons},'' {\em Rev.
@@ -212,10 +247,6 @@ Y.~Coadou, ``{Boosted Decision Trees and Applications},'' {\em EPJ Web Conf.},
 \bibitem{TauFinder}
 A.~Muennich, ``{TauFinder: A Reconstruction Algorithm for Tau Leptons at Linear
   Colliders},'' Oct 2010.
-
-\bibitem{TopPaperDraft}
-H.~et~al, ``Top quark physics at the clic electron positron collider,'' {\em
-  Paper in Preparation}, 2018.
 
 \bibitem{cdrvol2}
 ``{CLIC Conceptual Design Report: Physics and Detectors at CLIC},'' 2012.
