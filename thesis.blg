@@ -17,6 +17,10 @@ Warning--entry type for "cdrvol2" isn't style-file defined
 --line 379 of file thesis.bib
 Warning--entry type for "bib-prodids" isn't style-file defined
 --line 420 of file thesis.bib
+Repeated entry---line 560 of file thesis.bib
+ : @article{PDBook
+ :                ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in CLIC:2016zwp
 Warning--empty journal in Behnke:2013xla
 Warning--empty journal in CEPC-SPPCStudyGroup:2015csa
@@ -28,45 +32,45 @@ Warning--empty author in ATLAS-CONF-2015-044
 Warning--empty author in CMS:2013xfa
 Warning--empty journal in Schulte:382453
 Warning--empty journal in TauFinder
-You've used 66 entries,
+You've used 67 entries,
             1876 wiz_defined-function locations,
-            883 strings with 16032 characters,
-and the built_in function-call counts, 16472 in all, are:
-= -- 1490
-> -- 794
+            889 strings with 16102 characters,
+and the built_in function-call counts, 16625 in all, are:
+= -- 1503
+> -- 802
 < -- 1
-+ -- 294
-- -- 228
-* -- 1136
-:= -- 2396
-add.period$ -- 66
-call.type$ -- 66
-change.case$ -- 66
++ -- 297
+- -- 230
+* -- 1146
+:= -- 2422
+add.period$ -- 67
+call.type$ -- 67
+change.case$ -- 67
 chr.to.int$ -- 0
-cite$ -- 77
-duplicate$ -- 918
-empty$ -- 1519
-format.name$ -- 228
-if$ -- 4025
+cite$ -- 78
+duplicate$ -- 927
+empty$ -- 1536
+format.name$ -- 230
+if$ -- 4061
 int.to.chr$ -- 0
-int.to.str$ -- 66
-missing$ -- 62
-newline$ -- 202
-num.names$ -- 62
-pop$ -- 246
+int.to.str$ -- 67
+missing$ -- 63
+newline$ -- 205
+num.names$ -- 63
+pop$ -- 249
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 615
+skip$ -- 617
 stack$ -- 0
 substring$ -- 736
-swap$ -- 372
+swap$ -- 373
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 11
-while$ -- 124
-width$ -- 68
-write$ -- 602
-(There were 13 warnings)
+while$ -- 125
+width$ -- 69
+write$ -- 611
+(There was 1 error message)
