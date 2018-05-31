@@ -14,10 +14,10 @@ A level-1 auxiliary file: Appendix/appendix.aux
 A level-1 auxiliary file: Appendix/appendixB.aux
 Database file #1: thesis.bib
 Warning--entry type for "cdrvol2" isn't style-file defined
---line 379 of file thesis.bib
+--line 393 of file thesis.bib
 Warning--entry type for "bib-prodids" isn't style-file defined
---line 420 of file thesis.bib
-Repeated entry---line 560 of file thesis.bib
+--line 434 of file thesis.bib
+Repeated entry---line 574 of file thesis.bib
  : @article{PDBook
  :                ,
 I'm skipping whatever remains of this entry
@@ -32,45 +32,45 @@ Warning--empty author in ATLAS-CONF-2015-044
 Warning--empty author in CMS:2013xfa
 Warning--empty journal in Schulte:382453
 Warning--empty journal in TauFinder
-You've used 67 entries,
+You've used 68 entries,
             1876 wiz_defined-function locations,
-            889 strings with 16102 characters,
-and the built_in function-call counts, 16625 in all, are:
-= -- 1503
-> -- 802
+            896 strings with 16286 characters,
+and the built_in function-call counts, 16876 in all, are:
+= -- 1526
+> -- 806
 < -- 1
-+ -- 297
-- -- 230
-* -- 1146
-:= -- 2422
-add.period$ -- 67
-call.type$ -- 67
-change.case$ -- 67
++ -- 299
+- -- 231
+* -- 1160
+:= -- 2454
+add.period$ -- 68
+call.type$ -- 68
+change.case$ -- 68
 chr.to.int$ -- 0
-cite$ -- 78
-duplicate$ -- 927
-empty$ -- 1536
-format.name$ -- 230
-if$ -- 4061
+cite$ -- 79
+duplicate$ -- 944
+empty$ -- 1568
+format.name$ -- 231
+if$ -- 4127
 int.to.chr$ -- 0
-int.to.str$ -- 67
-missing$ -- 63
-newline$ -- 205
-num.names$ -- 63
-pop$ -- 249
+int.to.str$ -- 68
+missing$ -- 64
+newline$ -- 208
+num.names$ -- 64
+pop$ -- 256
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 617
+skip$ -- 626
 stack$ -- 0
-substring$ -- 736
-swap$ -- 373
+substring$ -- 751
+swap$ -- 378
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 11
-while$ -- 125
-width$ -- 69
-write$ -- 611
+while$ -- 128
+width$ -- 70
+write$ -- 620
 (There was 1 error message)

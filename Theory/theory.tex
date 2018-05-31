@@ -1,17 +1,12 @@
 \chapter{Theory}
 \label{theory}
 
-Within this thesis two analyses are presented describing prospective measurements looking at the $H\rightarrow WW$ branching ratio and the forward-backward asymmetry in \ttbar~ production at CLIC during the 1.4~TeV stage. As such it is important to first understand the physics behind these measurements and examine their significance in the context of the physics programme of CLIC and the wider state of particle physics.
+This thesis presents two new analyses of the prospects for measuring the $H\rightarrow WW$ branching ratio and the forward-backward asymmetry in \ttbar production at CLIC during the 1.4~TeV operational stage. It is therefore important to understand the physics behind these measurements and examine their significance in the context of the physics programme of both CLIC and the wider state of particle physics.
 
 
 \section{The Standard Model}
 
-%\begin{figure}
-%  \centering
-%  \includegraphics[width=0.55\textwidth,keepaspectratio]{Theory/fig/smparticles.png}
-%  \caption[Particles of the Standard Model]{Particles of the Standard Model \cite{wiki:xxx}}
-%  \label{fig:smparticles}
-%\end{figure}
+The \ac{SM} is a quantum field theory representing our current description of fundamental particles and the interactions between them. It consists of twelve spin-$\frac{1}{2}$ fermions (and their corresponding antiparticles), five spin 1 gauge bosons and one spin 0 scalar boson (as shown in \reffig{tab:smparticles}) where the interactions of the model are described by an $SU(3)_{C}\oplus SU(2)_{L}\oplus SU(1)_{Y}$ local gauge symmetry. The model describes pointlike particles which interact via the strong, weak and electromagnetic forces. No gravitational interactions are described within the model.
 
 \begin{table}
   \centering
@@ -19,63 +14,59 @@ Within this thesis two analyses are presented describing prospective measurement
     \toprule
     Type  & Name & Mass & Charge (e) & Spin  \\
     \midrule
-    Quark & Up & 2.2 MeV & +2/3 & 1/2 \\
-    Quark & Down & 4.7 MeV &  -1/3 & 1/2 \\
+    Quark & Up & 2.2$^{+ 0.6}_{-0.4}$ MeV & +2/3 & 1/2 \\
+    Quark & Down & 4.7$^{+ 0.5}_{-0.4}$ MeV &  -1/3 & 1/2 \\
     \midrule
-    Quark & Charm & 1.28 GeV& +2/3 & 1/2 \\
-    Quark & Strange & 96 MeV& -1/3 & 1/2 \\
+    Quark & Charm & 1.28$^{+ 0.3}_{-0.3}$ GeV& +2/3 & 1/2 \\
+    Quark & Strange & 96$^{+ 8}_{-4}$ MeV& -1/3 & 1/2 \\
     \midrule
-    Quark & Top & 174 GeV & +2/3 & 1/2 \\
-    Quark & Bottom & 4.18 GeV& +1/3 & 1/2 \\
-    \midrule
-    \midrule
-    Lepton & Electron & 511 keV & -1 & 1/2 \\
-    Lepton & Muon & 106 MeV & -1 & 1/2 \\
-    Lepton & Tau & 1.77 GeV & -1 & 1/2 \\
-    \midrule
-    Lepton & Electron Nuetrino & $\sim$ 0 & 0 & 1/2 \\
-    Lepton & Muon Neutrino & $\sim$ 0 & 0 & 1/2 \\
-    Lepton & Tau Neutrino & $\sim$ 0 & 0 & 1/2 \\
+    Quark & Top & 173.4$^{+ 1.1}_{-1.1}$ GeV & +2/3 & 1/2 \\
+    Quark & Bottom & 4.18$^{+ 0.04}_{-0.03}$ GeV& +1/3 & 1/2 \\
     \midrule
     \midrule
-    Gauge Boson & W$^+$ & 80.4 GeV& 1 & 1 \\
-    Gauge Boson & Z & 91.2 GeV & 0 & 1 \\
+    Lepton & Electron & 0.5109989461$\pm$0.0000000031 MeV & -1 & 1/2 \\
+    Lepton & Muon & 105.6583745$\pm$0.0000024 MeV& -1 & 1/2 \\
+    Lepton & Tau & 1776.86$\pm$0.12 MeV & -1 & 1/2 \\
+    \midrule
+    Lepton & Electron Nuetrino & $<$2 eV & 0 & 1/2 \\
+    Lepton & Muon Neutrino & $<$2 eV & 0 & 1/2 \\
+    Lepton & Tau Neutrino & $<$2 eV & 0 & 1/2 \\
+    \midrule
+    \midrule
+    Gauge Boson & W$^+$ & 80.385$\pm$0.015 GeV& 1 & 1 \\
+    Gauge Boson & Z & 91.1876$\pm$0.0021 GeV & 0 & 1 \\
     Gauge Boson & $\gamma$ & 0 & 0 & 1 \\
     Gauge Boson & gluon & 0 & 0 & 1 \\
     \midrule
     \midrule
-    Scalar Boson & Higgs & 125 GeV& 0 & 0 \\
+    Scalar Boson & Higgs & 125.09$\pm$0.24 GeV & 0 & 0 \\
     \bottomrule
   \end{tabular}
   \caption[Particles of the Standard Model]{Particles of the Standard Model \cite{Patrignani:2016xqp}}
   \label{tab:smparticles}
 \end{table}
 
+The fermions of the model can be classified into two families, leptons and quarks, according to how they interact. The quark family consists of the up(u), down(d), charm(c), strange(s), top(t) and bottom(b) quarks, all of which are capable of interacting via the strong, weak and electromagnetic forces. The lepton family, consisting of the electron(e), muon($\mu$), tau($\tau$), electron neutrino($\nu_{e}$), muon neutrino($\nu_{\mu}$) and tau neutrino($\nu_{tau}$), are defined by the fact they carry no colour charge and so are incapable of interacting via the strong force, however they all interact via the weak force and the $e$/$\mu$/$\tau$ can interact electromagnetically. The gauge bosons are the mediators of the three fundamental forces of the model. The photon is a massless boson that mediates the electromagnetic force by coupling to particles with electrical charge. The gluon is also massless and mediates the strong force by coupling to particles with colour charge. The gluon is unique amongst the gauge bosons in that it is the only boson that carries the charge to which it couples (i.e. it is coloured) and so couples to itself. One direct consequence of this is that it is impossible to form a stable coloured state due to colour confinement and so quarks are only observed in net-colourless states called hadrons. When a quark is produced in an interaction, it will typically undergo a process known as hadronization in which the quark will bind to quarks/antiquarks spontaneously produced from the vacuum to form quark-antiquark pairs known as mesons, or triplets of quarks or antiquarks known as baryons. The only exception to this is the top quark which will typically decay on a far shorter timescale than is needed for hadronization to occur. The final three gauge bosons are the Z, W$^+$ and W$^-$ which are all massive and mediate the weak interaction via their coupling to weak isospin.
 
+Much like the fermions can be separated into quarks and leptons according to the way they interact, the underlying symmetry of the \ac{SM} of $SU(3)_{C}\oplus SU(2)_{L}\oplus SU(1)_{Y}$ can be decomposed into separate parts according to the interactions that the symmetries describe. The $SU(3)_{C}$ group represents transformations of the colour state of a system and so describes interactions involving the strong force. These interactions are commonly referred to as \ac{QCD}. The $SU(2)_{L}\oplus SU(1)_{Y}$ symmetry represents electroweak theory- a unified description of the weak and electromagnetic interactions. In this description, fermions can be thought of as consisting of left and right handed fields, where the left handed components transform as doublets under SU(2) transformations while the right handed components only transform as singlets. The result of this is that the weak interaction only acts on the left handed field components. Hence the weak force only couples to left(right) handed particles (antiparticles.) 
 
-The \ac{SM} is a quantum field theory representing our best current description of fundamental particles and the interactions between them. It consists of twelve spin-$\frac{1}{2}$ fermions (and their corresponding antiparticles), five spin 1 gauge bosons and one spin 0 scalar boson (as shown in \reffig{tab:smparticles}) where the interactions of the model are described by an $SU(3)_{C}\oplus SU(2)_{L}\oplus SU(1)_{Y}$ local gauge symmetry. The model describes pointlike particles which interact via the strong, weak and electromagnetic forces. No gravitational interactions are described within the model.
-
-The fermions of the model can be classified into two families- leptons and quarks- according to how they interact. The quark family consists of the up(u), down(d), charm(c), strange(s), top(t) and bottom(b) quarks, all of which are capable of interacting via the strong, weak and electromagnetic force. The lepton family, consisting of the electron(e), muon($\mu$), tau($\tau$), electron neutrino($\nu_{e}$), muon neutrino($\nu_{\mu}$) and tau neutrino($\nu_{tau}$), are defined by the fact they carry no colour charge and so are incapable of interacting via the strong force, however they are still all capable of interacting via the weak force and the $e$/$\mu$/$\tau$ can interact electromagnetically. The gauge bosons are the mediators for the three fundamental forces of the model. The photon is a massless boson that mediates the electromagnetic force by coupling to particles with electrical charge. The gluon is also massless and mediates the strong force by coupling to particles with colour charge. The gluon is unique amongst the gauge bosons in that it is the only boson that carries the charge to which it couples (i.e. it is coloured) and so couples to itself. One direct consequence of this is that it is impossible to form a stable coloured state due to colour confinement and so quarks are only observed in net-colourless states called hadrons. When a quark is produced in an interaction, it will typically undergo a process known as hadronization in which the quark will bind to quarks/antiquarks spontaneously produced from the vacuum to form quark-antiquark pairs known as mesons, or triplets of quarks or antiquarks known as baryons. The only exception to this is the top quark which will typically decay in a shorter timescale than is needed for hadronization to occur. The final three gauge bosons are the Z, W$^+$ and W$^-$ which are all massive and mediate the weak interaction via their coupling to weak isospin.
-
-Much like the fermions can be separated into quarks and leptons according to the way the interact, the underlying symmetry of the \ac{SM} of $SU(3)_{C}\oplus SU(2)_{L}\oplus SU(1)_{Y}$ can be decomposed into separate parts according to the interactions that the symmetries describe. The $SU(3)_{C}$ group represents transformations of the colour state of a system and so describes interactions involving the strong force. These interactions are commonly referred to as \ac{QCD}. The $SU(2)_{L}\oplus SU(1)_{Y}$ symmetry represents electroweak theory- a unified description of the weak and electromagnetic interactions. In this description, fermions can be thought of as consisting of left and right handed fields, where the left handed components transform as doublets under SU(2) transformations while the right handed components only transform as singlets. The result of this is that the weak interaction only acts on the left handed field components. Hence the weak force only couples to left(right) handed particles (antiparticles.) 
-
-One of the most interesting features of electroweak theory occurs when considering the effect of gauge transformations on the Lagrangian of the system. In quantum field theory, fermions can be descibed by a dirac field with the following Lagrangian:
+One of the most interesting features of electroweak theory occurs when considering the effect of gauge transformations on the Lagrangian of the system. In quantum field theory, fermions can be described by a Dirac field with the following Lagrangian\cite{Pich:2005mk}:
 
 \begin{equation}
   \label{eq:diracLagrangian}
-\mathscr{L}=i\bar{\psi} \gamma^{\mu} \partial{\mu} \psi  -m\bar{\psi}\psi
+\mathscr{L}=i\bar{\psi}(x) \gamma^{\mu} \partial{_\mu} \psi(x)  -m\bar{\psi}(x)\psi(x)
 \end{equation}
 
 Applying a global phase transition of the form:
 
 \begin{equation}
-\psi \rightarrow \psi ' = e^{i\alpha}\psi
+\psi(x) \rightarrow \psi '(x) = e^{iQ\alpha}\psi(x)
 \end{equation}
 
-will leave the Lagrangian unchanged due to the fact $e^{i\alpha}\psi e^{-i\alpha}\psi=1$. However, in the case of local gauge transformations where $e^{i\alpha}\psi \rightarrow  e^{i\alpha(\textbf{x})}\psi$, i.e. the phase has a local space-time dependence, then eq\refeq{eq:diracLagrangian} is no longer invariant:
+will leave the Lagrangian unchanged due to the fact $e^{i\alpha}\psi e^{-i\alpha}\psi=1$. However, in the case of local gauge transformations we replace the global phase transformation by a local one i.e. $\alpha \rightarrow\alpha(x) $ i.e. the phase has a local space-time dependence, then \refeq{eq:diracLagrangian} is no longer invariant as:
 
 \begin{equation}
-\mathscr{L}=i\bar{\psi} \gamma^{\mu} \partial{_\mu} \psi  -m\bar{\psi}\psi -\bar{\psi}(\textbf{x})\gamma^{\mu}\partial{_\mu}\alpha(\textbf{x})
+  \partial{_\mu} \psi(x)\rightarrow e^{iQ\alpha(x)} (\partial{_\mu} + iQ\partial{_\mu}\alpha(x)) \psi(x)
 \end{equation}
 
 In order to restore the invariance, the derivative $\partial{\mu}$ must be replaced with the covariant derivative $D_{\mu}$ which is of the form:
@@ -90,7 +81,7 @@ where $A_{\mu}$ is a gauge field which transforms as:
   A_{\mu}\rightarrow A_{\mu}^{'} = A_{\mu} - \frac{1}{e}\partial{_\mu}\alpha(\textbf{x})
 \end{equation}
 
-In electroweak theory the gauge fields required are found to consist of three weak isospin fields, $W_1, W_2$ and $W_3$,  coming from the SU(2) group and one weak hypercharge field, B, from U(1). The interesting result of this is the prediction that the bosons associated with these fields and the fermions they interact with should be massless, however this is experimentally found to be false as the bosons of the weak force, Z and W, have masses of 91.876 $\pm$ 0.0021 GeV and 80.385 $\pm$ 0.015 GeV respectively. Furthermore, in electroweak theory it can be shown that the presence of massive electroweak bosons results in unphysical predictions in the \ac{SM} e.g. violation of unitarity when calculating the amplitude of $WW\rightarrow WW$ scattering \cite{Szleper:2014xxa}. These problems can be fixed via consideration of the final particle within the \ac{SM}, the Higgs boson.
+In electroweak theory the gauge fields required are found to consist of three weak isospin fields, $W_1, W_2$ and $W_3$,  coming from the SU(2) group and one weak hypercharge field, B, from U(1). The interesting result of this is the prediction that the bosons associated with these fields and the fermions they interact with should be massless. However, this is not supported by data as the bosons of the weak force, Z and W, have masses of $m_Z$=91.876 $\pm$ 0.0021 GeV and $m_W$=80.385 $\pm$ 0.015 GeV respectively\cite{Patrignani:2016xqp}. Furthermore, in electroweak theory it can be shown that the presence of massive electroweak bosons results in unphysical predictions in the \ac{SM} e.g. violation of unitarity when calculating the amplitude of $WW\rightarrow WW$ scattering \cite{Szleper:2014xxa}. These problems can be fixed via consideration of the final particle within the \ac{SM}, the Higgs boson.
 
 \section{The Higgs Boson and the Origin of Mass}
 
@@ -103,35 +94,37 @@ To solve the problems seen in the electroweak sector, Brout, Englert and Higgs \
 with potential:
 
 \begin{equation}
-V(\phi) = \mu^{2}\phi^{\dagger}\phi + \frac{\lambda^{2}}{2}(\phi^{\dagger}\phi)^{2}
+V(\phi) = \mu^{2}\phi^{\dagger}\phi + \frac{\lambda^{2}}{2}(\phi^{\dagger}\phi)^{2},
 \end{equation}
+
+where $\mu^{2}$ is the negative mass squared parameter and $\lambda$ is the Higgs field self-coupling.
 
 The Higgs field is found to interact with the $W_{1},W_{2},W_{3}$ and $B$ gauge fields. In the case that $\mu^{2}<0$, due to the Higgs field acquiring a non-zero expectation value, the $SU(2)_{L}\oplus SU(1)_{Y}$ symmetry is found to break leaving only a $U(1)_{em}$ symmetry corresponding to a massless photon. Of the four degrees of freedom associated with the Higgs field, the interaction of the field with the W and B gauge fields results in three massive gauge bosons corresponding to the measured $Z$ and $W^{\pm}$ masses, where the physically observed bosons actually represent mixtures of the underlying gauge fields:
 
 \begin{equation}
-\gamma = \cos\theta_{W}B  +\sin\theta_{W}W_{3} 
+\gamma = \cos\theta_{W}B  +\sin\theta_{W}W_{3}, 
 \end{equation}
 
 \begin{equation}
-Z = \cos\theta_{W}W_{3}  -\sin\theta_{W}B
+Z = \cos\theta_{W}W_{3}  -\sin\theta_{W}B,
 \end{equation}
 
 \begin{equation}
-W^{\pm}= \frac{1}{\sqrt{2}}(W_{1}\mp iW_{2})
+W^{\pm}= \frac{1}{\sqrt{2}}(W_{1}\mp iW_{2}),
 \end{equation}
 
-Where $\theta_{W}$ is the weak mixing angle.
+and where $\theta_{W}$ is the weak mixing angle.
 
-The last remaining degree of freedom of the Higgs field corresponds to the Higgs boson itself. The mass of the Higgs boson can be determined to be $m_{H}=\sqrt{2\lambda}\nu$, where $\lambda$ is the Higgs self coupling parameter and $\nu$ is the vacuum expectation value for the Higgs field. While $\nu$ can be calculated within the standard model, $\lambda$ is a free parameter and so the mass of the Higgs is not derivable. Experimentally it is found to be $\sim$125GeV.
+The last remaining degree of freedom of the Higgs field corresponds to the Higgs boson itself. The mass of the Higgs boson can be determined to be $m_{H}=\sqrt{2\lambda}\nu$, where $\nu$ is the vacuum expectation value for the Higgs field. While $\nu$ can be calculated within the standard model, $\lambda$ is a free parameter and so the mass of the Higgs is not known a priori. Experimentally it is found to be $\sim$125GeV\cite{:2012gk,Chatrchyan:2012xdj}.
 
-While the mass of the Higgs is of interest as it represents a free parameter in the standard model, there are many more properties of the Higgs that are important to measure. In particular the way in which the Higgs boson couples to other particles is well predicted within the \ac{SM} and is expected to vary between various \ac{BSM} models. Within the \ac{SM} the coupling of the Higgs to fermions and bosons is diferent but depends on mass in each case:
+While the mass of the Higgs is of special interest because its value is a free parameter in the standard model, there are many more properties of the Higgs that are important to measure. In particular, the way in which the Higgs boson couples to other particles is predicted without ambiguity within the \ac{SM} and is expected to vary between various \ac{BSM} models. Within the \ac{SM} the coupling of the Higgs to fermions and bosons varies according to their masses:
 
 
 \begin{equation}
-g_{Hf\bar{f}}=\frac{M_f}{\nu} ~~~~~~~~    g_{HBB}=\frac{2M_B^2}{\nu} 
+g_{Hf\bar{f}}=\frac{M_f}{\nu} ~~~~~~~~    g_{HBB}=\frac{2M_B^2}{\nu} .
 \end{equation}
 
-Due to this clear mass dependence, a fit of the coupling to each fermion as a function of the fermions mass represents a powerful way of testing the \ac{SM}. The mass dependence on the Higgs couplings also presents a new way to perform indirect searches for new physics involving as yet unseen massive particles by looking at the branching ratio of Higgs decays to invisible decay products and the total Higgs decay width. This is of particluar interest in searches for dark matter which is known to interact gravitationally and so must possess mass. 
+Therefore, characterising the coupling to each fermion as a function of the fermions mass represents a powerful way of testing the \ac{SM}. The mass dependence on the Higgs couplings also presents a new way to perform indirect searches for new physics involving as yet unseen massive particles by looking at the branching ratio of Higgs decays to invisible decay products and the total Higgs decay width. This is of particluar interest in searches for dark matter which is known to interact gravitationally and so must possess mass. 
 
 \section{Higgs Measurements at CLIC}
 \begin{figure}
@@ -141,7 +134,7 @@ Due to this clear mass dependence, a fit of the coupling to each fermion as a fu
   \label{fig:higgsXSecs}
 \end{figure}
 
-The CLIC physics programme places a large focus on characterising the Higgs boson as it presents a new and relatively less well measured sector of the \ac{SM} to explore. In particluar it will aim to measure the mass, width, and couplings of the Higgs in a model independent manner. Electron positron collisions provide access to numerous Higgs production mechanisms which can be seen in \reffig{fig:higgsXSecs}. Due to the strong energy dependence on many of the cross sections on energy, different processes will be of interest at each of the three energy stages operated at CLIC. At 380GeV the focus will predominantly be on measuring the Higgsstrahlung ($ZH$) process in which a Z boson radiates a Higgs, while at higher energies vector boson fusion ($H\nu\bar{\nu},He^{+}e^{-}$) dominates and new processes such as di-Higgs production become accessible. A summary of all the results from current Higgs studies performed by CLIC is available in \cite{Abramowicz:2016zbo}.
+The CLIC physics programme places substantial emphasis on characterising the Higgs boson as it presents a new and relatively less well measured sector of the \ac{SM} to explore. In particluar it will aim to measure the mass, width, and couplings of the Higgs in a model independent manner. Electron positron collisions provide access to numerous Higgs production mechanisms which can be seen in \reffig{fig:higgsXSecs}. Due to the strong energy dependence on many of the cross sections on energy, different processes will be of interest at each of the three energy stages operated at CLIC. At 380GeV the focus will predominantly be on measuring the Higgsstrahlung ($ZH$) process in which a Z boson radiates a Higgs, while at higher energies vector boson fusion ($H\nu\bar{\nu},He^{+}e^{-}$) dominates and new processes such as di-Higgs production become accessible. A summary of all the results from current Higgs studies performed by CLIC is available in \cite{Abramowicz:2016zbo}.
 
 \subsection{Higgsstrahlung}
 
@@ -153,7 +146,7 @@ The CLIC physics programme places a large focus on characterising the Higgs boso
 \end{figure}
 
 
-One of the key aims of the experiment will be to examine the Higgsstrahlung process shown in \reffig{fig:higgsstrahlung}. In this process, if the four momentum of the Z boson can be measured to high precision, then because the initial conditions of the collision are well known, one can determine the mass of the particle it is recoiling against ($m_{rec}^{2} = s + m_{z}^{2} - 2E_{z}^{2}$) and infer the presence of the Higgs. This allows properties such as the Higgs mass, cross-section and coupling to the Z to be measured without actually ever measuring the decay products of the Higgs boson, which in turn allows the measurements to be model independent as few assumptions must be made about the properties of the Higgs. This method is not possible at hadron colliders such as the LHC where, even though the Higgsstrahlung process still occurs, the four momentum of the colliding particles can never be known as precisely due to their composite nature. Using the clean signal from cases where the Z decays to a pair of muons or electrons it is possible to measure the recoil mass to high precision and thus determine the mass of the Higgs to $\Delta m_{H} = 110~MeV$ (see \reffig{fig:higgsmass}) using data from the low energy stage only. This value can be further improved to $\Delta m_{H} = 44~MeV$ when including direct measurement results from the $ee\rightarrow H\nu\bar{\nu}, H\rightarrow b\bar{b}$ channel at 3~TeV. Despite giving a poorer resolution on the Z four momentum, the $Z\rightarrow qq$ higgsstrahlung channel is also considered due to it's larger cross section. Using this channel a limit of $BR(H\rightarrow invis.) <0.97\%$ at 90\% C.L. can be set. 
+One of the key aims of the experiment will be to examine the Higgsstrahlung process shown in \reffig{fig:higgsstrahlung}. In this process, if the four-momentum of the Z boson can be measured to high precision, then because the initial conditions of the collision are well known, one can determine the mass of the particle it is recoiling against ($m_{rec}^{2} = s + m_{z}^{2} - 2E_{z}^{2}$, with $E_Z$ being the meaured energy of the Z) and infer the presence of a Higgs boson on an event-by-event basis. This allows properties such as the Higgs mass, cross-section and coupling to the Z to be measured without actually using the decay products of the Higgs boson directly, which in turn allows the measurements to be model independent. This method is not possible at hadron colliders such as the LHC where, even though the Higgsstrahlung process still occurs, the four momentum of the colliding particles can never be known as precisely due to their composite nature. Using the clean signal from cases where the Z decays to a pair of muons or electrons it is possible to measure the recoil mass to high precision and thus determine the mass of the Higgs to $\Delta m_{H} = 110$~MeV (see \reffig{fig:higgsmass}) using data from the low energy stage only. This value can be further improved to $\Delta m_{H} = 44~MeV$ when including direct measurement results from the $ee\rightarrow H\nu\bar{\nu}, H\rightarrow b\bar{b}$ channel at 3~TeV. Despite giving a poorer resolution on the Z four momentum, the $Z\rightarrow qq$ higgsstrahlung channel is also considered due to its larger cross section. Using this channel a limit of $BR(H\rightarrow invis.) <0.97\%$ at 90\% C.L. can be set. 
 
 \begin{figure}
   \centering
@@ -192,31 +185,66 @@ X_3=\sigma_{H\nu\bar{\nu}} \times BR(H\rightarrow b\bar{b}) \propto \frac{g_{HWW
 X_4=\sigma_{ZH} \times BR(H\rightarrow b\bar{b}) \propto \frac{g_{HZZ}^{2}g_{Hbb}^2}{\Gamma_H}
 \end{equation}
 
- With the exception of $X_1$, the choice of variables used is not unique (e.g. one could replace the production mechanism in $X_1$ and $X_2$ with ZZ-fusion rather than WW-fusion,) however the combination shown here is expected to give the highest precision on $\Gamma_H$ due to the large cross-section associated with WW-fusion and the high branching ratio of $H\rightarrow b\bar{b}$ ($\sim$ 65\%). In chapter \ref{Higgs Analysis} we will present our research on the precision to which $X_2$ can be measured during the 1.4~TeV run at CLIC. Currently at the LHC the standard process for extracting couplings from the equivalent measurements of $X_{2,3\&4}$ is to multiply through by the standard model value of the Higgs width \cite{ATLAS-CONF-2015-044}. This type of measurement is referred to as `model-dependent` as the values determined for the Higgs couplings carry the implicit assumption that the standard model is correct in it's prediction of the Higgs width. At CLIC, because the width can be measured experimentally there is no need to make this assumption and so the couplings are measured in a ``model-independent'' way. The unique ability of linear colliders to perform model-independent measurements is one of the largest driving factors for constructing and using them as a so called ``Higgs-Factory''. One limiting factor for the model-independent measurements of the couplings is that they are always ultimately dependent on the precision to which the ZH cross section can be measured (predicted to be $\Delta h_{HZZ} = 0.8\%$) as this quantity is always needed in the ratio used to extract $\Gamma_H$.
+ With the exception of $X_1$, the choice of variables used is not unique (e.g. one could replace the production mechanism in $X_1$ and $X_2$ with ZZ-fusion rather than WW-fusion,) however the combination shown here is expected to give the highest precision on $\Gamma_H$ due to the large cross-section associated with WW-fusion and the high branching ratio of $H\rightarrow b\bar{b}$ ($\sim$ 65\%). In chapter \ref{Higgs Analysis} we will present our research on the precision with which $X_2$ can be measured during the 1.4~TeV run at CLIC. Currently at the LHC the standard process for extracting couplings from the equivalent measurements of $X_{2,3\&4}$ is to multiply through by the standard model value of the Higgs width \cite{ATLAS-CONF-2015-044}. This type of measurement is referred to as ``model-dependent'' as the values determined for the Higgs couplings implicitly assume the \ac{SM} Higgs width. At CLIC, because the width can be measured experimentally there is no need to make this assumption and so the couplings are measured in a ``model-independent'' way. The unique ability of $e^+e^-$ colliders to perform model-independent measurements is one of the largest driving factors for constructing and using them as a so called ``Higgs-Factory''. One limiting factor for the model-independent measurements of the couplings is that they are always ultimately dependent on the precision with which the ZH cross section can be measured (predicted to be $\Delta h_{HZZ} = 0.8\%$\cite{Abramowicz:2016zbo}) as this quantity is always needed in the ratio used to extract $\Gamma_H$.
 
-\begin{figure}
+\begin{table}
   \centering
-  \includegraphics[width=0.7\linewidth]{Theory/fig/table28_350GeVPrecisions}
-  \caption[Expected statistical uncertainties for Higgs measurements at 350GeV at CLIC assuming unpolarised beams]{Expected statistical uncertainties for Higgs measurements at 350GeV at CLIC assuming unpolarised beams \cite{Abramowicz:2016zbo}}
-  \label{fig:350GeVNumbers}
-\end{figure}
+  \begin{tabular}{lllc}\toprule
+     &                                                           &                              & Statistical precision                        \\\cmidrule(l){4-4}
+     Channel  & Measurement                                        & Observable            & $350\,\GeV$       \\ 
+     &                                                           &                              & $500\,fb^{-1}$        \\ \midrule
+     $ZH$            & Recoil mass distribution                                  & $\mH$                        & $110\,\MeV$  \\
+     $ZH$            & $\sigma(ZH)\times BR(H\rightarrow \text{invisible})$         & $\Gamma_\text{inv}$          & $0.6\,\%$  \\ \midrule
+     $ZH$            & $\sigma(ZH)\times BR(Z\rightarrow l^+l^-)$             & $g^{2}_{HZZ}$                  & $3.8\,\%$  \\
+     $ZH$            & $\sigma(ZH)\times BR(Z\rightarrow q\bar{q})$                  & $g^{2}_{HZZ}$                  & $1.8\,\%$  \\
+     $ZH$            & $\sigma(ZH)\times BR(H\rightarrow b\bar{b})$                & $g^{2}_{HZZ}g^{2}_{Hbb}/\Gamma_H$     & $0.86\,\%$ \\
+     $ZH$            & $\sigma(ZH)\times BR(H\rightarrow c\bar{c})$                & $g^{2}_{HZZ}g^{2}_{Hcc}/\Gamma_H$       & $14\,\%$ \\
+     $ZH$            & $\sigma(ZH)\times BR(H\rightarrow gg)$                   &                              & $6.1\,\%$ \\
+     $ZH$            & $\sigma(ZH)\times BR(H\rightarrow \tau^+\tau^-)$               & $g^{2}_{HZZ}g^{2}_{H\tau\tau}/\Gamma_H$ & $6.2\,\%$ \\
+     $ZH$            & $\sigma(ZH)\times BR(H\rightarrow WW^*)$                 & $g^{2}_{HZZ}g^{2}_{HWW}/\Gamma_H$     & $5.1\,\%$ \\
+     $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow b\bar{b})$        & $g^{2}_{HWW}g^{2}_{Hbb}/\Gamma_H$     & $1.9\,\%$ \\
+     $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow c\bar{c})$        & $g^{2}_{HWW}g^{2}_{Hcc}/\Gamma_H$     & $26\,\%$ \\
+     $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow gg)$        &     & $10\,\%$ \\    
+     \bottomrule
+   \end{tabular}
+   \caption[Expected statistical uncertainties for Higgs measurements at 350~GeV at CLIC assuming unpolarised beams]{Expected statistical uncertainties for Higgs measurements at 350~GeV at CLIC assuming unpolarised beams \cite{Abramowicz:2016zbo}}
+   \label{fig:350GeVNumbers}
+\end{table}
 
-\begin{figure}
+\begin{table}
   \centering
-  \includegraphics[width=0.7\linewidth]{Theory/fig/table29_HighEPrecisions}
-  \caption[Expected statistical uncertainties for Higgs measurements at 1.4TeV and 3TeV at CLIC assuming unpolarised beams]{Expected statistical uncertainties for Higgs measurements at 1.4TeV and 3TeV at CLIC assuming unpolarised beams \cite{Abramowicz:2016zbo}}
+  \begin{tabular}{lllcc}\toprule
+    &                                                           &                              & Statistical precision                       \\\cmidrule(l){4-5}
+    Channel  & Measurement                                        & Observable & $1.4\,\TeV$         & $3\,\TeV$           \\ 
+    &                                                           &                           & $1.5\,ab^{-1}$      & $2.0\,ab^{-1}$        \\ \midrule
+    $H\nu_e\bar{\nu_e}$    & $H\rightarrow b\bar{b}$ mass distribution                       & $m_H$                & $47\,\MeV$     & $44\,\MeV$       \\ \midrule
+    $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow b\bar{b})$        & $g^{2}_{HWW}g_{Hbb}^{2}/\Gamma_H$   & $0.4\,\%$         & $0.3\,\%$           \\
+    $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow c\bar{c})$        & $g^{2}_{HWW}g_{Hcc}^{2}/\Gamma_H$  & $6.1\,\%$         & $6.9\,\%$           \\
+    $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow gg)$           &                     & $5.0\,\%$         & $4.3\,\%$           \\
+    $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow \tau^+\tau^-)$       & $g^{2}_{HWW}g_{H\tau\tau}^{2}/\Gamma_H$ & $4.2\,\%$         & $4.4\,\%$               \\
+    $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow \mu^+\mu^-)$       & $g^{2}_{HWW}g_{H\mu\mu}^{2}/\Gamma_H$   & $38\,\%$        & $25\,\%$            \\
+    $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow \gamma\gamma)$ &                          & $15\,\%$          & $10\,\%^*$               \\
+    $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow Z\gamma)$      &                             & $42\,\%$           & $30\,\%^*$               \\
+    $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow WW^*)$         & $g_{HWW}^{4}/\Gamma_H$            & $1.0\,\%$         & $0.7\,\%^*$         \\
+    $H\nu_e\bar{\nu_e}$    & $\sigma(H\nu_e\bar{\nu_e})\times BR(H\rightarrow ZZ^*)$         & $g^{2}_{HWW}g_{HZZ}^{2}/\Gamma_H$  & $5.6\,\%$ & $3.9\,\%^*$   \\
+    $He^+e^-$       & $\sigma(He^+e^-)\times BR(H\rightarrow b\bar{b)}$           & $g_{HZZ}^{2}g_{Hbb}^{2}/\Gamma_H$    & $1.8\,\%$ & $2.3\,\%^*$ \\ \midrule
+    $t\bar{t}H$      & $\sigma(t\bar{t}H)\times BR(H\rightarrow b\bar{b})$          & $g_{Htt}^{2}g_{Hbb}^{2}/\Gamma_H$  & $8\,\%$         & $-$             \\
+    $HH\nu_e\bar{\nu_e}$ & $\sigma(HH\nu_e\bar{\nu_e})$                               & $\lambda$                   & $54\,\%$          & $29\,\%$            \\
+    $HH\nu_e\bar{\nu_e}$ & with $-80\,\%$ $e^-$ polarisation                             & $\lambda$                  & $40\,\%$          & $22\,\%$            \\ \bottomrule
+  \end{tabular}
+  \caption[Expected statistical uncertainties for Higgs measurements at 1.4~TeV and 3~TeV at CLIC assuming unpolarised beams]{Expected statistical uncertainties for Higgs measurements at 1.4~TeV and 3~TeV at CLIC assuming unpolarised beams \cite{Abramowicz:2016zbo}}
   \label{fig:HighENumbers}
-\end{figure}
+\end{table}
 
 \begin{figure}
   \centering
-  \begin{subfigure}{.4\textwidth}
+  \begin{subfigure}{.49\textwidth}
     \centering
-    \includegraphics[width=1.0\linewidth]{Theory/fig/FitResultsMI.pdf}
+    \includegraphics[width=0.95\linewidth]{Theory/fig/FitResultsMI.pdf}
   \end{subfigure}
-    \begin{subfigure}{.4\textwidth}
+    \begin{subfigure}{.49\textwidth}
     \centering
-    \includegraphics[width=1.0\linewidth]{Theory/fig/CouplingvsMassMI.pdf}
+    \includegraphics[width=0.95\linewidth]{Theory/fig/CouplingvsMassMI.pdf}
   \end{subfigure}
     \caption[Expected precision on model independent measurements of the Higgs couplings]{Expected precision on model independent measurements of the Higgs couplings \cite{Abramowicz:2016zbo}}
   \label{fig:modelIndependentCouplings}
@@ -224,23 +252,23 @@ X_4=\sigma_{ZH} \times BR(H\rightarrow b\bar{b}) \propto \frac{g_{HZZ}^{2}g_{Hbb
 
 \begin{figure}
 \centering
-\includegraphics[width=0.45\linewidth]{Theory/fig/FitResultsMD.pdf}
+\includegraphics[width=0.65\linewidth]{Theory/fig/FitResultsMD.pdf}
 \caption[Expected precision on model dependent measurements of the Higgs couplings at CLIC]{Expected precision on model dependent measurements of the Higgs couplings at CLIC \cite{Abramowicz:2016zbo}}
 \label{fig:modelDependentCouplings}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.5\linewidth]{Theory/fig/MuSnowmass3000.pdf}
+\includegraphics[width=0.7\linewidth]{Theory/fig/MuSnowmass3000.pdf}
 \caption[Expected precision on model dependent measurements of the Higgs couplings at CMS]{Expected precision on model dependent measurements of the Higgs couplings at \ac{CMS} for the \ac{HL-LHC}. Scenario 1 represents a case where the systematic and theoretical uncertainties remain at their current levels. In scenario 2 the theoretical uncertainty is scaled by a factor of a half and the systematic uncertainties are scaled by the square root of the integrated luminosity \cite{CMS:2013xfa}.}
 \label{fig:CMSHiggsPredictions}
 \end{figure}
 
-In practice it is expected that an 11 parameter global fit to multiple variations of these measurements will be performed at each stage of operation to extract the Higgs width and it's couplings to both fermions and bosons. The relevant inputs for these fits are shown in \reftab{fig:350GeVNumbers} and \ref{fig:HighENumbers} while the results of the fits are shown in \reffig{fig:modelIndependentCouplings}
+In practice it is expected that an 11 parameter global fit to multiple variations of these measurements will be performed at each stage of operation to extract the Higgs width and its couplings to both fermions and bosons. The relevant inputs for these fits are shown in \reftab{fig:350GeVNumbers} and \ref{fig:HighENumbers} while the results of the fits are shown in \reffig{fig:modelIndependentCouplings}.
 
-For context it is also important to compare these results to what can be expected from current leading experiments such as ATLAS and CMS at the LHC. Because the Higgs width can not be explicitly calculated at Hadron colliders, it is best to compare the model dependent version of the CLIC analysis with those predicted by ATLAS and CMS. In this situation, becuase the precision of the couplings is no longer limited by the precision on $g_{HZZ}$, the predicted precision for CLIC is seen to improve considerably. One can see from \reffig{fig:modelDependentCouplings} and \ref{fig:CMSHiggsPredictions} that in many cases CLIC is expected to provide an order of magnitude improvement over what can be achieved at the LHC with many of the key parameters associated with the Higgs being measured to sub percent precision.
+For context it is also important to compare these results to what can be expected from experiments such as ATLAS and CMS at the LHC. Because the Higgs width can not be explicitly calculated at hadron colliders, it is appropriate to compare the model dependent version of the CLIC analysis with those predicted by ATLAS and CMS. In this situation, because the precision of the couplings is no longer limited by the precision on $g_{HZZ}$, the predicted precision for CLIC is seen to improve considerably. One can see from \reffig{fig:modelDependentCouplings} and \ref{fig:CMSHiggsPredictions} that in many cases CLIC is expected to provide an order of magnitude improvement over what can be achieved at the LHC with many of the key parameters associated with the Higgs being measured to sub percent precision.
 
-Ultimately the aim of performing precision measurements is to be allow the validation or rejection of theoretical models. While the results seen so far at the LHC suggest that the observed Higgs Boson is that of the \ac{SM}, their are numerous alternative theories that predict a Higgs like particle with properties similar to what has been observed but which differ to a degree not yet measureable by current experiments. The details of these theories will not be expanded upon within this thesis, however the deviations expected in the Higgs couplings of these theories relative to the \ac{SM} are shown in \reftab{table:snowmass} These values should only be taken as a rough guideline for the precision required to discover/reject the theories as they are based on the assumption that new physics occurs at a specific scale (in this case 1~TeV,) however it is clear that the level of precision required to provide sensitivity to these models is expected to be greater than what will be possible with the LHC but could be within the scope of the proposed CLIC physics programme.  
+Ultimately the aim of performing precision measurements is to be allow the validation or rejection of theoretical models. While the results seen so far at the LHC suggest that the observed Higgs Boson is that of the \ac{SM}, their are numerous alternative theories that predict a Higgs like particle with properties similar to what has been observed but which differ to a degree not yet measureable by current experiments. The details of these theories will not be expanded upon within this thesis, however the deviations expected in the Higgs couplings of these theories relative to the \ac{SM} are shown in \reftab{table:snowmass} These values should only be taken as a rough guideline for the precision required to discover/reject the theories as they are based on the assumption that new physics occurs at a specific scale (in this case 1~TeV). Although the precision required to provide sensitivity to these models is expected to be greater than that expected for the LHC, it may be within the scope of the proposed CLIC physics programme.  
 
 \begin{table}
   \centering
@@ -257,14 +285,14 @@ Ultimately the aim of performing precision measurements is to be allow the valid
     \bottomrule
     \bottomrule
   \end{tabular}
-  \caption[Predicted Higgs Coupling Modifications for BSM theories]{Generic size of Higgs coupling modifications from the \ac{SM} values when all new pariles are $M\sim 1 TeV$ and mixing angle satisfy precision electroweak fits. The Decoupling MSSM numbers assume $\tan\beta = 3.2$ and a stop mass of 1 TeV with $X_t =0$ for the $\kappa_\gamma$ prediction \cite{Dawson:2013bba}}
+  \caption[Predicted Higgs Coupling Modifications for BSM theories]{Generic size of Higgs coupling modifications from the \ac{SM} values when all new particles are $M\sim 1 TeV$ and mixing angle satisfy precision electroweak fits. The Decoupling MSSM numbers assume $\tan\beta = 3.2$ and a stop mass of 1 TeV with $X_t =0$ for the $\kappa_\gamma$ prediction \cite{Dawson:2013bba}}
   \label{table:snowmass}
 \end{table}
 
 \section{Top Quark Physics}
 
 
-The top quark is currently the heaviest particle within the \ac{SM} and is the only quark that decays before undergoing hadronization. Due to it's high mass, top interactions are often seen as good channels for looking for \ac{BSM} physics with a characteristic energy scale beyond what has currently been discovered. Due to it's high mass, the top is also the fermion with the highest couping to the Higgs making it a good candidate for finding deviations from the \ac{SM} within the Higgs sector. As such, the physics programme for \ac{CLIC} places a strong focus on measuring the top quarks properties with the lowest energy stage of operation featuring a dedicated top threshold scan aiming to provide precision measurments of the top mass and width. The dominant production mechanism for top production is through the s-channel: $e^+e^-\rightarrow\gamma /Z\rightarrow t\bar{t}$ process shown in \reffig{fig:topFeynmann}. Using this process the properties of the $t\bar{t}\gamma$ and $t\bar{t}Z$ vertices can be measured. Examining these can provide sensitvity to contributions from \ac{BSM} effects such as the existence of extra bosons (e.g. $Z'$ \cite{Langacker:2008yv}) which could provide an additional production channel, modifying the behaviour at the vertex. The  $t\bar{t}X$ vertex can be written as below \cite{Amjad:2015mma}:
+The top quark is currently the heaviest particle within the \ac{SM} and is the only quark that decays before undergoing hadronization. Due to its high mass, top interactions are good channels for looking for \ac{BSM} physics with a characteristic energy scale beyond what has currently been discovered. Due to its high mass, the top is also the fermion with the strongest couping to the Higgs making it a good candidate for finding deviations from the \ac{SM} within the Higgs sector. As such, the physics programme for \ac{CLIC} will measure the top quark's properties during the lowest energy stage of operation featuring a dedicated top threshold scan aiming to provide precision measurments of the top mass and width. The dominant production mechanism for top production is through the $s$-channel: $e^+e^-\rightarrow\gamma /Z\rightarrow t\bar{t}$ process shown in \reffig{fig:topFeynmann}. Using this process the properties of the $t\bar{t}\gamma$ and $t\bar{t}Z$ vertices can be measured. Examining these can provide sensitvity to contributions from \ac{BSM} effects such as the existence of extra bosons (e.g. $Z'$ \cite{Langacker:2008yv}) which could provide an additional production channel, modifying the behaviour at the vertex. The  $t\bar{t}X$ vertex can be written as below \cite{Amjad:2015mma}:
 
 \begin{figure}
 \centering
@@ -274,21 +302,21 @@ The top quark is currently the heaviest particle within the \ac{SM} and is the o
 \end{figure}
 
 \begin{equation}
-\Gamma_{\mu}^{t\bar{t}X}(s,q,\bar{q})= ie\{ \gamma_{\mu}(F_{1V}^{X}(s)+ \gamma_{5}F_{1A}^{X}(s)) - \frac{\sigma_{\mu\nu}}{2m_t}(q+\bar{q})^{\nu}(iF_{2V}^{X}(s) + \gamma_{5}F_{2V}^{X}(s))\}
+\Gamma_{\mu}^{t\bar{t}X}(s,q,\bar{q})= ie\{ \gamma_{\mu}(F_{1V}^{X}(s)+ \gamma_{5}F_{1A}^{X}(s)) - \frac{\sigma_{\mu\nu}}{2m_t}(q+\bar{q})^{\nu}(iF_{2V}^{X}(s) + \gamma_{5}F_{2V}^{X}(s))\},
 \end{equation}
 
-Where $X=\gamma /Z$, $q$ and $\bar{q}$ are the four momenta of the top and anti top, s is Mandelstam , $\gamma_\mu$ and $\gamma_5$ are the Dirac matrices corresponding to vector and axial-vector currents respectively, $\sigma_{\mu\nu}=\frac{i}{2}(\gamma_\mu \gamma_\nu -\gamma_\nu \gamma_\mu)$ allows for describing the scattering and F are the electroweak form factors. Within the \ac{SM}, at tree level all the $F_2$ are zero as is $F_{1A}^{\gamma}$ leaving only the following non-zero form factors:
+where $X=\gamma /Z$, $q$ and $\bar{q}$ are the four momenta of the top and anti top, $s$ is Mandelstam , $\gamma_\mu$ and $\gamma_5$ are the Dirac matrices corresponding to vector and axial-vector currents respectively, $\sigma_{\mu\nu}=\frac{i}{2}(\gamma_\mu \gamma_\nu -\gamma_\nu \gamma_\mu)$ allows for describing the scattering and $F$ are the electroweak form factors. Within the \ac{SM}, at tree level all the $F_2$ and $F_{1A}^{\gamma}$ are zero leaving only the following non-zero form factors:
 
 \begin{equation}
-F_{1V}^{\gamma}=\frac{2}{3}
-\end{equation}
-
-\begin{equation}
-F_{1V}^{Z}=\frac{1}{4\sin\theta_{W}\cos\theta_{W}}(1-\frac{8}{3}\sin\theta_{W})
+F_{1V}^{\gamma}=\frac{2}{3},
 \end{equation}
 
 \begin{equation}
-F_{1A}^{Z}=\frac{1}{4\sin\theta_{W}\cos\theta_{W}}
+F_{1V}^{Z}=\frac{1}{4\sin\theta_{W}\cos\theta_{W}}(1-\frac{8}{3}\sin\theta_{W}),
+\end{equation}
+
+\begin{equation}
+F_{1A}^{Z}=\frac{1}{4\sin\theta_{W}\cos\theta_{W}},
 \end{equation}
 
 where $\theta_W$ is the weak mixing angle. If higher order corrections are present it is possible for the zero valued form factors to become non-zero. Combinations of these factors can be related to physical observables which can be measured at CLIC. The couplings of the bosons to quarks with left or right handed helicity can be expressed as:
@@ -297,28 +325,28 @@ where $\theta_W$ is the weak mixing angle. If higher order corrections are prese
 g_L^X = F_{1V}^{X} - F_{1A}^{X} ~~~~~~~~~~~ g_R^X = F_{1V}^{X} + F_{1A}^{X}
 \end{equation}
 
-The most relevant variables are perhaps the total cross section and the forward backward asymmetry (\afb) as these are the prospective measurements that are presented later within this thesis and will be discussed in more detail in Chapter \ref{chapter:topanalysis}. The forward backward asymmetry is especially of interest as the measurement of the b quark forward-backward asymmetry at \ac{LEP}\cite{ABBIENDI200229} currently produces the larget tension with the \ac{SM}, $\mathcal{O}(3\sigma)$\cite{ALEPH:2005ab}, in electroweak fits. These variables are found to be dependent on the helicity of the incoming electrons \cite{Schmidt:1995mr} and so are more easily expressed in terms of the alternative form factors:
+The most directly observable experimental variables are the total cross section and the forward backward asymmetry (\afb). These are the measurements that are presented later within this thesis and will be discussed in more detail in Chapter \ref{chapter:topanalysis}. The forward backward asymmetry is of special interest as the measurement of the b quark forward-backward asymmetry at \ac{LEP}\cite{ABBIENDI200229} currently produces the larget tension with the \ac{SM}, $\mathcal{O}(3\sigma)$\cite{ALEPH:2005ab}, in electroweak fits. These variables are found to be dependent on the helicity of the incoming electrons \cite{Schmidt:1995mr} and so are more easily expressed in terms of the alternative form factors:
 
 \begin{equation}
-F_{ij}^{L} = -F_{ij}^{\gamma} +(\frac{-\frac{1}{2} +\sin\theta_W^2}{\sin\theta_W\cos\theta_W})(\frac{s}{s-m_Z^2}) -F_{ij}^{Z}
+F_{ij}^{L} = -F_{ij}^{\gamma} +(\frac{-\frac{1}{2} +\sin\theta_W^2}{\sin\theta_W\cos\theta_W})(\frac{s}{s-m_Z^2}) -F_{ij}^{Z},
 \end{equation}
 
 \begin{equation}
-F_{ij}^{R} = -F_{ij}^{\gamma} +(\frac{\sin\theta_W^2}{\sin\theta_W\cos\theta_W})(\frac{s}{s-m_Z^2}) -F_{ij}^{Z}
+F_{ij}^{R} = -F_{ij}^{\gamma} +(\frac{\sin\theta_W^2}{\sin\theta_W\cos\theta_W})(\frac{s}{s-m_Z^2}) -F_{ij}^{Z},
 \end{equation}
 
-Where L,R represent the polarization of the electron, i=1,2 and j=V,A. In this notation, for an electron polarization P, the total $ee\rightarrow Z/\gamma\rightarrow tt$ cross section and \afb can be expressed as:
+where $L$,$R$ represent the polarization of the electron, $i$=1,2 and $j$=$V$,$A$. In this notation, for an electron polarization P, the total $ee\rightarrow Z/\gamma\rightarrow tt$ cross section and \afb can be expressed as:
 
 \begin{equation}
-\sigma_P = \frac{8\pi\alpha(s)^2}{s}\beta \{(1 + \frac{1}{2\gamma^2})(F_{1V}^P)^2 +(\beta F_{1A}^P)^2 +3F_{1V}^P F_{2V}^P + (1 + \frac{1}{2\gamma^2})(F_{2V}^P)^2\}
+\sigma_P = \frac{8\pi\alpha(s)^2}{s}\beta \{(1 + \frac{1}{2\gamma^2})(F_{1V}^P)^2 +(\beta F_{1A}^P)^2 +3F_{1V}^P F_{2V}^P + (1 + \frac{1}{2\gamma^2})(F_{2V}^P)^2\},
 \end{equation}
 
 \begin{equation}
 \label{eq:afbFormFactors}
-A_{FB}(P) = \mp \frac{12\pi\alpha(s)^2 \beta^2}{s}\frac{F_{1A}^P(F_{1V}^P +F_{2V}^P)}{\sigma_P}
+A_{FB}(P) = \mp \frac{12\pi\alpha(s)^2 \beta^2}{s}\frac{F_{1A}^P(F_{1V}^P +F_{2V}^P)}{\sigma_P},
 \end{equation}
 
-where $\alpha(s)$  is the electromagnetic coupling, $\gamma$ and $\beta$ are the Lorentz factor and velocity of the top, and for \refeq{eq:afbFormFactors}, the $+$ and $-$ refer to the $P=R$ and $P=L$ cases respectively. If one performed just one measurement of the cross section and \afb it is clear that it would not be possible to extract the form factors from these variables alone as there are more variables than there would be constraints. However, because the cross section and \afb vary with $\beta$, $\gamma$ and $P$, then by performing the measurement at multiple energies and making use of the fact \ac{CLIC} can be operated with different beam polarizations, it becomes possible to exract all the relevant couplings. The only exceptions to this are the $F_{2A}^X$ factors which do not effect these two variables and so must be measured using alternative methods. 
+where $\alpha(s)$  is the electromagnetic coupling, $\gamma$ and $\beta$ are the Lorentz factor and speed of the top, and for \refeq{eq:afbFormFactors}, the $+$ and $-$ refer to the $P=R$ and $P=L$ cases respectively. A single measurement of the cross section and \afb alone would not allow the form factors to be determined becasue the system would be underconstrained. However, because the cross section and \afb vary with $\beta$, $\gamma$ and $P$, then by performing the measurement at multiple energies and making use of the fact \ac{CLIC} can be operated with different beam polarizations, it becomes possible to extract all relevant couplings. The only exceptions to this are the $F_{2A}^X$ factors which do not affect these two variables and so must be measured using alternative methods. 
 
 \begin{figure}
 \centering
@@ -327,4 +355,4 @@ where $\alpha(s)$  is the electromagnetic coupling, $\gamma$ and $\beta$ are the
 \label{fig:CPConserving}
 \end{figure}
 
-The predicted uncertainty to which the couplings are expected to be measured to at \ac{CLIC} based on generator level studies, as well as the equivalent results for \ac{ILC} and \ac{HL-LHC} is shown in \reffig{fig:CPConserving}. The expected precsion from performing these measurements at a lepton collider is an order of magnitude better than what can be expected from hadron colliders. Overall there will be more tops produced in a hadron collider, however the production mechanisms are often more complicated making it harder to extract the couplings from a theory perspective, and it is also harder to successfully identify tops (which typcially decay to at least one jet) in an environment that contains \ac{QCD} jets from beam remnants compared to at lepton colliders where there is minimal \ac{QCD} background within an event.
+The predicted uncertainty with which the couplings are expected to be measured at \ac{CLIC} based on generator level studies, as well as the equivalent results for \ac{ILC} and \ac{HL-LHC}, is shown in \reffig{fig:CPConserving}. The expected precsion from performing these measurements at a lepton collider is an order of magnitude better than that expected from hadron colliders. Overall there will be more tops produced in a hadron collider, however the production mechanisms are often more complicated making it harder to extract the couplings. It is also harder to identify tops (which typcially decay to at least one jet) in an environment that contains \ac{QCD} jets from beam remnants compared to at lepton colliders where there is minimal \ac{QCD} background within an event.

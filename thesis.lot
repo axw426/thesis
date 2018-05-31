@@ -2,35 +2,41 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces ILC Beam Parameters}}{8}{table.caption.21}
 \contentsline {table}{\numberline {2.2}{\ignorespaces CLIC beam parameters}}{11}{table.caption.27}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Properties of the CLIC vertex detector assuming three pairs of layers \cite {ILD}\relax }}{20}{table.caption.34}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Properties of the CLIC vertex detector assuming three pairs of layers \cite {ILD}\relax }}{20}{table.caption.35}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Particles of the Standard Model}}{32}{table.caption.45}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Predicted Higgs Coupling Modifications for BSM theories}}{44}{table.caption.55}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Particles of the Standard Model}}{33}{table.caption.46}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Expected statistical uncertainties for Higgs measurements at 350\nobreakspace {}GeV at CLIC assuming unpolarised beams}}{42}{table.caption.50}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Expected statistical uncertainties for Higgs measurements at 1.4\nobreakspace {}TeV and 3\nobreakspace {}TeV at CLIC assuming unpolarised beams}}{42}{table.caption.51}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Predicted Higgs Coupling Modifications for BSM theories}}{45}{table.caption.56}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Samples used for the H$\rightarrow $WW$^*$ analysis}}{53}{table.caption.62}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Expected precision on input quantites for the Higgs width measurement}}{71}{table.caption.78}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Top Pair Decay Modes}}{74}{table.caption.80}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Samples used in the -80\% electron beam polarization study.\relax }}{76}{table.caption.82}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Samples used in the +80\% electron beam polarization study.\relax }}{76}{table.caption.83}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Methods used for identifying which fat jet corresponds to the hadronically decaying top.\relax }}{89}{table.caption.97}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Precision attainable on $A_{FB}^t$ during the -80\% electron polarization stage assuming perfect event reconstruction for the simple counting method vs the fit method for extraction\relax }}{111}{table.caption.117}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Efficiency for signal and background processes following pre-selection cuts for -80\% polarization.\relax }}{113}{table.caption.118}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Efficiency for signal and background processes following pre-selection cuts for +80\% polarization.\relax }}{113}{table.caption.119}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Efficiency for signal and background processes following pre-selection and quality cuts for -80\% polarization.\relax }}{115}{table.caption.120}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Efficiency for signal and background processes following pre-selection and quality cuts for +80\% polarization.\relax }}{115}{table.caption.121}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Efficiency for signal and background processes being classified as E $>$ 1200 GeV following all stages of selection, and the expected number of events for 750 fb$^{-1}$ for -80\% polarization.\relax }}{119}{table.caption.125}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Efficiency for signal and background processes being classified as E $>$ 1200 GeV following all stages of selection and the expected number of events for 750 fb$^{-1}$ for +80\% polarization.\relax }}{120}{table.caption.126}
+\contentsline {table}{\numberline {5.12}{\ignorespaces Values and statistical uncertainties for $A_{FB}^t$ and cross section as extracted from performing a fit to $\qopname \relax o{cos}\theta $ for each energy and polarization.\relax }}{123}{table.caption.128}
+\contentsline {table}{\numberline {5.13}{\ignorespaces Values and statistical uncertainties for $A_{FB}^t$ and cross section as extracted from the alternative version of the analysis performed by Lars Rickard Str{\"o}m.\relax }}{124}{table.caption.129}
+\contentsline {table}{\numberline {5.14}{\ignorespaces Systematic uncertainties for $A_{FB}^t$ and cross section arising from theoretical uncertainties on the background normalization.\relax }}{125}{table.caption.130}
+\contentsline {table}{\numberline {5.15}{\ignorespaces Systematic uncertainties for $A_{FB}^t$ and cross section arising from theoretical uncertainties on the background shape.\relax }}{126}{table.caption.131}
+\contentsline {table}{\numberline {5.16}{\ignorespaces Systematic uncertainties for $A_{FB}^t$ and cross section arising from finite precision on integrated luminosity.\relax }}{127}{table.caption.132}
+\contentsline {table}{\numberline {5.17}{\ignorespaces Systematic uncertainties accounting for bias in $A_{FB}^t$ from signal efficiency corrections.\relax }}{131}{table.caption.136}
+\contentsline {table}{\numberline {5.18}{\ignorespaces Summary of statistical and systematic uncertainties for both polarizations and all energy ranges.\relax }}{134}{table.caption.138}
+\contentsline {table}{\numberline {5.19}{\ignorespaces Final summary of the expected precisions attainable from the $t\mathaccentV {bar}016{t}$ analysis.\relax }}{136}{table.caption.139}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Top Pair Decay Modes}}{72}{table.caption.79}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Samples used in the -80\% electron beam polarization study.\relax }}{74}{table.caption.81}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Samples used in the +80\% electron beam polarization study.\relax }}{74}{table.caption.82}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Methods used for identifying which fat jet corresponds to the hadronically decaying top.\relax }}{87}{table.caption.96}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Precision attainable on $A_{FB}^t$ during the -80\% electron polarization stage assuming perfect event reconstruction for the simple counting method vs the fit method for extraction\relax }}{109}{table.caption.117}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Efficiency for signal and background processes following pre-selection cuts for -80\% polarization.\relax }}{111}{table.caption.118}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Efficiency for signal and background processes following pre-selection cuts for +80\% polarization.\relax }}{111}{table.caption.119}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Efficiency for signal and background processes following pre-selection and quality cuts for -80\% polarization.\relax }}{113}{table.caption.120}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Efficiency for signal and background processes following pre-selection and quality cuts for +80\% polarization.\relax }}{113}{table.caption.121}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Efficiency for signal and background processes being classified as E $>$ 1200 GeV following all stages of selection, and the expected number of events for 750 fb$^{-1}$ for -80\% polarization.\relax }}{117}{table.caption.125}
-\contentsline {table}{\numberline {5.11}{\ignorespaces Efficiency for signal and background processes being classified as E $>$ 1200 GeV following all stages of selection and the expected number of events for 750 fb$^{-1}$ for +80\% polarization.\relax }}{118}{table.caption.126}
-\contentsline {table}{\numberline {5.12}{\ignorespaces Values and statistical uncertainties for $A_{FB}^t$ and cross section as extracted from performing a fit to $\qopname \relax o{cos}\theta $ for each energy and polarization.\relax }}{121}{table.caption.128}
-\contentsline {table}{\numberline {5.13}{\ignorespaces Values and statistical uncertainties for $A_{FB}^t$ and cross section as extracted from the alternative version of the analysis performed by Lars Rickard Str{\"o}m.\relax }}{122}{table.caption.129}
-\contentsline {table}{\numberline {5.14}{\ignorespaces Systematic uncertainties for $A_{FB}^t$ and cross section arising from theoretical uncertainties on the background normalization.\relax }}{123}{table.caption.130}
-\contentsline {table}{\numberline {5.15}{\ignorespaces Systematic uncertainties for $A_{FB}^t$ and cross section arising from theoretical uncertainties on the background shape.\relax }}{124}{table.caption.131}
-\contentsline {table}{\numberline {5.16}{\ignorespaces Systematic uncertainties for $A_{FB}^t$ and cross section arising from finite precision on integrated luminosity.\relax }}{125}{table.caption.132}
-\contentsline {table}{\numberline {5.17}{\ignorespaces Systematic uncertainties accounting for bias in $A_{FB}^t$ from signal efficiency corrections.\relax }}{129}{table.caption.136}
-\contentsline {table}{\numberline {5.18}{\ignorespaces Summary of statistical and systematic uncertainties for both polarizations and all energy ranges.\relax }}{132}{table.caption.138}
-\contentsline {table}{\numberline {5.19}{\ignorespaces Final summary of the expected precisions attainable from the $t\mathaccentV {bar}016{t}$ analysis.\relax }}{134}{table.caption.139}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Final summary of the expected precisions attainable from the $t\mathaccentV {bar}016{t}$ analysis.\relax }}{164}{table.caption.164}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Final summary of the expected precisions attainable from the $t\mathaccentV {bar}016{t}$ analysis.\relax }}{161}{table.caption.164}
-\contentsline {table}{\numberline {2}{\ignorespaces Efficiency for signal and background processes being classified as 900$<$E$<$1200 GeV following all stages of selection, and the expected number of events for 750 fb$^-1$ for -80\% polarization\relax }}{177}{table.caption.174}
-\contentsline {table}{\numberline {3}{\ignorespaces Efficiency for signal and background processes being classified as 900$<$E$<$1200 GeV following all stages of selection and the expected number of events for 750 fb$^-1$ for +80\% polarization\relax }}{178}{table.caption.175}
-\contentsline {table}{\numberline {4}{\ignorespaces Efficiency for signal and background processes being classified as 400$<$E$<$900 GeV following all stages of selection, and the expected number of events for 750 fb$^-1$ for -80\% polarization\relax }}{179}{table.caption.176}
-\contentsline {table}{\numberline {5}{\ignorespaces Efficiency for signal and background processes being classified as 400$<$E$<$900 GeV following all stages of selection and the expected number of events for 750 fb$^-1$ for +80\% polarization\relax }}{180}{table.caption.177}
+\contentsline {table}{\numberline {B.1}{\ignorespaces Efficiency for signal and background processes being classified as 900$<$E$<$1200 GeV following all stages of selection, and the expected number of events for 750 fb$^-1$ for -80\% polarization\relax }}{182}{table.caption.174}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Efficiency for signal and background processes being classified as 900$<$E$<$1200 GeV following all stages of selection and the expected number of events for 750 fb$^-1$ for +80\% polarization\relax }}{183}{table.caption.175}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Efficiency for signal and background processes being classified as 400$<$E$<$900 GeV following all stages of selection, and the expected number of events for 750 fb$^-1$ for -80\% polarization\relax }}{184}{table.caption.176}
+\contentsline {table}{\numberline {B.4}{\ignorespaces Efficiency for signal and background processes being classified as 400$<$E$<$900 GeV following all stages of selection and the expected number of events for 750 fb$^-1$ for +80\% polarization\relax }}{185}{table.caption.177}
