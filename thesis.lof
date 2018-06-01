@@ -40,20 +40,20 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Semileptonic $t\mathaccentV {bar}016{t}$ decay}}{73}{figure.caption.79}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Dominant single top production mode}}{75}{figure.caption.81}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Efficiency for identifying leptons with the correct charge as a function of angle.}}{79}{figure.caption.85}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Angular dependence of lepton finding for particles vs antiparticles.\relax }}{80}{figure.caption.86}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Efficiency for identifying leptons with the correct charge as a function of angle.}}{78}{figure.caption.85}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Angular dependence of lepton finding for particles vs antiparticles.\relax }}{79}{figure.caption.86}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Lepton Momentum Vs Angle}}{81}{figure.caption.87}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Lepton efficiency for $ee\rightarrow H\nu \nu ,H \rightarrow WW\rightarrow qql\nu $ }}{81}{figure.caption.88}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Charge Tagging Efficiency After 20GeV Lepton Momentum Cut}}{82}{figure.caption.89}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Charge Tagging Efficiency After 20 GeV Lepton Momentum Cut}}{82}{figure.caption.89}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Separation between W and b jet from top decay}}{82}{figure.caption.90}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Effect of the Valencia $\beta $ parameter}}{84}{figure.caption.91}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Performance of jet finding algorithms for reconstructing the top mass}}{86}{figure.caption.92}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Performance of Valencia algorithm for high energy events}}{87}{figure.caption.93}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Performance of jet finding algorithms for reconstructing the top mass}}{85}{figure.caption.92}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Performance of Valencia algorithm for high energy events}}{86}{figure.caption.93}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Comparison of reconstructed top decay angle to generator level}}{87}{figure.caption.94}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Reconstructed fat jet mass}}{88}{figure.caption.95}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Reconstructed fat jet mass}}{87}{figure.caption.95}
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Reconstructed vs generator top decay angles with truth level cuts}}{89}{figure.caption.96}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Reconstructed $cos\theta $ distribution for various jet association methods}}{91}{figure.caption.98}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Mean and width from fitting $\Delta cos\theta _{Gen.-Reco.}$ to a gaussian}}{92}{figure.caption.99}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Mean and width from fitting $\Delta cos\theta _{Gen.-Reco.}$ to a Gaussian}}{92}{figure.caption.99}
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Efficiency for reconstructing the hadronically decaying top in the correct cos$\theta $ bin}}{93}{figure.caption.100}
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Diagrammatic representation of N-subjettiness}}{94}{figure.caption.101}
 \contentsline {figure}{\numberline {5.19}{\ignorespaces Ratio of $\tau _{2}$ to $\tau _1$ for the leptonic fat jet for both signal and background processes}}{96}{figure.caption.102}
@@ -79,7 +79,7 @@
 \contentsline {figure}{\numberline {5.39}{\ignorespaces Correlation between the reconstructed and generator $A_{FB}^t$ for each $\sqrt {s'}$ bin, -80\% polarization.\relax }}{131}{figure.caption.135}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Typical layout of a CMOS sensor}}{140}{figure.caption.140}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces \ac {CMOS} \ac {MAPS} sensor including deep p well implant to prevent parastic losses to the PMOS transistor\cite {MYLROIESMITH2013137}\relax }}{141}{figure.caption.142}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces \ac {CMOS} \ac {MAPS} sensor including deep p well implant to prevent parasitic losses to the PMOS transistor\cite {MYLROIESMITH2013137}\relax }}{141}{figure.caption.142}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Example of how EM showers look in a \ac {DECAL} with 10$\times $10\nobreakspace {}$\mu $m$^2$ pixels for various photon energies.}}{142}{figure.caption.143}
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Energy deposited in a 100$\times $100 $\mu $m$^2$ pitch, 12$\mu $m thick pixel by a 10 GeV photon. The landau fit and resulting choice of threshold are also shown.\relax }}{143}{figure.caption.144}
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Calibration curves describing the relationship between the number of pixel hits observed and the energy of the incident particle for various pixel configurations.\relax }}{145}{figure.caption.145}
@@ -88,12 +88,12 @@
 \contentsline {figure}{\numberline {6.8}{\ignorespaces Noise term of the energy resolution fits for all pixel configurations\relax }}{148}{figure.caption.148}
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Constant term of the energy resolution fits for all pixel configurations\relax }}{148}{figure.caption.149}
 \contentsline {figure}{\numberline {6.10}{\ignorespaces Pixel occupancy for 100 GeV photons.\relax }}{149}{figure.caption.150}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Variation in the landau distributions for 10 GeV photons as a function of the pixel pitch. All distributions are normalised to unity.\relax }}{150}{figure.caption.151}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Variation in the landau distributions for 10 GeV photons as a function of the epitaxial thickness. All distributions are normalised to unity.\relax }}{151}{figure.caption.152}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Variation in the landau distributions for 10 GeV photons as a function of the pixel pitch. All distributions are normalized to unity.\relax }}{150}{figure.caption.151}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Variation in the landau distributions for 10 GeV photons as a function of the epitaxial thickness. All distributions are normalized to unity.\relax }}{151}{figure.caption.152}
 \contentsline {figure}{\numberline {6.13}{\ignorespaces Energy resolution for 10 GeV photons.\relax }}{151}{figure.caption.153}
 \contentsline {figure}{\numberline {6.14}{\ignorespaces Energy resolution for 50 GeV photons.\relax }}{152}{figure.caption.154}
 \contentsline {figure}{\numberline {6.15}{\ignorespaces Energy resolution for 250 GeV photons.\relax }}{152}{figure.caption.155}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Variation in the energy resolution as a function of the threshold applied after each DigiMAPS effect is added. The effects are added seqeuntially in the order displayed in the legend.\relax }}{155}{figure.caption.156}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Variation in the energy resolution as a function of the threshold applied after each DigiMAPS effect is added. The effects are added sequentially in the order displayed in the legend.\relax }}{155}{figure.caption.156}
 \contentsline {figure}{\numberline {6.17}{\ignorespaces Stochastic term of the energy resolution fits for all pixel configurations when including clustering, noise, dead space and threshold spread.\relax }}{157}{figure.caption.157}
 \contentsline {figure}{\numberline {6.18}{\ignorespaces Noise term of the energy resolution fits for all pixel configurations when including clustering, noise, dead space and threshold spread.\relax }}{158}{figure.caption.158}
 \contentsline {figure}{\numberline {6.19}{\ignorespaces Constant term of the energy resolution fits for all pixel configurations when including clustering, noise, dead space and threshold spread. \relax }}{158}{figure.caption.159}

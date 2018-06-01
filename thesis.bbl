@@ -1,7 +1,7 @@
 \begin{thebibliography}{10}
 
 \bibitem{Abramowicz:2016zbo}
-H.~Abramowicz {\em et~al.}, ``{Higgs physics at the CLIC electron–positron
+H.~Abramowicz {\em et~al.}, ``{Higgs physics at the CLIC electron--positron
   linear collider},'' {\em Eur. Phys. J.}, vol.~C77, no.~7, p.~475, 2017.
 
 \bibitem{TopPaperDraft}
@@ -66,13 +66,12 @@ M.~Bogomilov {\em et~al.}, ``{Lattice design and expected performance of the
 
 \bibitem{CLIC:2016zwp}
 M.~J. Boland {\em et~al.}, ``{Updated baseline for a staged Compact Linear
-  Collider},'' 2016.
+  Collider},'' {\em arXiv:1608.07537 [physics.acc-ph]}, 2016.
 
-\bibitem{Behnke:2013xla}
-T.~Behnke, J.~E. Brau, B.~Foster, J.~Fuster, M.~Harrison, J.~M. Paterson,
-  M.~Peskin, M.~Stanitzki, N.~Walker, and H.~Yamamoto, ``{The International
-  Linear Collider Technical Design Report - Volume 1: Executive Summary},''
-  2013.
+\bibitem{ILCTDR}
+T.~Behnke {\em et~al.}, ``{The International Linear Collider Technical Design
+  Report - Volume 1: Executive Summary},'' {\em arXiv:1306.6327
+  [physics.acc-ph]}, 2013.
 
 \bibitem{Lipton:2012du}
 R.~Lipton, ``{Muon Collider: Plans, Progress and Challenges},'' in {\em
@@ -88,18 +87,10 @@ M.~Koratzinos, ``{FCC-ee accelerator parameters, performance and
 C.-S.~S. Group, ``{CEPC-SPPC Preliminary Conceptual Design Report. 1. Physics
   and Detector},'' 2015.
 
-\bibitem{ILCTDR}
-T.~Behnke, J.~E. Brau, B.~Foster, J.~Fuster, M.~Harrison, J.~M. Paterson,
-  M.~Peskin, M.~Stanitzki, N.~Walker, and H.~Yamamoto, ``{The International
-  Linear Collider Technical Design Report - Volume 1: Executive Summary},''
-  {\em arXiv:1306.6327 [physics.acc-ph]}, 2013.
-
 \bibitem{CDR}
-P.~{Lebrun}, L.~{Linssen}, A.~{Lucaci-Timoce}, D.~{Schulte}, F.~{Simon},
-  S.~{Stapnes}, N.~{Toge}, H.~{Weerts}, and J.~{Wells}, ``{The CLIC Programme:
-  Towards a Staged e+e- Linear Collider Exploring the Terascale : CLIC
-  Conceptual Design Report},'' {\em arXiv:1209.2543 [physics.ins-det]}, Sept.
-  2012.
+P.~{Lebrun} {\em et~al.}, ``{The CLIC Programme: Towards a Staged e+e- Linear
+  Collider Exploring the Terascale : CLIC Conceptual Design Report},'' {\em
+  arXiv:1209.2543 [physics.ins-det]}, Sept. 2012.
 
 \bibitem{Kilian:2007gr}
 W.~Kilian, T.~Ohl, and J.~Reuter, ``{WHIZARD: Simulating Multi-Particle
@@ -129,12 +120,11 @@ M.~Thomson, ``Particle flow calorimetry and the pandorapfa algorithm,'' {\em
 
 \bibitem{ILD}
 T.~Abe {\em et~al.}, ``{The International Large Detector: Letter of Intent},''
-  2010.
+  {\em arXiv:1006.3396 [hep-ex]}, 2010.
 
 \bibitem{Aihara:2009ad}
-H.~Aihara, P.~Burrows, M.~Oreglia, E.~L. Berger, V.~Guarino, J.~Repond,
-  H.~Weerts, L.~Xia, J.~Zhang, Q.~Zhang, {\em et~al.}, ``{SiD Letter of
-  Intent},'' 2009.
+H.~Aihara {\em et~al.}, ``{SiD Letter of Intent},'' {\em arXiv:0911.0006
+  [physics.acc-ph]}, 2009.
 
 \bibitem{Giomataris:1995fq}
 Y.~Giomataris, P.~Rebourgeard, J.~P. Robert, and G.~Charpak, ``{MICROMEGAS: A
@@ -145,29 +135,18 @@ Y.~Giomataris, P.~Rebourgeard, J.~P. Robert, and G.~Charpak, ``{MICROMEGAS: A
 F.~Sauli, ``{GEM: A new concept for electron amplification in gas detectors},''
   {\em Nucl. Instrum. Meth.}, vol.~A386, pp.~531--534, 1997.
 
-\bibitem{Groom:1998it}
-D.~E. Groom, ``{Passage of particles through matter: in Review of Particle
-  Physics (RPP 1998)},'' {\em Eur. Phys. J.}, vol.~C3, pp.~144--151, 1998.
-
-\bibitem{Beringer:1900zz}
-J.~Beringer {\em et~al.}, ``{Review of Particle Physics (RPP)},'' {\em Phys.
-  Rev.}, vol.~D86, p.~010001, 2012.
-
 \bibitem{2011JInst...6.5009B}
-J.~A. {Ballin}, R.~{Coath}, J.~P. {Crooks}, P.~D. {Dauncey}, A.-M. {Magnan},
-  Y.~{Mikami}, O.~D. {Miller}, M.~{Noy}, V.~{Rajovic}, M.~{Stanitzki}, K.~D.
-  {Stefanov}, R.~{Turchetta}, M.~{Tyndel}, E.~G. {Villani}, N.~K. {Watson},
-  J.~A. {Wilson}, and Z.~{Zhang}, ``{Design and performance of a CMOS study
-  sensor for a binary readout electromagnetic calorimeter},'' {\em Journal of
+J.~A. {Ballin} {\em et~al.}, ``{Design and performance of a CMOS study sensor
+  for a binary readout electromagnetic calorimeter},'' {\em Journal of
   Instrumentation}, vol.~6, p.~5009, May 2011.
 
 \bibitem{BozovicJelisavcic:2010hy}
-I.~Bozovic-Jelisavcic, H.~Abramowicz, P.~Bambade, T.~Jovin, M.~Pandurovic,
-  B.~Pawlik, C.~Rimbault, I.~Sadeh, and I.~Smiljanic, ``{Luminosity Measurement
-  at ILC},'' 2010.
+I.~Bozovic-Jelisavcic {\em et~al.}, ``{Luminosity Measurement at ILC},'' {\em
+  arXiv:1006.2539 [physics.acc-ph]}, 2010.
 
 \bibitem{Pitters:2018jxt}
-F.~Pitters, ``{The CLIC Detector Concept},'' 2018.
+F.~Pitters, ``{The CLIC Detector Concept},'' {\em arXiv:1802.06008
+  [physics.ins-det]}, 2018.
 
 \bibitem{Pich:2005mk}
 A.~Pich, ``{The Standard model of electroweak interactions},'' in {\em {2004
@@ -176,7 +155,7 @@ A.~Pich, ``{The Standard model of electroweak interactions},'' in {\em {2004
 
 \bibitem{Szleper:2014xxa}
 M.~Szleper, ``{The Higgs boson and the physics of $WW$ scattering before and
-  after Higgs discovery},'' 2014.
+  after Higgs discovery},'' {\em arXiv:1412.8367 [hep-ph]}, 2014.
 
 \bibitem{PhysRevLett.13.508}
 P.~W. Higgs, ``Broken symmetries and the masses of gauge bosons,'' {\em Phys.
@@ -193,10 +172,10 @@ C.~Durig, K.~Fujii, J.~List, and J.~Tian, ``{Model Independent Determination of
   2013}}, 2014.
 
 \bibitem{ATLAS-CONF-2015-044}
-``{Measurements of the Higgs boson production and decay rates and constraints
-  on its couplings from a combined ATLAS and CMS analysis of the LHC pp
-  collision data at $\sqrt{s}$ = 7 and 8 TeV},'' Tech. Rep.
-  ATLAS-CONF-2015-044, CERN, Geneva, Sep 2015.
+T.~ALTAS and C.~Collaborations, ``{Measurements of the Higgs boson production
+  and decay rates and constraints on its couplings from a combined ATLAS and
+  CMS analysis of the LHC pp collision data at $\sqrt{s}$ = 7 and 8 TeV},''
+  Tech. Rep. ATLAS-CONF-2015-044, CERN, Geneva, Sep 2015.
 
 \bibitem{CMS:2013xfa}
 ``{Projected Performance of an Upgraded CMS Detector at the LHC and HL-LHC:
@@ -214,9 +193,9 @@ M.~S. Amjad {\em et~al.}, ``{A precise characterisation of the top quark
   p.~512, 2015.
 
 \bibitem{ABBIENDI200229}
-G.~A. et~al, ``Measurement of the b quark forward–backward asymmetry around
-  the z0 peak using an inclusive tag,'' {\em Physics Letters B}, vol.~546,
-  no.~1, pp.~29 -- 47, 2002.
+G.~Abbiendi {\em et~al.}, ``Measurement of the b quark forward--backward
+  asymmetry around the z0 peak using an inclusive tag,'' {\em Physics Letters
+  B}, vol.~546, no.~1, pp.~29 -- 47, 2002.
 
 \bibitem{ALEPH:2005ab}
 S.~Schael {\em et~al.}, ``{Precision electroweak measurements on the $Z$
@@ -230,7 +209,8 @@ C.~R. Schmidt, ``{Top quark production and decay at next-to-leading order in e+
 D.~Schulte, ``{Beam-Beam Simulations with GUINEA-PIG},'' Mar 1999.
 
 \bibitem{bib-prodids}
-``Monte carlo samples for clic higgs studies.''
+``Monte carlo samples for clic higgs studies,
+  https://twiki.cern.ch/twiki/bin/view/clic/montecarlosamplesforthehiggspaper.''
 
 \bibitem{Cacciari:2011ma}
 M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{FastJet User Manual},'' {\em Eur.
@@ -242,13 +222,8 @@ T.~Suehara and T.~Tanabe, ``{LCFIPlus: A Framework for Jet Analysis in Linear
   2016.
 
 \bibitem{2007physics...3039H}
-A.~{Hoecker}, P.~{Speckmayer}, J.~{Stelzer}, J.~{Therhaag}, E.~{von Toerne},
-  H.~{Voss}, M.~{Backes}, T.~{Carli}, O.~{Cohen}, A.~{Christov}, D.~{Dannheim},
-  K.~{Danielowski}, S.~{Henrot-Versille}, M.~{Jachowski}, K.~{Kraszewski},
-  A.~{Krasznahorkay}, Jr., M.~{Kruk}, Y.~{Mahalalel}, R.~{Ospanov},
-  X.~{Prudent}, A.~{Robert}, D.~{Schouten}, F.~{Tegenfeldt}, A.~{Voigt},
-  K.~{Voss}, M.~{Wolter}, and A.~{Zemla}, ``{TMVA - Toolkit for Multivariate
-  Data Analysis},'' {\em ArXiv Physics e-prints}, Mar. 2007.
+A.~{Hoecker} {\em et~al.}, ``{TMVA - Toolkit for Multivariate Data Analysis},''
+  {\em ArXiv Physics e-prints}, Mar. 2007.
 
 \bibitem{Coadou:2013lca}
 Y.~Coadou, ``{Boosted Decision Trees and Applications},'' {\em EPJ Web Conf.},
@@ -256,14 +231,12 @@ Y.~Coadou, ``{Boosted Decision Trees and Applications},'' {\em EPJ Web Conf.},
 
 \bibitem{TauFinder}
 A.~Muennich, ``{TauFinder: A Reconstruction Algorithm for Tau Leptons at Linear
-  Colliders},'' Oct 2010.
-
-\bibitem{PDBook}
-W.~M. Yao {\em et~al.}, ``{Particle Data Group},'' {\em {Phys. Rev. D}},
-  vol.~86, 2012.
+  Colliders},'' {\em LCD-Note-2010-009 http://cds.cern.ch/record/1443551}, Oct
+  2010.
 
 \bibitem{cdrvol2}
-``{CLIC Conceptual Design Report: Physics and Detectors at CLIC},'' 2012.
+``{CLIC Conceptual Design Report: Physics and Detectors at CLIC},'' {\em
+  arXiv:1202.5940 [physics.ins-det]}, 2012.
 
 \bibitem{Miller:2011qg}
 D.~W. Miller, ``{Jet substructure in ATLAS},'' in {\em {Particles and fields.
@@ -285,7 +258,7 @@ J.~Thaler and K.~Van~Tilburg, ``{Identifying Boosted Objects with
 
 \bibitem{List:88030}
 B.~List and J.~List, ``{M}arlin{K}infit: {A}n {O}bject--{O}riented {K}inematic
-  {F}itting {P}ackage,'' {\em LC Notes}, 2009.
+  {F}itting {P}ackage,'' {\em LC Notes, LC-TOOL-2009-001}, 2009.
 
 \bibitem{PhysRevD.25.1218}
 J.~Jers\'ak, E.~Laermann, and P.~M. Zerwas, ``Electroweak production of heavy
@@ -302,12 +275,9 @@ Y.~Bai and Z.~Han, ``{Improving the Top Quark Forward-Backward Asymmetry
   Measurement at the LHC},'' {\em JHEP}, vol.~02, p.~135, 2012.
 
 \bibitem{2008arXiv0807.2920B}
-J.~A. {Ballin}, J.~P. {Crooks}, P.~D. {Dauncey}, A.~. {Magnan}, Y.~{Mikami},
-  O.~D. {Miller}, M.~{Noy}, V.~{Rajovic}, M.~M. {Stanitzki}, K.~D. {Stefanov},
-  R.~{Turchetta}, M.~{Tyndel}, E.~G. {Villani}, N.~K. {Watson}, and J.~A.
-  {Wilson}, ``{Monolithic Active Pixel Sensors (MAPS) in a quadruple well
-  technology for nearly 100\% fill factor and full CMOS pixels},'' {\em ArXiv
-  e-prints}, July 2008.
+J.~{Ballin} {\em et~al.}, ``{Monolithic Active Pixel Sensors (MAPS) in a
+  quadruple well technology for nearly 100\% fill factor and full CMOS
+  pixels},'' {\em ArXiv e-prints}, July 2008.
 
 \bibitem{Ballin:2008rha}
 J.~A. Ballin {\em et~al.}, ``{TPAC: A 0.18 micron MAPS for digital
@@ -318,12 +288,11 @@ J.~A. Ballin {\em et~al.}, ``{TPAC: A 0.18 micron MAPS for digital
   pp.~2224--2227, 2008.
 
 \bibitem{MYLROIESMITH2013137}
-J.~Mylroie-Smith, S.~Kolya, J.~Velthuis, A.~Bevan, G.~Inguglia, J.~Headspith,
-  I.~Lazarus, R.~Lemon, J.~Crooks, R.~Turchetta, and F.~Wilson, ``First tests
-  of cherwell, a monolithic active pixel sensor: A cmos image sensor (cis)
-  using 180nm technology,'' {\em Nuclear Instruments and Methods in Physics
-  Research Section A: Accelerators, Spectrometers, Detectors and Associated
-  Equipment}, vol.~731, pp.~137 -- 140, 2013.
+J.~Mylroie-Smith {\em et~al.}, ``First tests of cherwell, a monolithic active
+  pixel sensor: A cmos image sensor (cis) using 180nm technology,'' {\em
+  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment}, vol.~731, pp.~137 -- 140,
+  2013.
 \newblock PIXEL 2012.
 
 \bibitem{Price:2013js}

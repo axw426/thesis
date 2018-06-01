@@ -13,64 +13,56 @@ The style file: ieeetr.bst
 A level-1 auxiliary file: Appendix/appendix.aux
 A level-1 auxiliary file: Appendix/appendixB.aux
 Database file #1: thesis.bib
-Warning--entry type for "cdrvol2" isn't style-file defined
---line 393 of file thesis.bib
-Warning--entry type for "bib-prodids" isn't style-file defined
---line 434 of file thesis.bib
-Repeated entry---line 574 of file thesis.bib
- : @article{PDBook
- :                ,
+You're missing a field name---line 259 of file thesis.bib
+ : 
+ : %      author         = "Olive, K. A. and others",
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--empty journal in CLIC:2016zwp
-Warning--empty journal in Behnke:2013xla
+Warning--entry type for "bib-prodids" isn't style-file defined
+--line 394 of file thesis.bib
 Warning--empty journal in CEPC-SPPCStudyGroup:2015csa
-Warning--empty journal in Aihara:2009ad
-Warning--empty journal in BozovicJelisavcic:2010hy
-Warning--empty journal in Pitters:2018jxt
-Warning--empty journal in Szleper:2014xxa
-Warning--empty author in ATLAS-CONF-2015-044
 Warning--empty author in CMS:2013xfa
 Warning--empty journal in Schulte:382453
-Warning--empty journal in TauFinder
-You've used 67 entries,
+Warning--empty author in cdrvol2
+You've used 63 entries,
             1876 wiz_defined-function locations,
-            890 strings with 16150 characters,
-and the built_in function-call counts, 16562 in all, are:
-= -- 1494
-> -- 792
+            877 strings with 14424 characters,
+and the built_in function-call counts, 14436 in all, are:
+= -- 1416
+> -- 472
 < -- 1
-+ -- 294
-- -- 227
-* -- 1142
-:= -- 2413
-add.period$ -- 67
-call.type$ -- 67
-change.case$ -- 67
++ -- 185
+- -- 122
+* -- 885
+:= -- 2017
+add.period$ -- 63
+call.type$ -- 63
+change.case$ -- 63
 chr.to.int$ -- 0
-cite$ -- 78
-duplicate$ -- 923
-empty$ -- 1544
-format.name$ -- 227
-if$ -- 4046
+cite$ -- 67
+duplicate$ -- 877
+empty$ -- 1454
+format.name$ -- 122
+if$ -- 3635
 int.to.chr$ -- 0
-int.to.str$ -- 67
-missing$ -- 63
-newline$ -- 205
-num.names$ -- 63
-pop$ -- 253
+int.to.str$ -- 63
+missing$ -- 61
+newline$ -- 193
+num.names$ -- 60
+pop$ -- 220
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 607
+skip$ -- 574
 stack$ -- 0
-substring$ -- 739
-swap$ -- 365
+substring$ -- 699
+swap$ -- 350
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 126
-width$ -- 69
-write$ -- 610
+warning$ -- 4
+while$ -- 120
+width$ -- 65
+write$ -- 583
 (There was 1 error message)
