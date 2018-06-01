@@ -4,7 +4,7 @@
 \section{Introduction}
 As mentioned in \refsec{det:ecal}, several alternatives exist for the \ac{ECAL} design of \ac{ILD}. Here we present details of a proposed fully digital \ac{ECAL} that simply counts the number of pixels above threshold rather than measuring the energy deposited in each pixel. This works based on the fact that the number of particles produced by an electromagnetic shower is proportional to the energy of the incident particle producing it.
 
-The digital approach has several potential benefits. Fundamentally it should allow for a slight improvement in the energy resolution as it is less senstive to uncertainties arising from landau fluctuations and varying path lengths as the particle traverses the active material. In order to observe every particle within a shower any choice of \ac{DECAL} technology must have an extremely high granularity ($\mathcal{O}$(50$\mu m$)). This ultra high granularity has the potential to improve the performance of particle flow algorithms by allowing for better patern recognition and association of tracks to \ac{ECAL} deposits. Lastly, as will be discussed below, the natural choice of technology will be to use \ac{CMOS} \ac{MAPS}. As this is the same technology as is proposed for the inner tracking systems this would allow a uniform technology solution to be used across multiple detector components. It is also a cheaper technology option than that used by the baseline \ac{ECAL} designs due to the prevalence of \ac{CMOS} in commercial products.
+The digital approach has several potential benefits. Fundamentally it should allow for a slight improvement in the energy resolution as it is less senstive to uncertainties arising from Landau fluctuations and varying path lengths as the particle traverses the active material. In order to observe every particle within a shower any choice of \ac{DECAL} technology must have an extremely high granularity ($\mathcal{O}$(50$\mu m$)). This ultra high granularity has the potential to improve the performance of particle flow algorithms by allowing for better patern recognition and association of tracks to \ac{ECAL} deposits. Lastly, as will be discussed below, the natural choice of technology will be to use \ac{CMOS} \ac{MAPS}. As this is the same technology as is proposed for the inner tracking systems this would allow a uniform technology solution to be used across multiple detector components. It is also a cheaper technology option than that used by the baseline \ac{ECAL} designs due to the prevalence of \ac{CMOS} in commercial products.
 
 While the digital option provides these benefits it does come with one potential flaw referred to as saturation. In a digital calorimeter, if two particles pass through the same pixel, only one hit will be registered and so the total number of particles in the shower (and thus the energy of the shower) will be underestimated. The density of an EM shower scales according to the energy of the showering particle. As a result the rate of multiple occupancy in the pixels will increase with energy leading to a non linear relationship between a particles energy and the number of hits it generates within the detector. In practice this problem can be avoided by ensuring that the granularity of the detector is always greater than the density of the electromagnetic showers. For typical \ac{ILC} energies the density of the showers is estimated to be $\mathcal{O}$ 100 particles/mm$^2$ and so a granularity of at least 50$\times$50~$\mu$m$^2$ is required to ensure only one particle hits each pixel. Note that in the analogue case this problem does not occur as the energy deposited in the pixel is what is measured and this scales with the number of particles passing through the pixel.
 
@@ -64,14 +64,14 @@ Ultimately the performance of any calorimeter is measured by the energy resoluti
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/CalibrationCurves.pdf}
+  \includegraphics[width=0.9\textwidth,keepaspectratio]{DECALStudies/fig/CalibrationCurves.pdf}
   \caption{Calibration curves describing the relationship between the number of pixel hits observed and the energy of the incident particle for various pixel configurations.}
   \label{fig:calibrationcurves}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/ResolutionFits.pdf}
+  \includegraphics[width=0.9\textwidth,keepaspectratio]{DECALStudies/fig/ResolutionFits.pdf}
   \caption{Energy resolution curves describing the variation of the energy resolution with the energy scale}
   \label{fig:resolutionfits}
 \end{figure}
@@ -116,14 +116,14 @@ To understand the stochastic term requires examination of the landau distributio
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/LandauVsPitch.pdf}
-  \caption{Variation in the landau distributions for 10 GeV photons as a function of the pixel pitch. All distributions normalised to unity.}
+  \includegraphics[width=0.9\textwidth,keepaspectratio]{DECALStudies/fig/LandauVsPitch.pdf}
+  \caption{Variation in the landau distributions for 10 GeV photons as a function of the pixel pitch. All distributions are normalised to unity.}
   \label{fig:landaupitches}
 \end{figure}
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/LandauVsEpi.pdf}
-  \caption{Variation in the landau distributions for 10 GeV photons as a function of the epitaxial thickness. All distributions normalised to unity.}
+  \includegraphics[width=0.9\textwidth,keepaspectratio]{DECALStudies/fig/LandauVsEpi.pdf}
+  \caption{Variation in the landau distributions for 10 GeV photons as a function of the epitaxial thickness. All distributions are normalised to unity.}
   \label{fig:landauthickness}
 \end{figure}
 
