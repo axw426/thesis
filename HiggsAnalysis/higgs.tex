@@ -8,30 +8,30 @@
   \label{fig:higgsXSecs2}
 \end{figure}
 
-One of the key aims of the \ac{CLIC} physics programme will be to perform model independent measurements of the Higgs couplings. To enable this, the total width of the Higgs must first be measured. This is possible\cite{Durig:2014lfa} by taking the ratio of four different measurements:
+One of the key aims of the \ac{CLIC} physics programme will be to perform model independent measurements of the Higgs couplings. To enable this, the total width of the Higgs must first be measured. This is possible\cite{Durig:2014lfa} by taking the ratio of four different measurements
 
 
-\hspace{120pt}  $X_1=\sigma_{ZH} \propto g_{HZZ}^2$
+\hspace{120pt}  $X_1=\sigma_{ZH} \propto g_{HZZ}^2$,
 
-\hspace{120pt}   $X_2=\sigma_{H\nu\bar{\nu}} \times BR(H\rightarrow WW^*) \propto \frac{g_{HWW}^4}{\Gamma_H}$
+\hspace{120pt}   $X_2=\sigma_{H\nu\bar{\nu}} \times BR(H\rightarrow WW^*) \propto \frac{g_{HWW}^4}{\Gamma_H}$,
 
-\hspace{120pt}   $X_3=\sigma_{H\nu\bar{\nu}} \times BR(H\rightarrow b\bar{b}) \propto \frac{g_{HWW}^{2}g_{Hbb}^2}{\Gamma_H}$
+\hspace{120pt}   $X_3=\sigma_{H\nu\bar{\nu}} \times BR(H\rightarrow b\bar{b}) \propto \frac{g_{HWW}^{2}g_{Hbb}^2}{\Gamma_H}$,
 
-\hspace{120pt}   $X_4=\sigma_{ZH} \times BR(H\rightarrow b\bar{b}) \propto \frac{g_{HZZ}^{2}g_{Hbb}^2}{\Gamma_H}$
+\hspace{120pt}   $X_4=\sigma_{ZH} \times BR(H\rightarrow b\bar{b}) \propto \frac{g_{HZZ}^{2}g_{Hbb}^2}{\Gamma_H}$.
 
 
 Here we will look at the measurement of one of these, $X_2$. As can be seen from \reffig{fig:higgsXSecs2}, WW-fusion is the dominant Higgs production mechanism for energies above $\sim $500 GeV and so this measurement is best performed in the higher energy stages of operation. In particular we will focus on measuring $X_2$ at 1.4 TeV. For measuring the branching ratio of H$\rightarrow$WW$^*$ there are three potential final states that can be examined depending on the decay mode of the two W's. An individual W will decay hadronically (into a quark pair) 67.41\% of the time and leptonically (into a lepton + neutrino) 32.58\% of the time.  The combinations available from each W decay gives three final states referred to as the hadronic, semileptonic and leptonic decay modes corresponding to both W's decaying hadronically, one W decaying hadronically while the other decays leptonically and both W's decaying leptonically respectively. The relative abundance for each decay mode is roughly 4:4:1. Here we will only study the semileptonic mode (\reffig{fig:semileptonic}.) An equivalent analysis has already been performed for the hadronic decay mode yielding a statistical precision of 1.5\% on $X_2$ \cite{Abramowicz:2016zbo}. Due to its lower branching ratio, the leptonic decay mode has yet to be studied as it is not expected to yield a significant improvement on the statistical precision achievable for $X_2$. 
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth,keepaspectratio]{Experiments/fig/feynmann}
+  \includegraphics[width=0.7\textwidth,keepaspectratio]{HiggsAnalysis/figures/HiggsFeynman.eps}
   \caption[Semileptonic decay channel for  WW$^*$ decays of Higgs produced through WW-fusion]{Semileptonic decay channel for  WW$^*$ decays of Higgs produced through WW-fusion.}
   \label{fig:semileptonic}
 \end{figure}
 
 \section{Event Generation}
 
-All events used in this analysis were produced centrally by \ac{CLIC} using WHIZARD 1.95 \cite{Kilian:2007gr} and are summarized in \reftab{fig:higgsbackgrounds}. In the case of $e\gamma$ events, a scale factor of 2 was applied to the cross section to account for interactions occurring with both the electron and positron. In the case of beamsstrahlung events (simulated using GUINEA-PIG \cite{Schulte:382453}), a further scaling of 0.75 was applied to account for the lower luminosity of these type of collisions. Sample 2022 is the $ee\rightarrow H\nu\nu$ inclusive sample. Events classified as signal were extracted from this main sample by performing a parton level event selection to identify events in which the Higgs decayed to W's and separating these according to their decay products. At this point events in which the lepton produced in the W decay is found to be a $\tau$ are excluded from the signal definition due to the fact they produce a different topology in the final state compared to electrons and muons. In all cases the detector model used is CLIC\_ILD\_CDR, CLIC's variation of the ILD detector designed for ILC described in the \ac{CLIC} CDR\cite{CDR}. The main backgrounds of note are: ee$\rightarrow$qql$\nu$ (dominated by e$^+$e$^-\rightarrow$W$^+$W$^-$) as it has a very similar topology to the signal process and so is expected to be the most difficult to exclude; and ee$\rightarrow$ H(WW$^*\rightarrow$qqqq)$\nu\nu$ as contamination from these events after event selection must be taken into account before any combination of results from the semileptonic and hadronic channels can be made.
+All events used in this analysis were produced centrally by \ac{CLIC} using WHIZARD 1.95 \cite{Kilian:2007gr} and are summarized in \reftab{fig:higgsbackgrounds}. In the case of $e\gamma$ events, a scale factor of 2 was applied to the cross section to account for interactions occurring with both the electron and positron. In the case of beamsstrahlung events (simulated using GUINEA-PIG \cite{Schulte:382453}), a further scaling of 0.75 was applied to account for the lower luminosity of these type of collisions. Sample 2022 is the $ee\rightarrow H\nu\nu$ inclusive sample and assumes a Higgs mass of $m_H = 126~GeV$. Events classified as signal were extracted from this main sample by performing a parton level event selection to identify events in which the Higgs decayed to W's and separating these according to their decay products. At this point events in which the lepton produced in the W decay is found to be a $\tau$ are excluded from the signal definition due to the fact they produce a different topology in the final state compared to electrons and muons as they are capable of producing jets in their decays. It is anticipated that a dedicated analysis would be used for identifying these events. In all cases the detector model used is CLIC\_ILD\_CDR, CLIC's variation of the ILD detector designed for ILC described in the \ac{CLIC} CDR\cite{CDR}. The main backgrounds of note are: ee$\rightarrow$qql$\nu$ (dominated by e$^+$e$^-\rightarrow$W$^+$W$^-$) as it has a very similar topology to the signal process and so is expected to be the most difficult to exclude; and ee$\rightarrow$ H(WW$^*\rightarrow$qqqq)$\nu\nu$ as contamination from these events after event selection must be taken into account before any combination of results from the semileptonic and hadronic channels can be made.
 
 
 \begin{table}
@@ -79,7 +79,7 @@ Two different methods were used for identifying leptons. The primary method for 
     \centering
     \includegraphics[width=1.0\linewidth,keepaspectratio]{HiggsAnalysis/figures/EByP}
     \caption{Ratio of the sum of the energy deposited in ECAL and HCAL to the momentum of the charged particle.}
-  \end{subfigure}%%
+  \end{subfigure}~
     \vspace{4ex}
   \begin{subfigure}[t]{.48\textwidth}
     \centering
@@ -114,7 +114,7 @@ In summary, the first method is used to select a single isolated lepton, which i
 \begin{figure}
   \centering
   \includegraphics[width=0.7\textwidth,keepaspectratio]{HiggsAnalysis/figures/PseudoHiggs.pdf}
-  \caption[Reconstructed Higgs Mass]{Reconstructed invariant mass of the lepton + quark pair system}
+  \caption[Reconstructed Higgs Mass]{Reconstructed invariant mass of the lepton + quark pair system for signal events and the combined total background when using a jet radius of R=0.4. Both samples are normalised to unity.}
   \label{fig:pseudoHiggsMass}
 \end{figure}
 
@@ -135,7 +135,7 @@ where $\Delta R_{ij}^2=(y_i-y_j)^2 + (\phi_i-\phi_j)^2$, $i$ and $j$ label parti
 \item Repeats steps 1)-3) until there are only the desired number of jets remaining
 \end{enumerate}
 
-The optimization of the $R$ parameter was performed using Monte Carlo information to determine what mass would be measured for the reconstructed Higgs for various values of R, when including the Monte Carlo truth kinematic information of the lepton neutrino in the reconstruction. The results of this optimization study are shown in \reffig{fig:jetoptimization}. An acceptably small bias in the reconstructed mass was found for an R value of 0.4, indicating successfull reconstruction of the quark pair. The resulting Higgs mass distribution is shown in \reffig{fig:cheatHiggsMass}. Note that this mass is only used for optimization of the jet reconstruction. It is never used for the event selection as it is not possible to calculate this mass without using MC truth information. For event selection, the pseudo Higgs mass corresponding to the invariant mass of the lepton and quark pair system is used instead. This is shown in \reffig{fig:pseudoHiggsMass}.
+The optimization of the $R$ parameter was performed using Monte Carlo information to determine what mass would be measured for the reconstructed Higgs for various values of R, when including the Monte Carlo truth kinematic information of the lepton neutrino in the reconstruction. The results of this optimization study are shown in \reffig{fig:jetoptimization}. The minimal bias in the reconstructed mass was found for an R value of 0.4, indicating successfull reconstruction of the quark pair. It is possible a smaller bias could be found by tuning the R parameter to multiple decimal places however given the separation seenbetween signal and background processes for R=0.4 seen in \reffig{fig:pseudoHiggsMass} this is not believed to be necessary. The resulting Higgs mass distribution is shown in \reffig{fig:cheatHiggsMass}. Note that this mass is only used for optimization of the jet reconstruction. It is never used for the event selection as it is not possible to calculate this mass without using MC truth information. For event selection, the pseudo Higgs mass corresponding to the invariant mass of the lepton and quark pair system is used instead. This is shown in \reffig{fig:pseudoHiggsMass}.
 
 
 
@@ -167,49 +167,49 @@ Event selection was performed in two steps. The first of these is referred to as
 \begin{figure}
   \centering
   \includegraphics[width=0.78\textwidth,keepaspectratio]{HiggsAnalysis/figures/PseudoHiggs_PreSelection}
-  \caption[Reconstructed Higgs mass for signal and background events]{Mass of the reconstructed Higgs for the signal process and dominant backgrounds ($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$).}
+  \caption[Reconstructed Higgs mass for signal and background events]{Mass of the reconstructed Higgs for the signal process and dominant backgrounds ($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$). Both signal and background are normalised to unity.}
   \label{fig:HMassPreSel}
 \end{figure}
 
 \begin{figure}
   \centering
     \includegraphics[width=0.78\linewidth,keepaspectratio]{HiggsAnalysis/figures/EWqq_PreSelection}
-    \caption[Energy of the hadronically decaying W Boson for signal and background events]{Energy of the hadronically decaying W Boson for the signal process and dominant backgrounds ($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$).}
+    \caption[Energy of the hadronically decaying W Boson for signal and background events]{Energy of the hadronically decaying W Boson for the signal process and dominant backgrounds ($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$). Both signal and background are normalised to unity.}
   \label{fig:WPreSel}
 \end{figure}
 
 \begin{figure}
   \centering
   \includegraphics[width=0.78\textwidth,keepaspectratio]{HiggsAnalysis/figures/nLep_PreSelection}
-  \caption[Number of reconstructed loose selected lepton for signal and background events]{Number of loose selected leptons for the signal process and dominant backgrounds ($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$)}
+  \caption[Number of reconstructed loose selected lepton for signal and background events]{Number of loose selected leptons for the signal process and dominant backgrounds ($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$). Both signal and background are normalised to unity.}
   \label{fig:nLepPreSel}
 \end{figure}
 
 \begin{figure}
   \centering
   \includegraphics[width=0.78\textwidth,keepaspectratio]{HiggsAnalysis/figures/EMissing_PreSelection}
-  \caption[Missing energy of signal and background events]{Missing energy for the signal process and dominant backgrounds ($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$).}
+  \caption[Missing energy of signal and background events]{Missing energy for the signal process and dominant backgrounds ($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$). The peak at $\sim$700~GeV is due to $ee\rightarrow qql\nu$ which has only one neutrino and thus less missing energy relative to the $ee\rightarrow H\nu\nu$ samples. Both signal and background are normalised to unity.}
   \label{fig:EMissPreSel}
 \end{figure}
 
 \begin{figure}
   \centering
   \includegraphics[width=0.78\textwidth,keepaspectratio]{HiggsAnalysis/figures/EMissing_PreSelection_alt}
-  \caption[Missing energy of signal and e$\gamma$ events]{Missing energy for the signal process and e$\gamma$ backgrounds.}
+  \caption[Missing energy of signal and e$\gamma$ events]{Missing energy for the signal process and e$\gamma$ backgrounds. Both signal and background are normalised to unity.}
   \label{fig:EMissPreSelAlt}
 \end{figure}
 
 \begin{figure}
   \centering
   \includegraphics[width=0.78\textwidth,keepaspectratio]{HiggsAnalysis/figures/MWqq_PreSelection}
-  \caption[Reconstructed W mass for signal and background events]{Reconstructed mass for the signal process and dominant backgrounds ($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$).}
+  \caption[Reconstructed W mass for signal and background events]{Reconstructed mass for the signal process and dominant backgrounds ($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$). Both signal and background are normalised to unity.}
   \label{fig:WMass}
 \end{figure}
 
 
 With the exception of the upper limit placed on the missing energy, these cuts were optimised for the removal of the two dominant background processes ($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$.) The upper limit on missing energy is instead designed to remove $e\gamma$ events which are typically collinear with the beam axis and so deposit minimal energy in the detector. This cut alone removes approximately half of all $e\gamma$ events. The distribution of the variables associated with these cuts before the preselection is applied are shown for the signal and dominant backgrounds($ee\rightarrow H\nu\nu$ (non-signal) and $ee\rightarrow qql\nu$) in \reffig{fig:HMassPreSel}--\ref{fig:EMissPreSelAlt} and the resulting efficiencies for the signal and background processes after the preselection criteria are applied are shown in \reftab{fig:preseleff}. Along with the cut on the mass of the Higgs candidate, one might naively expect a similar cut to be placed upon the mass of the reconstructed W. However, due to the relative masses of the Higgs and W the W's produced in the Higgs decay cannot always be on shell. In practice one finds that the kinematically favoured solution is that one W is produced on shell while the second is produced with a mass of $\sim$45 GeV. As a result, as can be seen in \reffig{fig:WMass}, it is challenging to separate background events from signal events in which the hadronically decaying W is produced off shell.
 
-\begin{figure}
+\begin{table}
   \centering
   \begin{tabular}{l r r }
    \toprule
@@ -238,7 +238,7 @@ With the exception of the upper limit placed on the missing energy, these cuts w
   \end{tabular}
   \caption[Preselection efficiencies]{Preselection efficiencies}
   \label{fig:preseleff}
-\end{figure}
+\end{table}
 
 
 
@@ -251,9 +251,29 @@ With the exception of the upper limit placed on the missing energy, these cuts w
   \label{fig:decisiontree}
 \end{figure}
 
-Following the preselection, the main event selection is then performed using a multivariate approach that takes into account correlations between variables to maximise use of the information available for background discrimination. A \ac{BDT}, implemented in ROOT TMVA \cite{2007physics...3039H} was used for performing this stage of the selection. A detailed description of how a BDT works is given in \cite{Coadou:2013lca}. Fundamentally a decision tree can be represented as a logic flow diagram that assigns a weight to an event based on a series of cuts e.g. see \reffig{fig:decisiontree}. Each level of the flow chart is made up of nodes and leaves. A node represents a cut on a particular variable where the specific value of the cut is chosen to provide the greatest separation between signal and background. A leaf on the other hand represents an end point at which a weight (typically chosen to be the purity of events reaching that point) is assigned to the event. The choice of whether to create a leaf or node after each branching is decided by a stopping criteria. Typically this criteria represents producing a sufficienctly high or low purity of events that the node can be assigned to contain almost entirely signal or background. Typically not all events will have signal like properties for every variable used. As a result it is normally necessary to produce multiple trees (creatively referred to as a forest) using different combinations of variables for each of the nodes. The sum of weights from all the trees used then forms a final discriminating variable for distinguishing between signal and background events. Boosting is then a way of maximising the performance of the decision trees. The simplest form of boosting is train a set of trees, T$_1$, using a sample of N events. A second set of trees, T$_2$, are then trained using a further N events, half of which were misclassified by T$_1$. A third set of trees, T$_3$,  can then be formed by training on events in which T$_1$ and T$_2$ disagree on the classification. The overall classification is then decided by a democratic vote from T$_1$, T$_2$ and T$_3$. This method yields an improvement in the performance by focusing the training on events that are the hardest to classify correctly. The method can be extended to an aritrary number of levels T$_N$ where the final \ac{BDT} score is then a weighted sum of the scores from the N trees. By implementing the preselection cuts before training the \ac{BDT} the overall background rejection is found to be further improved as again, the \ac{BDT} is able to focus only on those events that are hardest to discriminate. Within TMVA, the default parameters for the training are to use 850 trees per forest with each tree having a maximum depth of three nodes. This provides a balance between the computational time required to train the classifier and the performance it can achieve. However, it is possible an improved performance might be achieved by increasing the number of trees per forest or the depth of each tree. 
+Following the preselection, the main event selection is then performed using a multivariate approach that takes into account correlations between variables to maximise use of the information available for background discrimination. A \ac{BDT}, implemented in ROOT TMVA \cite{2007physics...3039H} was used for performing this stage of the selection. A detailed description of how a BDT works is given in \cite{Coadou:2013lca}. Fundamentally a decision tree can be represented as a logic flow diagram that assigns a weight to an event based on a series of cuts e.g. see \reffig{fig:decisiontree}. Each level of the flow chart is made up of nodes and leaves. A node represents a cut on a particular variable where the specific value of the cut is chosen to provide the greatest separation between signal and background. A leaf on the other hand represents an end point at which a weight (typically chosen to be the purity of events reaching that point) is assigned to the event. The choice of whether to create a leaf or node after each branching is decided by a stopping criteria. Typically this criteria represents achieving a sufficienctly high purity of signal or background events that the node can be assigned to contain almost entirely signal or background. Typically not all events will have signal like properties for every variable used. As a result it is normally necessary to produce multiple trees (creatively referred to as a forest) using different combinations of variables for each of the nodes. The sum of weights from all the trees used then forms a final discriminating variable for distinguishing between signal and background events. Boosting is then a way of maximising the performance of the decision trees. The simplest form of boosting is to train a set of trees, T$_1$, using a sample of N events. A second set of trees, T$_2$, are then trained using a further N events, half of which were misclassified by T$_1$. A third set of trees, T$_3$,  can then be formed by training on events in which T$_1$ and T$_2$ disagree on the classification. The overall classification is then decided by a democratic vote from T$_1$, T$_2$ and T$_3$. This method yields an improvement in the performance by focusing the training on events that are the hardest to classify correctly. The method can be extended to an arbitrary number of levels T$_N$ where the final \ac{BDT} score is then a weighted sum of the scores from the N trees. By implementing the preselection cuts before training the \ac{BDT}, the overall background rejection is found to be further improved as again, the \ac{BDT} is able to focus only on those events that are hardest to discriminate. Within TMVA, the default parameters for the training are 850 trees per forest with each tree having a maximum depth of three nodes. This provides a balance between the computational time required to train the classifier and the performance it can achieve. However, it is possible an improved performance might be achieved by increasing the number of trees per forest or the depth of each tree. 
 
-The \ac{BDT} in this analysis used 7$\times$10$^4$ signal events and 4$\times$10$^6$ background events, split evenly between training and testing samples. A collection of 19 variables is used for the training: masses of the reconstructed Higgs and W bosons; energy of the W boson; total missing energy and transverse momentum; number of loose selected isolated leptons; PID of the isolated lepton; transverse momentum of lepton; angle of lepton and W boson relative to the beam axis; magnitude of thrust minor observable; number of particle flow objects (PFOs) in the two jets; average angle of the two jets relative to the beam axis; kt jet resolution parameter y$_{12}$; number of tightly selected PFOs in the event; angular separation of the isolated lepton and W boson;  minimum angular separation and transverse momentum of the lepton relative to either jet, and the combined b-tag value for both jets. The signal and background distributions for every input variable after application of the preselection cuts can be seen in Appendix A, and the resulting BDT classifier output can be seen in \reffig{bdt}. Of the variables considered, those offering the greatest signal and background were found to be the masses of the Higgs candidate and W boson, the missing energy and the number of isolated leptons in the event.
+The \ac{BDT} in this analysis used 7$\times$10$^4$ signal events and 4$\times$10$^6$ background events, split evenly between training and testing samples. A collection of 19 variables is used for the training:
+
+\begin{itemize}
+\item Masses of the reconstructed Higgs and W bosons
+\item Energy of the W boson
+\item Total missing energy and transverse momentum of the event
+\item Number of loose selected isolated leptons
+\item PID of the isolated lepton
+\item Transverse momentum of lepton
+\item Angle of lepton and W boson relative to the beam axis
+\item Magnitude of thrust minor observable
+\item Number of \ac{PFO}s in the two jets
+\item Average angle of the two jets relative to the beam axis
+\item kt jet resolution parameter y$_{12}$ (the resolution parameter R at which the algorithm transitions from identifying 1 jet in an event to identifying 2)
+\item Number of tightly selected PFOs in the event
+\item Angular separation of the isolated lepton and reconstructed W boson
+\item Minimum angular separation and transverse momentum of the lepton relative to either jet
+\item Combined b-tag value for both jets
+\end{itemize}
+
+The signal and background distributions for every input variable after application of the preselection cuts can be seen in Appendix A, and the resulting BDT classifier output can be seen in \reffig{bdt}. Of the variables considered, those offering the greatest signal and background were found to be the masses of the Higgs candidate and W boson, the missing energy and the number of isolated leptons in the event.
 
 \begin{figure}
   \centering
@@ -262,16 +282,15 @@ The \ac{BDT} in this analysis used 7$\times$10$^4$ signal events and 4$\times$10
   \label{bdt}
 \end{figure}
 
-\reffig{bdt} shows that there is a high degree of separation achieved between signal and background events.
-The choice of cut on the BDT score was initially chosen to maximise the signal significance ($S/\sqrt{S+B}$) as this corresponds to the lowest statistical uncertainty on $\sigma\times$BR. Doing this it was found that a maximum significanc of 77 was possible by applying a cut on the BDT score of 0.15, corresponding to a statistical uncertainty of 1.30\% on $\sigma\times$BR. However, after later considerations of the the relevant systematic uncertainties associated with the measurement (see \refsec{higgsSystematics}), it was found that the overall uncertainty could be reduced by imposing a harsher cut of 0.17 on the BDT score resulting in a slightly larger statistical uncertainty of 1.34\% on $\sigma\times$BR assuming an integrated luminosity of 1.5 ab$^{-1}$.
+\reffig{bdt} shows that there is a high degree of separation achieved between signal and background events. The efficiencies and number of expected events for signal and background processes for 1.5 ab$^{-1}$ of data following the full event selection are shown in \reftab{tab:finalHiggsResults}. The choice of cut on the BDT score was initially chosen to maximise the signal significance ($S/\sqrt{S+B}$) as this corresponds to the lowest statistical uncertainty on $\sigma\times$BR. Doing this it was found that a maximum significance of 77 was possible by applying a cut on the BDT score of 0.15, corresponding to a statistical uncertainty of 1.30\% on $\sigma\times$BR. However, after later considerations of the relevant systematic uncertainties associated with the measurement (see \refsec{higgsSystematics}), it was found that the overall uncertainty could be reduced by imposing a harsher cut of 0.17 on the BDT score resulting in a slightly larger statistical uncertainty of 1.34\% on $\sigma\times$BR assuming an integrated luminosity of 1.5 ab$^{-1}$. 
 
 This value is similar to that observed for the WW$\rightarrow$qqqq final state, 1.5\%, as expected. By neglecting the case where the isolated lepton it a $\tau$, we have reduced the maximum signal yield to two thirds that of the hadronic channel which inherently limits the precision that can be acheived. However, due to the lack of an easily identifiable isolated charged lepton and the ambiguity associated with assigning the four jets to the two W's, the signal in the qqqq channel is more challenging to distinguish from background events.
 
-Looking in detail at the backgrounds after our selection, we can see that many of the backgrounds have been almost completely removed leaving only ee$\rightarrow$ H($\rightarrow$ other)$\nu\nu$ and ee$\rightarrow$qql$\nu$ as the dominant backgrounds. This is to be expected as these events most closely mimic our signal, which is mainly distinguished by its large missing energy. In the case of H$\rightarrow$other events it was determined that 26\% of the remaining events came from H$\rightarrow\tau^+\tau^-$ processes with a further 25\% from H$\rightarrow$WW* processes with one or more of the Ws decaying to a $\tau$. As such, attempts were made to veto $\tau$ events by rejecting those in which one or more hadronically decaying $\tau$ was explicitly identified using the default ILCSoft Tau Finder \cite{TauFinder} package. However, the misidentification probability for $tau$s in the signal channel was sufficiently high that the overall statistical uncertainty on $\sigma \times$BR increased and therefore $\tau$ identification is not used in the final selection. It is anticipated that when \ac{CLIC} is commisioned, an updated version of the tau finder package would be developed. One obvious improvement that could be made would be to include particle ID information as determined from Pandora for identifying taus. With a sufficiently performant tau finder, up to 50\% of the current backgrounds could potentially be removed. 
+Looking in detail at the backgrounds after our selection, we can see that many of the backgrounds have been almost completely removed leaving only ee$\rightarrow$ H($\rightarrow$ other)$\nu\nu$ and ee$\rightarrow$qql$\nu$ as the dominant backgrounds. This is to be expected as these events most closely mimic our signal, which is mainly distinguished by its large missing energy. In the case of H$\rightarrow$other events it was determined that 26\% of the remaining events came from H$\rightarrow\tau^+\tau^-$ processes with a further 25\% from H$\rightarrow$WW* processes with one or more of the Ws decaying to a $\tau$. As such, attempts were made to veto $\tau$ events by rejecting those in which one or more hadronically decaying $\tau$ was explicitly identified using the default ILCSoft Tau Finder \cite{TauFinder} package. However, the misidentification probability for $\tau$s in the signal channel was sufficiently high that the overall statistical uncertainty on $\sigma \times$BR increased and therefore $\tau$ identification is not used in the final selection. It is anticipated that when \ac{CLIC} is commisioned, an updated version of the tau finder package would be developed. One obvious improvement that could be made would be to include particle ID information as determined from Pandora for identifying $\tau$s. With a sufficiently performant $\tau$ finder, up to 50\% of the current backgrounds could potentially be removed. 
 
 The efficiency for selecting WW$^*\rightarrow$qqqq events in the WW$^*\rightarrow$qql$\nu$ channel has been calculated to be 0.2\%. The converse efficiency for selecting WW$^*\rightarrow$qql$\nu$ events in the WW$^*\rightarrow$qqqq channel is 1.0\% which should be sufficiently low that a straightforward combination of the uncertainties determined by both channels can be made. The resulting combined statistical uncertainty on $ee\rightarrow H\nu\nu, H\rightarrow WW^*$ is expected to be $\sim$1.0\%.
 
-\begin{figure}
+\begin{table}
   \centering
   \begin{tabular}{l c c c c}
    \toprule
@@ -294,7 +313,7 @@ The efficiency for selecting WW$^*\rightarrow$qqqq events in the WW$^*\rightarro
     e$\gamma$$\rightarrow$eqq ($\gamma$ from EPA)                 & 32308    & 7.32E-02  & 1.26E-05 & 612  \\ 
     $\gamma$e$\rightarrow$eqq ($\gamma$ from BS)               &  56043   & 8.02E-02 & 4.54E-06 & 382  \\ 
     ee$\rightarrow$qq$\nu\nu$               & 787.7    & 9.18E-02 & 3.41E-04 & 403   \\ 
-    ee$\rightarrow$qqll               & 2725.8    & 1.36E-01  & <1.93E-05 & 79    \\ 
+    ee$\rightarrow$qqll               & 2725.8    & 1.36E-01  & $<$1.93E-05 & 79    \\ 
     ee$\rightarrow$qql$\nu$              & 4309.7    & 7.90E-02  & 4.20E-04 & 2716    \\ 
     \midrule
     \midrule
@@ -302,15 +321,16 @@ The efficiency for selecting WW$^*\rightarrow$qqqq events in the WW$^*\rightarro
     \midrule
     \bottomrule
   \end{tabular}
+  \label{tab:finalHiggsResults}
   \caption[Samples Used]{Efficiency for all processes following pre-selection and BDT response cuts and the number of events expected to satisfy these requirements, for an integrated luminosity of 1.5 ab$^{-1}$.}
   \label{cuts}
-\end{figure}
+\end{table}
 
 \section{Systematics}
 \label{higgsSystematics}
-On top of the statistical uncertainty there will also be systematic uncertainties on the measurement. These primarily arise becasue to perform the $\sigma_{H\nu\nu}\times BR_{H\rightarrow WW}$ measurement we must first subtract any residual backgrounds and correct for finite signal efficiency, before finally scaling by the WW$\rightarrow$qql$\nu$ branching ratio. The potential sources of systematic uncertainty that have been identified are as follows:
+On top of the statistical uncertainty there will also be systematic uncertainties on the measurement. These primarily arise because to perform the $\sigma_{H\nu\nu}\times BR_{H\rightarrow WW}$ measurement we must first subtract any residual backgrounds and correct for finite signal efficiency, before finally scaling by the WW$\rightarrow$qql$\nu$ branching ratio. The potential sources of systematic uncertainty that have been identified are as follows:
 
-\textbf{Luminosity}-- At \ac{CLIC} it is estimated that the luminosity can be measured to 0.3\%. Deviations from the nominal value will cause two problems. Firstly the cross section measurement itself will be directly effected as $\sigma=N/L$. Secondly, the number of background events recorded will differ from that which is predicted. As a result the background subtraction will either no longer remove all the background or will remove all the background but also remove some signal events too. The effect of the luminosity unertainty was quantified by varying the total number of events after event selection by $\pm$ 0.3\% before background subtraction and efficiency corrections then measuring the variation seen in the measured cross section. This resulted in an uncertainty of 0.51\% on $\sigma_{H\nu\nu}\times BR_{H\rightarrow WW}$.
+\textbf{Luminosity}-- At \ac{CLIC} it is estimated that the luminosity can be measured to 0.3\%. Deviations from the nominal value will cause two problems. Firstly the cross section measurement itself will be directly effected as $\sigma=N/L$. Secondly, the number of background events recorded will differ from that which is predicted. As a result the background subtraction will either no longer remove all the background or will remove all the background but also remove some signal events too. The effect of the luminosity uncertainty was quantified by varying the total number of events after event selection by $\pm$ 0.3\% before background subtraction and efficiency corrections then measuring the variation seen in the measured cross section. This resulted in an uncertainty of 0.51\% on $\sigma_{H\nu\nu}\times BR_{H\rightarrow WW}$.
 
 \textbf{Background Normalization}-- In order to remove the backgrounds remaining after the event selection, a precise knowledge of the overall background normalization is required. For all background processes there will be an uncertainty associated with their cross section. To evaluate the effect of these uncertainties, the number of events selected from each background process were varied independently and the resulting change in $\sigma_{H\nu\nu}\times BR_{H\rightarrow WW}$ was determined. The uncertainties from changing each of the backgrounds individually were then added in quadrature to obtain the total uncertainty on the background normalization. In the case of Higgs related backgrounds a fluctuation of 5\% was used for the normalization. This value was motivated by the studies presented in  \cite{Abramowicz:2016zbo} where a statistical uncertainty of $\mathcal{O}$(5\%) is expected on the dominant Higgs decays modes for Higgs produced through WW-fusion at 1.4 TeV. For the remaining backgrounds, fluctuations of the order 1\% were used. Overall this is found to give a combined uncertainty of 1.14\% on $\sigma_{H\nu\nu}\times BR_{H\rightarrow WW}$ making it the dominant systematic effect. The minimization of this uncertainty is the basis for increasing the requirements imposed on the BDT response. Selecting the BDT score that minimised the statistical uncertainty was found to give a systematic uncertainty from the background normalization of $\mathcal{O}$(2\%) due to a larger total number of backgrounds passing the event selection. Hence we see that for a small degredation in the statistical uncertainty we gain a large improvement in the systematic uncertainty.
 
@@ -318,7 +338,7 @@ On top of the statistical uncertainty there will also be systematic uncertaintie
 
 As well as these uncertainties there are other effects that have not yet been quantified. In particular, it would be beneficial to examine the effect of using a different event generator/hadronization scheme to evaluate the effect of modelling on the variables used in the event selection. However, there are currently no alternative simulation packages available within the linear collider framework and so there is currently no quantification of these effects. Overall it is believed that the effect of different hadronization models should be small when compared to the other systematic effects as few of the input variables for training the BDT are expected to be sensitive to modelling effects.
 
-Combining the various systematic effects leads to a total systematic uncertainty of 1.37\%. This is of the same order as the statistical component (1.34\%.) Ultimately it is expected that these values probably represent an underestimate of the performance that \ac{CLIC} will achieve as advances in analytical techniques will likely occur over the time scale ($\sim$ 20 years) before this measurement would actually be performed allowing for improved event reconstruction and background rejection leading to reduced statistical and systematic uncertainties.  
+Combining the various systematic effects leads to a total systematic uncertainty of 1.37\%. This is of the same order as the statistical component (1.34\%.) Ultimately it is expected that these values probably represent an overestimate of the performance that \ac{CLIC} will achieve as advances in analytical techniques will likely occur over the time scale ($\sim$ 20 years) before this measurement would actually be performed allowing for improved event reconstruction and background rejection leading to reduced statistical and systematic uncertainties.  
 
 \section{Impact on CLIC Higgs Measurements}
 As discussed at the start of this chapter, the main motivation behind performing this measurement is to allow the Higgs width to be determined so that model independent measurements of the Higgs couplings can be performed. As a result we should look at this measurement in terms of the other measurements required for measuring the Higgs width.
