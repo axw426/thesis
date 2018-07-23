@@ -13,56 +13,69 @@ The style file: ieeetr.bst
 A level-1 auxiliary file: Appendix/appendix.aux
 A level-1 auxiliary file: Appendix/appendixB.aux
 Database file #1: thesis.bib
-You're missing a field name---line 259 of file thesis.bib
+You're missing a field name---line 274 of file thesis.bib
  : 
  : %      author         = "Olive, K. A. and others",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "bib-prodids" isn't style-file defined
---line 394 of file thesis.bib
+--line 409 of file thesis.bib
+You're missing a field name---line 1181 of file thesis.bib
+ : 
+ : %       author         = "H.Abramowicz et al",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 1192 of file thesis.bib
+ : @article
+ :         {TopPaperDraft,
+I'm skipping whatever remains of this entry
+Warning--empty author in TopPaperDraft
+Warning--empty title in TopPaperDraft
+Warning--empty journal in TopPaperDraft
+Warning--empty year in TopPaperDraft
 Warning--empty journal in CEPC-SPPCStudyGroup:2015csa
 Warning--empty author in CMS:2013xfa
 Warning--empty journal in Schulte:382453
 Warning--empty author in cdrvol2
-You've used 63 entries,
+You've used 64 entries,
             1876 wiz_defined-function locations,
-            877 strings with 14424 characters,
-and the built_in function-call counts, 14436 in all, are:
-= -- 1416
-> -- 472
+            882 strings with 14453 characters,
+and the built_in function-call counts, 14734 in all, are:
+= -- 1445
+> -- 477
 < -- 1
-+ -- 185
-- -- 122
-* -- 885
-:= -- 2017
++ -- 187
+- -- 123
+* -- 913
+:= -- 2046
 add.period$ -- 63
-call.type$ -- 63
+call.type$ -- 64
 change.case$ -- 63
 chr.to.int$ -- 0
-cite$ -- 67
-duplicate$ -- 877
-empty$ -- 1454
-format.name$ -- 122
-if$ -- 3635
+cite$ -- 72
+duplicate$ -- 893
+empty$ -- 1482
+format.name$ -- 123
+if$ -- 3706
 int.to.chr$ -- 0
-int.to.str$ -- 63
-missing$ -- 61
-newline$ -- 193
+int.to.str$ -- 64
+missing$ -- 62
+newline$ -- 196
 num.names$ -- 60
-pop$ -- 220
+pop$ -- 226
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 574
+skip$ -- 591
 stack$ -- 0
-substring$ -- 699
-swap$ -- 350
+substring$ -- 731
+swap$ -- 358
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 120
-width$ -- 65
-write$ -- 583
-(There was 1 error message)
+warning$ -- 8
+while$ -- 123
+width$ -- 66
+write$ -- 589
+(There were 3 error messages)
