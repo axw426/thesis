@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {2}Experiments}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}ILC}{6}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Energy Staging}{7}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Beam Production, Acceleration and Focusing}{9}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Beam Production, Acceleration and Focusing}{8}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Positron Production}{10}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}CLIC}{10}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Energy Staging}{12}{subsection.2.2.1}
@@ -17,7 +17,7 @@
 \contentsline {subsubsection}{\numberline {2.4.1.3}Calorimetry}{23}{subsubsection.2.4.1.3}
 \contentsline {subsubsection}{\numberline {2.4.1.4}ECAL}{26}{subsubsection.2.4.1.4}
 \contentsline {subsubsection}{\numberline {2.4.1.5}HCAL}{28}{subsubsection.2.4.1.5}
-\contentsline {subsubsection}{\numberline {2.4.1.6}Muon Detection}{28}{subsubsection.2.4.1.6}
+\contentsline {subsubsection}{\numberline {2.4.1.6}Muon Detection}{29}{subsubsection.2.4.1.6}
 \contentsline {subsubsection}{\numberline {2.4.1.7}Very Forward Region}{29}{subsubsection.2.4.1.7}
 \contentsline {subsection}{\numberline {2.4.2}CLIC ILD}{30}{subsection.2.4.2}
 \contentsline {chapter}{\numberline {3}Theory}{32}{chapter.3}
