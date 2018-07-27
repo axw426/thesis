@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.8.15)  23 JUL 2018 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.8.15)  27 JUL 2018 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -893,7 +893,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-<fig/crest_2.pdf, id=335, 342.27875pt x 342.27875pt>
+<fig/crest_2.pdf, id=339, 342.27875pt x 342.27875pt>
 File: fig/crest_2.pdf Graphic file (type pdf)
  <use fig/crest_2.pdf>
 Package pdftex.def Info: fig/crest_2.pdf used on input line 122.
@@ -973,19 +973,24 @@ Underfull \vbox (badness 2608) has occurred while \output is active []
  [13]
 Package acronym Info: Label `acro:CMOS' newly defined as it shall be overridden
 
-although it is yet undefined on input line 81.
+although it is yet undefined on input line 82.
 Package acronym Info: Label `acro:MAPS' newly defined as it shall be overridden
 
-although it is yet undefined on input line 81.
-)
+although it is yet undefined on input line 82.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14])
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
 
-[14] (./acronym.tex [15
+[15] (./acronym.tex [16
 
 
-]) [16]
+]) [17] [18
+
+]
 \openout2 = `Introduction/introduction.aux'.
 
  (./Introduction/introduction.tex
@@ -1012,7 +1017,6 @@ been already used, duplicate ignored
                    \relax 
 l.4 
      [1
-
 
 
 ]
@@ -1065,7 +1069,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Package acronym Info: Label `acro:TDR' newly defined as it shall be overridden
 although it is yet undefined on input line 7.
 
-<Experiments/fig/ILC.jpg, id=1033, 602.0091pt x 356.0502pt>
+<Experiments/fig/ILC.jpg, id=1057, 602.0091pt x 356.0502pt>
 File: Experiments/fig/ILC.jpg Graphic file (type jpg)
 
 <use Experiments/fig/ILC.jpg>
@@ -1075,7 +1079,7 @@ Package pdftex.def Info: Experiments/fig/ILC.jpg used on input line 11.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./Experiments/fig/ILC.jpg>] [7]
-<Experiments/fig/ILC_Simplified.jpg, id=1056, 144.54pt x 49.8663pt>
+<Experiments/fig/ILC_Simplified.jpg, id=1079, 144.54pt x 49.8663pt>
 File: Experiments/fig/ILC_Simplified.jpg Graphic file (type jpg)
 
 <use Experiments/fig/ILC_Simplified.jpg>
@@ -1084,8 +1088,8 @@ Package pdftex.def Info: Experiments/fig/ILC_Simplified.jpg used on input line
 (pdftex.def)             Requested size: 422.52576pt x 145.77954pt.
 Package acronym Info: Label `acro:RF' newly defined as it shall be overridden
 although it is yet undefined on input line 69.
- [8 <./Experiments/fig/ILC_Simplified.jpg>] <Experiments/fig/Cavity.jpg, id=107
-0, 3129.6925pt x 529.98pt>
+ [8 <./Experiments/fig/ILC_Simplified.jpg>] <Experiments/fig/Cavity.jpg, id=109
+4, 3129.6925pt x 529.98pt>
 File: Experiments/fig/Cavity.jpg Graphic file (type jpg)
 
 <use Experiments/fig/Cavity.jpg>
@@ -1097,73 +1101,62 @@ Package acronym Info: Label `acro:BS' newly defined as it shall be overridden
 although it is yet undefined on input line 78.
 Package acronym Info: Label `acro:EM' newly defined as it shall be overridden
 although it is yet undefined on input line 78.
- [9 <./Experiments/fig/Cavity.jpg>]
-<Experiments/fig/CLIC-layout-3TeV.pdf, id=1086, 520.68527pt x 284.52798pt>
+ [9 <./Experiments/fig/Cavity.jpg>] [10]
+<Experiments/fig/CLIC-layout-3TeV.pdf, id=1120, 520.68527pt x 284.52798pt>
 File: Experiments/fig/CLIC-layout-3TeV.pdf Graphic file (type pdf)
 
 <use Experiments/fig/CLIC-layout-3TeV.pdf>
 Package pdftex.def Info: Experiments/fig/CLIC-layout-3TeV.pdf used on input lin
-e 87.
+e 90.
 (pdftex.def)             Requested size: 422.54727pt x 230.90056pt.
 
-Overfull \hbox (73.75374pt too wide) in paragraph at lines 96--120
+Overfull \hbox (73.75374pt too wide) in paragraph at lines 99--123
  [][] 
  []
 
 Package acronym Info: Label `acro:CDR' newly defined as it shall be overridden
-although it is yet undefined on input line 122.
-[10] [11 <./Experiments/fig/CLIC-layout-3TeV.pdf>] [12]
-<Experiments/fig/clicSS.png, id=1232, 578.16pt x 433.62pt>
+although it is yet undefined on input line 125.
+[11 <./Experiments/fig/CLIC-layout-3TeV.pdf>] [12]
+<Experiments/fig/clicSS.png, id=1262, 578.16pt x 433.62pt>
 File: Experiments/fig/clicSS.png Graphic file (type png)
 
 <use Experiments/fig/clicSS.png>
-Package pdftex.def Info: Experiments/fig/clicSS.png used on input line 138.
+Package pdftex.def Info: Experiments/fig/clicSS.png used on input line 141.
 (pdftex.def)             Requested size: 320.08861pt x 240.06647pt.
- [13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./Experiments/fig/clicSS.png (PNG copy)>]
+ [13] [14 <./Experiments/fig/clicSS.png (PNG copy)>] [15]
 Package acronym Info: Label `acro:HCAL' newly defined as it shall be overridden
 
-although it is yet undefined on input line 159.
+although it is yet undefined on input line 162.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-Package acronym Info: Label `acro:PFO' newly defined as it shall be overridden
-although it is yet undefined on input line 161.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1590) has occurred while \output is active []
 
  [16]
-<Experiments/fig/ILD.jpg, id=1284, 1137.24875pt x 516.93124pt>
+Package acronym Info: Label `acro:PFO' newly defined as it shall be overridden
+although it is yet undefined on input line 164.
+
+Underfull \vbox (badness 1127) has occurred while \output is active []
+
+ [17]
+<Experiments/fig/ILD.jpg, id=1319, 1137.24875pt x 516.93124pt>
 File: Experiments/fig/ILD.jpg Graphic file (type jpg)
 
 <use Experiments/fig/ILD.jpg>
-Package pdftex.def Info: Experiments/fig/ILD.jpg used on input line 170.
+Package pdftex.def Info: Experiments/fig/ILD.jpg used on input line 173.
 (pdftex.def)             Requested size: 426.79134pt x 193.9986pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 181.
-
-[18 <./Experiments/fig/ILD.jpg>]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 184.
+ [18 <./Experiments/fig/ILD.jpg>]
 Package acronym Info: Label `acro:IP' newly defined as it shall be overridden
-although it is yet undefined on input line 195.
-
-Underfull \vbox (badness 2261) has occurred while \output is active []
-
+although it is yet undefined on input line 198.
  [19]
-<Experiments/fig/Vertex.pdf, id=1316, 597.23125pt x 845.1575pt>
+<Experiments/fig/Vertex.pdf, id=1347, 597.23125pt x 845.1575pt>
 File: Experiments/fig/Vertex.pdf Graphic file (type pdf)
 
 <use Experiments/fig/Vertex.pdf>
-Package pdftex.def Info: Experiments/fig/Vertex.pdf used on input line 205.
+Package pdftex.def Info: Experiments/fig/Vertex.pdf used on input line 208.
 (pdftex.def)             Requested size: 128.0387pt x 181.18947pt.
 Package acronym Info: Label `acro:TPC' newly defined as it shall be overridden
-although it is yet undefined on input line 233.
+although it is yet undefined on input line 236.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1172,22 +1165,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
 Package acronym Info: Label `acro:PFA' newly defined as it shall be overridden
-although it is yet undefined on input line 235.
+although it is yet undefined on input line 238.
 Package acronym Info: Label `acro:SIT' newly defined as it shall be overridden
-although it is yet undefined on input line 235.
+although it is yet undefined on input line 238.
 Package acronym Info: Label `acro:SET' newly defined as it shall be overridden
-although it is yet undefined on input line 235.
+although it is yet undefined on input line 238.
 Package acronym Info: Label `acro:FTD' newly defined as it shall be overridden
-although it is yet undefined on input line 235.
+although it is yet undefined on input line 238.
 Package acronym Info: Label `acro:ETD' newly defined as it shall be overridden
-although it is yet undefined on input line 235.
+although it is yet undefined on input line 238.
 
-<Experiments/fig/SiliconTrackers.jpg, id=1356, 769.87625pt x 623.32875pt>
+<Experiments/fig/SiliconTrackers.jpg, id=1386, 769.87625pt x 623.32875pt>
 File: Experiments/fig/SiliconTrackers.jpg Graphic file (type jpg)
 
 <use Experiments/fig/SiliconTrackers.jpg>
 Package pdftex.def Info: Experiments/fig/SiliconTrackers.jpg used on input line
- 239.
+ 242.
 (pdftex.def)             Requested size: 213.39566pt x 172.77129pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1201,23 +1194,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
 [26]
-<Experiments/fig/ECALview_global_annot.png, id=1416, 610.53094pt x 469.755pt>
+<Experiments/fig/ECALview_global_annot.png, id=1447, 610.53094pt x 469.755pt>
 File: Experiments/fig/ECALview_global_annot.png Graphic file (type png)
 
 <use Experiments/fig/ECALview_global_annot.png>
 Package pdftex.def Info: Experiments/fig/ECALview_global_annot.png used on inpu
-t line 304.
+t line 307.
 (pdftex.def)             Requested size: 203.38559pt x 156.49014pt.
 
-<Experiments/fig/ECALview_module_annot.png, id=1417, 704.3916pt x 463.4916pt>
+<Experiments/fig/ECALview_module_annot.png, id=1448, 704.3916pt x 463.4916pt>
 File: Experiments/fig/ECALview_module_annot.png Graphic file (type png)
 
 <use Experiments/fig/ECALview_module_annot.png>
 Package pdftex.def Info: Experiments/fig/ECALview_module_annot.png used on inpu
-t line 305.
+t line 308.
 (pdftex.def)             Requested size: 237.82402pt x 156.49014pt.
 
-Overfull \hbox (38.41827pt too wide) in paragraph at lines 303--307
+Overfull \hbox (38.41827pt too wide) in paragraph at lines 306--310
  [][] 
  []
 
@@ -1226,23 +1219,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27 <./Experiments/fig/ECALview_global_annot.png> <./Experiments/fig/ECALview_
 module_annot.png>]
-<Experiments/fig/DHCALview_global.png, id=1431, 608.2725pt x 468.24937pt>
+<Experiments/fig/DHCALview_global.png, id=1463, 608.2725pt x 468.24937pt>
 File: Experiments/fig/DHCALview_global.png Graphic file (type png)
 
 <use Experiments/fig/DHCALview_global.png>
 Package pdftex.def Info: Experiments/fig/DHCALview_global.png used on input lin
-e 318.
+e 321.
 (pdftex.def)             Requested size: 203.29224pt x 156.49014pt.
 
-<Experiments/fig/DHCALview_module.png, id=1432, 723.45282pt x 486.31688pt>
+<Experiments/fig/DHCALview_module.png, id=1464, 723.45282pt x 486.31688pt>
 File: Experiments/fig/DHCALview_module.png Graphic file (type png)
 
 <use Experiments/fig/DHCALview_module.png>
 Package pdftex.def Info: Experiments/fig/DHCALview_module.png used on input lin
-e 319.
+e 322.
 (pdftex.def)             Requested size: 232.79016pt x 156.49014pt.
 
-Overfull \hbox (33.29106pt too wide) in paragraph at lines 317--321
+Overfull \hbox (33.29106pt too wide) in paragraph at lines 320--324
  [][] 
  []
 
@@ -1275,7 +1268,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
-<Theory/fig/HiggsProcessesExtra.png, id=1552, 763.653pt x 422.0568pt>
+<Theory/fig/HiggsProcessesExtra.png, id=1583, 763.653pt x 422.0568pt>
 File: Theory/fig/HiggsProcessesExtra.png Graphic file (type png)
 
 <use Theory/fig/HiggsProcessesExtra.png>
@@ -1286,14 +1279,14 @@ Package pdftex.def Info: Theory/fig/HiggsProcessesExtra.png used on input line
 Underfull \vbox (badness 1117) has occurred while \output is active []
 
  [38 <./Theory/fig/HiggsProcessesExtra.png>]
-<Theory/fig/HiggsStrahlung.png, id=1563, 722.7pt x 542.025pt>
+<Theory/fig/HiggsStrahlung.png, id=1594, 722.7pt x 542.025pt>
 File: Theory/fig/HiggsStrahlung.png Graphic file (type png)
 
 <use Theory/fig/HiggsStrahlung.png>
 Package pdftex.def Info: Theory/fig/HiggsStrahlung.png used on input line 143.
 (pdftex.def)             Requested size: 192.0548pt x 144.0412pt.
  [39 <./Theory/fig/HiggsStrahlung.png (PNG copy)>]
-<Theory/fig/350GeV_Recoil_mumuX_MrecoilFit.pdf, id=1570, 569.12625pt x 553.0662
+<Theory/fig/350GeV_Recoil_mumuX_MrecoilFit.pdf, id=1601, 569.12625pt x 553.0662
 5pt>
 File: Theory/fig/350GeV_Recoil_mumuX_MrecoilFit.pdf Graphic file (type pdf)
  <use Theory/fig/350GeV_Recoil_mumuX_MrecoilFit.pdf>
@@ -1309,14 +1302,14 @@ Overfull \hbox (46.87921pt too wide) in paragraph at lines 216--235
  [][] 
  []
 
-<Theory/fig/FitResultsMI.pdf, id=1633, 569.12625pt x 553.06625pt>
+<Theory/fig/FitResultsMI.pdf, id=1665, 569.12625pt x 553.06625pt>
 File: Theory/fig/FitResultsMI.pdf Graphic file (type pdf)
 
 <use Theory/fig/FitResultsMI.pdf>
 Package pdftex.def Info: Theory/fig/FitResultsMI.pdf used on input line 243.
 (pdftex.def)             Requested size: 198.67294pt x 193.06973pt.
 
-<Theory/fig/CouplingvsMassMI.pdf, id=1634, 569.12625pt x 553.06625pt>
+<Theory/fig/CouplingvsMassMI.pdf, id=1666, 569.12625pt x 553.06625pt>
 File: Theory/fig/CouplingvsMassMI.pdf Graphic file (type pdf)
 
 <use Theory/fig/CouplingvsMassMI.pdf>
@@ -1324,14 +1317,14 @@ Package pdftex.def Info: Theory/fig/CouplingvsMassMI.pdf used on input line 247
 .
 (pdftex.def)             Requested size: 198.67294pt x 193.06973pt.
 
-<Theory/fig/FitResultsMD.pdf, id=1637, 569.12625pt x 553.06625pt>
+<Theory/fig/FitResultsMD.pdf, id=1669, 569.12625pt x 553.06625pt>
 File: Theory/fig/FitResultsMD.pdf Graphic file (type pdf)
 
 <use Theory/fig/FitResultsMD.pdf>
 Package pdftex.def Info: Theory/fig/FitResultsMD.pdf used on input line 255.
 (pdftex.def)             Requested size: 277.41176pt x 269.5955pt.
 
-<Theory/fig/MuSnowmass3000.pdf, id=1640, 569.12625pt x 408.52625pt>
+<Theory/fig/MuSnowmass3000.pdf, id=1672, 569.12625pt x 408.52625pt>
 File: Theory/fig/MuSnowmass3000.pdf Graphic file (type pdf)
 
 <use Theory/fig/MuSnowmass3000.pdf>
@@ -1349,7 +1342,7 @@ D.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44 <./Theory/fig/MuSnowmass3000.pdf, page is rotated 90 degrees>] [45]
-<Theory/fig/ttFeynmann.png, id=1866, 397.485pt x 373.395pt>
+<Theory/fig/ttFeynmann.png, id=1897, 397.485pt x 373.395pt>
 File: Theory/fig/ttFeynmann.png Graphic file (type png)
 
 <use Theory/fig/ttFeynmann.png>
@@ -1377,7 +1370,7 @@ op-eps-converted-to.pdf TopAnalysis/figures/asym-top.eps>
 (epstopdf)             \includegraphics on input line 353.
 Package epstopdf Info: Output file is already uptodate.
 
-<TopAnalysis/figures/asym-top-eps-converted-to.pdf, id=1904, 614.295pt x 794.97
+<TopAnalysis/figures/asym-top-eps-converted-to.pdf, id=1938, 614.295pt x 794.97
 pt>
 File: TopAnalysis/figures/asym-top-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1386,7 +1379,7 @@ Package pdftex.def Info: TopAnalysis/figures/asym-top-eps-converted-to.pdf used
  on input line 353.
 (pdftex.def)             Requested size: 277.41176pt x 359.00687pt.
 
-<Theory/fig/FormFactorsTopCLIC380.pdf, id=1907, 569.12625pt x 695.59875pt>
+<Theory/fig/FormFactorsTopCLIC380.pdf, id=1941, 569.12625pt x 695.59875pt>
 File: Theory/fig/FormFactorsTopCLIC380.pdf Graphic file (type pdf)
 
 <use Theory/fig/FormFactorsTopCLIC380.pdf>
@@ -1415,7 +1408,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<Theory/fig/HiggsCrossSections.png, id=1984, 569.12625pt x 478.78876pt>
+<Theory/fig/HiggsCrossSections.png, id=2017, 569.12625pt x 478.78876pt>
 File: Theory/fig/HiggsCrossSections.png Graphic file (type png)
 
 <use Theory/fig/HiggsCrossSections.png>
@@ -1431,18 +1424,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Package epstopdf Info: Source file: <HiggsAnalysis/figures/HiggsFeynman.eps>
-(epstopdf)                    date: 2018-07-23 16:23:40
-(epstopdf)                    size: 156731 bytes
+(epstopdf)                    date: 2018-07-24 16:38:47
+(epstopdf)                    size: 142742 bytes
 (epstopdf)             Output file: <HiggsAnalysis/figures/HiggsFeynman-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2018-07-23 16:28:24
-(epstopdf)                    size: 7619 bytes
+(epstopdf)                    date: 2018-07-24 16:38:54
+(epstopdf)                    size: 6692 bytes
 (epstopdf)             Command: <repstopdf --outfile=HiggsAnalysis/figures/Higg
 sFeynman-eps-converted-to.pdf HiggsAnalysis/figures/HiggsFeynman.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<HiggsAnalysis/figures/HiggsFeynman-eps-converted-to.pdf, id=1996, 404.51125pt 
+<HiggsAnalysis/figures/HiggsFeynman-eps-converted-to.pdf, id=2030, 404.51125pt 
 x 238.8925pt>
 File: HiggsAnalysis/figures/HiggsFeynman-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1459,14 +1452,14 @@ Overfull \hbox (29.78966pt too wide) in paragraph at lines 39--64
  [][] 
  []
 
-[55] <HiggsAnalysis/figures/EByP.pdf, id=2039, 569.12625pt x 480.79625pt>
+[55] <HiggsAnalysis/figures/EByP.pdf, id=2069, 569.12625pt x 480.79625pt>
 File: HiggsAnalysis/figures/EByP.pdf Graphic file (type pdf)
 
 <use HiggsAnalysis/figures/EByP.pdf>
 Package pdftex.def Info: HiggsAnalysis/figures/EByP.pdf used on input line 80.
 (pdftex.def)             Requested size: 204.85802pt x 173.0645pt.
 
-<HiggsAnalysis/figures/ECALByE.pdf, id=2040, 569.12625pt x 480.79625pt>
+<HiggsAnalysis/figures/ECALByE.pdf, id=2070, 569.12625pt x 480.79625pt>
 File: HiggsAnalysis/figures/ECALByE.pdf Graphic file (type pdf)
 
 <use HiggsAnalysis/figures/ECALByE.pdf>
@@ -1474,7 +1467,7 @@ Package pdftex.def Info: HiggsAnalysis/figures/ECALByE.pdf used on input line 8
 6.
 (pdftex.def)             Requested size: 204.85802pt x 173.0645pt.
  [56]
-<HiggsAnalysis/figures/HiggsJetOptimization.pdf, id=2048, 569.12625pt x 480.796
+<HiggsAnalysis/figures/HiggsJetOptimization.pdf, id=2078, 569.12625pt x 480.796
 25pt>
 File: HiggsAnalysis/figures/HiggsJetOptimization.pdf Graphic file (type pdf)
  <use HiggsAnalysis/figures/HiggsJetOptimization.pdf>
@@ -1482,7 +1475,7 @@ Package pdftex.def Info: HiggsAnalysis/figures/HiggsJetOptimization.pdf used on
  input line 102.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<HiggsAnalysis/figures/CheatHiggs04.pdf, id=2049, 569.12625pt x 480.79625pt>
+<HiggsAnalysis/figures/CheatHiggs04.pdf, id=2079, 569.12625pt x 480.79625pt>
 File: HiggsAnalysis/figures/CheatHiggs04.pdf Graphic file (type pdf)
 
 <use HiggsAnalysis/figures/CheatHiggs04.pdf>
@@ -1490,7 +1483,7 @@ Package pdftex.def Info: HiggsAnalysis/figures/CheatHiggs04.pdf used on input l
 ine 109.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<HiggsAnalysis/figures/PseudoHiggs.pdf, id=2050, 569.12625pt x 480.79625pt>
+<HiggsAnalysis/figures/PseudoHiggs.pdf, id=2080, 569.12625pt x 480.79625pt>
 File: HiggsAnalysis/figures/PseudoHiggs.pdf Graphic file (type pdf)
 
 <use HiggsAnalysis/figures/PseudoHiggs.pdf>
@@ -1502,7 +1495,7 @@ lysis/figures/ECALByE.pdf, page is rotated 90 degrees>] [58 <./HiggsAnalysis/fi
 gures/HiggsJetOptimization.pdf, page is rotated 90 degrees> <./HiggsAnalysis/fi
 gures/CheatHiggs04.pdf, page is rotated 90 degrees>] [59 <./HiggsAnalysis/figur
 es/PseudoHiggs.pdf, page is rotated 90 degrees>]
-<HiggsAnalysis/figures/updatedpurityvsefficiency.pdf, id=2287, 569.12625pt x 48
+<HiggsAnalysis/figures/updatedpurityvsefficiency.pdf, id=2317, 569.12625pt x 48
 0.79625pt>
 File: HiggsAnalysis/figures/updatedpurityvsefficiency.pdf Graphic file (type pd
 f)
@@ -1511,7 +1504,9 @@ Package pdftex.def Info: HiggsAnalysis/figures/updatedpurityvsefficiency.pdf us
 ed on input line 146.
 (pdftex.def)             Requested size: 332.89671pt x 281.23898pt.
  [60]
-<HiggsAnalysis/figures/PseudoHiggs_PreSelection.pdf, id=2297, 569.12625pt x 480
+[61 <./HiggsAnalysis/figures/updatedpurityvsefficiency.pdf, page is rotated 90 
+degrees>]
+<HiggsAnalysis/figures/PseudoHiggs_PreSelection.pdf, id=2376, 569.12625pt x 480
 .79625pt>
 File: HiggsAnalysis/figures/PseudoHiggs_PreSelection.pdf Graphic file (type pdf
 )
@@ -1520,7 +1515,7 @@ Package pdftex.def Info: HiggsAnalysis/figures/PseudoHiggs_PreSelection.pdf use
 d on input line 169.
 (pdftex.def)             Requested size: 332.89671pt x 281.23898pt.
 
-<HiggsAnalysis/figures/EWqq_PreSelection.pdf, id=2298, 569.12625pt x 480.79625p
+<HiggsAnalysis/figures/EWqq_PreSelection.pdf, id=2377, 569.12625pt x 480.79625p
 t>
 File: HiggsAnalysis/figures/EWqq_PreSelection.pdf Graphic file (type pdf)
  <use HiggsAnalysis/figures/EWqq_PreSelection.pdf>
@@ -1528,7 +1523,7 @@ Package pdftex.def Info: HiggsAnalysis/figures/EWqq_PreSelection.pdf used on in
 put line 176.
 (pdftex.def)             Requested size: 332.89671pt x 281.23898pt.
 
-<HiggsAnalysis/figures/nLep_PreSelection.pdf, id=2299, 569.12625pt x 480.79625p
+<HiggsAnalysis/figures/nLep_PreSelection.pdf, id=2378, 569.12625pt x 480.79625p
 t>
 File: HiggsAnalysis/figures/nLep_PreSelection.pdf Graphic file (type pdf)
  <use HiggsAnalysis/figures/nLep_PreSelection.pdf>
@@ -1536,7 +1531,7 @@ Package pdftex.def Info: HiggsAnalysis/figures/nLep_PreSelection.pdf used on in
 put line 183.
 (pdftex.def)             Requested size: 332.89671pt x 281.23898pt.
 
-<HiggsAnalysis/figures/EMissing_PreSelection.pdf, id=2300, 569.12625pt x 480.79
+<HiggsAnalysis/figures/EMissing_PreSelection.pdf, id=2379, 569.12625pt x 480.79
 625pt>
 File: HiggsAnalysis/figures/EMissing_PreSelection.pdf Graphic file (type pdf)
  <use HiggsAnalysis/figures/EMissing_PreSelection.pdf>
@@ -1544,7 +1539,7 @@ Package pdftex.def Info: HiggsAnalysis/figures/EMissing_PreSelection.pdf used o
 n input line 190.
 (pdftex.def)             Requested size: 332.89671pt x 281.23898pt.
 
-<HiggsAnalysis/figures/EMissing_PreSelection_alt.pdf, id=2301, 569.12625pt x 48
+<HiggsAnalysis/figures/EMissing_PreSelection_alt.pdf, id=2380, 569.12625pt x 48
 0.79625pt>
 File: HiggsAnalysis/figures/EMissing_PreSelection_alt.pdf Graphic file (type pd
 f)
@@ -1553,40 +1548,36 @@ Package pdftex.def Info: HiggsAnalysis/figures/EMissing_PreSelection_alt.pdf us
 ed on input line 197.
 (pdftex.def)             Requested size: 332.89671pt x 281.23898pt.
 
-<HiggsAnalysis/figures/MWqq_PreSelection.pdf, id=2302, 569.12625pt x 480.79625p
+<HiggsAnalysis/figures/MWqq_PreSelection.pdf, id=2381, 569.12625pt x 480.79625p
 t>
 File: HiggsAnalysis/figures/MWqq_PreSelection.pdf Graphic file (type pdf)
  <use HiggsAnalysis/figures/MWqq_PreSelection.pdf>
 Package pdftex.def Info: HiggsAnalysis/figures/MWqq_PreSelection.pdf used on in
 put line 204.
 (pdftex.def)             Requested size: 332.89671pt x 281.23898pt.
- [61 <./HiggsAnalysis/figures/updatedpurityvsefficiency.pdf, page is rotated 90
- degrees>] [62 <./HiggsAnalysis/figures/PseudoHiggs_PreSelection.pdf, page is r
+ [62 <./HiggsAnalysis/figures/PseudoHiggs_PreSelection.pdf, page is rotated 90 
+degrees>] [63 <./HiggsAnalysis/figures/EWqq_PreSelection.pdf, page is rotated 9
+0 degrees>] [64 <./HiggsAnalysis/figures/nLep_PreSelection.pdf, page is rotated
+ 90 degrees>] [65 <./HiggsAnalysis/figures/EMissing_PreSelection.pdf, page is r
 otated 90 degrees>]
-[63 <./HiggsAnalysis/figures/EWqq_PreSelection.pdf, page is rotated 90 degrees>
-] [64 <./HiggsAnalysis/figures/nLep_PreSelection.pdf, page is rotated 90 degree
-s>] [65 <./HiggsAnalysis/figures/EMissing_PreSelection.pdf, page is rotated 90 
-degrees>] [66 <./HiggsAnalysis/figures/EMissing_PreSelection_alt.pdf, page is r
-otated 90 degrees> <./HiggsAnalysis/figures/MWqq_PreSelection.pdf, page is rota
-ted 90 degrees>]
+[66 <./HiggsAnalysis/figures/EMissing_PreSelection_alt.pdf, page is rotated 90 
+degrees> <./HiggsAnalysis/figures/MWqq_PreSelection.pdf, page is rotated 90 deg
+rees>]
 
 pdfTeX warning: pdflatex (file ./HiggsAnalysis/figures/decisiontree.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<HiggsAnalysis/figures/decisiontree.pdf, id=2638, 963.6pt x 542.025pt>
+<HiggsAnalysis/figures/decisiontree.pdf, id=2667, 963.6pt x 542.025pt>
 File: HiggsAnalysis/figures/decisiontree.pdf Graphic file (type pdf)
 
 <use HiggsAnalysis/figures/decisiontree.pdf>
 Package pdftex.def Info: HiggsAnalysis/figures/decisiontree.pdf used on input l
 ine 249.
 (pdftex.def)             Requested size: 332.89671pt x 187.24693pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [67]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [68 <./HiggsAnalysis/figures/decisiontree.pdf>] [69]
-<HiggsAnalysis/figures/bdtscore.pdf, id=2672, 569.12625pt x 480.79625pt>
+<HiggsAnalysis/figures/bdtscore.pdf, id=2701, 569.12625pt x 480.79625pt>
 File: HiggsAnalysis/figures/bdtscore.pdf Graphic file (type pdf)
 
 <use HiggsAnalysis/figures/bdtscore.pdf>
@@ -1602,10 +1593,10 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `tab:finalHiggsResults' on page 70 undefined on input 
 line 285.
 
-[70]
+[70 <./HiggsAnalysis/figures/bdtscore.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71 <./HiggsAnalysis/figures/bdtscore.pdf, page is rotated 90 degrees>]
+ [71]
 Overfull \hbox (33.4692pt too wide) in paragraph at lines 295--325
  [][] 
  []
@@ -1617,7 +1608,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74]
-Underfull \hbox (badness 3668) in paragraph at lines 361--361
+Underfull \hbox (badness 3668) in paragraph at lines 363--363
 []\OT1/cmr/m/n/12 Table 4.4: |Ex-pected pre-ci-sion on in-put quan-tites for th
 e Higgs width
  []
@@ -1627,7 +1618,7 @@ e Higgs width
 
  (./TopAnalysis/top.tex
 Chapter 5.
-<TopAnalysis/figures/TopFeynmann.jpg, id=2759, 163.812pt x 109.3686pt>
+<TopAnalysis/figures/TopFeynmann.jpg, id=2789, 163.812pt x 109.3686pt>
 File: TopAnalysis/figures/TopFeynmann.jpg Graphic file (type jpg)
 
 <use TopAnalysis/figures/TopFeynmann.jpg>
@@ -1658,7 +1649,7 @@ Top-eps-converted-to.pdf TopAnalysis/figures/SingleTop.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
 
-<TopAnalysis/figures/SingleTop-eps-converted-to.pdf, id=2772, 339.2675pt x 254.
+<TopAnalysis/figures/SingleTop-eps-converted-to.pdf, id=2802, 339.2675pt x 254.
 9525pt>
 File: TopAnalysis/figures/SingleTop-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1675,7 +1666,7 @@ Overfull \hbox (8.71103pt too wide) in paragraph at lines 54--77
 Package acronym Info: Label `acro:ISR' newly defined as it shall be overridden
 although it is yet undefined on input line 115.
  [81]
-<TopAnalysis/figures/NetEfficiencys.pdf, id=2822, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/NetEfficiencys.pdf, id=2853, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/NetEfficiencys.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/NetEfficiencys.pdf>
@@ -1683,10 +1674,10 @@ Package pdftex.def Info: TopAnalysis/figures/NetEfficiencys.pdf used on input l
 ine 123.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-Underfull \vbox (badness 4279) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82 <./TopAnalysis/figures/NetEfficiencys.pdf, page is rotated 90 degrees>]
-<TopAnalysis/figures/ElectronEfficiencys.pdf, id=2872, 569.12625pt x 480.79625p
+ [82]
+<TopAnalysis/figures/ElectronEfficiencys.pdf, id=2861, 569.12625pt x 480.79625p
 t>
 File: TopAnalysis/figures/ElectronEfficiencys.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/ElectronEfficiencys.pdf>
@@ -1694,7 +1685,7 @@ Package pdftex.def Info: TopAnalysis/figures/ElectronEfficiencys.pdf used on in
 put line 137.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/MuonEfficiencys.pdf, id=2873, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/MuonEfficiencys.pdf, id=2862, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/MuonEfficiencys.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/MuonEfficiencys.pdf>
@@ -1704,364 +1695,384 @@ line 143.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83 <./TopAnalysis/figures/ElectronEfficiencys.pdf, page is rotated 90 degrees
-> <./TopAnalysis/figures/MuonEfficiencys.pdf, page is rotated 90 degrees>]
-<TopAnalysis/figures/MomentumVsTheta.pdf, id=2967, 569.12625pt x 480.79625pt>
+ [83 <./TopAnalysis/figures/NetEfficiencys.pdf, page is rotated 90 degrees>]
+<TopAnalysis/figures/MomentumVsTheta.pdf, id=2914, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/MomentumVsTheta.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/MomentumVsTheta.pdf>
 Package pdftex.def Info: TopAnalysis/figures/MomentumVsTheta.pdf used on input 
 line 155.
-(pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
+(pdftex.def)             Requested size: 341.43436pt x 288.45795pt.
 
-<TopAnalysis/figures/MuonEfficiency_Higgs.pdf, id=2968, 569.12625pt x 480.79625
+<TopAnalysis/figures/LeptonEfficiencysVsE.pdf, id=2915, 569.12625pt x 480.79625
+pt>
+File: TopAnalysis/figures/LeptonEfficiencysVsE.pdf Graphic file (type pdf)
+ <use TopAnalysis/figures/LeptonEfficiencysVsE.pdf>
+Package pdftex.def Info: TopAnalysis/figures/LeptonEfficiencysVsE.pdf used on i
+nput line 162.
+(pdftex.def)             Requested size: 341.43436pt x 288.45795pt.
+
+<TopAnalysis/figures/MuonEfficiency_Higgs.pdf, id=2916, 569.12625pt x 480.79625
 pt>
 File: TopAnalysis/figures/MuonEfficiency_Higgs.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/MuonEfficiency_Higgs.pdf>
 Package pdftex.def Info: TopAnalysis/figures/MuonEfficiency_Higgs.pdf used on i
-nput line 162.
+nput line 169.
 (pdftex.def)             Requested size: 341.43436pt x 288.45795pt.
 
-<TopAnalysis/figures/ElectronEfficiencys_20GeVMCCut.pdf, id=2969, 569.12625pt x
+<TopAnalysis/figures/ElectronEfficiencys_20GeVMCCut.pdf, id=2917, 569.12625pt x
  480.79625pt>
 File: TopAnalysis/figures/ElectronEfficiencys_20GeVMCCut.pdf Graphic file (type
  pdf)
  <use TopAnalysis/figures/ElectronEfficiencys_20GeVMCCut.pdf>
 Package pdftex.def Info: TopAnalysis/figures/ElectronEfficiencys_20GeVMCCut.pdf
- used on input line 171.
+ used on input line 178.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.pdf, id=2970, 569.12625pt x 480
+<TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.pdf, id=2918, 569.12625pt x 480
 .79625pt>
 File: TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.pdf Graphic file (type pdf
 )
  <use TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.pdf>
 Package pdftex.def Info: TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.pdf use
-d on input line 176.
+d on input line 183.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/WBCollinearity.pdf, id=2971, 569.12625pt x 480.79625pt>
-File: TopAnalysis/figures/WBCollinearity.pdf Graphic file (type pdf)
-
-<use TopAnalysis/figures/WBCollinearity.pdf>
-Package pdftex.def Info: TopAnalysis/figures/WBCollinearity.pdf used on input l
-ine 188.
+<TopAnalysis/figures/WBCollinearityAlt2.pdf, id=2919, 569.12625pt x 480.79625pt
+>
+File: TopAnalysis/figures/WBCollinearityAlt2.pdf Graphic file (type pdf)
+ <use TopAnalysis/figures/WBCollinearityAlt2.pdf>
+Package pdftex.def Info: TopAnalysis/figures/WBCollinearityAlt2.pdf used on inp
+ut line 195.
 (pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
+ [84 <./TopAnalysis/figures/ElectronEfficiencys.pdf, page is rotated 90 degrees
+> <./TopAnalysis/figures/MuonEfficiencys.pdf, page is rotated 90 degrees>] [85 
+<./TopAnalysis/figures/MomentumVsTheta.pdf, page is rotated 90 degrees> <./TopA
+nalysis/figures/LeptonEfficiencysVsE.pdf, page is rotated 90 degrees>] [86 <./T
+opAnalysis/figures/MuonEfficiency_Higgs.pdf, page is rotated 90 degrees> <./Top
+Analysis/figures/ElectronEfficiencys_20GeVMCCut.pdf, page is rotated 90 degrees
+> <./TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.pdf, page is rotated 90 deg
+rees>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [84]
-[85 <./TopAnalysis/figures/MomentumVsTheta.pdf, page is rotated 90 degrees> <./
-TopAnalysis/figures/MuonEfficiency_Higgs.pdf, page is rotated 90 degrees>]
-[86 <./TopAnalysis/figures/ElectronEfficiencys_20GeVMCCut.pdf, page is rotated 
-90 degrees> <./TopAnalysis/figures/MuonEfficiencys_20GeVMCCut.pdf, page is rota
-ted 90 degrees> <./TopAnalysis/figures/WBCollinearity.pdf, page is rotated 90 d
-egrees>]
-<TopAnalysis/figures/distance_ratio_vlc.pdf, id=3210, 569.12625pt x 544.0325pt>
+ [87 <./TopAnalysis/figures/WBCollinearityAlt2.pdf, page is rotated 90 degrees>
+]
+<TopAnalysis/figures/distance_ratio_vlc.pdf, id=3293, 569.12625pt x 544.0325pt>
 File: TopAnalysis/figures/distance_ratio_vlc.pdf Graphic file (type pdf)
 <use TopAnalysis/figures/distance_ratio_vlc.pdf>
 Package pdftex.def Info: TopAnalysis/figures/distance_ratio_vlc.pdf used on inp
-ut line 206.
+ut line 213.
 (pdftex.def)             Requested size: 256.0774pt x 244.79576pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [87]
-<TopAnalysis/figures/ComparisonKt.pdf, id=3223, 569.12625pt x 480.79625pt>
+ [88 <./TopAnalysis/figures/distance_ratio_vlc.pdf, page is rotated 90 degrees>
+]
+<TopAnalysis/figures/ComparisonKt.pdf, id=3347, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/ComparisonKt.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/ComparisonKt.pdf>
 Package pdftex.def Info: TopAnalysis/figures/ComparisonKt.pdf used on input lin
-e 217.
+e 224.
 (pdftex.def)             Requested size: 341.43436pt x 288.45795pt.
 
-<TopAnalysis/figures/ComparisonVLC.pdf, id=3224, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/ComparisonVLC.pdf, id=3348, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/ComparisonVLC.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/ComparisonVLC.pdf>
 Package pdftex.def Info: TopAnalysis/figures/ComparisonVLC.pdf used on input li
-ne 222.
+ne 229.
 (pdftex.def)             Requested size: 341.43436pt x 288.45795pt.
 
-<TopAnalysis/figures/TopMass_EOver1200.pdf, id=3225, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/TopMass_EOver1200.pdf, id=3349, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/TopMass_EOver1200.pdf Graphic file (type pdf)
 <use TopAnalysis/figures/TopMass_EOver1200.pdf>
 Package pdftex.def Info: TopAnalysis/figures/TopMass_EOver1200.pdf used on inpu
-t line 232.
+t line 239.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<TopAnalysis/figures/CosThetaRecoVsMC.pdf, id=3226, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/CosThetaRecoVsMC.pdf, id=3350, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/CosThetaRecoVsMC.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/CosThetaRecoVsMC.pdf>
 Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMC.pdf used on input
- line 242.
+ line 249.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [88 <./TopAnalysis/figures/distance_ratio_vlc.pdf, page is rotated 90 degrees>
-] [89 <./TopAnalysis/figures/ComparisonKt.pdf, page is rotated 90 degrees> <./T
-opAnalysis/figures/ComparisonVLC.pdf, page is rotated 90 degrees>]
-<TopAnalysis/figures/TopMassDiagonal.pdf, id=3364, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/TopMassDiagonal.pdf, id=3351, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/TopMassDiagonal.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/TopMassDiagonal.pdf>
 Package pdftex.def Info: TopAnalysis/figures/TopMassDiagonal.pdf used on input 
-line 251.
+line 258.
 (pdftex.def)             Requested size: 213.39566pt x 180.27612pt.
 
-<TopAnalysis/figures/TopMassOffDiagonal.pdf, id=3365, 569.12625pt x 480.79625pt
+<TopAnalysis/figures/TopMassOffDiagonal.pdf, id=3352, 569.12625pt x 480.79625pt
 >
 File: TopAnalysis/figures/TopMassOffDiagonal.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/TopMassOffDiagonal.pdf>
 Package pdftex.def Info: TopAnalysis/figures/TopMassOffDiagonal.pdf used on inp
-ut line 256.
+ut line 263.
 (pdftex.def)             Requested size: 213.39566pt x 180.27612pt.
-
+ [89] [90 <./TopAnalysis/figures/ComparisonKt.pdf, page is rotated 90 degrees> 
+<./TopAnalysis/figures/ComparisonVLC.pdf, page is rotated 90 degrees>] [91 <./T
+opAnalysis/figures/TopMass_EOver1200.pdf, page is rotated 90 degrees> <./TopAna
+lysis/figures/CosThetaRecoVsMC.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90 <./TopAnalysis/figures/TopMass_EOver1200.pdf, page is rotated 90 degrees>]
- [91 <./TopAnalysis/figures/CosThetaRecoVsMC.pdf, page is rotated 90 degrees> <
-./TopAnalysis/figures/TopMassDiagonal.pdf, page is rotated 90 degrees> <./TopAn
-alysis/figures/TopMassOffDiagonal.pdf, page is rotated 90 degrees>]
-<TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.pdf, id=3556, 569.12625pt
+ [92 <./TopAnalysis/figures/TopMassDiagonal.pdf, page is rotated 90 degrees> <.
+/TopAnalysis/figures/TopMassOffDiagonal.pdf, page is rotated 90 degrees>]
+<TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.pdf, id=3636, 569.12625pt
  x 480.79625pt>
 File: TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.pdf Graphic file (ty
 pe pdf)
  <use TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.pdf>
 Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.p
-df used on input line 270.
+df used on input line 277.
 (pdftex.def)             Requested size: 204.85802pt x 173.0645pt.
 
-<TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.pdf, id=3557, 569.126
+<TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.pdf, id=3637, 569.126
 25pt x 480.79625pt>
 File: TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.pdf Graphic file
  (type pdf)
 
 <use TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.pdf>
 Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparat
-ed.pdf used on input line 276.
+ed.pdf used on input line 283.
 (pdftex.def)             Requested size: 204.85802pt x 173.0645pt.
 
-Overfull \hbox (11.95573pt too wide) in paragraph at lines 288--307
+Overfull \hbox (11.95573pt too wide) in paragraph at lines 295--314
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2401) has occurred while \output is active []
 
- [92]
-[93 <./TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.pdf, page is rotate
-d 90 degrees> <./TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.pdf, 
-page is rotated 90 degrees>]
-<TopAnalysis/figures/comparejetmethods.pdf, id=3663, 569.12625pt x 480.79625pt>
+ [93 <./TopAnalysis/figures/CosThetaRecoVsMC_NotNextToLepTop.pdf, page is rotat
+ed 90 degrees> <./TopAnalysis/figures/CosThetaRecoVsMC_MCTopsWellSeparated.pdf,
+ page is rotated 90 degrees>] [94]
+<TopAnalysis/figures/comparejetmethods.pdf, id=3744, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/comparejetmethods.pdf Graphic file (type pdf)
 <use TopAnalysis/figures/comparejetmethods.pdf>
 Package pdftex.def Info: TopAnalysis/figures/comparejetmethods.pdf used on inpu
-t line 315.
+t line 322.
 (pdftex.def)             Requested size: 341.43436pt x 288.45795pt.
 
-<TopAnalysis/figures/MeanThetaDiff.pdf, id=3665, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/MeanThetaDiff.pdf, id=3746, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/MeanThetaDiff.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/MeanThetaDiff.pdf>
 Package pdftex.def Info: TopAnalysis/figures/MeanThetaDiff.pdf used on input li
-ne 326.
+ne 333.
 (pdftex.def)             Requested size: 338.02188pt x 285.57477pt.
 
-<TopAnalysis/figures/WidthThetaDiff.pdf, id=3666, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/WidthThetaDiff.pdf, id=3747, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/WidthThetaDiff.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/WidthThetaDiff.pdf>
 Package pdftex.def Info: TopAnalysis/figures/WidthThetaDiff.pdf used on input l
-ine 331.
+ine 338.
 (pdftex.def)             Requested size: 338.02188pt x 285.57477pt.
 
 
-LaTeX Warning: Float too large for page by 25.20975pt on input line 336.
+LaTeX Warning: Float too large for page by 54.20975pt on input line 343.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94]
-<TopAnalysis/figures/EfficiencyvsMCTheta.pdf, id=3672, 569.12625pt x 480.79625p
+ [95]
+<TopAnalysis/figures/EfficiencyvsMCTheta.pdf, id=3753, 569.12625pt x 480.79625p
 t>
 File: TopAnalysis/figures/EfficiencyvsMCTheta.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/EfficiencyvsMCTheta.pdf>
 Package pdftex.def Info: TopAnalysis/figures/EfficiencyvsMCTheta.pdf used on in
-put line 342.
+put line 349.
 (pdftex.def)             Requested size: 341.43436pt x 288.45795pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95 <./TopAnalysis/figures/comparejetmethods.pdf, page is rotated 90 degrees>]
- [96 <./TopAnalysis/figures/MeanThetaDiff.pdf, page is rotated 90 degrees> <./T
+ [96 <./TopAnalysis/figures/comparejetmethods.pdf, page is rotated 90 degrees>]
+ [97 <./TopAnalysis/figures/MeanThetaDiff.pdf, page is rotated 90 degrees> <./T
 opAnalysis/figures/WidthThetaDiff.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 1622) has occurred while \output is active []
 
- [97 <./TopAnalysis/figures/EfficiencyvsMCTheta.pdf, page is rotated 90 degrees
+ [98 <./TopAnalysis/figures/EfficiencyvsMCTheta.pdf, page is rotated 90 degrees
 >]
-<TopAnalysis/figures/nsubjettiness.png, id=3861, 438.8897pt x 167.87718pt>
+<TopAnalysis/figures/nsubjettiness.png, id=3942, 438.8897pt x 167.87718pt>
 File: TopAnalysis/figures/nsubjettiness.png Graphic file (type png)
 
 <use TopAnalysis/figures/nsubjettiness.png>
 Package pdftex.def Info: TopAnalysis/figures/nsubjettiness.png used on input li
-ne 368.
+ne 375.
 (pdftex.def)             Requested size: 384.10959pt x 146.92802pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98 <./TopAnalysis/figures/nsubjettiness.png>]
+ [99 <./TopAnalysis/figures/nsubjettiness.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99]
-<TopAnalysis/figures/NSubJettiness.pdf, id=3878, 569.12625pt x 480.79625pt>
+ [100]
+<TopAnalysis/figures/NSubJettiness.pdf, id=3959, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/NSubJettiness.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/NSubJettiness.pdf>
 Package pdftex.def Info: TopAnalysis/figures/NSubJettiness.pdf used on input li
-ne 381.
+ne 388.
 (pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
 
-<TopAnalysis/figures/HighELowEDira.pdf, id=3879, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/HighELowEDira.pdf, id=3960, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/HighELowEDira.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/HighELowEDira.pdf>
 Package pdftex.def Info: TopAnalysis/figures/HighELowEDira.pdf used on input li
-ne 391.
+ne 398.
 (pdftex.def)             Requested size: 341.43436pt x 288.45795pt.
 
-<TopAnalysis/figures/JetMultiplicity.pdf, id=3881, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/JetMultiplicity.pdf, id=3962, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/JetMultiplicity.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/JetMultiplicity.pdf>
 Package pdftex.def Info: TopAnalysis/figures/JetMultiplicity.pdf used on input 
-line 406.
+line 413.
 (pdftex.def)             Requested size: 341.43436pt x 288.45795pt.
- [100 <./TopAnalysis/figures/NSubJettiness.pdf, page is rotated 90 degrees>]
+ [101 <./TopAnalysis/figures/NSubJettiness.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101 <./TopAnalysis/figures/HighELowEDira.pdf, page is rotated 90 degrees>]
-<TopAnalysis/figures/GeneratorSPrime.pdf, id=3978, 569.12625pt x 480.79625pt>
+ [102 <./TopAnalysis/figures/HighELowEDira.pdf, page is rotated 90 degrees>]
+<TopAnalysis/figures/GeneratorSPrime.pdf, id=4060, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/GeneratorSPrime.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/GeneratorSPrime.pdf>
 Package pdftex.def Info: TopAnalysis/figures/GeneratorSPrime.pdf used on input 
-line 418.
+line 425.
 (pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
- [102 <./TopAnalysis/figures/JetMultiplicity.pdf, page is rotated 90 degrees>]
-<TopAnalysis/figures/ISRSpectrum.pdf, id=4030, 569.12625pt x 480.79625pt>
+ [103 <./TopAnalysis/figures/JetMultiplicity.pdf, page is rotated 90 degrees>]
+<TopAnalysis/figures/ISRSpectrum.pdf, id=4113, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/ISRSpectrum.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/ISRSpectrum.pdf>
 Package pdftex.def Info: TopAnalysis/figures/ISRSpectrum.pdf used on input line
- 431.
+ 438.
 (pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
- [103 <./TopAnalysis/figures/GeneratorSPrime.pdf, page is rotated 90 degrees>]
-<TopAnalysis/figures/CrudeEVsTrueE.pdf, id=4085, 569.12625pt x 480.79625pt>
+ [104 <./TopAnalysis/figures/GeneratorSPrime.pdf, page is rotated 90 degrees>]
+<TopAnalysis/figures/CrudeEVsTrueE.pdf, id=4167, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/CrudeEVsTrueE.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/CrudeEVsTrueE.pdf>
 Package pdftex.def Info: TopAnalysis/figures/CrudeEVsTrueE.pdf used on input li
-ne 441.
+ne 448.
 (pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
 
-<TopAnalysis/figures/AnalEVsTrueE.pdf, id=4086, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/AnalEVsTrueE.pdf, id=4168, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/AnalEVsTrueE.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/AnalEVsTrueE.pdf>
 Package pdftex.def Info: TopAnalysis/figures/AnalEVsTrueE.pdf used on input lin
-e 450.
+e 457.
 (pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
 
-<TopAnalysis/figures/AnalTopMass.pdf, id=4087, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/AnalTopMass.pdf, id=4169, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/AnalTopMass.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/AnalTopMass.pdf>
 Package pdftex.def Info: TopAnalysis/figures/AnalTopMass.pdf used on input line
- 456.
+ 463.
 (pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
- [104 <./TopAnalysis/figures/ISRSpectrum.pdf, page is rotated 90 degrees>] [105
+ [105 <./TopAnalysis/figures/ISRSpectrum.pdf, page is rotated 90 degrees>] [106
  <./TopAnalysis/figures/CrudeEVsTrueE.pdf, page is rotated 90 degrees> <./TopAn
 alysis/figures/AnalEVsTrueE.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [106 <./TopAnalysis/figures/AnalTopMass.pdf, page is rotated 90 degrees>]
+ [107 <./TopAnalysis/figures/AnalTopMass.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 2689) has occurred while \output is active []
 
- [107]
-<TopAnalysis/figures/ColVsE.pdf, id=4292, 569.12625pt x 480.79625pt>
+ [108]
+<TopAnalysis/figures/ColVsE.pdf, id=4377, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/ColVsE.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/ColVsE.pdf>
-Package pdftex.def Info: TopAnalysis/figures/ColVsE.pdf used on input line 492.
+Package pdftex.def Info: TopAnalysis/figures/ColVsE.pdf used on input line 500.
 
-(pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
+(pdftex.def)             Requested size: 213.39566pt x 180.27612pt.
 
-<TopAnalysis/figures/ColEVsTrueE.pdf, id=4293, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/CollinearityAlt.pdf, id=4378, 569.12625pt x 480.79625pt>
+File: TopAnalysis/figures/CollinearityAlt.pdf Graphic file (type pdf)
+
+<use TopAnalysis/figures/CollinearityAlt.pdf>
+Package pdftex.def Info: TopAnalysis/figures/CollinearityAlt.pdf used on input 
+line 506.
+(pdftex.def)             Requested size: 213.39566pt x 180.27612pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 498--510
+[]$[]$ $[]$ 
+ []
+
+<TopAnalysis/figures/ColEVsTrueE.pdf, id=4379, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/ColEVsTrueE.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/ColEVsTrueE.pdf>
 Package pdftex.def Info: TopAnalysis/figures/ColEVsTrueE.pdf used on input line
- 499.
+ 514.
 (pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
- [108 <./TopAnalysis/figures/ColVsE.pdf, page is rotated 90 degrees>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [109 <./TopAnalysis/figures/ColEVsTrueE.pdf, page is rotated 90 degrees>]
-<TopAnalysis/figures/KinEVsTrueE.pdf, id=4392, 569.12625pt x 480.79625pt>
+ [109] [110 <./TopAnalysis/figures/ColVsE.pdf, page is rotated 90 degrees> <./T
+opAnalysis/figures/CollinearityAlt.pdf, page is rotated 90 degrees> <./TopAnaly
+sis/figures/ColEVsTrueE.pdf, page is rotated 90 degrees>]
+<TopAnalysis/figures/KinEVsTrueE.pdf, id=4522, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/KinEVsTrueE.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/KinEVsTrueE.pdf>
 Package pdftex.def Info: TopAnalysis/figures/KinEVsTrueE.pdf used on input line
- 526.
+ 541.
 (pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
 File: HiggsAnalysis/figures/updatedpurityvsefficiency.pdf Graphic file (type pd
 f)
 
 <use HiggsAnalysis/figures/updatedpurityvsefficiency.pdf>
 Package pdftex.def Info: HiggsAnalysis/figures/updatedpurityvsefficiency.pdf us
-ed on input line 536.
+ed on input line 551.
 (pdftex.def)             Requested size: 235.76614pt x 199.17458pt.
-
-Underfull \vbox (badness 1371) has occurred while \output is active []
-
- [110]
-[111 <./TopAnalysis/figures/KinEVsTrueE.pdf, page is rotated 90 degrees>]
-<TopAnalysis/figures/HighestBTag.pdf, id=4452, 569.12625pt x 480.79625pt>
+ [112 <./TopAnalysis/figures/KinEVsTrueE.pdf, page is rotated 90 degrees>]
+<TopAnalysis/figures/HighestBTag.pdf, id=4582, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/HighestBTag.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/HighestBTag.pdf>
 Package pdftex.def Info: TopAnalysis/figures/HighestBTag.pdf used on input line
- 548.
+ 563.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/NextHighestBTag.pdf, id=4453, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/NextHighestBTag.pdf, id=4583, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/NextHighestBTag.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/NextHighestBTag.pdf>
 Package pdftex.def Info: TopAnalysis/figures/NextHighestBTag.pdf used on input 
-line 553.
+line 568.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 561.
+(hyperref)                removing `math shift' on input line 576.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 561.
+(hyperref)                removing `subscript' on input line 576.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 561.
+(hyperref)                removing `superscript' on input line 576.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 561.
+(hyperref)                removing `math shift' on input line 576.
 
-[112]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [113]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114 <./TopAnalysis/figures/HighestBTag.pdf, page is rotated 90 degrees> <./To
+pAnalysis/figures/NextHighestBTag.pdf, page is rotated 90 degrees>]
 Package epstopdf Info: Source file: <TopAnalysis/figures/asym-top.eps>
 (epstopdf)                    date: 2018-04-16 12:57:40
 (epstopdf)                    size: 18180 bytes
@@ -2071,182 +2082,182 @@ Package epstopdf Info: Source file: <TopAnalysis/figures/asym-top.eps>
 (epstopdf)                    size: 7870 bytes
 (epstopdf)             Command: <repstopdf --outfile=TopAnalysis/figures/asym-t
 op-eps-converted-to.pdf TopAnalysis/figures/asym-top.eps>
-(epstopdf)             \includegraphics on input line 581.
+(epstopdf)             \includegraphics on input line 596.
 Package epstopdf Info: Output file is already uptodate.
 File: TopAnalysis/figures/asym-top-eps-converted-to.pdf Graphic file (type pdf)
 
- <use TopAnalysis/figures/asym-top-eps-converted-to.pdf>
+
+<use TopAnalysis/figures/asym-top-eps-converted-to.pdf>
 Package pdftex.def Info: TopAnalysis/figures/asym-top-eps-converted-to.pdf used
- on input line 581.
+ on input line 596.
 (pdftex.def)             Requested size: 256.0774pt x 331.39842pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113 <./TopAnalysis/figures/HighestBTag.pdf, page is rotated 90 degrees> <./To
-pAnalysis/figures/NextHighestBTag.pdf, page is rotated 90 degrees>] [114]
-<TopAnalysis/figures/GeneratorTheta.pdf, id=4563, 569.12625pt x 480.79625pt>
+ [115]
+<TopAnalysis/figures/GeneratorTheta.pdf, id=4693, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/GeneratorTheta.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/GeneratorTheta.pdf>
 Package pdftex.def Info: TopAnalysis/figures/GeneratorTheta.pdf used on input l
-ine 590.
+ine 605.
 (pdftex.def)             Requested size: 256.0774pt x 216.34163pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [115 <./TopAnalysis/figures/GeneratorTheta.pdf, page is rotated 90 degrees>]
+ [116 <./TopAnalysis/figures/GeneratorTheta.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [116]
-[117] [118]
+ [117]
+[118] [119]
 File: TopAnalysis/figures/CosThetaRecoVsMC.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/CosThetaRecoVsMC.pdf>
 Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMC.pdf used on input
- line 790.
+ line 809.
 (pdftex.def)             Requested size: 192.05478pt x 162.25072pt.
 
-<TopAnalysis/figures/CosThetaRecoVsMC_QualityCuts.pdf, id=4641, 569.12625pt x 4
+<TopAnalysis/figures/CosThetaRecoVsMC_QualityCuts.pdf, id=4771, 569.12625pt x 4
 80.79625pt>
 File: TopAnalysis/figures/CosThetaRecoVsMC_QualityCuts.pdf Graphic file (type p
 df)
  <use TopAnalysis/figures/CosThetaRecoVsMC_QualityCuts.pdf>
 Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMC_QualityCuts.pdf u
-sed on input line 795.
+sed on input line 814.
 (pdftex.def)             Requested size: 192.05478pt x 162.25072pt.
- [119]
-[120] [121 <./TopAnalysis/figures/CosThetaRecoVsMC_QualityCuts.pdf, page is rot
-ated 90 degrees>] [122]
-<TopAnalysis/figures/BDTScoreHighENeg.pdf, id=4719, 569.12625pt x 480.79625pt>
+ [120]
+[121] [122 <./TopAnalysis/figures/CosThetaRecoVsMC_QualityCuts.pdf, page is rot
+ated 90 degrees>] [123]
+<TopAnalysis/figures/BDTScoreHighENeg.pdf, id=4849, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/BDTScoreHighENeg.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/BDTScoreHighENeg.pdf>
 Package pdftex.def Info: TopAnalysis/figures/BDTScoreHighENeg.pdf used on input
- line 827.
+ line 846.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/BDTScoreLowENeg.pdf, id=4720, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/BDTScoreLowENeg.pdf, id=4850, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/BDTScoreLowENeg.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/BDTScoreLowENeg.pdf>
 Package pdftex.def Info: TopAnalysis/figures/BDTScoreLowENeg.pdf used on input 
-line 833.
+line 852.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/BDTScoreHighEPos.pdf, id=4721, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/BDTScoreHighEPos.pdf, id=4851, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/BDTScoreHighEPos.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/BDTScoreHighEPos.pdf>
 Package pdftex.def Info: TopAnalysis/figures/BDTScoreHighEPos.pdf used on input
- line 842.
+ line 861.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/BDTScoreLowEPos.pdf, id=4722, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/BDTScoreLowEPos.pdf, id=4852, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/BDTScoreLowEPos.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/BDTScoreLowEPos.pdf>
 Package pdftex.def Info: TopAnalysis/figures/BDTScoreLowEPos.pdf used on input 
-line 848.
+line 867.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-Overfull \hbox (40.66486pt too wide) in paragraph at lines 858--889
+Overfull \hbox (40.66486pt too wide) in paragraph at lines 877--908
  [][] 
  []
 
 
-Overfull \hbox (40.66486pt too wide) in paragraph at lines 895--926
+Overfull \hbox (40.66486pt too wide) in paragraph at lines 914--945
  [][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 930.
+(hyperref)                removing `math shift' on input line 949.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 930.
+(hyperref)                removing `subscript' on input line 949.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 930.
+(hyperref)                removing `superscript' on input line 949.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 930.
+(hyperref)                removing `math shift' on input line 949.
 
-[123 <./TopAnalysis/figures/BDTScoreHighENeg.pdf, page is rotated 90 degrees> <
+[124 <./TopAnalysis/figures/BDTScoreHighENeg.pdf, page is rotated 90 degrees> <
 ./TopAnalysis/figures/BDTScoreLowENeg.pdf, page is rotated 90 degrees> <./TopAn
 alysis/figures/BDTScoreHighEPos.pdf, page is rotated 90 degrees> <./TopAnalysis
-/figures/BDTScoreLowEPos.pdf, page is rotated 90 degrees>] [124] [125]
+/figures/BDTScoreLowEPos.pdf, page is rotated 90 degrees>] [125] [126]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 936.
+               Default added (so using `tbp') on input line 955.
 
 
-<TopAnalysis/figures/ThetaPlots_1200GeVNeg.pdf, id=4914, 569.12625pt x 480.7962
+<TopAnalysis/figures/ThetaPlots_1200GeVNeg.pdf, id=5045, 569.12625pt x 480.7962
 5pt>
 File: TopAnalysis/figures/ThetaPlots_1200GeVNeg.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/ThetaPlots_1200GeVNeg.pdf>
 Package pdftex.def Info: TopAnalysis/figures/ThetaPlots_1200GeVNeg.pdf used on 
-input line 939.
+input line 958.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/ThetaPlots_1200GeVPos.pdf, id=4915, 569.12625pt x 480.7962
+<TopAnalysis/figures/ThetaPlots_1200GeVPos.pdf, id=5046, 569.12625pt x 480.7962
 5pt>
 File: TopAnalysis/figures/ThetaPlots_1200GeVPos.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/ThetaPlots_1200GeVPos.pdf>
 Package pdftex.def Info: TopAnalysis/figures/ThetaPlots_1200GeVPos.pdf used on 
-input line 945.
+input line 964.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/ThetaPlots_900GeVNeg.pdf, id=4916, 569.12625pt x 480.79625
+<TopAnalysis/figures/ThetaPlots_900GeVNeg.pdf, id=5047, 569.12625pt x 480.79625
 pt>
 File: TopAnalysis/figures/ThetaPlots_900GeVNeg.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/ThetaPlots_900GeVNeg.pdf>
 Package pdftex.def Info: TopAnalysis/figures/ThetaPlots_900GeVNeg.pdf used on i
-nput line 951.
+nput line 970.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/ThetaPlots_900GeVPos.pdf, id=4917, 569.12625pt x 480.79625
+<TopAnalysis/figures/ThetaPlots_900GeVPos.pdf, id=5048, 569.12625pt x 480.79625
 pt>
 File: TopAnalysis/figures/ThetaPlots_900GeVPos.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/ThetaPlots_900GeVPos.pdf>
 Package pdftex.def Info: TopAnalysis/figures/ThetaPlots_900GeVPos.pdf used on i
-nput line 957.
+nput line 976.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/ThetaPlots_400GeVNeg.pdf, id=4918, 569.12625pt x 480.79625
+<TopAnalysis/figures/ThetaPlots_400GeVNeg.pdf, id=5049, 569.12625pt x 480.79625
 pt>
 File: TopAnalysis/figures/ThetaPlots_400GeVNeg.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/ThetaPlots_400GeVNeg.pdf>
 Package pdftex.def Info: TopAnalysis/figures/ThetaPlots_400GeVNeg.pdf used on i
-nput line 963.
+nput line 982.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-<TopAnalysis/figures/ThetaPlots_400GeVPos.pdf, id=4919, 569.12625pt x 480.79625
+<TopAnalysis/figures/ThetaPlots_400GeVPos.pdf, id=5050, 569.12625pt x 480.79625
 pt>
 File: TopAnalysis/figures/ThetaPlots_400GeVPos.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/ThetaPlots_400GeVPos.pdf>
 Package pdftex.def Info: TopAnalysis/figures/ThetaPlots_400GeVPos.pdf used on i
-nput line 969.
+nput line 988.
 (pdftex.def)             Requested size: 211.26286pt x 178.47873pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 937--973
+Underfull \hbox (badness 10000) in paragraph at lines 956--992
 []$[]$$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 937--973
+Underfull \hbox (badness 10000) in paragraph at lines 956--992
 []$$[]$
  []
 
 
-LaTeX Warning: Float too large for page by 57.59645pt on input line 975.
+LaTeX Warning: Float too large for page by 57.59645pt on input line 994.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
-[127 <./TopAnalysis/figures/ThetaPlots_1200GeVNeg.pdf, page is rotated 90 degre
+ [127]
+[128 <./TopAnalysis/figures/ThetaPlots_1200GeVNeg.pdf, page is rotated 90 degre
 es> <./TopAnalysis/figures/ThetaPlots_1200GeVPos.pdf, page is rotated 90 degree
 s> <./TopAnalysis/figures/ThetaPlots_900GeVNeg.pdf, page is rotated 90 degrees>
  <./TopAnalysis/figures/ThetaPlots_900GeVPos.pdf, page is rotated 90 degrees> <
@@ -2254,107 +2265,113 @@ s> <./TopAnalysis/figures/ThetaPlots_900GeVNeg.pdf, page is rotated 90 degrees>
 TopAnalysis/figures/ThetaPlots_400GeVPos.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 1688) has occurred while \output is active []
 
- [128]
-[129] [130] [131]
+ [129]
+[130] [131] [132]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1155.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1155.
+(hyperref)                removing `math shift' on input line 1174.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1155.
+(hyperref)                removing `subscript' on input line 1174.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1155.
+(hyperref)                removing `superscript' on input line 1174.
 
-[132]
-<TopAnalysis/figures/efficiency_HighE.pdf, id=5224, 569.12625pt x 480.79625pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1174.
+
+[133]
+<TopAnalysis/figures/efficiency_HighE.pdf, id=5353, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/efficiency_HighE.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/efficiency_HighE.pdf>
 Package pdftex.def Info: TopAnalysis/figures/efficiency_HighE.pdf used on input
- line 1163.
+ line 1182.
 (pdftex.def)             Requested size: 192.05478pt x 162.25072pt.
 
-<TopAnalysis/figures/efficiency_MidE.pdf, id=5225, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/efficiency_MidE.pdf, id=5354, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/efficiency_MidE.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/efficiency_MidE.pdf>
 Package pdftex.def Info: TopAnalysis/figures/efficiency_MidE.pdf used on input 
-line 1168.
+line 1187.
 (pdftex.def)             Requested size: 192.05478pt x 162.25072pt.
 
-<TopAnalysis/figures/efficiency_LowE.pdf, id=5226, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/efficiency_LowE.pdf, id=5355, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/efficiency_LowE.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/efficiency_LowE.pdf>
 Package pdftex.def Info: TopAnalysis/figures/efficiency_LowE.pdf used on input 
-line 1179.
+line 1198.
 (pdftex.def)             Requested size: 192.05478pt x 162.25072pt.
 
-<TopAnalysis/figures/efficiency_LowE_NoLepCut.pdf, id=5227, 569.12625pt x 480.7
+<TopAnalysis/figures/efficiency_LowE_NoLepCut.pdf, id=5356, 569.12625pt x 480.7
 9625pt>
 File: TopAnalysis/figures/efficiency_LowE_NoLepCut.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/efficiency_LowE_NoLepCut.pdf>
 Package pdftex.def Info: TopAnalysis/figures/efficiency_LowE_NoLepCut.pdf used 
-on input line 1184.
+on input line 1203.
 (pdftex.def)             Requested size: 192.05478pt x 162.25072pt.
 
 Underfull \vbox (badness 2932) has occurred while \output is active []
 
- [133 <./TopAnalysis/figures/efficiency_HighE.pdf, page is rotated 90 degrees> 
+ [134 <./TopAnalysis/figures/efficiency_HighE.pdf, page is rotated 90 degrees> 
 <./TopAnalysis/figures/efficiency_MidE.pdf, page is rotated 90 degrees> <./TopA
 nalysis/figures/efficiency_LowE.pdf, page is rotated 90 degrees> <./TopAnalysis
 /figures/efficiency_LowE_NoLepCut.pdf, page is rotated 90 degrees>]
-<TopAnalysis/figures/BiasHighE.pdf, id=5406, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/BiasHighE.pdf, id=5536, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/BiasHighE.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/BiasHighE.pdf>
 Package pdftex.def Info: TopAnalysis/figures/BiasHighE.pdf used on input line 1
-197.
+216.
 (pdftex.def)             Requested size: 230.46808pt x 194.6994pt.
 
-<TopAnalysis/figures/BiasMidE.pdf, id=5407, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/BiasMidE.pdf, id=5537, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/BiasMidE.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/BiasMidE.pdf>
 Package pdftex.def Info: TopAnalysis/figures/BiasMidE.pdf used on input line 12
-02.
+21.
 (pdftex.def)             Requested size: 230.46808pt x 194.6994pt.
 
-<TopAnalysis/figures/BiasLowE.pdf, id=5408, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/BiasLowE.pdf, id=5538, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/BiasLowE.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/BiasLowE.pdf>
 Package pdftex.def Info: TopAnalysis/figures/BiasLowE.pdf used on input line 12
-07.
+26.
 (pdftex.def)             Requested size: 230.46808pt x 194.6994pt.
 
 
-LaTeX Warning: Float too large for page by 16.08397pt on input line 1212.
+LaTeX Warning: Float too large for page by 16.08397pt on input line 1231.
 
+
+<TopAnalysis/figures/CosThetaRecoVsMCFinalBin.pdf, id=5541, 569.12625pt x 480.7
+9625pt>
+File: TopAnalysis/figures/CosThetaRecoVsMCFinalBin.pdf Graphic file (type pdf)
+ <use TopAnalysis/figures/CosThetaRecoVsMCFinalBin.pdf>
+Package pdftex.def Info: TopAnalysis/figures/CosThetaRecoVsMCFinalBin.pdf used 
+on input line 1268.
+(pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134]
-[135 <./TopAnalysis/figures/BiasHighE.pdf, page is rotated 90 degrees> <./TopAn
+ [135]
+[136 <./TopAnalysis/figures/BiasHighE.pdf, page is rotated 90 degrees> <./TopAn
 alysis/figures/BiasMidE.pdf, page is rotated 90 degrees> <./TopAnalysis/figures
-/BiasLowE.pdf, page is rotated 90 degrees>]
+/BiasLowE.pdf, page is rotated 90 degrees>] [137 <./TopAnalysis/figures/CosThet
+aRecoVsMCFinalBin.pdf, page is rotated 90 degrees>] [138]
 Package acronym Info: Label `acro:PID' newly defined as it shall be overridden
-although it is yet undefined on input line 1257.
+although it is yet undefined on input line 1285.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [136]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [137]
-Overfull \hbox (14.54713pt too wide) in paragraph at lines 1326--1327
+ [139]
+Overfull \hbox (14.54713pt too wide) in paragraph at lines 1354--1355
 \OT1/cmr/m/n/12 minute is an un-der-stand-ing of the sys-tem-atic un-cer-tainty
  as-so-ci-ated with the hadroniza-
  []
@@ -2362,12 +2379,12 @@ Overfull \hbox (14.54713pt too wide) in paragraph at lines 1326--1327
 
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [138]
-[139]
+ [140]
+[141]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140])
-[141]
+ [142])
+[143]
 \openout2 = `DECALStudies/decal.aux'.
 
  (./DECALStudies/decal.tex
@@ -2375,12 +2392,12 @@ Chapter 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [142
+ [144
 
 
 
 ]
-<DECALStudies/fig/cmos_3Tdesign.png, id=5603, 565.11125pt x 559.08875pt>
+<DECALStudies/fig/cmos_3Tdesign.png, id=5786, 565.11125pt x 559.08875pt>
 File: DECALStudies/fig/cmos_3Tdesign.png Graphic file (type png)
 
 <use DECALStudies/fig/cmos_3Tdesign.png>
@@ -2388,7 +2405,7 @@ Package pdftex.def Info: DECALStudies/fig/cmos_3Tdesign.png used on input line
 15.
 (pdftex.def)             Requested size: 192.0548pt x 190.00233pt.
 
-<DECALStudies/fig/nodeeppwell.png, id=5604, 370.38374pt x 283.27258pt>
+<DECALStudies/fig/nodeeppwell.png, id=5787, 370.38374pt x 283.27258pt>
 File: DECALStudies/fig/nodeeppwell.png Graphic file (type png)
 
 <use DECALStudies/fig/nodeeppwell.png>
@@ -2400,16 +2417,22 @@ although it is yet undefined on input line 25.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [143]
-<DECALStudies/fig/deeppwell.png, id=5629, 370.38374pt x 283.27258pt>
+ [145]
+<DECALStudies/fig/deeppwell.png, id=5812, 370.38374pt x 283.27258pt>
 File: DECALStudies/fig/deeppwell.png Graphic file (type png)
 
 <use DECALStudies/fig/deeppwell.png>
 Package pdftex.def Info: DECALStudies/fig/deeppwell.png used on input line 30.
 (pdftex.def)             Requested size: 213.39566pt x 163.20895pt.
- [144 <./DECALStudies/fig/cmos_3Tdesign.png> <./DECALStudies/fig/nodeeppwell.pn
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [146 <./DECALStudies/fig/cmos_3Tdesign.png> <./DECALStudies/fig/nodeeppwell.pn
 g (PNG copy)>]
-<DECALStudies/fig/ExampleEvents.pdf, id=5654, 569.12625pt x 480.79625pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [147 <./DECALStudies/fig/deeppwell.png (PNG copy)>]
+<DECALStudies/fig/ExampleEvents.pdf, id=5841, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/ExampleEvents.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/ExampleEvents.pdf>
@@ -2419,11 +2442,8 @@ Package pdftex.def Info: DECALStudies/fig/ExampleEvents.pdf used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [145 <./DECALStudies/fig/deeppwell.png (PNG copy)>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [146 <./DECALStudies/fig/ExampleEvents.pdf, page is rotated 90 degrees>]
-<DECALStudies/fig/Landau_100x12_10GeV.pdf, id=5714, 569.12625pt x 480.79625pt>
+ [148 <./DECALStudies/fig/ExampleEvents.pdf, page is rotated 90 degrees>]
+<DECALStudies/fig/Landau_100x12_10GeV.pdf, id=5898, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/Landau_100x12_10GeV.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/Landau_100x12_10GeV.pdf>
@@ -2431,11 +2451,11 @@ Package pdftex.def Info: DECALStudies/fig/Landau_100x12_10GeV.pdf used on input
  line 55.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-Underfull \vbox (badness 1248) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [147 <./DECALStudies/fig/Landau_100x12_10GeV.pdf, page is rotated 90 degrees>]
+ [149 <./DECALStudies/fig/Landau_100x12_10GeV.pdf, page is rotated 90 degrees>]
 
-<DECALStudies/fig/CalibrationCurves.pdf, id=5763, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/CalibrationCurves.pdf, id=5947, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/CalibrationCurves.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/CalibrationCurves.pdf>
@@ -2443,7 +2463,7 @@ Package pdftex.def Info: DECALStudies/fig/CalibrationCurves.pdf used on input l
 ine 67.
 (pdftex.def)             Requested size: 384.10959pt x 324.50877pt.
 
-<DECALStudies/fig/ResolutionFits.pdf, id=5764, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/ResolutionFits.pdf, id=5948, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/ResolutionFits.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/ResolutionFits.pdf>
@@ -2453,10 +2473,10 @@ Package pdftex.def Info: DECALStudies/fig/ResolutionFits.pdf used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [148]
-[149 <./DECALStudies/fig/CalibrationCurves.pdf, page is rotated 90 degrees>]
-[150 <./DECALStudies/fig/ResolutionFits.pdf, page is rotated 90 degrees>]
-<DECALStudies/fig/2DRawStochastic.pdf, id=5874, 569.12625pt x 480.79625pt>
+ [150]
+[151 <./DECALStudies/fig/CalibrationCurves.pdf, page is rotated 90 degrees>]
+[152 <./DECALStudies/fig/ResolutionFits.pdf, page is rotated 90 degrees>]
+<DECALStudies/fig/2DRawStochastic.pdf, id=6057, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/2DRawStochastic.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/2DRawStochastic.pdf>
@@ -2464,7 +2484,7 @@ Package pdftex.def Info: DECALStudies/fig/2DRawStochastic.pdf used on input lin
 e 90.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<DECALStudies/fig/2DRawNoise.pdf, id=5875, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/2DRawNoise.pdf, id=6058, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/2DRawNoise.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/2DRawNoise.pdf>
@@ -2472,7 +2492,7 @@ Package pdftex.def Info: DECALStudies/fig/2DRawNoise.pdf used on input line 96.
 
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<DECALStudies/fig/2DRawConstant.pdf, id=5876, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/2DRawConstant.pdf, id=6059, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/2DRawConstant.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/2DRawConstant.pdf>
@@ -2480,7 +2500,7 @@ Package pdftex.def Info: DECALStudies/fig/2DRawConstant.pdf used on input line
 102.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<DECALStudies/fig/Occupancy_100GeV.pdf, id=5877, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/Occupancy_100GeV.pdf, id=6060, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/Occupancy_100GeV.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/Occupancy_100GeV.pdf>
@@ -2488,28 +2508,32 @@ Package pdftex.def Info: DECALStudies/fig/Occupancy_100GeV.pdf used on input li
 ne 109.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [151 <./DECALStudies/fig/2DRawStochastic.pdf, page is rotated 90 degrees>] [15
-2 <./DECALStudies/fig/2DRawNoise.pdf, page is rotated 90 degrees> <./DECALStudi
-es/fig/2DRawConstant.pdf, page is rotated 90 degrees>]
-<DECALStudies/fig/LandauVsPitch.pdf, id=6018, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/LandauVsPitch.pdf, id=6063, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/LandauVsPitch.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/LandauVsPitch.pdf>
 Package pdftex.def Info: DECALStudies/fig/LandauVsPitch.pdf used on input line 
 119.
-(pdftex.def)             Requested size: 384.10959pt x 324.50877pt.
+(pdftex.def)             Requested size: 341.43436pt x 288.45795pt.
 
-<DECALStudies/fig/LandauVsEpi.pdf, id=6019, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/LandauVsEpi.pdf, id=6064, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/LandauVsEpi.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/LandauVsEpi.pdf>
 Package pdftex.def Info: DECALStudies/fig/LandauVsEpi.pdf used on input line 12
 5.
-(pdftex.def)             Requested size: 384.10959pt x 324.50877pt.
+(pdftex.def)             Requested size: 341.43436pt x 288.45795pt.
 
-<DECALStudies/fig/2DRawRes10.pdf, id=6023, 569.12625pt x 480.79625pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [153]
+[154 <./DECALStudies/fig/2DRawStochastic.pdf, page is rotated 90 degrees> <./DE
+CALStudies/fig/2DRawNoise.pdf, page is rotated 90 degrees>] [155 <./DECALStudie
+s/fig/2DRawConstant.pdf, page is rotated 90 degrees> <./DECALStudies/fig/Occupa
+ncy_100GeV.pdf, page is rotated 90 degrees>] [156 <./DECALStudies/fig/LandauVsP
+itch.pdf, page is rotated 90 degrees> <./DECALStudies/fig/LandauVsEpi.pdf, page
+ is rotated 90 degrees>]
+<DECALStudies/fig/2DRawRes10.pdf, id=6346, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/2DRawRes10.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/2DRawRes10.pdf>
@@ -2517,7 +2541,7 @@ Package pdftex.def Info: DECALStudies/fig/2DRawRes10.pdf used on input line 134
 .
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<DECALStudies/fig/2DRawRes50.pdf, id=6024, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/2DRawRes50.pdf, id=6347, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/2DRawRes50.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/2DRawRes50.pdf>
@@ -2525,7 +2549,7 @@ Package pdftex.def Info: DECALStudies/fig/2DRawRes50.pdf used on input line 141
 .
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<DECALStudies/fig/2DRawRes250.pdf, id=6025, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/2DRawRes250.pdf, id=6348, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/2DRawRes250.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/2DRawRes250.pdf>
@@ -2533,97 +2557,118 @@ Package pdftex.def Info: DECALStudies/fig/2DRawRes250.pdf used on input line 14
 8.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<DECALStudies/fig/MAPSSaturation.jpg, id=6349, 803.0pt x 602.25pt>
+File: DECALStudies/fig/MAPSSaturation.jpg Graphic file (type jpg)
 
- [153 <./DECALStudies/fig/Occupancy_100GeV.pdf, page is rotated 90 degrees>] [1
-54 <./DECALStudies/fig/LandauVsPitch.pdf, page is rotated 90 degrees>] [155 <./
-DECALStudies/fig/LandauVsEpi.pdf, page is rotated 90 degrees> <./DECALStudies/f
-ig/2DRawRes10.pdf, page is rotated 90 degrees>] [156 <./DECALStudies/fig/2DRawR
-es50.pdf, page is rotated 90 degrees> <./DECALStudies/fig/2DRawRes250.pdf, page
- is rotated 90 degrees>] [157] [158]
-<DECALStudies/fig/ThresholdScan.pdf, id=6313, 569.12625pt x 480.79625pt>
+<use DECALStudies/fig/MAPSSaturation.jpg>
+Package pdftex.def Info: DECALStudies/fig/MAPSSaturation.jpg used on input line
+ 155.
+(pdftex.def)             Requested size: 298.75262pt x 224.0696pt.
+
+<DECALStudies/fig/MAPSIdeal.jpg, id=6350, 803.0pt x 602.25pt>
+File: DECALStudies/fig/MAPSIdeal.jpg Graphic file (type jpg)
+
+<use DECALStudies/fig/MAPSIdeal.jpg>
+Package pdftex.def Info: DECALStudies/fig/MAPSIdeal.jpg used on input line 162.
+
+(pdftex.def)             Requested size: 298.75262pt x 224.0696pt.
+
+<DECALStudies/fig/MAPSBoundary.jpg, id=6351, 803.0pt x 602.25pt>
+File: DECALStudies/fig/MAPSBoundary.jpg Graphic file (type jpg)
+
+<use DECALStudies/fig/MAPSBoundary.jpg>
+Package pdftex.def Info: DECALStudies/fig/MAPSBoundary.jpg used on input line 1
+69.
+(pdftex.def)             Requested size: 298.75262pt x 224.0696pt.
+ [157 <./DECALStudies/fig/2DRawRes10.pdf, page is rotated 90 degrees>] [158 <./
+DECALStudies/fig/2DRawRes50.pdf, page is rotated 90 degrees> <./DECALStudies/fi
+g/2DRawRes250.pdf, page is rotated 90 degrees>] [159 <./DECALStudies/fig/MAPSSa
+turation.jpg> <./DECALStudies/fig/MAPSIdeal.jpg>] [160 <./DECALStudies/fig/MAPS
+Boundary.jpg>] [161]
+<DECALStudies/fig/ThresholdScan.pdf, id=6506, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/ThresholdScan.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/ThresholdScan.pdf>
 Package pdftex.def Info: DECALStudies/fig/ThresholdScan.pdf used on input line 
-171.
+192.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
- [159 <./DECALStudies/fig/ThresholdScan.pdf, page is rotated 90 degrees>]
+ [162 <./DECALStudies/fig/ThresholdScan.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [160]
-<DECALStudies/fig/FullDigiStochastic.pdf, id=6369, 569.12625pt x 480.79625pt>
+ [163]
+<DECALStudies/fig/FullDigiStochastic.pdf, id=6562, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/FullDigiStochastic.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/FullDigiStochastic.pdf>
 Package pdftex.def Info: DECALStudies/fig/FullDigiStochastic.pdf used on input 
-line 185.
+line 206.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<DECALStudies/fig/FullDigiNoise.pdf, id=6370, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/FullDigiNoise.pdf, id=6563, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/FullDigiNoise.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/FullDigiNoise.pdf>
 Package pdftex.def Info: DECALStudies/fig/FullDigiNoise.pdf used on input line 
-191.
+212.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<DECALStudies/fig/FullDigiConstant.pdf, id=6371, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/FullDigiConstant.pdf, id=6564, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/FullDigiConstant.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/FullDigiConstant.pdf>
 Package pdftex.def Info: DECALStudies/fig/FullDigiConstant.pdf used on input li
-ne 197.
+ne 218.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<DECALStudies/fig/NoClusterRes10.pdf, id=6372, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/NoClusterRes10.pdf, id=6565, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/NoClusterRes10.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/NoClusterRes10.pdf>
 Package pdftex.def Info: DECALStudies/fig/NoClusterRes10.pdf used on input line
- 204.
+ 225.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<DECALStudies/fig/FullDigiRes10.pdf, id=6373, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/FullDigiRes10.pdf, id=6566, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/FullDigiRes10.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/FullDigiRes10.pdf>
 Package pdftex.def Info: DECALStudies/fig/FullDigiRes10.pdf used on input line 
-213.
+234.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<DECALStudies/fig/FullDigiRes50.pdf, id=6374, 569.12625pt x 480.79625pt>
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+ [164 <./DECALStudies/fig/FullDigiStochastic.pdf, page is rotated 90 degrees>] 
+[165 <./DECALStudies/fig/FullDigiNoise.pdf, page is rotated 90 degrees> <./DECA
+LStudies/fig/FullDigiConstant.pdf, page is rotated 90 degrees>]
+<DECALStudies/fig/FullDigiRes50.pdf, id=6705, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/FullDigiRes50.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/FullDigiRes50.pdf>
 Package pdftex.def Info: DECALStudies/fig/FullDigiRes50.pdf used on input line 
-220.
+241.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
-<DECALStudies/fig/FullDigiRes250.pdf, id=6375, 569.12625pt x 480.79625pt>
+<DECALStudies/fig/FullDigiRes250.pdf, id=6706, 569.12625pt x 480.79625pt>
 File: DECALStudies/fig/FullDigiRes250.pdf Graphic file (type pdf)
 
 <use DECALStudies/fig/FullDigiRes250.pdf>
 Package pdftex.def Info: DECALStudies/fig/FullDigiRes250.pdf used on input line
- 227.
+ 248.
 (pdftex.def)             Requested size: 298.75262pt x 252.39246pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [161 <./DECALStudies/fig/FullDigiStochastic.pdf, page is rotated 90 degrees>] 
-[162 <./DECALStudies/fig/FullDigiNoise.pdf, page is rotated 90 degrees> <./DECA
-LStudies/fig/FullDigiConstant.pdf, page is rotated 90 degrees>] [163 <./DECALSt
-udies/fig/NoClusterRes10.pdf, page is rotated 90 degrees> <./DECALStudies/fig/F
-ullDigiRes10.pdf, page is rotated 90 degrees>] [164 <./DECALStudies/fig/FullDig
-iRes50.pdf, page is rotated 90 degrees> <./DECALStudies/fig/FullDigiRes250.pdf,
- page is rotated 90 degrees>] [165]
+ [166 <./DECALStudies/fig/NoClusterRes10.pdf, page is rotated 90 degrees>] [167
+ <./DECALStudies/fig/FullDigiRes10.pdf, page is rotated 90 degrees> <./DECALStu
+dies/fig/FullDigiRes50.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [166]
-Underfull \vbox (badness 1127) has occurred while \output is active []
+ [168 <./DECALStudies/fig/FullDigiRes250.pdf, page is rotated 90 degrees>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [167])
-[168]
+ [169]
+[170]) [171]
 \openout2 = `Conclusion/content.aux'.
 
  (./Conclusion/content.tex
@@ -2631,18 +2676,17 @@ Chapter 7.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [169
+ [172
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [170])
-[171] [172
+ [173])
+[174] (./thesis.bbl [175
 
 
-] (./thesis.bbl [173
 
 ]
 Underfull \hbox (badness 2065) in paragraph at lines 62--64
@@ -2650,44 +2694,43 @@ Underfull \hbox (badness 2065) in paragraph at lines 62--64
 Case for the In-ter-na-tional Lin-ear Col-lider,''
  []
 
-[174]
-Underfull \hbox (badness 1496) in paragraph at lines 125--127
+[176]
+Underfull \hbox (badness 1496) in paragraph at lines 136--138
 []\OT1/cmr/m/n/12 T. Abe \OT1/cmr/m/it/12 et al.\OT1/cmr/m/n/12 , ``The In-ter-
 na-tional Large De-tec-tor: Let-ter of In-tent,''
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 133--136
+Underfull \hbox (badness 1231) in paragraph at lines 144--147
 []\OT1/cmr/m/n/12 Y. Giomataris, P. Re-bourgeard, J. P. Robert, and G. Charpak,
  ``MI-
  []
 
-[175]
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+[177]
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
 []\OT1/cmr/m/n/12 ``Monte carlo sam-ples for clic higgs stud-ies,
  []
 
 
-Overfull \hbox (6.25694pt too wide) in paragraph at lines 229--231
+Overfull \hbox (6.25694pt too wide) in paragraph at lines 249--251
 \OT1/cmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/clic/montecarlosamplesfort
 hehiggspaper.'' 
  []
 
-[176]
-Underfull \hbox (badness 2269) in paragraph at lines 255--257
+[178]
+Underfull \hbox (badness 2269) in paragraph at lines 275--277
 []\OT1/cmr/m/n/12 ``CLIC Con-cep-tual De-sign Re-port: Physics and De-tec-tors 
 at CLIC,''
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 273--275
+Underfull \hbox (badness 1454) in paragraph at lines 293--295
 []\OT1/cmr/m/n/12 J. Thaler and K. Van Tilburg, ``Iden-ti-fy-ing Boosted Ob-jec
 ts with N-
  []
 
-) [177] [178
+[179]) [180] [181
 
-] [179
 
 ]
 \openout2 = `Appendix/appendix.aux'.
@@ -2699,35 +2742,35 @@ ifier (name{chapter.1}) has been already used, duplicate ignored
 l.1 \chapter{Appendix A: Higgs Results}
                                        
 Appendix A.
-<Appendix/figures/DiraLep.pdf, id=6801, 569.12625pt x 480.79625pt>
+<Appendix/figures/DiraLep.pdf, id=6990, 569.12625pt x 480.79625pt>
 File: Appendix/figures/DiraLep.pdf Graphic file (type pdf)
 
 <use Appendix/figures/DiraLep.pdf>
 Package pdftex.def Info: Appendix/figures/DiraLep.pdf used on input line 8.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/DiraWqq.pdf, id=6802, 569.12625pt x 480.79625pt>
+<Appendix/figures/DiraWqq.pdf, id=6991, 569.12625pt x 480.79625pt>
 File: Appendix/figures/DiraWqq.pdf Graphic file (type pdf)
 
 <use Appendix/figures/DiraWqq.pdf>
 Package pdftex.def Info: Appendix/figures/DiraWqq.pdf used on input line 14.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/EWqq.pdf, id=6803, 569.12625pt x 480.79625pt>
+<Appendix/figures/EWqq.pdf, id=6992, 569.12625pt x 480.79625pt>
 File: Appendix/figures/EWqq.pdf Graphic file (type pdf)
 
 <use Appendix/figures/EWqq.pdf>
 Package pdftex.def Info: Appendix/figures/EWqq.pdf used on input line 20.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/HiggsMass.pdf, id=6804, 569.12625pt x 480.79625pt>
+<Appendix/figures/HiggsMass.pdf, id=6993, 569.12625pt x 480.79625pt>
 File: Appendix/figures/HiggsMass.pdf Graphic file (type pdf)
 
 <use Appendix/figures/HiggsMass.pdf>
 Package pdftex.def Info: Appendix/figures/HiggsMass.pdf used on input line 26.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/JetCosTheta.pdf, id=6805, 569.12625pt x 480.79625pt>
+<Appendix/figures/JetCosTheta.pdf, id=6994, 569.12625pt x 480.79625pt>
 File: Appendix/figures/JetCosTheta.pdf Graphic file (type pdf)
 
 <use Appendix/figures/JetCosTheta.pdf>
@@ -2735,7 +2778,7 @@ Package pdftex.def Info: Appendix/figures/JetCosTheta.pdf used on input line 32
 .
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/LepID.pdf, id=6806, 569.12625pt x 480.79625pt>
+<Appendix/figures/LepID.pdf, id=6995, 569.12625pt x 480.79625pt>
 File: Appendix/figures/LepID.pdf Graphic file (type pdf)
 
 <use Appendix/figures/LepID.pdf>
@@ -2758,14 +2801,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 43.
 
-<Appendix/figures/LepPt.pdf, id=6807, 569.12625pt x 480.79625pt>
+<Appendix/figures/LepPt.pdf, id=6996, 569.12625pt x 480.79625pt>
 File: Appendix/figures/LepPt.pdf Graphic file (type pdf)
 
 <use Appendix/figures/LepPt.pdf>
 Package pdftex.def Info: Appendix/figures/LepPt.pdf used on input line 46.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/MinJetLepAngSep.pdf, id=6808, 569.12625pt x 480.79625pt>
+<Appendix/figures/MinJetLepAngSep.pdf, id=6997, 569.12625pt x 480.79625pt>
 File: Appendix/figures/MinJetLepAngSep.pdf Graphic file (type pdf)
 
 <use Appendix/figures/MinJetLepAngSep.pdf>
@@ -2773,7 +2816,7 @@ Package pdftex.def Info: Appendix/figures/MinJetLepAngSep.pdf used on input lin
 e 51.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/MinJetLepPt.pdf, id=6809, 569.12625pt x 480.79625pt>
+<Appendix/figures/MinJetLepPt.pdf, id=6998, 569.12625pt x 480.79625pt>
 File: Appendix/figures/MinJetLepPt.pdf Graphic file (type pdf)
 
 <use Appendix/figures/MinJetLepPt.pdf>
@@ -2781,7 +2824,7 @@ Package pdftex.def Info: Appendix/figures/MinJetLepPt.pdf used on input line 56
 .
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/MinorThrust.pdf, id=6810, 569.12625pt x 480.79625pt>
+<Appendix/figures/MinorThrust.pdf, id=6999, 569.12625pt x 480.79625pt>
 File: Appendix/figures/MinorThrust.pdf Graphic file (type pdf)
 
 <use Appendix/figures/MinorThrust.pdf>
@@ -2789,14 +2832,14 @@ Package pdftex.def Info: Appendix/figures/MinorThrust.pdf used on input line 62
 .
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/MissingE.pdf, id=6811, 569.12625pt x 480.79625pt>
+<Appendix/figures/MissingE.pdf, id=7000, 569.12625pt x 480.79625pt>
 File: Appendix/figures/MissingE.pdf Graphic file (type pdf)
 
 <use Appendix/figures/MissingE.pdf>
 Package pdftex.def Info: Appendix/figures/MissingE.pdf used on input line 68.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/MissingPt.pdf, id=6812, 569.12625pt x 480.79625pt>
+<Appendix/figures/MissingPt.pdf, id=7001, 569.12625pt x 480.79625pt>
 File: Appendix/figures/MissingPt.pdf Graphic file (type pdf)
 
 <use Appendix/figures/MissingPt.pdf>
@@ -2816,21 +2859,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--78
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 80.
 
-<Appendix/figures/MWqq.pdf, id=6813, 569.12625pt x 480.79625pt>
+<Appendix/figures/MWqq.pdf, id=7002, 569.12625pt x 480.79625pt>
 File: Appendix/figures/MWqq.pdf Graphic file (type pdf)
 
 <use Appendix/figures/MWqq.pdf>
 Package pdftex.def Info: Appendix/figures/MWqq.pdf used on input line 83.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/nLep.pdf, id=6814, 569.12625pt x 480.79625pt>
+<Appendix/figures/nLep.pdf, id=7003, 569.12625pt x 480.79625pt>
 File: Appendix/figures/nLep.pdf Graphic file (type pdf)
 
 <use Appendix/figures/nLep.pdf>
 Package pdftex.def Info: Appendix/figures/nLep.pdf used on input line 89.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/NTightPFOs.pdf, id=6815, 569.12625pt x 480.79625pt>
+<Appendix/figures/NTightPFOs.pdf, id=7004, 569.12625pt x 480.79625pt>
 File: Appendix/figures/NTightPFOs.pdf Graphic file (type pdf)
 
 <use Appendix/figures/NTightPFOs.pdf>
@@ -2838,7 +2881,7 @@ Package pdftex.def Info: Appendix/figures/NTightPFOs.pdf used on input line 95.
 
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/PFOsInJets.pdf, id=6816, 569.12625pt x 480.79625pt>
+<Appendix/figures/PFOsInJets.pdf, id=7005, 569.12625pt x 480.79625pt>
 File: Appendix/figures/PFOsInJets.pdf Graphic file (type pdf)
 
 <use Appendix/figures/PFOsInJets.pdf>
@@ -2846,14 +2889,14 @@ Package pdftex.def Info: Appendix/figures/PFOsInJets.pdf used on input line 101
 .
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/SumBTags.pdf, id=6817, 569.12625pt x 480.79625pt>
+<Appendix/figures/SumBTags.pdf, id=7006, 569.12625pt x 480.79625pt>
 File: Appendix/figures/SumBTags.pdf Graphic file (type pdf)
 
 <use Appendix/figures/SumBTags.pdf>
 Package pdftex.def Info: Appendix/figures/SumBTags.pdf used on input line 107.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/WqqLepAngSep.pdf, id=6818, 569.12625pt x 480.79625pt>
+<Appendix/figures/WqqLepAngSep.pdf, id=7007, 569.12625pt x 480.79625pt>
 File: Appendix/figures/WqqLepAngSep.pdf Graphic file (type pdf)
 
 <use Appendix/figures/WqqLepAngSep.pdf>
@@ -2861,7 +2904,7 @@ Package pdftex.def Info: Appendix/figures/WqqLepAngSep.pdf used on input line 1
 13.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<Appendix/figures/Y12.pdf, id=6819, 569.12625pt x 480.79625pt>
+<Appendix/figures/Y12.pdf, id=7008, 569.12625pt x 480.79625pt>
 File: Appendix/figures/Y12.pdf Graphic file (type pdf)
 
 <use Appendix/figures/Y12.pdf>
@@ -2885,19 +2928,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--123
 
 LaTeX Warning: Float too large for page by 36.26265pt on input line 123.
 
-) [180
+) [182
 
 
-] [181 <./Appendix/figures/DiraLep.pdf, page is rotated 90 degrees> <./Appendix
+] [183 <./Appendix/figures/DiraLep.pdf, page is rotated 90 degrees> <./Appendix
 /figures/DiraWqq.pdf, page is rotated 90 degrees> <./Appendix/figures/EWqq.pdf,
  page is rotated 90 degrees> <./Appendix/figures/HiggsMass.pdf, page is rotated
  90 degrees> <./Appendix/figures/JetCosTheta.pdf, page is rotated 90 degrees> <
-./Appendix/figures/LepID.pdf, page is rotated 90 degrees>] [182 <./Appendix/fig
+./Appendix/figures/LepID.pdf, page is rotated 90 degrees>] [184 <./Appendix/fig
 ures/LepPt.pdf, page is rotated 90 degrees> <./Appendix/figures/MinJetLepAngSep
 .pdf, page is rotated 90 degrees> <./Appendix/figures/MinJetLepPt.pdf, page is 
 rotated 90 degrees> <./Appendix/figures/MinorThrust.pdf, page is rotated 90 deg
 rees> <./Appendix/figures/MissingE.pdf, page is rotated 90 degrees> <./Appendix
-/figures/MissingPt.pdf, page is rotated 90 degrees>] [183 <./Appendix/figures/M
+/figures/MissingPt.pdf, page is rotated 90 degrees>] [185 <./Appendix/figures/M
 Wqq.pdf, page is rotated 90 degrees> <./Appendix/figures/nLep.pdf, page is rota
 ted 90 degrees> <./Appendix/figures/NTightPFOs.pdf, page is rotated 90 degrees>
  <./Appendix/figures/PFOsInJets.pdf, page is rotated 90 degrees> <./Appendix/fi
@@ -2914,7 +2957,7 @@ l.1 \chapter{Appendix B: Top Results}
                                      
 Appendix B.
 
-<TopAnalysis/figures/BDTVariables/EnergyConstraintAlt.pdf, id=7661, 569.12625pt
+<TopAnalysis/figures/BDTVariables/EnergyConstraintAlt.pdf, id=7850, 569.12625pt
  x 480.79625pt>
 File: TopAnalysis/figures/BDTVariables/EnergyConstraintAlt.pdf Graphic file (ty
 pe pdf)
@@ -2923,7 +2966,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/EnergyConstraintAlt.p
 df used on input line 10.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/VisibleEnergy.pdf, id=7662, 569.12625pt x 480
+<TopAnalysis/figures/BDTVariables/VisibleEnergy.pdf, id=7851, 569.12625pt x 480
 .79625pt>
 File: TopAnalysis/figures/BDTVariables/VisibleEnergy.pdf Graphic file (type pdf
 )
@@ -2937,7 +2980,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 22.
 
 
-<TopAnalysis/figures/BDTVariables/VisiblePt.pdf, id=7663, 569.12625pt x 480.796
+<TopAnalysis/figures/BDTVariables/VisiblePt.pdf, id=7852, 569.12625pt x 480.796
 25pt>
 File: TopAnalysis/figures/BDTVariables/VisiblePt.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/BDTVariables/VisiblePt.pdf>
@@ -2945,7 +2988,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/VisiblePt.pdf used on
  input line 25.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/HadronicEnergy.pdf, id=7664, 569.12625pt x 48
+<TopAnalysis/figures/BDTVariables/HadronicEnergy.pdf, id=7853, 569.12625pt x 48
 0.79625pt>
 File: TopAnalysis/figures/BDTVariables/HadronicEnergy.pdf Graphic file (type pd
 f)
@@ -2954,7 +2997,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/HadronicEnergy.pdf us
 ed on input line 31.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/HadronicPt.pdf, id=7665, 569.12625pt x 480.79
+<TopAnalysis/figures/BDTVariables/HadronicPt.pdf, id=7854, 569.12625pt x 480.79
 625pt>
 File: TopAnalysis/figures/BDTVariables/HadronicPt.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/BDTVariables/HadronicPt.pdf>
@@ -2962,7 +3005,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/HadronicPt.pdf used o
 n input line 37.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/LeptonicJetMass.pdf, id=7666, 569.12625pt x 4
+<TopAnalysis/figures/BDTVariables/LeptonicJetMass.pdf, id=7855, 569.12625pt x 4
 80.79625pt>
 File: TopAnalysis/figures/BDTVariables/LeptonicJetMass.pdf Graphic file (type p
 df)
@@ -2971,7 +3014,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/LeptonicJetMass.pdf u
 sed on input line 43.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/Leptonic1SubJettiness.pdf, id=7667, 569.12625
+<TopAnalysis/figures/BDTVariables/Leptonic1SubJettiness.pdf, id=7856, 569.12625
 pt x 480.79625pt>
 File: TopAnalysis/figures/BDTVariables/Leptonic1SubJettiness.pdf Graphic file (
 type pdf)
@@ -2981,7 +3024,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/Leptonic1SubJettiness
 .pdf used on input line 49.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/Leptonic12Ratio.pdf, id=7668, 569.12625pt x 4
+<TopAnalysis/figures/BDTVariables/Leptonic12Ratio.pdf, id=7857, 569.12625pt x 4
 80.79625pt>
 File: TopAnalysis/figures/BDTVariables/Leptonic12Ratio.pdf Graphic file (type p
 df)
@@ -3004,7 +3047,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 61.
 
 
-<TopAnalysis/figures/BDTVariables/HighEtoLowEDira.pdf, id=7669, 569.12625pt x 4
+<TopAnalysis/figures/BDTVariables/HighEtoLowEDira.pdf, id=7858, 569.12625pt x 4
 80.79625pt>
 File: TopAnalysis/figures/BDTVariables/HighEtoLowEDira.pdf Graphic file (type p
 df)
@@ -3013,7 +3056,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/HighEtoLowEDira.pdf u
 sed on input line 64.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/HighEtoMidEDira.pdf, id=7670, 569.12625pt x 4
+<TopAnalysis/figures/BDTVariables/HighEtoMidEDira.pdf, id=7859, 569.12625pt x 4
 80.79625pt>
 File: TopAnalysis/figures/BDTVariables/HighEtoMidEDira.pdf Graphic file (type p
 df)
@@ -3022,7 +3065,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/HighEtoMidEDira.pdf u
 sed on input line 70.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/MidEtoLowEDira.pdf, id=7671, 569.12625pt x 48
+<TopAnalysis/figures/BDTVariables/MidEtoLowEDira.pdf, id=7860, 569.12625pt x 48
 0.79625pt>
 File: TopAnalysis/figures/BDTVariables/MidEtoLowEDira.pdf Graphic file (type pd
 f)
@@ -3031,7 +3074,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/MidEtoLowEDira.pdf us
 ed on input line 76.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/IsoLepEnergy.pdf, id=7672, 569.12625pt x 480.
+<TopAnalysis/figures/BDTVariables/IsoLepEnergy.pdf, id=7861, 569.12625pt x 480.
 79625pt>
 File: TopAnalysis/figures/BDTVariables/IsoLepEnergy.pdf Graphic file (type pdf)
 
@@ -3040,7 +3083,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/IsoLepEnergy.pdf used
  on input line 82.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/IsoLepPt.pdf, id=7673, 569.12625pt x 480.7962
+<TopAnalysis/figures/BDTVariables/IsoLepPt.pdf, id=7862, 569.12625pt x 480.7962
 5pt>
 File: TopAnalysis/figures/BDTVariables/IsoLepPt.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/BDTVariables/IsoLepPt.pdf>
@@ -3048,7 +3091,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/IsoLepPt.pdf used on
 input line 88.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/IsoLepMomentum.pdf, id=7674, 569.12625pt x 48
+<TopAnalysis/figures/BDTVariables/IsoLepMomentum.pdf, id=7863, 569.12625pt x 48
 0.79625pt>
 File: TopAnalysis/figures/BDTVariables/IsoLepMomentum.pdf Graphic file (type pd
 f)
@@ -3071,7 +3114,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 100.
 
 
-<TopAnalysis/figures/BDTVariables/NLeptonCandidates.pdf, id=7675, 569.12625pt x
+<TopAnalysis/figures/BDTVariables/NLeptonCandidates.pdf, id=7864, 569.12625pt x
  480.79625pt>
 File: TopAnalysis/figures/BDTVariables/NLeptonCandidates.pdf Graphic file (type
  pdf)
@@ -3080,7 +3123,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/NLeptonCandidates.pdf
  used on input line 103.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/TopLepDira.pdf, id=7676, 569.12625pt x 480.79
+<TopAnalysis/figures/BDTVariables/TopLepDira.pdf, id=7865, 569.12625pt x 480.79
 625pt>
 File: TopAnalysis/figures/BDTVariables/TopLepDira.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/BDTVariables/TopLepDira.pdf>
@@ -3088,7 +3131,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/TopLepDira.pdf used o
 n input line 109.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/Y23.pdf, id=7677, 569.12625pt x 480.79625pt>
+<TopAnalysis/figures/BDTVariables/Y23.pdf, id=7866, 569.12625pt x 480.79625pt>
 File: TopAnalysis/figures/BDTVariables/Y23.pdf Graphic file (type pdf)
 
 <use TopAnalysis/figures/BDTVariables/Y23.pdf>
@@ -3096,7 +3139,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/Y23.pdf used on input
  line 115.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/majthval.pdf, id=7678, 569.12625pt x 480.7962
+<TopAnalysis/figures/BDTVariables/majthval.pdf, id=7867, 569.12625pt x 480.7962
 5pt>
 File: TopAnalysis/figures/BDTVariables/majthval.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/BDTVariables/majthval.pdf>
@@ -3104,7 +3147,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/majthval.pdf used on
 input line 121.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/LeptonicTopEnergy.pdf, id=7679, 569.12625pt x
+<TopAnalysis/figures/BDTVariables/LeptonicTopEnergy.pdf, id=7868, 569.12625pt x
  480.79625pt>
 File: TopAnalysis/figures/BDTVariables/LeptonicTopEnergy.pdf Graphic file (type
  pdf)
@@ -3113,7 +3156,7 @@ Package pdftex.def Info: TopAnalysis/figures/BDTVariables/LeptonicTopEnergy.pdf
  used on input line 127.
 (pdftex.def)             Requested size: 160.04674pt x 135.20892pt.
 
-<TopAnalysis/figures/BDTVariables/HighestBTag.pdf, id=7680, 569.12625pt x 480.7
+<TopAnalysis/figures/BDTVariables/HighestBTag.pdf, id=7869, 569.12625pt x 480.7
 9625pt>
 File: TopAnalysis/figures/BDTVariables/HighestBTag.pdf Graphic file (type pdf)
  <use TopAnalysis/figures/BDTVariables/HighestBTag.pdf>
@@ -3135,7 +3178,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 139.
 
 
-<TopAnalysis/figures/BDTVariables/NextHighestBTag.pdf, id=7681, 569.12625pt x 4
+<TopAnalysis/figures/BDTVariables/NextHighestBTag.pdf, id=7870, 569.12625pt x 4
 80.79625pt>
 File: TopAnalysis/figures/BDTVariables/NextHighestBTag.pdf Graphic file (type p
 df)
@@ -3163,33 +3206,33 @@ Overfull \hbox (53.78555pt too wide) in paragraph at lines 262--293
  [][] 
  []
 
-) [184
+) [186
 
 
 
  <./TopAnalysis/figures/BDTVariables/EnergyConstraintAlt.pdf, page is rotated 9
 0 degrees> <./TopAnalysis/figures/BDTVariables/VisibleEnergy.pdf, page is rotat
-ed 90 degrees>] [185 <./TopAnalysis/figures/BDTVariables/VisiblePt.pdf, page is
+ed 90 degrees>] [187 <./TopAnalysis/figures/BDTVariables/VisiblePt.pdf, page is
  rotated 90 degrees> <./TopAnalysis/figures/BDTVariables/HadronicEnergy.pdf, pa
 ge is rotated 90 degrees> <./TopAnalysis/figures/BDTVariables/HadronicPt.pdf, p
 age is rotated 90 degrees> <./TopAnalysis/figures/BDTVariables/LeptonicJetMass.
 pdf, page is rotated 90 degrees> <./TopAnalysis/figures/BDTVariables/Leptonic1S
 ubJettiness.pdf, page is rotated 90 degrees> <./TopAnalysis/figures/BDTVariable
-s/Leptonic12Ratio.pdf, page is rotated 90 degrees>] [186 <./TopAnalysis/figures
+s/Leptonic12Ratio.pdf, page is rotated 90 degrees>] [188 <./TopAnalysis/figures
 /BDTVariables/HighEtoLowEDira.pdf, page is rotated 90 degrees> <./TopAnalysis/f
 igures/BDTVariables/HighEtoMidEDira.pdf, page is rotated 90 degrees> <./TopAnal
 ysis/figures/BDTVariables/MidEtoLowEDira.pdf, page is rotated 90 degrees> <./To
 pAnalysis/figures/BDTVariables/IsoLepEnergy.pdf, page is rotated 90 degrees> <.
 /TopAnalysis/figures/BDTVariables/IsoLepPt.pdf, page is rotated 90 degrees> <./
 TopAnalysis/figures/BDTVariables/IsoLepMomentum.pdf, page is rotated 90 degrees
->] [187 <./TopAnalysis/figures/BDTVariables/NLeptonCandidates.pdf, page is rota
+>] [189 <./TopAnalysis/figures/BDTVariables/NLeptonCandidates.pdf, page is rota
 ted 90 degrees> <./TopAnalysis/figures/BDTVariables/TopLepDira.pdf, page is rot
 ated 90 degrees> <./TopAnalysis/figures/BDTVariables/Y23.pdf, page is rotated 9
 0 degrees> <./TopAnalysis/figures/BDTVariables/majthval.pdf, page is rotated 90
  degrees> <./TopAnalysis/figures/BDTVariables/LeptonicTopEnergy.pdf, page is ro
 tated 90 degrees> <./TopAnalysis/figures/BDTVariables/HighestBTag.pdf, page is 
-rotated 90 degrees>] [188 <./TopAnalysis/figures/BDTVariables/NextHighestBTag.p
-df, page is rotated 90 degrees>] [189] [190] [191]
+rotated 90 degrees>] [190 <./TopAnalysis/figures/BDTVariables/NextHighestBTag.p
+df, page is rotated 90 degrees>] [191] [192] [193]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
  (./thesis.aux
@@ -3201,7 +3244,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5E6986AAF1E1D9512E52D50CF1345C38;5689.
+(rerunfilecheck)             Checksum: 6DB39CA683D83FE004ED5104E4E041B3;5760.
 
 
 LaTeX Warning: There were undefined references.
@@ -3209,13 +3252,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
- 12417 strings out of 493039
- 197400 string characters out of 6136943
- 312475 words of memory out of 5000000
- 14877 multiletter control sequences out of 15000+600000
+ 12489 strings out of 493039
+ 199374 string characters out of 6136943
+ 313414 words of memory out of 5000000
+ 14928 multiletter control sequences out of 15000+600000
  22262 words of font info for 86 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 42i,13n,45p,3184b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,45p,3184b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -3239,10 +3282,10 @@ blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmu10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
 >
-Output written on thesis.pdf (210 pages, 7846380 bytes).
+Output written on thesis.pdf (214 pages, 8003203 bytes).
 PDF statistics:
- 8836 PDF objects out of 8907 (max. 8388607)
- 4991 compressed objects within 50 object streams
- 632 named destinations out of 1000 (max. 500000)
- 1466 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 9027 PDF objects out of 10688 (max. 8388607)
+ 5096 compressed objects within 51 object streams
+ 647 named destinations out of 1000 (max. 500000)
+ 1504 words of extra memory for PDF output out of 10000 (max. 10000000)
 

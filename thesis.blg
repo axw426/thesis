@@ -38,45 +38,45 @@ Warning--empty author in CMS:2013xfa
 Warning--empty journal in Abe:2001swa
 Warning--empty journal in Schulte:382453
 Warning--empty author in cdrvol2
-You've used 66 entries,
+You've used 71 entries,
             1876 wiz_defined-function locations,
-            893 strings with 14752 characters,
-and the built_in function-call counts, 15195 in all, are:
-= -- 1488
-> -- 499
+            923 strings with 15736 characters,
+and the built_in function-call counts, 16490 in all, are:
+= -- 1619
+> -- 538
 < -- 1
-+ -- 195
-- -- 129
-* -- 939
-:= -- 2111
-add.period$ -- 65
-call.type$ -- 66
-change.case$ -- 65
++ -- 210
+- -- 139
+* -- 1013
+:= -- 2284
+add.period$ -- 70
+call.type$ -- 71
+change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 75
-duplicate$ -- 923
-empty$ -- 1523
-format.name$ -- 129
-if$ -- 3821
+cite$ -- 80
+duplicate$ -- 1004
+empty$ -- 1651
+format.name$ -- 139
+if$ -- 4155
 int.to.chr$ -- 0
-int.to.str$ -- 66
-missing$ -- 64
-newline$ -- 202
-num.names$ -- 62
-pop$ -- 235
+int.to.str$ -- 71
+missing$ -- 69
+newline$ -- 217
+num.names$ -- 67
+pop$ -- 253
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 612
+skip$ -- 671
 stack$ -- 0
-substring$ -- 743
-swap$ -- 371
+substring$ -- 815
+swap$ -- 408
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 9
-while$ -- 126
-width$ -- 68
-write$ -- 606
+while$ -- 137
+width$ -- 73
+write$ -- 654
 (There were 3 error messages)

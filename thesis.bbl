@@ -90,6 +90,17 @@ M.~Koratzinos, ``{FCC-ee accelerator parameters, performance and
 C.-S.~S. Group, ``{CEPC-SPPC Preliminary Conceptual Design Report. 1. Physics
   and Detector},'' 2015.
 
+\bibitem{MoortgatPick:2005cw}
+G.~Moortgat-Pick {\em et~al.}, ``{The Role of polarized positrons and electrons
+  in revealing fundamental interactions at the linear collider},'' {\em Phys.
+  Rept.}, vol.~460, pp.~131--243, 2008.
+
+\bibitem{Aurand:2009kp}
+B.~Aurand {\em et~al.}, ``{Beam Polarization at the ILC: The Physics Impact and
+  the Accelerator Solutions},'' in {\em {Linear colliders. Proceedings,
+  International Linear Collider Workshop, LCWS08, and International Linear
+  Collider Meeting, ILC08, Chicago, USA, Novermber 16-20, 2008}}, 2009.
+
 \bibitem{CDR}
 P.~{Lebrun} {\em et~al.}, ``{The CLIC Programme: Towards a Staged e+e- Linear
   Collider Exploring the Terascale : CLIC Conceptual Design Report},'' {\em
@@ -137,6 +148,11 @@ Y.~Giomataris, P.~Rebourgeard, J.~P. Robert, and G.~Charpak, ``{MICROMEGAS: A
 \bibitem{Sauli:1997qp}
 F.~Sauli, ``{GEM: A new concept for electron amplification in gas detectors},''
   {\em Nucl. Instrum. Meth.}, vol.~A386, pp.~531--534, 1997.
+
+\bibitem{Adloff:2008aa}
+C.~Adloff {\em et~al.}, ``{Response of the CALICE Si-W electromagnetic
+  calorimeter physics prototype to electrons},'' {\em Nucl. Instrum. Meth.},
+  vol.~A608, pp.~372--383, 2009.
 
 \bibitem{2011JInst...6.5009B}
 J.~A. {Ballin} {\em et~al.}, ``{Design and performance of a CMOS study sensor
@@ -212,6 +228,10 @@ S.~Schael {\em et~al.}, ``{Precision electroweak measurements on the $Z$
 C.~R. Schmidt, ``{Top quark production and decay at next-to-leading order in e+
   e- annihilation},'' {\em Phys. Rev.}, vol.~D54, pp.~3250--3265, 1996.
 
+\bibitem{AguilarSaavedra:2012vh}
+J.~A. Aguilar-Saavedra, M.~C.~N. Fiolhais, and A.~Onofre, ``{Top Effective
+  Operators at the ILC},'' {\em JHEP}, vol.~07, p.~180, 2012.
+
 \bibitem{Fleischer:2003kk}
 J.~Fleischer, A.~Leike, T.~Riemann, and A.~Werthenbach, ``{Electroweak one loop
   corrections for e+ e- annihilation into t anti-top including hard
@@ -285,6 +305,10 @@ J.~Jers\'ak, E.~Laermann, and P.~M. Zerwas, ``Electroweak production of heavy
 \bibitem{Bai:2011uk}
 Y.~Bai and Z.~Han, ``{Improving the Top Quark Forward-Backward Asymmetry
   Measurement at the LHC},'' {\em JHEP}, vol.~02, p.~135, 2012.
+
+\bibitem{Schmitt:2016orm}
+S.~Schmitt, ``{Data Unfolding Methods in High Energy Physics},'' {\em EPJ Web
+  Conf.}, vol.~137, p.~11008, 2017.
 
 \bibitem{2008arXiv0807.2920B}
 J.~{Ballin} {\em et~al.}, ``{Monolithic Active Pixel Sensors (MAPS) in a

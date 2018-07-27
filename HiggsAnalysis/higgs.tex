@@ -148,7 +148,7 @@ The optimization of the $R$ parameter was performed using Monte Carlo informatio
   \label{btag}
 \end{figure}
 
-Flavour tagging of events was performed using LCFIPlus v00-05-02 \cite{Suehara:2015ura}. Three neural nets were used to identify u/d/s, b and c quarks with training for each of these based on samples of 50,000 simulated ee$\rightarrow$ Z$\nu\nu$, Z$\rightarrow$qq 1.4~TeV events. Application of these neural nets returned two parameters for jets within the event that quantify the probability of the jet being either a b-jet or c-jet. For this analysis, identifying b-jets is more useful for discriminating against the relevant backgrounds. Performance of the b-tagging was evaluated by applying the neural nets to a sample of 150,000 events containing an equal number of Z$\rightarrow$ light, c and b quarks. It can be seen from \reffig{btag} that a purity of 90\% can be achieved while still retaining an efficiency of 80\%.
+Flavour tagging of events was performed using LCFIPlus v00-05-02 \cite{Suehara:2015ura}. Three neural nets were used to identify u/d/s, b and c quarks with training for each of these based on samples of 50,000 simulated ee$\rightarrow$ Z$\nu\nu$, Z$\rightarrow$qq 1.4~TeV events. The neural nets are trained on a variety of parameters such as impact parameters, vertex masses, track multiplicity and  track lengths. Application of these neural nets returned two parameters for jets within the event that quantify the probability of the jet being either a b-jet or c-jet. For this analysis, identifying b-jets is more useful for discriminating against the relevant backgrounds. Performance of the b-tagging was evaluated by applying the neural nets to a sample of 150,000 events containing an equal number of Z$\rightarrow$ light, c and b quarks. It can be seen from \reffig{btag} that a purity of 90\% can be achieved while still retaining an efficiency of 80\%, where efficiency is defined as the fraction of true b-jets that pass the b-tag selection, and purity is defined as the fraction of all jets that pass the b-tag that came from true b-jets.
 
 \section{Event Selection}
 
@@ -266,7 +266,7 @@ The \ac{BDT} in this analysis used 7$\times$10$^4$ signal events and 4$\times$10
 \item Magnitude of thrust minor observable
 \item Number of \ac{PFO}s in the two jets
 \item Average angle of the two jets relative to the beam axis
-\item kt jet resolution parameter y$_{12}$ (the resolution parameter R at which the algorithm transitions from identifying 1 jet in an event to identifying 2)
+\item kt jet resolution parameter y$_{12}$ (the jet resolution parameter, $d_{ij}$, at which the algorithm transitions from identifying 1 jet in an event to identifying 2)
 \item Number of tightly selected PFOs in the event
 \item Angular separation of the isolated lepton and reconstructed W boson
 \item Minimum angular separation and transverse momentum of the lepton relative to either jet
@@ -322,7 +322,7 @@ The efficiency for selecting WW$^*\rightarrow$qqqq events in the WW$^*\rightarro
     \bottomrule
   \end{tabular}
   \label{tab:finalHiggsResults}
-  \caption[Samples Used]{Efficiency for all processes following pre-selection and BDT response cuts and the number of events expected to satisfy these requirements, for an integrated luminosity of 1.5 ab$^{-1}$.}
+  \caption[Samples Used]{Efficiency for all processes following pre-selection and BDT response cuts and the number of events expected to satisfy these requirements, for an integrated luminosity of 1.5 ab$^{-1}$. The MC statisitcal uncertainty on the predicted number of events for the signal and dominant background processes is $\mathcal{O}$(1-5\%). In the case of $e\gamma$ processes the uncertainty is $\mathcal{O}$(50\%) due to their extremely large cross sections.}
   \label{cuts}
 \end{table}
 
@@ -337,6 +337,8 @@ On top of the statistical uncertainty there will also be systematic uncertaintie
 \textbf{W Branching Ratios}-- In order to measure $\sigma_{H\nu\nu}\times BR_{H\rightarrow WW}$ it is necessary to correct for the $WW\rightarrow qql\nu$ branching ratio. This quantity is already well measured\cite{Patrignani:2016xqp} with an uncertainty of 0.09\% (0.27\%) for the leptonc (hadronic) decay modes. This gives an uncertainty on the branching ratio $WW\rightarrow qql\nu$ and $\sigma_{H\nu\nu}\times BR_{H\rightarrow WW}$ of 0.57\%.
 
 As well as these uncertainties there are other effects that have not yet been quantified. In particular, it would be beneficial to examine the effect of using a different event generator/hadronization scheme to evaluate the effect of modelling on the variables used in the event selection. However, there are currently no alternative simulation packages available within the linear collider framework and so there is currently no quantification of these effects. Overall it is believed that the effect of different hadronization models should be small when compared to the other systematic effects as few of the input variables for training the BDT are expected to be sensitive to modelling effects.
+
+Detector effects such as the lepton and jet reconstruction efficiencies are not considered here as they cannot be reliably evaluated without an existing detector, however they should be accounted for once the detector has been built and tested.
 
 Combining the various systematic effects leads to a total systematic uncertainty of 1.37\%. This is of the same order as the statistical component (1.34\%.) Ultimately it is expected that these values probably represent an overestimate of the performance that \ac{CLIC} will achieve as advances in analytical techniques will likely occur over the time scale ($\sim$ 20 years) before this measurement would actually be performed allowing for improved event reconstruction and background rejection leading to reduced statistical and systematic uncertainties.  
 

@@ -22,7 +22,7 @@ While the digital option provides these benefits it does come with one potential
   \label{fig:cmosdesign}
 \end{figure}
 
-The requirement on the granularity is what ultimately leads to the decision to use a \ac{MAPS} based technology. For \ac{ILD}, using 50$\times$50~$\mu$m$^2$ pixels requires the use of $\mathcal{O}$(10$^{12}$) pixels. Having separate readout electronics, along with cooling and power supplies for each cell becomes impractical and produces large dead space within the detector. By using \ac{MAPS} technology the electronics can instead be integrated into the silicon of the pixels leading to a more compact structure. \ac{CMOS} is then chosen as it is a cheap, well understood and commercial process for producing \ac{MAPS} structures. The typical layout of a \ac{CMOS} \ac{MAPS} pixel is shown in \reffig{fig:cmosdesign}. In practice this simple design is found to be unsatisfactory for use in particle physics due to the low signal yield due to parasitic losses to the PMOS transistor. A process referred to as INMAPS was developed at \ac{RAL}\cite{2008arXiv0807.2920B} which uses the addition of a deep p well around the PMOS transistor to mitigate the signal loss. The layout of this variation is shown in \reffig{fig:deeppwell}. Two sensors based on the deep p well design have already been produced (TPAC\cite{Ballin:2008rha} and CHERWELL\cite{MYLROIESMITH2013137}) and used to show the validity of this approach for producing a \ac{DECAL}\cite{Price:2013js}. In both cases the test pixels were based on a 50$\times$50~$\mu$m$^2$ design.
+The requirement on the granularity is what ultimately leads to the decision to use a \ac{MAPS} based technology. \ac{MAPS} technologies are monolithic (single-layered) devices in which the electronics required by the pixel are embedded within the active material rather than being placed elsewhere within the detector. For \ac{ILD}, using 50$\times$50~$\mu$m$^2$ pixels requires the use of $\mathcal{O}$(10$^{12}$) pixels. Having separate readout electronics, along with cooling and power supplies for each cell becomes impractical and produces large dead space within the detector. By using \ac{MAPS} technology the electronics can instead be integrated into the silicon of the pixels leading to a more compact structure. \ac{CMOS} is then chosen as it is a cheap, well understood technology that can be used for producing \ac{MAPS} structures that is already used on mass for producing commercial products such as the cameras in mobile phones. The typical layout of a \ac{CMOS} \ac{MAPS} pixel is shown in \reffig{fig:cmosdesign}. In practice this simple design is found to be unsatisfactory for use in particle physics due to the low signal yield due to parasitic losses to the PMOS transistor. A process referred to as INMAPS was developed at \ac{RAL}\cite{2008arXiv0807.2920B} which uses the addition of a deep p well around the PMOS transistor to mitigate the signal loss. The layout of this variation is shown in \reffig{fig:deeppwell}. Two sensors based on the deep p well design have already been produced (TPAC\cite{Ballin:2008rha} and CHERWELL\cite{MYLROIESMITH2013137}) and used to show the validity of this approach for producing a \ac{DECAL}\cite{Price:2013js}. In both cases the test pixels were based on a 50$\times$50~$\mu$m$^2$ design.
 
 
 \begin{figure}
@@ -116,18 +116,18 @@ To understand the stochastic term requires examination of the landau distributio
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.9\textwidth,keepaspectratio]{DECALStudies/fig/LandauVsPitch.pdf}
+  \includegraphics[width=0.8\textwidth,keepaspectratio]{DECALStudies/fig/LandauVsPitch.pdf}
   \caption{Variation in the landau distributions for 10 GeV photons as a function of the pixel pitch. All distributions are normalized to unity.}
   \label{fig:landaupitches}
 \end{figure}
 \begin{figure}
   \centering
-  \includegraphics[width=0.9\textwidth,keepaspectratio]{DECALStudies/fig/LandauVsEpi.pdf}
+  \includegraphics[width=0.8\textwidth,keepaspectratio]{DECALStudies/fig/LandauVsEpi.pdf}
   \caption{Variation in the landau distributions for 10 GeV photons as a function of the epitaxial thickness. All distributions are normalized to unity.}
   \label{fig:landauthickness}
 \end{figure}
 
-The optimal pixel configuration should provide a balance between the boundary crossing and multiple occupancy effects. Because the saturation level is a function of the incident particle energy, the optimal design will vary depending on the energy scale the detector is intended to be used at. For lower energy scales a wider pixel is optimal as the saturation is inherently low due to the low shower density and the wide pitch will then minimize boundary crossings. For higher energies the saturation rate will dominate and so a narrower pixel is preferred. In both cases a thinner pixel is preferred to minimize boundary crossings. The net resolutions observed at three different energy scales are shown in \reffigs{fig:resolution10}, \ref{fig:resolution50} and \ref{fig:resolution250}. The variation in the optimal configuration is seen to agree with that predicted from the above boundary crossing and occupancy considerations.
+The optimal pixel configuration should provide a balance between the boundary crossing and multiple occupancy effects. Because the saturation level is a function of the incident particle energy, the optimal design will vary depending on the energy scale the detector is intended to be used at. For lower energy scales a wider pixel is optimal as the saturation is inherently low due to the low shower density and the wide pitch will then minimize boundary crossings. For higher energies the saturation rate will dominate and so a narrower pixel is preferred. In both cases a thinner pixel is preferred to minimize boundary crossings. The net resolutions observed at three different energy scales are shown in \reffigs{fig:resolution10}, \ref{fig:resolution50} and \ref{fig:resolution250}. The variation in the optimal configuration is seen to agree with that predicted from the above boundary crossing and occupancy considerations. A visualization of the effects considered is shown in \reffigs{fig:lowaspectratio}, \ref{fig:goodaspectratio} and ref{fig:highaspectratio} for clarity.
 
 \begin{figure}
   \centering
@@ -148,6 +148,27 @@ The optimal pixel configuration should provide a balance between the boundary cr
   \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/2DRawRes250.pdf}
   \caption{Energy resolution for 250 GeV photons.}
   \label{fig:resolution250}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/MAPSSaturation.jpg}
+  \caption{Aspect ratio is too low so multiple particle enter one pixel causing undercounting.}
+  \label{fig:lowaspectratio}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/MAPSIdeal.jpg}
+  \caption{Ideal aspect ratio results in one hit per particle per layer.}
+  \label{fig:goodaspectratio}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth,keepaspectratio]{DECALStudies/fig/MAPSBoundary.jpg}
+  \caption{Aspect ratio is too high so particles penetrate multiple pixels per layer causing overcounting.}
+  \label{fig:highaspectratio}
 \end{figure}
 
 \section{DigiMAPs}
@@ -261,4 +282,4 @@ Here we have examined the potential for implementing a digital calorimeter withi
   \frac{\sigma_E}{E}=\frac{16.1\%}{\sqrt{E}} \oplus \frac{0.5\%}{E} \oplus 0.4\%
 \end{equation}
 
-Which is comparable to the performance seen for the fully optimized design of the analogue SiW intended for use in \ac{ILD}. 
+Which is comparable to the performance seen for the fully optimized design of the analogue SiW intended for use in \ac{ILD} but provides a cheaper alternative with potential improvements for particle flow techniques due to the granularity achieved. 
