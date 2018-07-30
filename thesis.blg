@@ -20,19 +20,6 @@ You're missing a field name---line 274 of file thesis.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "bib-prodids" isn't style-file defined
 --line 409 of file thesis.bib
-You're missing a field name---line 1181 of file thesis.bib
- : 
- : %       author         = "H.Abramowicz et al",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 1192 of file thesis.bib
- : @article
- :         {TopPaperDraft,
-I'm skipping whatever remains of this entry
-Warning--empty author in TopPaperDraft
-Warning--empty title in TopPaperDraft
-Warning--empty journal in TopPaperDraft
-Warning--empty year in TopPaperDraft
 Warning--empty journal in CEPC-SPPCStudyGroup:2015csa
 Warning--empty author in CMS:2013xfa
 Warning--empty journal in Abe:2001swa
@@ -40,43 +27,43 @@ Warning--empty journal in Schulte:382453
 Warning--empty author in cdrvol2
 You've used 71 entries,
             1876 wiz_defined-function locations,
-            923 strings with 15736 characters,
-and the built_in function-call counts, 16490 in all, are:
-= -- 1619
-> -- 538
+            925 strings with 15818 characters,
+and the built_in function-call counts, 16430 in all, are:
+= -- 1622
+> -- 521
 < -- 1
-+ -- 210
-- -- 139
-* -- 1013
-:= -- 2284
-add.period$ -- 70
++ -- 206
+- -- 135
+* -- 1002
+:= -- 2282
+add.period$ -- 71
 call.type$ -- 71
-change.case$ -- 70
+change.case$ -- 71
 chr.to.int$ -- 0
-cite$ -- 80
+cite$ -- 76
 duplicate$ -- 1004
 empty$ -- 1651
-format.name$ -- 139
-if$ -- 4155
+format.name$ -- 135
+if$ -- 4144
 int.to.chr$ -- 0
 int.to.str$ -- 71
 missing$ -- 69
 newline$ -- 217
-num.names$ -- 67
-pop$ -- 253
+num.names$ -- 68
+pop$ -- 248
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 671
+skip$ -- 665
 stack$ -- 0
 substring$ -- 815
-swap$ -- 408
+swap$ -- 409
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 9
-while$ -- 137
+warning$ -- 5
+while$ -- 138
 width$ -- 73
-write$ -- 654
-(There were 3 error messages)
+write$ -- 658
+(There was 1 error message)

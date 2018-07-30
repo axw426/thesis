@@ -5,35 +5,36 @@ H.~Abramowicz {\em et~al.}, ``{Higgs physics at the CLIC electron--positron
   linear collider},'' {\em Eur. Phys. J.}, vol.~C77, no.~7, p.~475, 2017.
 
 \bibitem{TopPaperDraft}
-
+H.~Abramowicz {\em et~al.}, ``{Top-Quark Physics at the CLIC Electron-Positron
+  Linear Collider},'' {\em arXiv:1807.02441 [hep-ex]}, 2018.
 
 \bibitem{:2012gk}
-G.~Aad {\em et~al.}, ``{Observation of a new particle in the search for the
+{ATLAS Collaboration}, ``{Observation of a new particle in the search for the
   Standard Model Higgs boson with the ATLAS detector at the LHC},'' {\em Phys.
   Lett. B}, 2012.
 
 \bibitem{Chatrchyan:2012xdj}
-S.~Chatrchyan {\em et~al.}, ``{Observation of a new boson at a mass of 125 GeV
-  with the CMS experiment at the LHC},'' {\em Phys. Lett.}, vol.~B716,
-  pp.~30--61, 2012.
+{CMS Collaboration}, ``{Observation of a new boson at a mass of 125 GeV with
+  the CMS experiment at the LHC},'' {\em Phys. Lett.}, vol.~B716, pp.~30--61,
+  2012.
 
 \bibitem{Khachatryan:2014jba}
-V.~Khachatryan {\em et~al.}, ``{Precise determination of the mass of the Higgs
-  boson and tests of compatibility of its couplings with the standard model
+{CMS Collaboration}, ``{Precise determination of the mass of the Higgs boson
+  and tests of compatibility of its couplings with the standard model
   predictions using proton collisions at 7 and 8 $\,\text {TeV}$},'' {\em Eur.
   Phys. J.}, vol.~C75, no.~5, p.~212, 2015.
 
 \bibitem{Aad:2015gba}
-G.~Aad {\em et~al.}, ``{Measurements of the Higgs boson production and decay
+{ATLAS Collaboration}, ``{Measurements of the Higgs boson production and decay
   rates and coupling strengths using pp collision data at $\sqrt{s}=7$ and 8
   TeV in the ATLAS experiment},'' {\em Eur. Phys. J.}, vol.~C76, no.~1, p.~6,
   2016.
 
 \bibitem{Khachatryan:2016vau}
-G.~Aad {\em et~al.}, ``{Measurements of the Higgs boson production and decay
-  rates and constraints on its couplings from a combined ATLAS and CMS analysis
-  of the LHC pp collision data at $ \sqrt{s}=7 $ and 8 TeV},'' {\em JHEP},
-  vol.~08, p.~045, 2016.
+{ATLAS and CMS Collaboration}, ``{Measurements of the Higgs boson production
+  and decay rates and constraints on its couplings from a combined ATLAS and
+  CMS analysis of the LHC pp collision data at $ \sqrt{s}=7 $ and 8 TeV},''
+  {\em JHEP}, vol.~08, p.~045, 2016.
 
 \bibitem{Trimble:1987ee}
 V.~Trimble, ``{Existence and Nature of Dark Matter in the Universe},'' {\em
@@ -87,8 +88,8 @@ M.~Koratzinos, ``{FCC-ee accelerator parameters, performance and
   (ICHEP 2014) Valencia, Spain, July 2-9, 2014}}, 2014.
 
 \bibitem{CEPC-SPPCStudyGroup:2015csa}
-C.-S.~S. Group, ``{CEPC-SPPC Preliminary Conceptual Design Report. 1. Physics
-  and Detector},'' 2015.
+{CEPC-SPPC Study Group}, ``{CEPC-SPPC Preliminary Conceptual Design Report. 1.
+  Physics and Detector},'' 2015.
 
 \bibitem{MoortgatPick:2005cw}
 G.~Moortgat-Pick {\em et~al.}, ``{The Role of polarized positrons and electrons
@@ -191,10 +192,10 @@ C.~Durig, K.~Fujii, J.~List, and J.~Tian, ``{Model Independent Determination of
   2013}}, 2014.
 
 \bibitem{ATLAS-CONF-2015-044}
-T.~ALTAS and C.~Collaborations, ``{Measurements of the Higgs boson production
-  and decay rates and constraints on its couplings from a combined ATLAS and
-  CMS analysis of the LHC pp collision data at $\sqrt{s}$ = 7 and 8 TeV},''
-  Tech. Rep. ATLAS-CONF-2015-044, CERN, Geneva, Sep 2015.
+{The ALTAS and CMS Collaborations}, ``{Measurements of the Higgs boson
+  production and decay rates and constraints on its couplings from a combined
+  ATLAS and CMS analysis of the LHC pp collision data at $\sqrt{s}$ = 7 and 8
+  TeV},'' Tech. Rep. ATLAS-CONF-2015-044, CERN, Geneva, Sep 2015.
 
 \bibitem{CMS:2013xfa}
 ``{Projected Performance of an Upgraded CMS Detector at the LHC and HL-LHC:
@@ -217,7 +218,7 @@ T.~Abe {\em et~al.}, ``{Linear Collider Physics Resource Book for Snowmass 2001
 
 \bibitem{ABBIENDI200229}
 G.~Abbiendi {\em et~al.}, ``Measurement of the b quark forward--backward
-  asymmetry around the z0 peak using an inclusive tag,'' {\em Physics Letters
+  asymmetry around the {Z0} peak using an inclusive tag,'' {\em Physics Letters
   B}, vol.~546, no.~1, pp.~29 -- 47, 2002.
 
 \bibitem{ALEPH:2005ab}
