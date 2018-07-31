@@ -56,9 +56,9 @@
 \contentsline {subsubsection}{\numberline {5.2.4.4}Kinematic Fitting}{109}{subsubsection.5.2.4.4}
 \contentsline {subsection}{\numberline {5.2.5}Flavour Tagging}{112}{subsection.5.2.5}
 \contentsline {section}{\numberline {5.3}Methods For Calculating $A_{FB}^t$}{114}{section.5.3}
-\contentsline {section}{\numberline {5.4}Event Selection}{117}{section.5.4}
+\contentsline {section}{\numberline {5.4}Event Selection}{118}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Preselection}{118}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Quality Cuts}{120}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.2}Quality Cuts}{119}{subsection.5.4.2}
 \contentsline {subsection}{\numberline {5.4.3}BDT Selection}{123}{subsection.5.4.3}
 \contentsline {section}{\numberline {5.5}Extraction of $A_{FB}^t$ and cross section}{124}{section.5.5}
 \contentsline {section}{\numberline {5.6}Systematics}{131}{section.5.6}
